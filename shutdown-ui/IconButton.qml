@@ -1,9 +1,4 @@
-/*
- * Copyright (C) 2021 CutefishOS Team.
- *
- * Author:     Reion Wong <aj@cutefishos.com>
- *
- * This program is free software: you can redistribute it and/or modify
+/* This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
  * the Free Software Foundation, either version 3 of the License, or
  * any later version.
@@ -21,7 +16,7 @@ import QtQuick 2.0
 import QtQuick.Controls 2.5
 import QtQuick.Layouts 1.3
 import QtGraphicalEffects 1.0
-import FishUI 1.0 as FishUI
+import MatsyaUI 1.0 as MatsyaUI
 
 Item {
     id: control
@@ -45,7 +40,7 @@ Item {
     ColumnLayout {
         id: layout
         anchors.fill: parent
-        spacing: FishUI.Units.largeSpacing * 1.5
+        spacing: MatsyaUI.Units.largeSpacing * 1.5
 
         Item {
             Layout.fillHeight: true
@@ -57,8 +52,8 @@ Item {
 
             Rectangle {
                 anchors.centerIn: parent
-                width: parent.height + FishUI.Units.largeSpacing * 2
-                height: parent.height + FishUI.Units.largeSpacing * 2
+                width: parent.height + MatsyaUI.Units.largeSpacing * 2
+                height: parent.height + MatsyaUI.Units.largeSpacing * 2
                 z: -1
                 color: "white"
                 opacity: mouseArea.pressed ? 0.1 : mouseArea.containsMouse || control.checked ? 0.2 : 0

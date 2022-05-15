@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2021 CutefishOS Team.
+ * Copyright (C) 2021 MatsyaOS Team.
  *
  * Author:     revenmartin <revenmartin@gmail.com>
  *
@@ -73,7 +73,7 @@ void ProcessManager::logout()
                              QDBusConnection::sessionBus());
 
     if (kwinIface.isValid()) {
-        kwinIface.call("aboutToSaveSession", "cutefish");
+        kwinIface.call("aboutToSaveSession", "matsya");
         kwinIface.call("setState", uint(2)); // Quit
     }
 
@@ -109,28 +109,28 @@ void ProcessManager::startWindowManager()
 
 void ProcessManager::startDesktopProcess()
 {
-    // When the cutefish-settings-daemon theme module is loaded, start the desktop.
+    // When the matsya-settings-daemon theme module is loaded, start the desktop.
     // In the way, there will be no problem that desktop and launcher can't get wallpaper.
 
     QList<QPair<QString, QStringList>> list;
     // Desktop components
-    list << qMakePair(QString("cutefish-notificationd"), QStringList());
-    list << qMakePair(QString("cutefish-statusbar"), QStringList());
-    list << qMakePair(QString("cutefish-dock"), QStringList());
-    list << qMakePair(QString("cutefish-filemanager"), QStringList("--desktop"));
-    list << qMakePair(QString("cutefish-launcher"), QStringList());
-    list << qMakePair(QString("cutefish-powerman"), QStringList());
-    list << qMakePair(QString("cutefish-clipboard"), QStringList());
+    list << qMakePair(QString("matsya-notificationd"), QStringList());
+    list << qMakePair(QString("matsya-statusbar"), QStringList());
+    list << qMakePair(QString("matsya-dock"), QStringList());
+    list << qMakePair(QString("matsya-filemanager"), QStringList("--desktop"));
+    list << qMakePair(QString("matsya-launcher"), QStringList());
+    list << qMakePair(QString("matsya-powerman"), QStringList());
+    list << qMakePair(QString("matsya-clipboard"), QStringList());
 
-    // For CutefishOS.
-    if (QFile("/usr/bin/cutefish-welcome").exists() &&
+    // For MatsyaOS.
+    if (QFile("/usr/bin/matsya-welcome").exists() &&
             !QFile("/run/live/medium/live/filesystem.squashfs").exists()) {
-        QSettings settings("cutefishos", "login");
+        QSettings settings("matsyaos", "login");
 
         if (!settings.value("Finished", false).toBool()) {
-            list << qMakePair(QString("/usr/bin/cutefish-welcome"), QStringList());
+            list << qMakePair(QString("/usr/bin/matsya-welcome"), QStringList());
         } else {
-            list << qMakePair(QString("/usr/bin/cutefish-welcome"), QStringList() << "-d");
+            list << qMakePair(QString("/usr/bin/matsya-welcome"), QStringList() << "-d");
         }
     }
 
@@ -159,9 +159,9 @@ void ProcessManager::startDesktopProcess()
 void ProcessManager::startDaemonProcess()
 {
     QList<QPair<QString, QStringList>> list;
-    list << qMakePair(QString("cutefish-settings-daemon"), QStringList());
-    list << qMakePair(QString("cutefish-xembedsniproxy"), QStringList());
-    list << qMakePair(QString("cutefish-gmenuproxy"), QStringList());
+    list << qMakePair(QString("matsya-settings-daemon"), QStringList());
+    list << qMakePair(QString("matsya-xembedsniproxy"), QStringList());
+    list << qMakePair(QString("matsya-gmenuproxy"), QStringList());
     list << qMakePair(QString("chotkeys"), QStringList());
 
     for (QPair<QString, QStringList> pair : list) {

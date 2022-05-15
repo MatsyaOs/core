@@ -1,7 +1,7 @@
 /*
- * Copyright (C) 2021 CutefishOS Team.
+ * Copyright (C) 2021 MatsyaOS Team.
  *
- * Author:     Reion Wong <reion@cutefishos.com>
+ * Author:     Reion Wong <reion@matsyaos.com>
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -47,12 +47,12 @@ Application::Application(int& argc, char** argv)
     , m_settings(Settings::self())
     , m_instance(false)
 {
-    if (QDBusConnection::sessionBus().registerService("com.cutefish.Notification")) {
-        setOrganizationName("cutefishos");
+    if (QDBusConnection::sessionBus().registerService("com.matsya.Notification")) {
+        setOrganizationName("matsyaos");
 
         // Translations
         QLocale locale;
-        QString qmFilePath = QString("%1/%2.qm").arg("/usr/share/cutefish-notificationd/translations/").arg(locale.name());
+        QString qmFilePath = QString("%1/%2.qm").arg("/usr/share/matsya-notificationd/translations/").arg(locale.name());
         if (QFile::exists(qmFilePath)) {
             QTranslator *translator = new QTranslator(this);
             if (translator->load(qmFilePath)) {
@@ -65,10 +65,10 @@ Application::Application(int& argc, char** argv)
         new NotificationAdaptor(this);
         QDBusConnection::sessionBus().registerObject("/Notification", this);
 
-        qmlRegisterType<NotificationsModel>("Cutefish.Notification", 1, 0, "NotificationsModel");
-        qmlRegisterType<HistoryModel>("Cutefish.Notification", 1, 0, "HistoryModel");
-        qmlRegisterType<ScreenHelper>("Cutefish.Notification", 1, 0, "ScreenHelper");
-        qmlRegisterType<NotificationPopup>("Cutefish.Notification", 1, 0, "NotificationPopup");
+        qmlRegisterType<NotificationsModel>("Matsya.Notification", 1, 0, "NotificationsModel");
+        qmlRegisterType<HistoryModel>("Matsya.Notification", 1, 0, "HistoryModel");
+        qmlRegisterType<ScreenHelper>("Matsya.Notification", 1, 0, "ScreenHelper");
+        qmlRegisterType<NotificationPopup>("Matsya.Notification", 1, 0, "NotificationPopup");
 
         m_instance = true;
     }
@@ -121,9 +121,9 @@ bool Application::parseCommandLineArgs()
     if (m_instance) {
         QPixmapCache::setCacheLimit(2048);
     } else {
-        QDBusInterface iface("com.cutefish.Notification",
+        QDBusInterface iface("com.matsya.Notification",
                              "/Notification",
-                             "com.cutefish.Notification",
+                             "com.matsya.Notification",
                              QDBusConnection::sessionBus(), this);
         if (iface.isValid() && parser.isSet(showOption)) {
             iface.call("showWindow");

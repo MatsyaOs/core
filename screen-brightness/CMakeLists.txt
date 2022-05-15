@@ -1,5 +1,5 @@
-project(cutefish-screen-brightness)
-set(PROJECT_NAME cutefish-screen-brightness)
+project(matsya-screen-brightness)
+set(PROJECT_NAME matsya-screen-brightness)
 
 set(SRCS
     main.cpp
@@ -18,10 +18,10 @@ target_link_libraries(${PROJECT_NAME}
 )
 
 configure_file(
-    com.cutefish.brightness.pkexec.policy.in
-    com.cutefish.brightness.pkexec.policy
+    com.matsya.brightness.pkexec.policy.in
+    com.matsya.brightness.pkexec.policy
     @ONLY
 )
 
 install(TARGETS ${PROJECT_NAME} RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR})
-install(FILES ${CMAKE_CURRENT_BINARY_DIR}/com.cutefish.brightness.pkexec.policy DESTINATION ${CMAKE_INSTALL_DATAROOTDIR}/polkit-1/actions/)
+install(FILES ${CMAKE_CURRENT_BINARY_DIR}/com.matsya.brightness.pkexec.policy DESTINATION ${CMAKE_INSTALL_DATAROOTDIR}/polkit-1/actions/)

@@ -23,8 +23,8 @@ import QtQuick.Controls 2.12
 import QtQuick.Layouts 1.12
 import QtQuick.Window 2.12
 import QtGraphicalEffects 1.0
-import FishUI 1.0 as FishUI
-import Cutefish.Notification 1.0
+import MatsyaUI 1.0 as MatsyaUI
+import Matsya.Notification 1.0
 
 Item {
     id: control
@@ -34,13 +34,13 @@ Item {
     Rectangle {
         id: _background
         anchors.fill: parent
-        color: FishUI.Theme.secondBackgroundColor
+        color: MatsyaUI.Theme.secondBackgroundColor
         radius: NotificationDialog.width * 0.05
         opacity: 0.7
 
-        border.width: 1 / FishUI.Units.devicePixelRatio
+        border.width: 1 / MatsyaUI.Units.devicePixelRatio
         border.pixelAligned: Screen.devicePixelRatio > 1 ? false : true
-        border.color: FishUI.Theme.darkMode ? Qt.rgba(255, 255, 255, 0.1)
+        border.color: MatsyaUI.Theme.darkMode ? Qt.rgba(255, 255, 255, 0.1)
                                             : Qt.rgba(0, 0, 0, 0.05)
     }
 
@@ -54,25 +54,25 @@ Item {
 
     onScreenRectChanged: {
         NotificationDialog.width = 350
-        NotificationDialog.height = screenRect.height - FishUI.Units.smallSpacing * 3
-        NotificationDialog.x = screenRect.x + screenRect.width - NotificationDialog.width - FishUI.Units.smallSpacing * 1.5
-        NotificationDialog.y = screenRect.y + FishUI.Units.smallSpacing * 1.5
+        NotificationDialog.height = screenRect.height - MatsyaUI.Units.smallSpacing * 3
+        NotificationDialog.x = screenRect.x + screenRect.width - NotificationDialog.width - MatsyaUI.Units.smallSpacing * 1.5
+        NotificationDialog.y = screenRect.y + MatsyaUI.Units.smallSpacing * 1.5
     }
 
     ScreenHelper {
         id: screen
     }
 
-    FishUI.WindowHelper {
+    MatsyaUI.WindowHelper {
         id: windowHelper
     }
 
-    FishUI.WindowShadow {
+    MatsyaUI.WindowShadow {
         view: NotificationDialog
         radius: _background.radius
     }
 
-    FishUI.WindowBlur {
+    MatsyaUI.WindowBlur {
         view: NotificationDialog
         geometry: Qt.rect(NotificationDialog.x,
                           NotificationDialog.y,
@@ -94,20 +94,20 @@ Item {
 
     ColumnLayout {
         anchors.fill: parent
-        anchors.topMargin: FishUI.Units.largeSpacing
-        anchors.bottomMargin: FishUI.Units.largeSpacing
-        spacing: FishUI.Units.largeSpacing
+        anchors.topMargin: MatsyaUI.Units.largeSpacing
+        anchors.bottomMargin: MatsyaUI.Units.largeSpacing
+        spacing: MatsyaUI.Units.largeSpacing
 
         RowLayout {
-            Layout.leftMargin: FishUI.Units.largeSpacing
-            Layout.rightMargin: FishUI.Units.largeSpacing
+            Layout.leftMargin: MatsyaUI.Units.largeSpacing
+            Layout.rightMargin: MatsyaUI.Units.largeSpacing
 
             Label {
                 text: qsTr("Notification Center")
                 Layout.fillWidth: true
                 elide: Text.ElideRight
-                leftPadding: FishUI.Units.smallSpacing
-                color: FishUI.Theme.textColor
+                leftPadding: MatsyaUI.Units.smallSpacing
+                color: MatsyaUI.Theme.textColor
                 font.pointSize: 15
 
                 MouseArea {
@@ -127,7 +127,7 @@ Item {
                 visible: _view.count > 0
                 Layout.preferredHeight: 30
                 Layout.preferredWidth: 30
-                source: FishUI.Theme.darkMode ? "qrc:/images/dark/clear.svg"
+                source: MatsyaUI.Theme.darkMode ? "qrc:/images/dark/clear.svg"
                                               : "qrc:/images/light/clear.svg"
                 onLeftButtonClicked: historyModel.clearAll()
             }
@@ -141,19 +141,19 @@ Item {
                 id: _view
                 anchors.fill: parent
                 model: historyModel
-                spacing: FishUI.Units.largeSpacing
+                spacing: MatsyaUI.Units.largeSpacing
                 highlightFollowsCurrentItem: true
                 clip: true
 
-                leftMargin: FishUI.Units.largeSpacing
-                rightMargin: FishUI.Units.largeSpacing
+                leftMargin: MatsyaUI.Units.largeSpacing
+                rightMargin: MatsyaUI.Units.largeSpacing
 
                 ScrollBar.vertical: ScrollBar {}
 
                 Label {
                     anchors.centerIn: parent
                     text: qsTr("No notifications")
-                    color: FishUI.Theme.disabledTextColor
+                    color: MatsyaUI.Theme.disabledTextColor
                     font.pointSize: 15
                     visible: _view.count === 0
                 }
@@ -168,10 +168,10 @@ Item {
 
                     Rectangle {
                         anchors.fill: parent
-                        color: FishUI.Theme.darkMode ? "white"
+                        color: MatsyaUI.Theme.darkMode ? "white"
                                                      : "black"
-                        radius: FishUI.Theme.bigRadius
-                        opacity: FishUI.Theme.darkMode ? 0.1
+                        radius: MatsyaUI.Theme.bigRadius
+                        opacity: MatsyaUI.Theme.darkMode ? 0.1
                                                        : 0.03
                     }
 
@@ -184,10 +184,10 @@ Item {
 
                     RowLayout {
                         anchors.fill: parent
-                        anchors.margins: FishUI.Units.largeSpacing
-                        anchors.leftMargin: FishUI.Units.smallSpacing * 1.5
-                        anchors.rightMargin: FishUI.Units.smallSpacing * 1.5
-                        spacing: FishUI.Units.smallSpacing
+                        anchors.margins: MatsyaUI.Units.largeSpacing
+                        anchors.leftMargin: MatsyaUI.Units.smallSpacing * 1.5
+                        anchors.rightMargin: MatsyaUI.Units.smallSpacing * 1.5
+                        spacing: MatsyaUI.Units.smallSpacing
 
                         Image {
                             id: _icon
@@ -226,7 +226,7 @@ Item {
                                 visible: text
                                 elide: Text.ElideRight
                                 Layout.fillWidth: true
-                                rightPadding: FishUI.Units.smallSpacing
+                                rightPadding: MatsyaUI.Units.smallSpacing
                             }
 
                             RowLayout {
@@ -234,7 +234,7 @@ Item {
                                     id: bodyLabel
                                     text: model.body
                                     visible: text
-                                    rightPadding: FishUI.Units.smallSpacing
+                                    rightPadding: MatsyaUI.Units.smallSpacing
                                     maximumLineCount: 2
                                     elide: Text.ElideRight
                                     wrapMode: Text.Wrap
@@ -245,7 +245,7 @@ Item {
 
                                 Label {
                                     text: model.created
-                                    rightPadding: FishUI.Units.smallSpacing
+                                    rightPadding: MatsyaUI.Units.smallSpacing
                                     Layout.alignment: Qt.AlignRight
                                 }
                             }
@@ -259,20 +259,20 @@ Item {
                     Image {
                         anchors.top: parent.top
                         anchors.right: parent.right
-                        anchors.topMargin: FishUI.Units.smallSpacing / 2
-                        anchors.rightMargin: FishUI.Units.smallSpacing / 2
+                        anchors.topMargin: MatsyaUI.Units.smallSpacing / 2
+                        anchors.rightMargin: MatsyaUI.Units.smallSpacing / 2
                         width: 24
                         height: 24
-                        source: "qrc:/images/" + (FishUI.Theme.darkMode ? "dark" : "light") + "/close.svg"
+                        source: "qrc:/images/" + (MatsyaUI.Theme.darkMode ? "dark" : "light") + "/close.svg"
                         sourceSize: Qt.size(width, height)
                         visible: _itemMouseArea.containsMouse
                         z: 9999
 
                         Rectangle {
-                            property color hoveredColor: FishUI.Theme.darkMode ? Qt.lighter(FishUI.Theme.backgroundColor, 2)
-                                                                               : Qt.darker(FishUI.Theme.backgroundColor, 1.2)
-                            property color pressedColor: FishUI.Theme.darkMode ? Qt.lighter(FishUI.Theme.backgroundColor, 1.5)
-                                                                               : Qt.darker(FishUI.Theme.backgroundColor, 1.3)
+                            property color hoveredColor: MatsyaUI.Theme.darkMode ? Qt.lighter(MatsyaUI.Theme.backgroundColor, 2)
+                                                                               : Qt.darker(MatsyaUI.Theme.backgroundColor, 1.2)
+                            property color pressedColor: MatsyaUI.Theme.darkMode ? Qt.lighter(MatsyaUI.Theme.backgroundColor, 1.5)
+                                                                               : Qt.darker(MatsyaUI.Theme.backgroundColor, 1.3)
 
                             z: -1
                             anchors.fill: parent

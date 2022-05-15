@@ -2,7 +2,7 @@
  "-//freedesktop//DTD PolicyKit Policy Configuration 1.0//EN"
  "http://www.freedesktop.org/standards/PolicyKit/1/policyconfig.dtd">
 <policyconfig>
-  <action id="com.cutefish.sddm.helper.pkexec">
+  <action id="com.matsya.sddm.helper.pkexec">
     <message>Authentication is required to SDDM DPI</message>
     <icon_name>battery</icon_name>
     <defaults>

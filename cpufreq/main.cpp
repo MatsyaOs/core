@@ -28,7 +28,7 @@ int main(int argc, char *argv[])
     QCoreApplication a(argc, argv);
 
     QCommandLineParser parser;
-    parser.setApplicationDescription(QStringLiteral("Cutefish CPU frequency tool"));
+    parser.setApplicationDescription(QStringLiteral("Matsya CPU frequency tool"));
     parser.addHelpOption();
 
     QCommandLineOption setOption(QStringList() << "s" << "set" << "Setting");
@@ -42,7 +42,7 @@ int main(int argc, char *argv[])
 
     parser.process(a);
 
-    // cutefish-cpufreq --set -n 0 -m performance
+    // matsya-cpufreq --set -n 0 -m performance
     if (parser.isSet(setOption) && parser.isSet(numberOption) && parser.isSet(modeOption)) {
         QString modeStr = parser.positionalArguments().last();
 

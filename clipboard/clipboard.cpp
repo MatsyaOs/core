@@ -40,8 +40,8 @@ void Clipboard::onDataChanged()
     if (mimeData->formats().isEmpty())
         return;
 
-    if (mimeData->hasFormat("application/x-cutefish-clipboard") &&
-            mimeData->data("application/x-cutefish-clipboard") == "1")
+    if (mimeData->hasFormat("application/x-matsya-clipboard") &&
+            mimeData->data("application/x-matsya-clipboard") == "1")
         return;
 
     QByteArray timeStamp = mimeData->data("TIMESTAMP");
@@ -67,8 +67,8 @@ void Clipboard::onDataChanged()
         newMimeData->setData(key, mimeData->data(key));
     }
 
-    // cutefish flag.
-    newMimeData->setData("application/x-cutefish-clipboard", QByteArray("1"));
+    // matsya flag.
+    newMimeData->setData("application/x-matsya-clipboard", QByteArray("1"));
 
     m_qtClipboard->setMimeData(newMimeData);
 }

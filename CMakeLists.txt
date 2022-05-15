@@ -13,7 +13,7 @@ list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/cmake;${CMAKE_CURRENT
 
 set(QT Core Gui Widgets Quick QuickControls2 DBus Xml X11Extras LinguistTools)
 find_package(Qt5 REQUIRED ${QT})
-# find_package(FishUI REQUIRED)
+# find_package(MatsyaUI REQUIRED)
 find_package(PkgConfig REQUIRED)
 
 set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH})
@@ -35,4 +35,4 @@ add_subdirectory(notificationd)
 add_subdirectory(sddm-helper)
 add_subdirectory(clipboard)
 
-install(FILES cutefish DESTINATION /etc/ COMPONENT Runtime)
+install(FILES matsya DESTINATION /etc/ COMPONENT Runtime)

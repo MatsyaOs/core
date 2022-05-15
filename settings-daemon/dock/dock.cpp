@@ -34,7 +34,7 @@ Dock::Dock(QObject *parent)
     , m_roundedWindowEnabled(true)
     , m_direction(Left)
     , m_visibility(AlwaysVisible)
-    , m_settings(new QSettings(QSettings::UserScope, "cutefishos", "dock"))
+    , m_settings(new QSettings(QSettings::UserScope, "matsyaos", "dock"))
 {
     new DockAdaptor(this);
     QDBusConnection::sessionBus().registerObject(QStringLiteral("/Dock"), this);

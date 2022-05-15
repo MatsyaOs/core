@@ -1,5 +1,5 @@
-project(cutefish-powerman)
-set(TARGET cutefish-powerman)
+project(matsya-powerman)
+set(TARGET matsya-powerman)
 
 find_package(KF5IdleTime)
 find_package(X11)
@@ -26,10 +26,10 @@ set(SOURCES
 )
 
 qt5_add_dbus_adaptor(DBUS_SOURCES
-                     cpu/com.cutefish.CPUManagement.xml
+                     cpu/com.matsya.CPUManagement.xml
                      cpu/cpumanagement.h CPUManagement)
 qt5_add_dbus_adaptor(DBUS_SOURCES
-                     com.cutefish.PowerManager.xml
+                     com.matsya.PowerManager.xml
                      application.h Application)
 qt_add_dbus_interface(DBUS_SOURCES org.freedesktop.ScreenSaver.xml screenlocker_interface)
 set_source_files_properties(${DBUS_SOURCES} PROPERTIES SKIP_AUTOGEN ON)

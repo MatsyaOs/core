@@ -26,7 +26,7 @@
 
 NetworkProxyManager::NetworkProxyManager(QObject *parent)
     : QObject(parent)
-    , m_settings(QSettings::UserScope, "cutefishos", "network")
+    , m_settings(QSettings::UserScope, "matsyaos", "network")
 {
 }
 

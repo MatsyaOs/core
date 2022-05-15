@@ -1,7 +1,7 @@
 /*
  * Copyright (C) 2021 CutefishOS Team.
  *
- * Author:     Reion Wong <aj@cutefishos.com>
+ * Author:     Reion Wong <aj@matsyaos.com>
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -45,27 +45,27 @@ void Application::setupShortcuts()
 void Application::onPressed(QKeySequence keySeq)
 {
     if (keySeq.toString() == "Ctrl+Alt+Del") {
-        QProcess::startDetached("cutefish-shutdown", QStringList());
+        QProcess::startDetached("matsya-shutdown", QStringList());
     }
 
     if (keySeq.toString() == "Meta+L") {
-        QProcess::startDetached("cutefish-screenlocker", QStringList());
+        QProcess::startDetached("matsya-screenlocker", QStringList());
     }
 
     if (keySeq.toString() == "Ctrl+Alt+A") {
-        QProcess::startDetached("cutefish-screenshot", QStringList());
+        QProcess::startDetached("matsya-screenshot", QStringList());
     }
     if (keySeq.toString() == "Ctrl+Alt+E") {
-        QProcess::startDetached("cutefish-filemanager", QStringList());
+        QProcess::startDetached("matsya-filemanager", QStringList());
     }
     if (keySeq.toString() == "Ctrl+Alt+T") {
-        QProcess::startDetached("cutefish-terminal", QStringList());
+        QProcess::startDetached("matsya-terminal", QStringList());
     }
 }
 
 void Application::onReleased(QKeySequence keySeq)
 {
     if (keySeq == QKeySequence(Qt::Key_Super_L)) {
-        QProcess::startDetached("cutefish-launcher", QStringList());
+        QProcess::startDetached("matsya-launcher", QStringList());
     }
 }

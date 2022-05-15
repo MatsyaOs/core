@@ -1,5 +1,5 @@
-project(cutefish-cpufreq)
-set(TARGET cutefish-cpufreq)
+project(matsya-cpufreq)
+set(TARGET matsya-cpufreq)
 
 set(SOURCES
     main.cpp
@@ -14,10 +14,10 @@ target_link_libraries(${TARGET}
 )
 
 configure_file(
-    com.cutefish.cpufreq.pkexec.policy.in
-    com.cutefish.cpufreq.pkexec.policy
+    com.matsya.cpufreq.pkexec.policy.in
+    com.matsya.cpufreq.pkexec.policy
     @ONLY
 )
 
 install(TARGETS ${TARGET} DESTINATION ${CMAKE_INSTALL_BINDIR})
-install(FILES ${CMAKE_CURRENT_BINARY_DIR}/com.cutefish.cpufreq.pkexec.policy DESTINATION ${CMAKE_INSTALL_DATAROOTDIR}/polkit-1/actions/)
+install(FILES ${CMAKE_CURRENT_BINARY_DIR}/com.matsya.cpufreq.pkexec.policy DESTINATION ${CMAKE_INSTALL_DATAROOTDIR}/polkit-1/actions/)

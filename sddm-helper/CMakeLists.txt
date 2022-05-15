@@ -1,5 +1,5 @@
-project(cutefish-sddm-helper)
-set(PROJECT_NAME cutefish-sddm-helper)
+project(matsya-sddm-helper)
+set(PROJECT_NAME matsya-sddm-helper)
 
 set(SRCS
     main.cpp
@@ -15,10 +15,10 @@ target_link_libraries(${PROJECT_NAME}
 )
 
 configure_file(
-    com.cutefish.sddm.helper.pkexec.policy.in
-    com.cutefish.sddm.helper.pkexec.policy
+    com.matsya.sddm.helper.pkexec.policy.in
+    com.matsya.sddm.helper.pkexec.policy
     @ONLY
 )
 
 install(TARGETS ${PROJECT_NAME} RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR})
-install(FILES ${CMAKE_CURRENT_BINARY_DIR}/com.cutefish.sddm.helper.pkexec.policy DESTINATION ${CMAKE_INSTALL_DATAROOTDIR}/polkit-1/actions/)
+install(FILES ${CMAKE_CURRENT_BINARY_DIR}/com.matsya.sddm.helper.pkexec.policy DESTINATION ${CMAKE_INSTALL_DATAROOTDIR}/polkit-1/actions/)

@@ -1,5 +1,5 @@
-project(cutefish-settings-daemon)
-set(TARGET cutefish-settings-daemon)
+project(matsya-settings-daemon)
+set(TARGET matsya-settings-daemon)
 
 find_package(X11 REQUIRED)
 find_package(X11_XCB REQUIRED)
@@ -37,25 +37,25 @@ set(FORMS "")
 set(RESOURCES "")
 
 qt5_add_dbus_adaptor(DBUS_SOURCES
-                     brightness/com.cutefish.Brightness.xml
+                     brightness/com.matsya.Brightness.xml
                      brightness/brightnessmanager.h BrightnessManager)
 qt5_add_dbus_adaptor(DBUS_SOURCES
-                     theme/com.cutefish.Theme.xml
+                     theme/com.matsya.Theme.xml
                      theme/thememanager.h ThemeManager)
 qt5_add_dbus_adaptor(DBUS_SOURCES
-                     battery/com.cutefish.PrimaryBattery.xml
+                     battery/com.matsya.PrimaryBattery.xml
                      battery/battery.h Battery)
 qt5_add_dbus_adaptor(DBUS_SOURCES
-                     language/com.cutefish.Language.xml
+                     language/com.matsya.Language.xml
                      language/language.h Language)
 qt5_add_dbus_adaptor(DBUS_SOURCES
-                     dock/com.cutefish.Dock.xml
+                     dock/com.matsya.Dock.xml
                      dock/dock.h Dock)
 qt5_add_dbus_adaptor(DBUS_SOURCES
-                     mouse/com.cutefish.Mouse.xml
+                     mouse/com.matsya.Mouse.xml
                      mouse/mousemanager.h Mouse)
 qt5_add_dbus_adaptor(DBUS_SOURCES
-                     touchpad/com.cutefish.Touchpad.xml
+                     touchpad/com.matsya.Touchpad.xml
                      touchpad/touchpadmanager.h TouchpadManager)
 set_source_files_properties(${DBUS_SOURCES} PROPERTIES SKIP_AUTOGEN ON)
 

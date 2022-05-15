@@ -28,7 +28,7 @@ Battery::Battery(UPowerDevice *device, QObject *parent)
 }
 
 void Battery::updateCache()
-{    
+{
     m_chargeState = chargeState();
     m_isPresent = isPresent();
     m_chargePercent = chargePercent();
@@ -50,7 +50,7 @@ void Battery::init()
         new PrimaryBatteryAdaptor(this);
         QDBusConnection::sessionBus().registerObject(QStringLiteral("/PrimaryBattery"), this);
 
-        m_settings = new QSettings(QStringLiteral("cutefishos"), QStringLiteral("PrimaryBattery"));
+        m_settings = new QSettings(QStringLiteral("matsyaos"), QStringLiteral("PrimaryBattery"));
         m_lastChargedPercent = m_settings->value("LastChargedPercent", 0).toInt();
         m_lastChargedSecs = m_settings->value("LastChargedSecs").toLongLong();
     }
@@ -359,7 +359,7 @@ void Battery::slotChanged()
         }
 
         // Save last charge percentage
-        if ((old_chargeState == Battery::Charging || old_chargeState == Battery::FullyCharged) && 
+        if ((old_chargeState == Battery::Charging || old_chargeState == Battery::FullyCharged) &&
              m_chargeState == Battery::Discharging) {
             m_lastChargedPercent = m_chargePercent;
             m_lastChargedSecs = QDateTime::currentSecsSinceEpoch();

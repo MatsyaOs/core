@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2021 CutefishOS Team.
+ * Copyright (C) 2021 MatsyaOS Team.
  *
  * Author:     revenmartin <revenmartin@gmail.com>
  *
@@ -50,7 +50,7 @@ ThemeManager *ThemeManager::self()
 
 ThemeManager::ThemeManager(QObject *parent)
     : QObject(parent)
-    , m_settings(new QSettings(QStringLiteral("cutefishos"), QStringLiteral("theme")))
+    , m_settings(new QSettings(QStringLiteral("matsyaos"), QStringLiteral("theme")))
 {
     if (!QFile::exists(m_settings->fileName())) {
         QFile file(m_settings->fileName());
@@ -68,7 +68,7 @@ ThemeManager::ThemeManager(QObject *parent)
     // init value
     m_isDarkMode = m_settings->value("DarkMode", false).toBool();
     m_darkModeDimsWallpaer = m_settings->value("DarkModeDimsWallpaer", false).toBool();
-    m_wallpaperPath = m_settings->value("Wallpaper", "/usr/share/backgrounds/cutefishos/default.jpg").toString();
+    m_wallpaperPath = m_settings->value("Wallpaper", "/usr/share/backgrounds/matsyaos/default.jpg").toString();
     m_accentColor = m_settings->value("AccentColor", 0).toInt();
     m_backgroundType = m_settings->value("BackgroundType", 0).toInt();
     m_backgroundColor = m_settings->value("BackgroundColor", "#2B8ADA").toString();
@@ -85,7 +85,7 @@ ThemeManager::ThemeManager(QObject *parent)
     }
 
     if (!m_settings->contains(s_systemFontName)) {
-        QSettings lanSettings(QStringLiteral("cutefishos"), QStringLiteral("language"));
+        QSettings lanSettings(QStringLiteral("matsyaos"), QStringLiteral("language"));
         QString languageCode = lanSettings.value("language").toString();
         QString fontName;
 
@@ -153,7 +153,7 @@ void ThemeManager::setAccentColor(int accentColor)
 {
     if (m_accentColor == accentColor)
         return;
-    
+
     m_accentColor = accentColor;
     m_settings->setValue("AccentColor", m_accentColor);
 
@@ -251,7 +251,7 @@ void ThemeManager::setDevicePixelRatio(qreal ratio)
     // SDDM
     QProcess p;
     p.setProgram("pkexec");
-    p.setArguments(QStringList() << "cutefish-sddm-helper"
+    p.setArguments(QStringList() << "matsya-sddm-helper"
                                  << "--dpi" << QString::number(fontDpi));
     p.start();
     p.waitForFinished(-1);
@@ -262,7 +262,7 @@ void ThemeManager::setDevicePixelRatio(qreal ratio)
                          QDBusConnection::sessionBus());
     if (iface.isValid()) {
         QList<QVariant> args;
-        args << "cutefish-settings";
+        args << "matsya-settings";
         args << ((unsigned int) 0);
         args << "preferences-system";
         args << "";
@@ -332,7 +332,7 @@ void ThemeManager::updateGtk3Config()
     // other
     settings.setValue("gtk-enable-animations", true);
     // theme
-    settings.setValue("gtk-theme-name", isDarkMode() ? "Cutefish-dark" : "Cutefish-light");
+    settings.setValue("gtk-theme-name", isDarkMode() ? "Matsya-dark" : "Matsya-light");
     settings.sync();
 }
 
@@ -387,7 +387,7 @@ void ThemeManager::updateFontConfig()
 
     const QString &familyFallback = "Noto Sans";
 
-    QSettings settings(QSettings::UserScope, "cutefishos", "theme");
+    QSettings settings(QSettings::UserScope, "matsyaos", "theme");
     bool hinting = settings.value("XftAntialias", 1).toBool();
     QString hintStyle = settings.value("XftHintStyle", "hintslight").toString();
 
@@ -466,7 +466,7 @@ void ThemeManager::updateFontConfig()
         }
     }
 
-    QFile file(targetPath + "/99-cutefish.conf");
+    QFile file(targetPath + "/99-matsya.conf");
     if (file.open(QIODevice::WriteOnly)) {
         QTextStream s(&file);
         s << xmlOut.toLatin1();
