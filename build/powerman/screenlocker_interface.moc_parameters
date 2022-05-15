@@ -1,0 +1,5 @@
+-I/home/tokyo/clone/RebootOS/core/powerman
+-I/home/tokyo/clone/RebootOS/core/build/powerman
+-o
+/home/tokyo/clone/RebootOS/core/build/powerman/screenlocker_interface.moc
+/home/tokyo/clone/RebootOS/core/build/powerman/screenlocker_interface.h

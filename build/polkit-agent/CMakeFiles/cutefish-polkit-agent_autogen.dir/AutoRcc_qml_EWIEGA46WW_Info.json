@@ -1,0 +1,23 @@
+{
+	"BUILD_DIR" : "/home/tokyo/clone/RebootOS/core/build/polkit-agent/cutefish-polkit-agent_autogen",
+	"CMAKE_BINARY_DIR" : "/home/tokyo/clone/RebootOS/core/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/tokyo/clone/RebootOS/core/build/polkit-agent",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/tokyo/clone/RebootOS/core/polkit-agent",
+	"CMAKE_SOURCE_DIR" : "/home/tokyo/clone/RebootOS/core",
+	"INCLUDE_DIR" : "/home/tokyo/clone/RebootOS/core/build/polkit-agent/cutefish-polkit-agent_autogen/include",
+	"INPUTS" : 
+	[
+		"/home/tokyo/clone/RebootOS/core/polkit-agent/main.qml",
+		"/home/tokyo/clone/RebootOS/core/polkit-agent/svg/emblem-warning.svg"
+	],
+	"LOCK_FILE" : "/home/tokyo/clone/RebootOS/core/build/polkit-agent/CMakeFiles/cutefish-polkit-agent_autogen.dir/AutoRcc_qml_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "qml" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_qml.cpp",
+	"RCC_EXECUTABLE" : "/usr/lib/qt5/bin/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/home/tokyo/clone/RebootOS/core/build/polkit-agent/CMakeFiles/cutefish-polkit-agent_autogen.dir/AutoRcc_qml_EWIEGA46WW_Used.txt",
+	"SOURCE" : "/home/tokyo/clone/RebootOS/core/polkit-agent/qml.qrc",
+	"VERBOSITY" : 0
+}

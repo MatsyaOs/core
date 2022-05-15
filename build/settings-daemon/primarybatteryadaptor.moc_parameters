@@ -1,0 +1,5 @@
+-I/home/tokyo/clone/RebootOS/core/settings-daemon
+-I/home/tokyo/clone/RebootOS/core/build/settings-daemon
+-o
+/home/tokyo/clone/RebootOS/core/build/settings-daemon/primarybatteryadaptor.moc
+/home/tokyo/clone/RebootOS/core/build/settings-daemon/primarybatteryadaptor.h
