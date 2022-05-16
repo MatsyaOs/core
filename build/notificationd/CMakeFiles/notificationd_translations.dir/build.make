@@ -62,10 +62,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tokyo/clone/RebootOS/core
+CMAKE_SOURCE_DIR = /home/tokyo/Documents/GitHub/core
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tokyo/clone/RebootOS/core/build
+CMAKE_BINARY_DIR = /home/tokyo/Documents/GitHub/core/build
 
 # Utility rule file for notificationd_translations.
 
@@ -73,24 +73,24 @@ CMAKE_BINARY_DIR = /home/tokyo/clone/RebootOS/core/build
 include notificationd/CMakeFiles/notificationd_translations.dir/progress.make
 
 ../notificationd/translations/en_US.ts:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/clone/RebootOS/core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating ../../notificationd/translations/en_US.ts"
-	cd /home/tokyo/clone/RebootOS/core/build/notificationd && /usr/lib/qt5/bin/lupdate @ -ts /home/tokyo/clone/RebootOS/core/notificationd/translations/en_US.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/Documents/GitHub/core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating ../../notificationd/translations/en_US.ts"
+	cd /home/tokyo/Documents/GitHub/core/build/notificationd && /usr/lib/qt5/bin/lupdate @ -ts /home/tokyo/Documents/GitHub/core/notificationd/translations/en_US.ts
 
 ../notificationd/translations/zh_CN.ts:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/clone/RebootOS/core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating ../../notificationd/translations/zh_CN.ts"
-	cd /home/tokyo/clone/RebootOS/core/build/notificationd && /usr/lib/qt5/bin/lupdate @ -ts /home/tokyo/clone/RebootOS/core/notificationd/translations/zh_CN.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/Documents/GitHub/core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating ../../notificationd/translations/zh_CN.ts"
+	cd /home/tokyo/Documents/GitHub/core/build/notificationd && /usr/lib/qt5/bin/lupdate @ -ts /home/tokyo/Documents/GitHub/core/notificationd/translations/zh_CN.ts
 
 notificationd/CMakeFiles/notificationd_translations: notificationd/en_US.qm
 notificationd/CMakeFiles/notificationd_translations: notificationd/zh_CN.qm
 
 
 notificationd/en_US.qm: ../notificationd/translations/en_US.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/clone/RebootOS/core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating en_US.qm"
-	cd /home/tokyo/clone/RebootOS/core/build/notificationd && /usr/lib/qt5/bin/lrelease /home/tokyo/clone/RebootOS/core/notificationd/translations/en_US.ts -qm /home/tokyo/clone/RebootOS/core/build/notificationd/en_US.qm
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/Documents/GitHub/core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating en_US.qm"
+	cd /home/tokyo/Documents/GitHub/core/build/notificationd && /usr/lib/qt5/bin/lrelease /home/tokyo/Documents/GitHub/core/notificationd/translations/en_US.ts -qm /home/tokyo/Documents/GitHub/core/build/notificationd/en_US.qm
 
 notificationd/zh_CN.qm: ../notificationd/translations/zh_CN.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/clone/RebootOS/core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating zh_CN.qm"
-	cd /home/tokyo/clone/RebootOS/core/build/notificationd && /usr/lib/qt5/bin/lrelease /home/tokyo/clone/RebootOS/core/notificationd/translations/zh_CN.ts -qm /home/tokyo/clone/RebootOS/core/build/notificationd/zh_CN.qm
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/Documents/GitHub/core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating zh_CN.qm"
+	cd /home/tokyo/Documents/GitHub/core/build/notificationd && /usr/lib/qt5/bin/lrelease /home/tokyo/Documents/GitHub/core/notificationd/translations/zh_CN.ts -qm /home/tokyo/Documents/GitHub/core/build/notificationd/zh_CN.qm
 
 notificationd_translations: ../notificationd/translations/en_US.ts
 notificationd_translations: ../notificationd/translations/zh_CN.ts
@@ -107,10 +107,10 @@ notificationd/CMakeFiles/notificationd_translations.dir/build: notificationd_tra
 .PHONY : notificationd/CMakeFiles/notificationd_translations.dir/build
 
 notificationd/CMakeFiles/notificationd_translations.dir/clean:
-	cd /home/tokyo/clone/RebootOS/core/build/notificationd && $(CMAKE_COMMAND) -P CMakeFiles/notificationd_translations.dir/cmake_clean.cmake
+	cd /home/tokyo/Documents/GitHub/core/build/notificationd && $(CMAKE_COMMAND) -P CMakeFiles/notificationd_translations.dir/cmake_clean.cmake
 .PHONY : notificationd/CMakeFiles/notificationd_translations.dir/clean
 
 notificationd/CMakeFiles/notificationd_translations.dir/depend:
-	cd /home/tokyo/clone/RebootOS/core/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tokyo/clone/RebootOS/core /home/tokyo/clone/RebootOS/core/notificationd /home/tokyo/clone/RebootOS/core/build /home/tokyo/clone/RebootOS/core/build/notificationd /home/tokyo/clone/RebootOS/core/build/notificationd/CMakeFiles/notificationd_translations.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/tokyo/Documents/GitHub/core/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tokyo/Documents/GitHub/core /home/tokyo/Documents/GitHub/core/notificationd /home/tokyo/Documents/GitHub/core/build /home/tokyo/Documents/GitHub/core/build/notificationd /home/tokyo/Documents/GitHub/core/build/notificationd/CMakeFiles/notificationd_translations.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : notificationd/CMakeFiles/notificationd_translations.dir/depend
 

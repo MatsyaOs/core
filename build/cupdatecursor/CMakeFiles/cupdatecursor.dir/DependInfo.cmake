@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/tokyo/clone/RebootOS/core/build/cupdatecursor/cupdatecursor_autogen/mocs_compilation.cpp" "/home/tokyo/clone/RebootOS/core/build/cupdatecursor/CMakeFiles/cupdatecursor.dir/cupdatecursor_autogen/mocs_compilation.cpp.o"
-  "/home/tokyo/clone/RebootOS/core/cupdatecursor/main.cpp" "/home/tokyo/clone/RebootOS/core/build/cupdatecursor/CMakeFiles/cupdatecursor.dir/main.cpp.o"
+  "/home/tokyo/Documents/GitHub/core/build/cupdatecursor/cupdatecursor_autogen/mocs_compilation.cpp" "/home/tokyo/Documents/GitHub/core/build/cupdatecursor/CMakeFiles/cupdatecursor.dir/cupdatecursor_autogen/mocs_compilation.cpp.o"
+  "/home/tokyo/Documents/GitHub/core/cupdatecursor/main.cpp" "/home/tokyo/Documents/GitHub/core/build/cupdatecursor/CMakeFiles/cupdatecursor.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

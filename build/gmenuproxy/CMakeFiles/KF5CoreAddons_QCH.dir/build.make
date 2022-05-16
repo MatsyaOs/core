@@ -62,10 +62,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tokyo/clone/RebootOS/core
+CMAKE_SOURCE_DIR = /home/tokyo/Documents/GitHub/core
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tokyo/clone/RebootOS/core/build
+CMAKE_BINARY_DIR = /home/tokyo/Documents/GitHub/core/build
 
 # Utility rule file for KF5CoreAddons_QCH.
 
@@ -82,10 +82,10 @@ gmenuproxy/CMakeFiles/KF5CoreAddons_QCH.dir/build: KF5CoreAddons_QCH
 .PHONY : gmenuproxy/CMakeFiles/KF5CoreAddons_QCH.dir/build
 
 gmenuproxy/CMakeFiles/KF5CoreAddons_QCH.dir/clean:
-	cd /home/tokyo/clone/RebootOS/core/build/gmenuproxy && $(CMAKE_COMMAND) -P CMakeFiles/KF5CoreAddons_QCH.dir/cmake_clean.cmake
+	cd /home/tokyo/Documents/GitHub/core/build/gmenuproxy && $(CMAKE_COMMAND) -P CMakeFiles/KF5CoreAddons_QCH.dir/cmake_clean.cmake
 .PHONY : gmenuproxy/CMakeFiles/KF5CoreAddons_QCH.dir/clean
 
 gmenuproxy/CMakeFiles/KF5CoreAddons_QCH.dir/depend:
-	cd /home/tokyo/clone/RebootOS/core/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tokyo/clone/RebootOS/core /home/tokyo/clone/RebootOS/core/gmenuproxy /home/tokyo/clone/RebootOS/core/build /home/tokyo/clone/RebootOS/core/build/gmenuproxy /home/tokyo/clone/RebootOS/core/build/gmenuproxy/CMakeFiles/KF5CoreAddons_QCH.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/tokyo/Documents/GitHub/core/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tokyo/Documents/GitHub/core /home/tokyo/Documents/GitHub/core/gmenuproxy /home/tokyo/Documents/GitHub/core/build /home/tokyo/Documents/GitHub/core/build/gmenuproxy /home/tokyo/Documents/GitHub/core/build/gmenuproxy/CMakeFiles/KF5CoreAddons_QCH.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : gmenuproxy/CMakeFiles/KF5CoreAddons_QCH.dir/depend
 

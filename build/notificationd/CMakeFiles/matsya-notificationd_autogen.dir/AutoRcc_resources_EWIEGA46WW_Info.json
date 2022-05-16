@@ -1,0 +1,29 @@
+{
+	"BUILD_DIR" : "/home/tokyo/Documents/GitHub/core/build/notificationd/matsya-notificationd_autogen",
+	"CMAKE_BINARY_DIR" : "/home/tokyo/Documents/GitHub/core/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/tokyo/Documents/GitHub/core/build/notificationd",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/tokyo/Documents/GitHub/core/notificationd",
+	"CMAKE_SOURCE_DIR" : "/home/tokyo/Documents/GitHub/core",
+	"INCLUDE_DIR" : "/home/tokyo/Documents/GitHub/core/build/notificationd/matsya-notificationd_autogen/include",
+	"INPUTS" : 
+	[
+		"/home/tokyo/Documents/GitHub/core/notificationd/qml/QmlNotificationPopup.qml",
+		"/home/tokyo/Documents/GitHub/core/notificationd/qml/NotificationWindow.qml",
+		"/home/tokyo/Documents/GitHub/core/notificationd/qml/IconButton.qml",
+		"/home/tokyo/Documents/GitHub/core/notificationd/qml/main.qml",
+		"/home/tokyo/Documents/GitHub/core/notificationd/images/light/close.svg",
+		"/home/tokyo/Documents/GitHub/core/notificationd/images/light/clear.svg",
+		"/home/tokyo/Documents/GitHub/core/notificationd/images/dark/close.svg",
+		"/home/tokyo/Documents/GitHub/core/notificationd/images/dark/clear.svg"
+	],
+	"LOCK_FILE" : "/home/tokyo/Documents/GitHub/core/build/notificationd/CMakeFiles/matsya-notificationd_autogen.dir/AutoRcc_resources_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "resources" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_resources.cpp",
+	"RCC_EXECUTABLE" : "/usr/lib/qt5/bin/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/home/tokyo/Documents/GitHub/core/build/notificationd/CMakeFiles/matsya-notificationd_autogen.dir/AutoRcc_resources_EWIEGA46WW_Used.txt",
+	"SOURCE" : "/home/tokyo/Documents/GitHub/core/notificationd/resources.qrc",
+	"VERBOSITY" : 0
+}

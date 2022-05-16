@@ -67,13 +67,25 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tokyo/clone/RebootOS/core
+CMAKE_SOURCE_DIR = /home/tokyo/Documents/GitHub/core
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tokyo/clone/RebootOS/core/build
+CMAKE_BINARY_DIR = /home/tokyo/Documents/GitHub/core/build
 
 #=============================================================================
 # Targets provided globally by CMake.
+
+# Special rule for the target install/strip
+install/strip: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip
+
+# Special rule for the target install/strip
+install/strip/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip/fast
 
 # Special rule for the target install/local
 install/local: preinstall
@@ -131,28 +143,16 @@ edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
 
-# Special rule for the target install/strip
-install/strip: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip
-
-# Special rule for the target install/strip
-install/strip/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip/fast
-
 # The main all target
 all: cmake_check_build_system
-	cd /home/tokyo/clone/RebootOS/core/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/RebootOS/core/build/CMakeFiles /home/tokyo/clone/RebootOS/core/build/settings-daemon//CMakeFiles/progress.marks
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 settings-daemon/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/RebootOS/core/build/CMakeFiles 0
+	cd /home/tokyo/Documents/GitHub/core/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/Documents/GitHub/core/build/CMakeFiles /home/tokyo/Documents/GitHub/core/build/settings-daemon//CMakeFiles/progress.marks
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 settings-daemon/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/Documents/GitHub/core/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 settings-daemon/clean
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 settings-daemon/clean
 .PHONY : clean
 
 # The main clean target
@@ -162,22 +162,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 settings-daemon/preinstall
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 settings-daemon/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 settings-daemon/preinstall
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 settings-daemon/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/tokyo/clone/RebootOS/core/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/tokyo/Documents/GitHub/core/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 settings-daemon/CMakeFiles/translations.dir/rule:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 settings-daemon/CMakeFiles/translations.dir/rule
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 settings-daemon/CMakeFiles/translations.dir/rule
 .PHONY : settings-daemon/CMakeFiles/translations.dir/rule
 
 # Convenience name for target.
@@ -187,38 +187,38 @@ translations: settings-daemon/CMakeFiles/translations.dir/rule
 
 # fast build rule for target.
 translations/fast:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/translations.dir/build.make settings-daemon/CMakeFiles/translations.dir/build
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/translations.dir/build.make settings-daemon/CMakeFiles/translations.dir/build
 .PHONY : translations/fast
 
 # Convenience name for target.
-settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/rule:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/rule
-.PHONY : settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/rule
+settings-daemon/CMakeFiles/matsya-settings-daemon.dir/rule:
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 settings-daemon/CMakeFiles/matsya-settings-daemon.dir/rule
+.PHONY : settings-daemon/CMakeFiles/matsya-settings-daemon.dir/rule
 
 # Convenience name for target.
-cutefish-settings-daemon: settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/rule
+matsya-settings-daemon: settings-daemon/CMakeFiles/matsya-settings-daemon.dir/rule
 
-.PHONY : cutefish-settings-daemon
+.PHONY : matsya-settings-daemon
 
 # fast build rule for target.
-cutefish-settings-daemon/fast:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/build.make settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/build
-.PHONY : cutefish-settings-daemon/fast
+matsya-settings-daemon/fast:
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/matsya-settings-daemon.dir/build.make settings-daemon/CMakeFiles/matsya-settings-daemon.dir/build
+.PHONY : matsya-settings-daemon/fast
 
 # Convenience name for target.
-settings-daemon/CMakeFiles/cutefish-settings-daemon_autogen.dir/rule:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 settings-daemon/CMakeFiles/cutefish-settings-daemon_autogen.dir/rule
-.PHONY : settings-daemon/CMakeFiles/cutefish-settings-daemon_autogen.dir/rule
+settings-daemon/CMakeFiles/matsya-settings-daemon_autogen.dir/rule:
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 settings-daemon/CMakeFiles/matsya-settings-daemon_autogen.dir/rule
+.PHONY : settings-daemon/CMakeFiles/matsya-settings-daemon_autogen.dir/rule
 
 # Convenience name for target.
-cutefish-settings-daemon_autogen: settings-daemon/CMakeFiles/cutefish-settings-daemon_autogen.dir/rule
+matsya-settings-daemon_autogen: settings-daemon/CMakeFiles/matsya-settings-daemon_autogen.dir/rule
 
-.PHONY : cutefish-settings-daemon_autogen
+.PHONY : matsya-settings-daemon_autogen
 
 # fast build rule for target.
-cutefish-settings-daemon_autogen/fast:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/cutefish-settings-daemon_autogen.dir/build.make settings-daemon/CMakeFiles/cutefish-settings-daemon_autogen.dir/build
-.PHONY : cutefish-settings-daemon_autogen/fast
+matsya-settings-daemon_autogen/fast:
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/matsya-settings-daemon_autogen.dir/build.make settings-daemon/CMakeFiles/matsya-settings-daemon_autogen.dir/build
+.PHONY : matsya-settings-daemon_autogen/fast
 
 application.o: application.cpp.o
 
@@ -226,7 +226,7 @@ application.o: application.cpp.o
 
 # target to build an object file
 application.cpp.o:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/build.make settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/application.cpp.o
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/matsya-settings-daemon.dir/build.make settings-daemon/CMakeFiles/matsya-settings-daemon.dir/application.cpp.o
 .PHONY : application.cpp.o
 
 application.i: application.cpp.i
@@ -235,7 +235,7 @@ application.i: application.cpp.i
 
 # target to preprocess a source file
 application.cpp.i:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/build.make settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/application.cpp.i
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/matsya-settings-daemon.dir/build.make settings-daemon/CMakeFiles/matsya-settings-daemon.dir/application.cpp.i
 .PHONY : application.cpp.i
 
 application.s: application.cpp.s
@@ -244,7 +244,7 @@ application.s: application.cpp.s
 
 # target to generate assembly for a file
 application.cpp.s:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/build.make settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/application.cpp.s
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/matsya-settings-daemon.dir/build.make settings-daemon/CMakeFiles/matsya-settings-daemon.dir/application.cpp.s
 .PHONY : application.cpp.s
 
 battery/battery.o: battery/battery.cpp.o
@@ -253,7 +253,7 @@ battery/battery.o: battery/battery.cpp.o
 
 # target to build an object file
 battery/battery.cpp.o:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/build.make settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/battery/battery.cpp.o
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/matsya-settings-daemon.dir/build.make settings-daemon/CMakeFiles/matsya-settings-daemon.dir/battery/battery.cpp.o
 .PHONY : battery/battery.cpp.o
 
 battery/battery.i: battery/battery.cpp.i
@@ -262,7 +262,7 @@ battery/battery.i: battery/battery.cpp.i
 
 # target to preprocess a source file
 battery/battery.cpp.i:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/build.make settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/battery/battery.cpp.i
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/matsya-settings-daemon.dir/build.make settings-daemon/CMakeFiles/matsya-settings-daemon.dir/battery/battery.cpp.i
 .PHONY : battery/battery.cpp.i
 
 battery/battery.s: battery/battery.cpp.s
@@ -271,7 +271,7 @@ battery/battery.s: battery/battery.cpp.s
 
 # target to generate assembly for a file
 battery/battery.cpp.s:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/build.make settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/battery/battery.cpp.s
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/matsya-settings-daemon.dir/build.make settings-daemon/CMakeFiles/matsya-settings-daemon.dir/battery/battery.cpp.s
 .PHONY : battery/battery.cpp.s
 
 battery/upowerdevice.o: battery/upowerdevice.cpp.o
@@ -280,7 +280,7 @@ battery/upowerdevice.o: battery/upowerdevice.cpp.o
 
 # target to build an object file
 battery/upowerdevice.cpp.o:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/build.make settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/battery/upowerdevice.cpp.o
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/matsya-settings-daemon.dir/build.make settings-daemon/CMakeFiles/matsya-settings-daemon.dir/battery/upowerdevice.cpp.o
 .PHONY : battery/upowerdevice.cpp.o
 
 battery/upowerdevice.i: battery/upowerdevice.cpp.i
@@ -289,7 +289,7 @@ battery/upowerdevice.i: battery/upowerdevice.cpp.i
 
 # target to preprocess a source file
 battery/upowerdevice.cpp.i:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/build.make settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/battery/upowerdevice.cpp.i
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/matsya-settings-daemon.dir/build.make settings-daemon/CMakeFiles/matsya-settings-daemon.dir/battery/upowerdevice.cpp.i
 .PHONY : battery/upowerdevice.cpp.i
 
 battery/upowerdevice.s: battery/upowerdevice.cpp.s
@@ -298,7 +298,7 @@ battery/upowerdevice.s: battery/upowerdevice.cpp.s
 
 # target to generate assembly for a file
 battery/upowerdevice.cpp.s:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/build.make settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/battery/upowerdevice.cpp.s
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/matsya-settings-daemon.dir/build.make settings-daemon/CMakeFiles/matsya-settings-daemon.dir/battery/upowerdevice.cpp.s
 .PHONY : battery/upowerdevice.cpp.s
 
 battery/upowermanager.o: battery/upowermanager.cpp.o
@@ -307,7 +307,7 @@ battery/upowermanager.o: battery/upowermanager.cpp.o
 
 # target to build an object file
 battery/upowermanager.cpp.o:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/build.make settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/battery/upowermanager.cpp.o
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/matsya-settings-daemon.dir/build.make settings-daemon/CMakeFiles/matsya-settings-daemon.dir/battery/upowermanager.cpp.o
 .PHONY : battery/upowermanager.cpp.o
 
 battery/upowermanager.i: battery/upowermanager.cpp.i
@@ -316,7 +316,7 @@ battery/upowermanager.i: battery/upowermanager.cpp.i
 
 # target to preprocess a source file
 battery/upowermanager.cpp.i:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/build.make settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/battery/upowermanager.cpp.i
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/matsya-settings-daemon.dir/build.make settings-daemon/CMakeFiles/matsya-settings-daemon.dir/battery/upowermanager.cpp.i
 .PHONY : battery/upowermanager.cpp.i
 
 battery/upowermanager.s: battery/upowermanager.cpp.s
@@ -325,7 +325,7 @@ battery/upowermanager.s: battery/upowermanager.cpp.s
 
 # target to generate assembly for a file
 battery/upowermanager.cpp.s:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/build.make settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/battery/upowermanager.cpp.s
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/matsya-settings-daemon.dir/build.make settings-daemon/CMakeFiles/matsya-settings-daemon.dir/battery/upowermanager.cpp.s
 .PHONY : battery/upowermanager.cpp.s
 
 brightness/brightnessmanager.o: brightness/brightnessmanager.cpp.o
@@ -334,7 +334,7 @@ brightness/brightnessmanager.o: brightness/brightnessmanager.cpp.o
 
 # target to build an object file
 brightness/brightnessmanager.cpp.o:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/build.make settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/brightness/brightnessmanager.cpp.o
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/matsya-settings-daemon.dir/build.make settings-daemon/CMakeFiles/matsya-settings-daemon.dir/brightness/brightnessmanager.cpp.o
 .PHONY : brightness/brightnessmanager.cpp.o
 
 brightness/brightnessmanager.i: brightness/brightnessmanager.cpp.i
@@ -343,7 +343,7 @@ brightness/brightnessmanager.i: brightness/brightnessmanager.cpp.i
 
 # target to preprocess a source file
 brightness/brightnessmanager.cpp.i:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/build.make settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/brightness/brightnessmanager.cpp.i
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/matsya-settings-daemon.dir/build.make settings-daemon/CMakeFiles/matsya-settings-daemon.dir/brightness/brightnessmanager.cpp.i
 .PHONY : brightness/brightnessmanager.cpp.i
 
 brightness/brightnessmanager.s: brightness/brightnessmanager.cpp.s
@@ -352,7 +352,7 @@ brightness/brightnessmanager.s: brightness/brightnessmanager.cpp.s
 
 # target to generate assembly for a file
 brightness/brightnessmanager.cpp.s:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/build.make settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/brightness/brightnessmanager.cpp.s
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/matsya-settings-daemon.dir/build.make settings-daemon/CMakeFiles/matsya-settings-daemon.dir/brightness/brightnessmanager.cpp.s
 .PHONY : brightness/brightnessmanager.cpp.s
 
 brightnessadaptor.o: brightnessadaptor.cpp.o
@@ -361,7 +361,7 @@ brightnessadaptor.o: brightnessadaptor.cpp.o
 
 # target to build an object file
 brightnessadaptor.cpp.o:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/build.make settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/brightnessadaptor.cpp.o
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/matsya-settings-daemon.dir/build.make settings-daemon/CMakeFiles/matsya-settings-daemon.dir/brightnessadaptor.cpp.o
 .PHONY : brightnessadaptor.cpp.o
 
 brightnessadaptor.i: brightnessadaptor.cpp.i
@@ -370,7 +370,7 @@ brightnessadaptor.i: brightnessadaptor.cpp.i
 
 # target to preprocess a source file
 brightnessadaptor.cpp.i:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/build.make settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/brightnessadaptor.cpp.i
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/matsya-settings-daemon.dir/build.make settings-daemon/CMakeFiles/matsya-settings-daemon.dir/brightnessadaptor.cpp.i
 .PHONY : brightnessadaptor.cpp.i
 
 brightnessadaptor.s: brightnessadaptor.cpp.s
@@ -379,35 +379,8 @@ brightnessadaptor.s: brightnessadaptor.cpp.s
 
 # target to generate assembly for a file
 brightnessadaptor.cpp.s:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/build.make settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/brightnessadaptor.cpp.s
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/matsya-settings-daemon.dir/build.make settings-daemon/CMakeFiles/matsya-settings-daemon.dir/brightnessadaptor.cpp.s
 .PHONY : brightnessadaptor.cpp.s
-
-cutefish-settings-daemon_autogen/mocs_compilation.o: cutefish-settings-daemon_autogen/mocs_compilation.cpp.o
-
-.PHONY : cutefish-settings-daemon_autogen/mocs_compilation.o
-
-# target to build an object file
-cutefish-settings-daemon_autogen/mocs_compilation.cpp.o:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/build.make settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/cutefish-settings-daemon_autogen/mocs_compilation.cpp.o
-.PHONY : cutefish-settings-daemon_autogen/mocs_compilation.cpp.o
-
-cutefish-settings-daemon_autogen/mocs_compilation.i: cutefish-settings-daemon_autogen/mocs_compilation.cpp.i
-
-.PHONY : cutefish-settings-daemon_autogen/mocs_compilation.i
-
-# target to preprocess a source file
-cutefish-settings-daemon_autogen/mocs_compilation.cpp.i:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/build.make settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/cutefish-settings-daemon_autogen/mocs_compilation.cpp.i
-.PHONY : cutefish-settings-daemon_autogen/mocs_compilation.cpp.i
-
-cutefish-settings-daemon_autogen/mocs_compilation.s: cutefish-settings-daemon_autogen/mocs_compilation.cpp.s
-
-.PHONY : cutefish-settings-daemon_autogen/mocs_compilation.s
-
-# target to generate assembly for a file
-cutefish-settings-daemon_autogen/mocs_compilation.cpp.s:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/build.make settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/cutefish-settings-daemon_autogen/mocs_compilation.cpp.s
-.PHONY : cutefish-settings-daemon_autogen/mocs_compilation.cpp.s
 
 defaultapplications.o: defaultapplications.cpp.o
 
@@ -415,7 +388,7 @@ defaultapplications.o: defaultapplications.cpp.o
 
 # target to build an object file
 defaultapplications.cpp.o:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/build.make settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/defaultapplications.cpp.o
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/matsya-settings-daemon.dir/build.make settings-daemon/CMakeFiles/matsya-settings-daemon.dir/defaultapplications.cpp.o
 .PHONY : defaultapplications.cpp.o
 
 defaultapplications.i: defaultapplications.cpp.i
@@ -424,7 +397,7 @@ defaultapplications.i: defaultapplications.cpp.i
 
 # target to preprocess a source file
 defaultapplications.cpp.i:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/build.make settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/defaultapplications.cpp.i
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/matsya-settings-daemon.dir/build.make settings-daemon/CMakeFiles/matsya-settings-daemon.dir/defaultapplications.cpp.i
 .PHONY : defaultapplications.cpp.i
 
 defaultapplications.s: defaultapplications.cpp.s
@@ -433,7 +406,7 @@ defaultapplications.s: defaultapplications.cpp.s
 
 # target to generate assembly for a file
 defaultapplications.cpp.s:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/build.make settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/defaultapplications.cpp.s
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/matsya-settings-daemon.dir/build.make settings-daemon/CMakeFiles/matsya-settings-daemon.dir/defaultapplications.cpp.s
 .PHONY : defaultapplications.cpp.s
 
 dock/dock.o: dock/dock.cpp.o
@@ -442,7 +415,7 @@ dock/dock.o: dock/dock.cpp.o
 
 # target to build an object file
 dock/dock.cpp.o:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/build.make settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/dock/dock.cpp.o
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/matsya-settings-daemon.dir/build.make settings-daemon/CMakeFiles/matsya-settings-daemon.dir/dock/dock.cpp.o
 .PHONY : dock/dock.cpp.o
 
 dock/dock.i: dock/dock.cpp.i
@@ -451,7 +424,7 @@ dock/dock.i: dock/dock.cpp.i
 
 # target to preprocess a source file
 dock/dock.cpp.i:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/build.make settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/dock/dock.cpp.i
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/matsya-settings-daemon.dir/build.make settings-daemon/CMakeFiles/matsya-settings-daemon.dir/dock/dock.cpp.i
 .PHONY : dock/dock.cpp.i
 
 dock/dock.s: dock/dock.cpp.s
@@ -460,7 +433,7 @@ dock/dock.s: dock/dock.cpp.s
 
 # target to generate assembly for a file
 dock/dock.cpp.s:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/build.make settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/dock/dock.cpp.s
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/matsya-settings-daemon.dir/build.make settings-daemon/CMakeFiles/matsya-settings-daemon.dir/dock/dock.cpp.s
 .PHONY : dock/dock.cpp.s
 
 dockadaptor.o: dockadaptor.cpp.o
@@ -469,7 +442,7 @@ dockadaptor.o: dockadaptor.cpp.o
 
 # target to build an object file
 dockadaptor.cpp.o:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/build.make settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/dockadaptor.cpp.o
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/matsya-settings-daemon.dir/build.make settings-daemon/CMakeFiles/matsya-settings-daemon.dir/dockadaptor.cpp.o
 .PHONY : dockadaptor.cpp.o
 
 dockadaptor.i: dockadaptor.cpp.i
@@ -478,7 +451,7 @@ dockadaptor.i: dockadaptor.cpp.i
 
 # target to preprocess a source file
 dockadaptor.cpp.i:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/build.make settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/dockadaptor.cpp.i
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/matsya-settings-daemon.dir/build.make settings-daemon/CMakeFiles/matsya-settings-daemon.dir/dockadaptor.cpp.i
 .PHONY : dockadaptor.cpp.i
 
 dockadaptor.s: dockadaptor.cpp.s
@@ -487,7 +460,7 @@ dockadaptor.s: dockadaptor.cpp.s
 
 # target to generate assembly for a file
 dockadaptor.cpp.s:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/build.make settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/dockadaptor.cpp.s
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/matsya-settings-daemon.dir/build.make settings-daemon/CMakeFiles/matsya-settings-daemon.dir/dockadaptor.cpp.s
 .PHONY : dockadaptor.cpp.s
 
 language/language.o: language/language.cpp.o
@@ -496,7 +469,7 @@ language/language.o: language/language.cpp.o
 
 # target to build an object file
 language/language.cpp.o:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/build.make settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/language/language.cpp.o
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/matsya-settings-daemon.dir/build.make settings-daemon/CMakeFiles/matsya-settings-daemon.dir/language/language.cpp.o
 .PHONY : language/language.cpp.o
 
 language/language.i: language/language.cpp.i
@@ -505,7 +478,7 @@ language/language.i: language/language.cpp.i
 
 # target to preprocess a source file
 language/language.cpp.i:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/build.make settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/language/language.cpp.i
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/matsya-settings-daemon.dir/build.make settings-daemon/CMakeFiles/matsya-settings-daemon.dir/language/language.cpp.i
 .PHONY : language/language.cpp.i
 
 language/language.s: language/language.cpp.s
@@ -514,7 +487,7 @@ language/language.s: language/language.cpp.s
 
 # target to generate assembly for a file
 language/language.cpp.s:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/build.make settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/language/language.cpp.s
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/matsya-settings-daemon.dir/build.make settings-daemon/CMakeFiles/matsya-settings-daemon.dir/language/language.cpp.s
 .PHONY : language/language.cpp.s
 
 languageadaptor.o: languageadaptor.cpp.o
@@ -523,7 +496,7 @@ languageadaptor.o: languageadaptor.cpp.o
 
 # target to build an object file
 languageadaptor.cpp.o:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/build.make settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/languageadaptor.cpp.o
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/matsya-settings-daemon.dir/build.make settings-daemon/CMakeFiles/matsya-settings-daemon.dir/languageadaptor.cpp.o
 .PHONY : languageadaptor.cpp.o
 
 languageadaptor.i: languageadaptor.cpp.i
@@ -532,7 +505,7 @@ languageadaptor.i: languageadaptor.cpp.i
 
 # target to preprocess a source file
 languageadaptor.cpp.i:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/build.make settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/languageadaptor.cpp.i
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/matsya-settings-daemon.dir/build.make settings-daemon/CMakeFiles/matsya-settings-daemon.dir/languageadaptor.cpp.i
 .PHONY : languageadaptor.cpp.i
 
 languageadaptor.s: languageadaptor.cpp.s
@@ -541,7 +514,7 @@ languageadaptor.s: languageadaptor.cpp.s
 
 # target to generate assembly for a file
 languageadaptor.cpp.s:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/build.make settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/languageadaptor.cpp.s
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/matsya-settings-daemon.dir/build.make settings-daemon/CMakeFiles/matsya-settings-daemon.dir/languageadaptor.cpp.s
 .PHONY : languageadaptor.cpp.s
 
 main.o: main.cpp.o
@@ -550,7 +523,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/build.make settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/main.cpp.o
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/matsya-settings-daemon.dir/build.make settings-daemon/CMakeFiles/matsya-settings-daemon.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -559,7 +532,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/build.make settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/main.cpp.i
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/matsya-settings-daemon.dir/build.make settings-daemon/CMakeFiles/matsya-settings-daemon.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -568,8 +541,35 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/build.make settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/main.cpp.s
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/matsya-settings-daemon.dir/build.make settings-daemon/CMakeFiles/matsya-settings-daemon.dir/main.cpp.s
 .PHONY : main.cpp.s
+
+matsya-settings-daemon_autogen/mocs_compilation.o: matsya-settings-daemon_autogen/mocs_compilation.cpp.o
+
+.PHONY : matsya-settings-daemon_autogen/mocs_compilation.o
+
+# target to build an object file
+matsya-settings-daemon_autogen/mocs_compilation.cpp.o:
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/matsya-settings-daemon.dir/build.make settings-daemon/CMakeFiles/matsya-settings-daemon.dir/matsya-settings-daemon_autogen/mocs_compilation.cpp.o
+.PHONY : matsya-settings-daemon_autogen/mocs_compilation.cpp.o
+
+matsya-settings-daemon_autogen/mocs_compilation.i: matsya-settings-daemon_autogen/mocs_compilation.cpp.i
+
+.PHONY : matsya-settings-daemon_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+matsya-settings-daemon_autogen/mocs_compilation.cpp.i:
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/matsya-settings-daemon.dir/build.make settings-daemon/CMakeFiles/matsya-settings-daemon.dir/matsya-settings-daemon_autogen/mocs_compilation.cpp.i
+.PHONY : matsya-settings-daemon_autogen/mocs_compilation.cpp.i
+
+matsya-settings-daemon_autogen/mocs_compilation.s: matsya-settings-daemon_autogen/mocs_compilation.cpp.s
+
+.PHONY : matsya-settings-daemon_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+matsya-settings-daemon_autogen/mocs_compilation.cpp.s:
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/matsya-settings-daemon.dir/build.make settings-daemon/CMakeFiles/matsya-settings-daemon.dir/matsya-settings-daemon_autogen/mocs_compilation.cpp.s
+.PHONY : matsya-settings-daemon_autogen/mocs_compilation.cpp.s
 
 mouse/libinputsettings.o: mouse/libinputsettings.cpp.o
 
@@ -577,7 +577,7 @@ mouse/libinputsettings.o: mouse/libinputsettings.cpp.o
 
 # target to build an object file
 mouse/libinputsettings.cpp.o:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/build.make settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/mouse/libinputsettings.cpp.o
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/matsya-settings-daemon.dir/build.make settings-daemon/CMakeFiles/matsya-settings-daemon.dir/mouse/libinputsettings.cpp.o
 .PHONY : mouse/libinputsettings.cpp.o
 
 mouse/libinputsettings.i: mouse/libinputsettings.cpp.i
@@ -586,7 +586,7 @@ mouse/libinputsettings.i: mouse/libinputsettings.cpp.i
 
 # target to preprocess a source file
 mouse/libinputsettings.cpp.i:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/build.make settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/mouse/libinputsettings.cpp.i
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/matsya-settings-daemon.dir/build.make settings-daemon/CMakeFiles/matsya-settings-daemon.dir/mouse/libinputsettings.cpp.i
 .PHONY : mouse/libinputsettings.cpp.i
 
 mouse/libinputsettings.s: mouse/libinputsettings.cpp.s
@@ -595,7 +595,7 @@ mouse/libinputsettings.s: mouse/libinputsettings.cpp.s
 
 # target to generate assembly for a file
 mouse/libinputsettings.cpp.s:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/build.make settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/mouse/libinputsettings.cpp.s
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/matsya-settings-daemon.dir/build.make settings-daemon/CMakeFiles/matsya-settings-daemon.dir/mouse/libinputsettings.cpp.s
 .PHONY : mouse/libinputsettings.cpp.s
 
 mouse/mousemanager.o: mouse/mousemanager.cpp.o
@@ -604,7 +604,7 @@ mouse/mousemanager.o: mouse/mousemanager.cpp.o
 
 # target to build an object file
 mouse/mousemanager.cpp.o:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/build.make settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/mouse/mousemanager.cpp.o
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/matsya-settings-daemon.dir/build.make settings-daemon/CMakeFiles/matsya-settings-daemon.dir/mouse/mousemanager.cpp.o
 .PHONY : mouse/mousemanager.cpp.o
 
 mouse/mousemanager.i: mouse/mousemanager.cpp.i
@@ -613,7 +613,7 @@ mouse/mousemanager.i: mouse/mousemanager.cpp.i
 
 # target to preprocess a source file
 mouse/mousemanager.cpp.i:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/build.make settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/mouse/mousemanager.cpp.i
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/matsya-settings-daemon.dir/build.make settings-daemon/CMakeFiles/matsya-settings-daemon.dir/mouse/mousemanager.cpp.i
 .PHONY : mouse/mousemanager.cpp.i
 
 mouse/mousemanager.s: mouse/mousemanager.cpp.s
@@ -622,7 +622,7 @@ mouse/mousemanager.s: mouse/mousemanager.cpp.s
 
 # target to generate assembly for a file
 mouse/mousemanager.cpp.s:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/build.make settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/mouse/mousemanager.cpp.s
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/matsya-settings-daemon.dir/build.make settings-daemon/CMakeFiles/matsya-settings-daemon.dir/mouse/mousemanager.cpp.s
 .PHONY : mouse/mousemanager.cpp.s
 
 mouse/x11libinputdummydevice.o: mouse/x11libinputdummydevice.cpp.o
@@ -631,7 +631,7 @@ mouse/x11libinputdummydevice.o: mouse/x11libinputdummydevice.cpp.o
 
 # target to build an object file
 mouse/x11libinputdummydevice.cpp.o:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/build.make settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/mouse/x11libinputdummydevice.cpp.o
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/matsya-settings-daemon.dir/build.make settings-daemon/CMakeFiles/matsya-settings-daemon.dir/mouse/x11libinputdummydevice.cpp.o
 .PHONY : mouse/x11libinputdummydevice.cpp.o
 
 mouse/x11libinputdummydevice.i: mouse/x11libinputdummydevice.cpp.i
@@ -640,7 +640,7 @@ mouse/x11libinputdummydevice.i: mouse/x11libinputdummydevice.cpp.i
 
 # target to preprocess a source file
 mouse/x11libinputdummydevice.cpp.i:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/build.make settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/mouse/x11libinputdummydevice.cpp.i
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/matsya-settings-daemon.dir/build.make settings-daemon/CMakeFiles/matsya-settings-daemon.dir/mouse/x11libinputdummydevice.cpp.i
 .PHONY : mouse/x11libinputdummydevice.cpp.i
 
 mouse/x11libinputdummydevice.s: mouse/x11libinputdummydevice.cpp.s
@@ -649,7 +649,7 @@ mouse/x11libinputdummydevice.s: mouse/x11libinputdummydevice.cpp.s
 
 # target to generate assembly for a file
 mouse/x11libinputdummydevice.cpp.s:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/build.make settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/mouse/x11libinputdummydevice.cpp.s
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/matsya-settings-daemon.dir/build.make settings-daemon/CMakeFiles/matsya-settings-daemon.dir/mouse/x11libinputdummydevice.cpp.s
 .PHONY : mouse/x11libinputdummydevice.cpp.s
 
 mouseadaptor.o: mouseadaptor.cpp.o
@@ -658,7 +658,7 @@ mouseadaptor.o: mouseadaptor.cpp.o
 
 # target to build an object file
 mouseadaptor.cpp.o:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/build.make settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/mouseadaptor.cpp.o
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/matsya-settings-daemon.dir/build.make settings-daemon/CMakeFiles/matsya-settings-daemon.dir/mouseadaptor.cpp.o
 .PHONY : mouseadaptor.cpp.o
 
 mouseadaptor.i: mouseadaptor.cpp.i
@@ -667,7 +667,7 @@ mouseadaptor.i: mouseadaptor.cpp.i
 
 # target to preprocess a source file
 mouseadaptor.cpp.i:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/build.make settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/mouseadaptor.cpp.i
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/matsya-settings-daemon.dir/build.make settings-daemon/CMakeFiles/matsya-settings-daemon.dir/mouseadaptor.cpp.i
 .PHONY : mouseadaptor.cpp.i
 
 mouseadaptor.s: mouseadaptor.cpp.s
@@ -676,7 +676,7 @@ mouseadaptor.s: mouseadaptor.cpp.s
 
 # target to generate assembly for a file
 mouseadaptor.cpp.s:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/build.make settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/mouseadaptor.cpp.s
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/matsya-settings-daemon.dir/build.make settings-daemon/CMakeFiles/matsya-settings-daemon.dir/mouseadaptor.cpp.s
 .PHONY : mouseadaptor.cpp.s
 
 primarybatteryadaptor.o: primarybatteryadaptor.cpp.o
@@ -685,7 +685,7 @@ primarybatteryadaptor.o: primarybatteryadaptor.cpp.o
 
 # target to build an object file
 primarybatteryadaptor.cpp.o:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/build.make settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/primarybatteryadaptor.cpp.o
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/matsya-settings-daemon.dir/build.make settings-daemon/CMakeFiles/matsya-settings-daemon.dir/primarybatteryadaptor.cpp.o
 .PHONY : primarybatteryadaptor.cpp.o
 
 primarybatteryadaptor.i: primarybatteryadaptor.cpp.i
@@ -694,7 +694,7 @@ primarybatteryadaptor.i: primarybatteryadaptor.cpp.i
 
 # target to preprocess a source file
 primarybatteryadaptor.cpp.i:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/build.make settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/primarybatteryadaptor.cpp.i
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/matsya-settings-daemon.dir/build.make settings-daemon/CMakeFiles/matsya-settings-daemon.dir/primarybatteryadaptor.cpp.i
 .PHONY : primarybatteryadaptor.cpp.i
 
 primarybatteryadaptor.s: primarybatteryadaptor.cpp.s
@@ -703,7 +703,7 @@ primarybatteryadaptor.s: primarybatteryadaptor.cpp.s
 
 # target to generate assembly for a file
 primarybatteryadaptor.cpp.s:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/build.make settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/primarybatteryadaptor.cpp.s
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/matsya-settings-daemon.dir/build.make settings-daemon/CMakeFiles/matsya-settings-daemon.dir/primarybatteryadaptor.cpp.s
 .PHONY : primarybatteryadaptor.cpp.s
 
 theme/thememanager.o: theme/thememanager.cpp.o
@@ -712,7 +712,7 @@ theme/thememanager.o: theme/thememanager.cpp.o
 
 # target to build an object file
 theme/thememanager.cpp.o:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/build.make settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/theme/thememanager.cpp.o
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/matsya-settings-daemon.dir/build.make settings-daemon/CMakeFiles/matsya-settings-daemon.dir/theme/thememanager.cpp.o
 .PHONY : theme/thememanager.cpp.o
 
 theme/thememanager.i: theme/thememanager.cpp.i
@@ -721,7 +721,7 @@ theme/thememanager.i: theme/thememanager.cpp.i
 
 # target to preprocess a source file
 theme/thememanager.cpp.i:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/build.make settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/theme/thememanager.cpp.i
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/matsya-settings-daemon.dir/build.make settings-daemon/CMakeFiles/matsya-settings-daemon.dir/theme/thememanager.cpp.i
 .PHONY : theme/thememanager.cpp.i
 
 theme/thememanager.s: theme/thememanager.cpp.s
@@ -730,7 +730,7 @@ theme/thememanager.s: theme/thememanager.cpp.s
 
 # target to generate assembly for a file
 theme/thememanager.cpp.s:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/build.make settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/theme/thememanager.cpp.s
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/matsya-settings-daemon.dir/build.make settings-daemon/CMakeFiles/matsya-settings-daemon.dir/theme/thememanager.cpp.s
 .PHONY : theme/thememanager.cpp.s
 
 themeadaptor.o: themeadaptor.cpp.o
@@ -739,7 +739,7 @@ themeadaptor.o: themeadaptor.cpp.o
 
 # target to build an object file
 themeadaptor.cpp.o:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/build.make settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/themeadaptor.cpp.o
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/matsya-settings-daemon.dir/build.make settings-daemon/CMakeFiles/matsya-settings-daemon.dir/themeadaptor.cpp.o
 .PHONY : themeadaptor.cpp.o
 
 themeadaptor.i: themeadaptor.cpp.i
@@ -748,7 +748,7 @@ themeadaptor.i: themeadaptor.cpp.i
 
 # target to preprocess a source file
 themeadaptor.cpp.i:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/build.make settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/themeadaptor.cpp.i
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/matsya-settings-daemon.dir/build.make settings-daemon/CMakeFiles/matsya-settings-daemon.dir/themeadaptor.cpp.i
 .PHONY : themeadaptor.cpp.i
 
 themeadaptor.s: themeadaptor.cpp.s
@@ -757,7 +757,7 @@ themeadaptor.s: themeadaptor.cpp.s
 
 # target to generate assembly for a file
 themeadaptor.cpp.s:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/build.make settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/themeadaptor.cpp.s
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/matsya-settings-daemon.dir/build.make settings-daemon/CMakeFiles/matsya-settings-daemon.dir/themeadaptor.cpp.s
 .PHONY : themeadaptor.cpp.s
 
 touchpad/libinputcommon.o: touchpad/libinputcommon.cpp.o
@@ -766,7 +766,7 @@ touchpad/libinputcommon.o: touchpad/libinputcommon.cpp.o
 
 # target to build an object file
 touchpad/libinputcommon.cpp.o:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/build.make settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/touchpad/libinputcommon.cpp.o
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/matsya-settings-daemon.dir/build.make settings-daemon/CMakeFiles/matsya-settings-daemon.dir/touchpad/libinputcommon.cpp.o
 .PHONY : touchpad/libinputcommon.cpp.o
 
 touchpad/libinputcommon.i: touchpad/libinputcommon.cpp.i
@@ -775,7 +775,7 @@ touchpad/libinputcommon.i: touchpad/libinputcommon.cpp.i
 
 # target to preprocess a source file
 touchpad/libinputcommon.cpp.i:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/build.make settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/touchpad/libinputcommon.cpp.i
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/matsya-settings-daemon.dir/build.make settings-daemon/CMakeFiles/matsya-settings-daemon.dir/touchpad/libinputcommon.cpp.i
 .PHONY : touchpad/libinputcommon.cpp.i
 
 touchpad/libinputcommon.s: touchpad/libinputcommon.cpp.s
@@ -784,7 +784,7 @@ touchpad/libinputcommon.s: touchpad/libinputcommon.cpp.s
 
 # target to generate assembly for a file
 touchpad/libinputcommon.cpp.s:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/build.make settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/touchpad/libinputcommon.cpp.s
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/matsya-settings-daemon.dir/build.make settings-daemon/CMakeFiles/matsya-settings-daemon.dir/touchpad/libinputcommon.cpp.s
 .PHONY : touchpad/libinputcommon.cpp.s
 
 touchpad/touchpadmanager.o: touchpad/touchpadmanager.cpp.o
@@ -793,7 +793,7 @@ touchpad/touchpadmanager.o: touchpad/touchpadmanager.cpp.o
 
 # target to build an object file
 touchpad/touchpadmanager.cpp.o:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/build.make settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/touchpad/touchpadmanager.cpp.o
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/matsya-settings-daemon.dir/build.make settings-daemon/CMakeFiles/matsya-settings-daemon.dir/touchpad/touchpadmanager.cpp.o
 .PHONY : touchpad/touchpadmanager.cpp.o
 
 touchpad/touchpadmanager.i: touchpad/touchpadmanager.cpp.i
@@ -802,7 +802,7 @@ touchpad/touchpadmanager.i: touchpad/touchpadmanager.cpp.i
 
 # target to preprocess a source file
 touchpad/touchpadmanager.cpp.i:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/build.make settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/touchpad/touchpadmanager.cpp.i
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/matsya-settings-daemon.dir/build.make settings-daemon/CMakeFiles/matsya-settings-daemon.dir/touchpad/touchpadmanager.cpp.i
 .PHONY : touchpad/touchpadmanager.cpp.i
 
 touchpad/touchpadmanager.s: touchpad/touchpadmanager.cpp.s
@@ -811,7 +811,7 @@ touchpad/touchpadmanager.s: touchpad/touchpadmanager.cpp.s
 
 # target to generate assembly for a file
 touchpad/touchpadmanager.cpp.s:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/build.make settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/touchpad/touchpadmanager.cpp.s
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/matsya-settings-daemon.dir/build.make settings-daemon/CMakeFiles/matsya-settings-daemon.dir/touchpad/touchpadmanager.cpp.s
 .PHONY : touchpad/touchpadmanager.cpp.s
 
 touchpad/x11/libinputtouchpad.o: touchpad/x11/libinputtouchpad.cpp.o
@@ -820,7 +820,7 @@ touchpad/x11/libinputtouchpad.o: touchpad/x11/libinputtouchpad.cpp.o
 
 # target to build an object file
 touchpad/x11/libinputtouchpad.cpp.o:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/build.make settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/touchpad/x11/libinputtouchpad.cpp.o
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/matsya-settings-daemon.dir/build.make settings-daemon/CMakeFiles/matsya-settings-daemon.dir/touchpad/x11/libinputtouchpad.cpp.o
 .PHONY : touchpad/x11/libinputtouchpad.cpp.o
 
 touchpad/x11/libinputtouchpad.i: touchpad/x11/libinputtouchpad.cpp.i
@@ -829,7 +829,7 @@ touchpad/x11/libinputtouchpad.i: touchpad/x11/libinputtouchpad.cpp.i
 
 # target to preprocess a source file
 touchpad/x11/libinputtouchpad.cpp.i:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/build.make settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/touchpad/x11/libinputtouchpad.cpp.i
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/matsya-settings-daemon.dir/build.make settings-daemon/CMakeFiles/matsya-settings-daemon.dir/touchpad/x11/libinputtouchpad.cpp.i
 .PHONY : touchpad/x11/libinputtouchpad.cpp.i
 
 touchpad/x11/libinputtouchpad.s: touchpad/x11/libinputtouchpad.cpp.s
@@ -838,7 +838,7 @@ touchpad/x11/libinputtouchpad.s: touchpad/x11/libinputtouchpad.cpp.s
 
 # target to generate assembly for a file
 touchpad/x11/libinputtouchpad.cpp.s:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/build.make settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/touchpad/x11/libinputtouchpad.cpp.s
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/matsya-settings-daemon.dir/build.make settings-daemon/CMakeFiles/matsya-settings-daemon.dir/touchpad/x11/libinputtouchpad.cpp.s
 .PHONY : touchpad/x11/libinputtouchpad.cpp.s
 
 touchpad/x11/propertyinfo.o: touchpad/x11/propertyinfo.cpp.o
@@ -847,7 +847,7 @@ touchpad/x11/propertyinfo.o: touchpad/x11/propertyinfo.cpp.o
 
 # target to build an object file
 touchpad/x11/propertyinfo.cpp.o:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/build.make settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/touchpad/x11/propertyinfo.cpp.o
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/matsya-settings-daemon.dir/build.make settings-daemon/CMakeFiles/matsya-settings-daemon.dir/touchpad/x11/propertyinfo.cpp.o
 .PHONY : touchpad/x11/propertyinfo.cpp.o
 
 touchpad/x11/propertyinfo.i: touchpad/x11/propertyinfo.cpp.i
@@ -856,7 +856,7 @@ touchpad/x11/propertyinfo.i: touchpad/x11/propertyinfo.cpp.i
 
 # target to preprocess a source file
 touchpad/x11/propertyinfo.cpp.i:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/build.make settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/touchpad/x11/propertyinfo.cpp.i
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/matsya-settings-daemon.dir/build.make settings-daemon/CMakeFiles/matsya-settings-daemon.dir/touchpad/x11/propertyinfo.cpp.i
 .PHONY : touchpad/x11/propertyinfo.cpp.i
 
 touchpad/x11/propertyinfo.s: touchpad/x11/propertyinfo.cpp.s
@@ -865,7 +865,7 @@ touchpad/x11/propertyinfo.s: touchpad/x11/propertyinfo.cpp.s
 
 # target to generate assembly for a file
 touchpad/x11/propertyinfo.cpp.s:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/build.make settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/touchpad/x11/propertyinfo.cpp.s
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/matsya-settings-daemon.dir/build.make settings-daemon/CMakeFiles/matsya-settings-daemon.dir/touchpad/x11/propertyinfo.cpp.s
 .PHONY : touchpad/x11/propertyinfo.cpp.s
 
 touchpad/x11/synapticstouchpad.o: touchpad/x11/synapticstouchpad.cpp.o
@@ -874,7 +874,7 @@ touchpad/x11/synapticstouchpad.o: touchpad/x11/synapticstouchpad.cpp.o
 
 # target to build an object file
 touchpad/x11/synapticstouchpad.cpp.o:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/build.make settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/touchpad/x11/synapticstouchpad.cpp.o
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/matsya-settings-daemon.dir/build.make settings-daemon/CMakeFiles/matsya-settings-daemon.dir/touchpad/x11/synapticstouchpad.cpp.o
 .PHONY : touchpad/x11/synapticstouchpad.cpp.o
 
 touchpad/x11/synapticstouchpad.i: touchpad/x11/synapticstouchpad.cpp.i
@@ -883,7 +883,7 @@ touchpad/x11/synapticstouchpad.i: touchpad/x11/synapticstouchpad.cpp.i
 
 # target to preprocess a source file
 touchpad/x11/synapticstouchpad.cpp.i:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/build.make settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/touchpad/x11/synapticstouchpad.cpp.i
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/matsya-settings-daemon.dir/build.make settings-daemon/CMakeFiles/matsya-settings-daemon.dir/touchpad/x11/synapticstouchpad.cpp.i
 .PHONY : touchpad/x11/synapticstouchpad.cpp.i
 
 touchpad/x11/synapticstouchpad.s: touchpad/x11/synapticstouchpad.cpp.s
@@ -892,7 +892,7 @@ touchpad/x11/synapticstouchpad.s: touchpad/x11/synapticstouchpad.cpp.s
 
 # target to generate assembly for a file
 touchpad/x11/synapticstouchpad.cpp.s:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/build.make settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/touchpad/x11/synapticstouchpad.cpp.s
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/matsya-settings-daemon.dir/build.make settings-daemon/CMakeFiles/matsya-settings-daemon.dir/touchpad/x11/synapticstouchpad.cpp.s
 .PHONY : touchpad/x11/synapticstouchpad.cpp.s
 
 touchpad/x11/xcbatom.o: touchpad/x11/xcbatom.cpp.o
@@ -901,7 +901,7 @@ touchpad/x11/xcbatom.o: touchpad/x11/xcbatom.cpp.o
 
 # target to build an object file
 touchpad/x11/xcbatom.cpp.o:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/build.make settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/touchpad/x11/xcbatom.cpp.o
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/matsya-settings-daemon.dir/build.make settings-daemon/CMakeFiles/matsya-settings-daemon.dir/touchpad/x11/xcbatom.cpp.o
 .PHONY : touchpad/x11/xcbatom.cpp.o
 
 touchpad/x11/xcbatom.i: touchpad/x11/xcbatom.cpp.i
@@ -910,7 +910,7 @@ touchpad/x11/xcbatom.i: touchpad/x11/xcbatom.cpp.i
 
 # target to preprocess a source file
 touchpad/x11/xcbatom.cpp.i:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/build.make settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/touchpad/x11/xcbatom.cpp.i
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/matsya-settings-daemon.dir/build.make settings-daemon/CMakeFiles/matsya-settings-daemon.dir/touchpad/x11/xcbatom.cpp.i
 .PHONY : touchpad/x11/xcbatom.cpp.i
 
 touchpad/x11/xcbatom.s: touchpad/x11/xcbatom.cpp.s
@@ -919,7 +919,7 @@ touchpad/x11/xcbatom.s: touchpad/x11/xcbatom.cpp.s
 
 # target to generate assembly for a file
 touchpad/x11/xcbatom.cpp.s:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/build.make settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/touchpad/x11/xcbatom.cpp.s
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/matsya-settings-daemon.dir/build.make settings-daemon/CMakeFiles/matsya-settings-daemon.dir/touchpad/x11/xcbatom.cpp.s
 .PHONY : touchpad/x11/xcbatom.cpp.s
 
 touchpad/x11/xlibbackend.o: touchpad/x11/xlibbackend.cpp.o
@@ -928,7 +928,7 @@ touchpad/x11/xlibbackend.o: touchpad/x11/xlibbackend.cpp.o
 
 # target to build an object file
 touchpad/x11/xlibbackend.cpp.o:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/build.make settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/touchpad/x11/xlibbackend.cpp.o
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/matsya-settings-daemon.dir/build.make settings-daemon/CMakeFiles/matsya-settings-daemon.dir/touchpad/x11/xlibbackend.cpp.o
 .PHONY : touchpad/x11/xlibbackend.cpp.o
 
 touchpad/x11/xlibbackend.i: touchpad/x11/xlibbackend.cpp.i
@@ -937,7 +937,7 @@ touchpad/x11/xlibbackend.i: touchpad/x11/xlibbackend.cpp.i
 
 # target to preprocess a source file
 touchpad/x11/xlibbackend.cpp.i:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/build.make settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/touchpad/x11/xlibbackend.cpp.i
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/matsya-settings-daemon.dir/build.make settings-daemon/CMakeFiles/matsya-settings-daemon.dir/touchpad/x11/xlibbackend.cpp.i
 .PHONY : touchpad/x11/xlibbackend.cpp.i
 
 touchpad/x11/xlibbackend.s: touchpad/x11/xlibbackend.cpp.s
@@ -946,7 +946,7 @@ touchpad/x11/xlibbackend.s: touchpad/x11/xlibbackend.cpp.s
 
 # target to generate assembly for a file
 touchpad/x11/xlibbackend.cpp.s:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/build.make settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/touchpad/x11/xlibbackend.cpp.s
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/matsya-settings-daemon.dir/build.make settings-daemon/CMakeFiles/matsya-settings-daemon.dir/touchpad/x11/xlibbackend.cpp.s
 .PHONY : touchpad/x11/xlibbackend.cpp.s
 
 touchpad/x11/xlibnotifications.o: touchpad/x11/xlibnotifications.cpp.o
@@ -955,7 +955,7 @@ touchpad/x11/xlibnotifications.o: touchpad/x11/xlibnotifications.cpp.o
 
 # target to build an object file
 touchpad/x11/xlibnotifications.cpp.o:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/build.make settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/touchpad/x11/xlibnotifications.cpp.o
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/matsya-settings-daemon.dir/build.make settings-daemon/CMakeFiles/matsya-settings-daemon.dir/touchpad/x11/xlibnotifications.cpp.o
 .PHONY : touchpad/x11/xlibnotifications.cpp.o
 
 touchpad/x11/xlibnotifications.i: touchpad/x11/xlibnotifications.cpp.i
@@ -964,7 +964,7 @@ touchpad/x11/xlibnotifications.i: touchpad/x11/xlibnotifications.cpp.i
 
 # target to preprocess a source file
 touchpad/x11/xlibnotifications.cpp.i:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/build.make settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/touchpad/x11/xlibnotifications.cpp.i
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/matsya-settings-daemon.dir/build.make settings-daemon/CMakeFiles/matsya-settings-daemon.dir/touchpad/x11/xlibnotifications.cpp.i
 .PHONY : touchpad/x11/xlibnotifications.cpp.i
 
 touchpad/x11/xlibnotifications.s: touchpad/x11/xlibnotifications.cpp.s
@@ -973,7 +973,7 @@ touchpad/x11/xlibnotifications.s: touchpad/x11/xlibnotifications.cpp.s
 
 # target to generate assembly for a file
 touchpad/x11/xlibnotifications.cpp.s:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/build.make settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/touchpad/x11/xlibnotifications.cpp.s
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/matsya-settings-daemon.dir/build.make settings-daemon/CMakeFiles/matsya-settings-daemon.dir/touchpad/x11/xlibnotifications.cpp.s
 .PHONY : touchpad/x11/xlibnotifications.cpp.s
 
 touchpad/x11/xlibtouchpad.o: touchpad/x11/xlibtouchpad.cpp.o
@@ -982,7 +982,7 @@ touchpad/x11/xlibtouchpad.o: touchpad/x11/xlibtouchpad.cpp.o
 
 # target to build an object file
 touchpad/x11/xlibtouchpad.cpp.o:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/build.make settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/touchpad/x11/xlibtouchpad.cpp.o
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/matsya-settings-daemon.dir/build.make settings-daemon/CMakeFiles/matsya-settings-daemon.dir/touchpad/x11/xlibtouchpad.cpp.o
 .PHONY : touchpad/x11/xlibtouchpad.cpp.o
 
 touchpad/x11/xlibtouchpad.i: touchpad/x11/xlibtouchpad.cpp.i
@@ -991,7 +991,7 @@ touchpad/x11/xlibtouchpad.i: touchpad/x11/xlibtouchpad.cpp.i
 
 # target to preprocess a source file
 touchpad/x11/xlibtouchpad.cpp.i:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/build.make settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/touchpad/x11/xlibtouchpad.cpp.i
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/matsya-settings-daemon.dir/build.make settings-daemon/CMakeFiles/matsya-settings-daemon.dir/touchpad/x11/xlibtouchpad.cpp.i
 .PHONY : touchpad/x11/xlibtouchpad.cpp.i
 
 touchpad/x11/xlibtouchpad.s: touchpad/x11/xlibtouchpad.cpp.s
@@ -1000,7 +1000,7 @@ touchpad/x11/xlibtouchpad.s: touchpad/x11/xlibtouchpad.cpp.s
 
 # target to generate assembly for a file
 touchpad/x11/xlibtouchpad.cpp.s:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/build.make settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/touchpad/x11/xlibtouchpad.cpp.s
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/matsya-settings-daemon.dir/build.make settings-daemon/CMakeFiles/matsya-settings-daemon.dir/touchpad/x11/xlibtouchpad.cpp.s
 .PHONY : touchpad/x11/xlibtouchpad.cpp.s
 
 touchpad/x11/xrecordkeyboardmonitor.o: touchpad/x11/xrecordkeyboardmonitor.cpp.o
@@ -1009,7 +1009,7 @@ touchpad/x11/xrecordkeyboardmonitor.o: touchpad/x11/xrecordkeyboardmonitor.cpp.o
 
 # target to build an object file
 touchpad/x11/xrecordkeyboardmonitor.cpp.o:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/build.make settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/touchpad/x11/xrecordkeyboardmonitor.cpp.o
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/matsya-settings-daemon.dir/build.make settings-daemon/CMakeFiles/matsya-settings-daemon.dir/touchpad/x11/xrecordkeyboardmonitor.cpp.o
 .PHONY : touchpad/x11/xrecordkeyboardmonitor.cpp.o
 
 touchpad/x11/xrecordkeyboardmonitor.i: touchpad/x11/xrecordkeyboardmonitor.cpp.i
@@ -1018,7 +1018,7 @@ touchpad/x11/xrecordkeyboardmonitor.i: touchpad/x11/xrecordkeyboardmonitor.cpp.i
 
 # target to preprocess a source file
 touchpad/x11/xrecordkeyboardmonitor.cpp.i:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/build.make settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/touchpad/x11/xrecordkeyboardmonitor.cpp.i
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/matsya-settings-daemon.dir/build.make settings-daemon/CMakeFiles/matsya-settings-daemon.dir/touchpad/x11/xrecordkeyboardmonitor.cpp.i
 .PHONY : touchpad/x11/xrecordkeyboardmonitor.cpp.i
 
 touchpad/x11/xrecordkeyboardmonitor.s: touchpad/x11/xrecordkeyboardmonitor.cpp.s
@@ -1027,7 +1027,7 @@ touchpad/x11/xrecordkeyboardmonitor.s: touchpad/x11/xrecordkeyboardmonitor.cpp.s
 
 # target to generate assembly for a file
 touchpad/x11/xrecordkeyboardmonitor.cpp.s:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/build.make settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/touchpad/x11/xrecordkeyboardmonitor.cpp.s
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/matsya-settings-daemon.dir/build.make settings-daemon/CMakeFiles/matsya-settings-daemon.dir/touchpad/x11/xrecordkeyboardmonitor.cpp.s
 .PHONY : touchpad/x11/xrecordkeyboardmonitor.cpp.s
 
 touchpadadaptor.o: touchpadadaptor.cpp.o
@@ -1036,7 +1036,7 @@ touchpadadaptor.o: touchpadadaptor.cpp.o
 
 # target to build an object file
 touchpadadaptor.cpp.o:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/build.make settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/touchpadadaptor.cpp.o
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/matsya-settings-daemon.dir/build.make settings-daemon/CMakeFiles/matsya-settings-daemon.dir/touchpadadaptor.cpp.o
 .PHONY : touchpadadaptor.cpp.o
 
 touchpadadaptor.i: touchpadadaptor.cpp.i
@@ -1045,7 +1045,7 @@ touchpadadaptor.i: touchpadadaptor.cpp.i
 
 # target to preprocess a source file
 touchpadadaptor.cpp.i:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/build.make settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/touchpadadaptor.cpp.i
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/matsya-settings-daemon.dir/build.make settings-daemon/CMakeFiles/matsya-settings-daemon.dir/touchpadadaptor.cpp.i
 .PHONY : touchpadadaptor.cpp.i
 
 touchpadadaptor.s: touchpadadaptor.cpp.s
@@ -1054,7 +1054,7 @@ touchpadadaptor.s: touchpadadaptor.cpp.s
 
 # target to generate assembly for a file
 touchpadadaptor.cpp.s:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/build.make settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/touchpadadaptor.cpp.s
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/matsya-settings-daemon.dir/build.make settings-daemon/CMakeFiles/matsya-settings-daemon.dir/touchpadadaptor.cpp.s
 .PHONY : touchpadadaptor.cpp.s
 
 # Help Target
@@ -1069,9 +1069,9 @@ help:
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
-	@echo "... cutefish-settings-daemon_autogen"
+	@echo "... matsya-settings-daemon_autogen"
 	@echo "... translations"
-	@echo "... cutefish-settings-daemon"
+	@echo "... matsya-settings-daemon"
 	@echo "... application.o"
 	@echo "... application.i"
 	@echo "... application.s"
@@ -1090,9 +1090,6 @@ help:
 	@echo "... brightnessadaptor.o"
 	@echo "... brightnessadaptor.i"
 	@echo "... brightnessadaptor.s"
-	@echo "... cutefish-settings-daemon_autogen/mocs_compilation.o"
-	@echo "... cutefish-settings-daemon_autogen/mocs_compilation.i"
-	@echo "... cutefish-settings-daemon_autogen/mocs_compilation.s"
 	@echo "... defaultapplications.o"
 	@echo "... defaultapplications.i"
 	@echo "... defaultapplications.s"
@@ -1111,6 +1108,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... matsya-settings-daemon_autogen/mocs_compilation.o"
+	@echo "... matsya-settings-daemon_autogen/mocs_compilation.i"
+	@echo "... matsya-settings-daemon_autogen/mocs_compilation.s"
 	@echo "... mouse/libinputsettings.o"
 	@echo "... mouse/libinputsettings.i"
 	@echo "... mouse/libinputsettings.s"
@@ -1176,6 +1176,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/tokyo/clone/RebootOS/core/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/tokyo/Documents/GitHub/core/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

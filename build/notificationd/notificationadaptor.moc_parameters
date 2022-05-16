@@ -1,5 +1,5 @@
--I/home/tokyo/clone/RebootOS/core/notificationd
--I/home/tokyo/clone/RebootOS/core/build/notificationd
+-I/home/tokyo/Documents/GitHub/core/notificationd
+-I/home/tokyo/Documents/GitHub/core/build/notificationd
 -o
-/home/tokyo/clone/RebootOS/core/build/notificationd/notificationadaptor.moc
-/home/tokyo/clone/RebootOS/core/build/notificationd/notificationadaptor.h
+/home/tokyo/Documents/GitHub/core/build/notificationd/notificationadaptor.moc
+/home/tokyo/Documents/GitHub/core/build/notificationd/notificationadaptor.h

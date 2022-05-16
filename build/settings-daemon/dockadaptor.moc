@@ -23,7 +23,7 @@ QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_DockAdaptor_t {
     QByteArrayData data[13];
-    char stringdata0[630];
+    char stringdata0[626];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -34,27 +34,27 @@ static const qt_meta_stringdata_DockAdaptor_t qt_meta_stringdata_DockAdaptor = {
     {
 QT_MOC_LITERAL(0, 0, 11), // "DockAdaptor"
 QT_MOC_LITERAL(1, 12, 15), // "D-Bus Interface"
-QT_MOC_LITERAL(2, 28, 17), // "com.cutefish.Dock"
-QT_MOC_LITERAL(3, 46, 19), // "D-Bus Introspection"
-QT_MOC_LITERAL(4, 66, 479), // "  <interface name=\"com.cutef..."
-QT_MOC_LITERAL(5, 500, 16), // "directionChanged"
-QT_MOC_LITERAL(6, 517, 0), // ""
-QT_MOC_LITERAL(7, 518, 15), // "iconSizeChanged"
-QT_MOC_LITERAL(8, 534, 12), // "setDirection"
-QT_MOC_LITERAL(9, 547, 5), // "value"
-QT_MOC_LITERAL(10, 553, 11), // "setIconSize"
-QT_MOC_LITERAL(11, 565, 9), // "direction"
-QT_MOC_LITERAL(12, 575, 8) // "iconSize"
+QT_MOC_LITERAL(2, 28, 15), // "com.matsya.Dock"
+QT_MOC_LITERAL(3, 44, 19), // "D-Bus Introspection"
+QT_MOC_LITERAL(4, 64, 477), // "  <interface name=\"com.matsy..."
+QT_MOC_LITERAL(5, 496, 16), // "directionChanged"
+QT_MOC_LITERAL(6, 513, 0), // ""
+QT_MOC_LITERAL(7, 514, 15), // "iconSizeChanged"
+QT_MOC_LITERAL(8, 530, 12), // "setDirection"
+QT_MOC_LITERAL(9, 543, 5), // "value"
+QT_MOC_LITERAL(10, 549, 11), // "setIconSize"
+QT_MOC_LITERAL(11, 561, 9), // "direction"
+QT_MOC_LITERAL(12, 571, 8) // "iconSize"
 
     },
-    "DockAdaptor\0D-Bus Interface\0"
-    "com.cutefish.Dock\0D-Bus Introspection\0"
-    "  <interface name=\"com.cutefish.Dock\">\n    <property access=\"read\""
-    " type=\"i\" name=\"iconSize\"/>\n    <method name=\"setIconSize\">\n  "
-    "    <arg direction=\"in\" type=\"i\" name=\"value\"/>\n    </method>\n"
-    "    <property access=\"read\" type=\"i\" name=\"direction\"/>\n    <me"
-    "thod name=\"setDirection\">\n      <arg direction=\"in\" type=\"i\" na"
-    "me=\"value\"/>\n    </method>\n    <signal name=\"iconSizeChanged\"/>\n"
+    "DockAdaptor\0D-Bus Interface\0com.matsya.Dock\0"
+    "D-Bus Introspection\0"
+    "  <interface name=\"com.matsya.Dock\">\n    <property access=\"read\" "
+    "type=\"i\" name=\"iconSize\"/>\n    <method name=\"setIconSize\">\n   "
+    "   <arg direction=\"in\" type=\"i\" name=\"value\"/>\n    </method>\n "
+    "   <property access=\"read\" type=\"i\" name=\"direction\"/>\n    <met"
+    "hod name=\"setDirection\">\n      <arg direction=\"in\" type=\"i\" nam"
+    "e=\"value\"/>\n    </method>\n    <signal name=\"iconSizeChanged\"/>\n"
     "    <signal name=\"directionChanged\"/>\n  </interface>\n\0"
     "directionChanged\0\0iconSizeChanged\0"
     "setDirection\0value\0setIconSize\0direction\0"

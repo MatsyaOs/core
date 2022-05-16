@@ -1,5 +1,5 @@
--I/home/tokyo/clone/RebootOS/core/settings-daemon
--I/home/tokyo/clone/RebootOS/core/build/settings-daemon
+-I/home/tokyo/Documents/GitHub/core/settings-daemon
+-I/home/tokyo/Documents/GitHub/core/build/settings-daemon
 -o
-/home/tokyo/clone/RebootOS/core/build/settings-daemon/themeadaptor.moc
-/home/tokyo/clone/RebootOS/core/build/settings-daemon/themeadaptor.h
+/home/tokyo/Documents/GitHub/core/build/settings-daemon/themeadaptor.moc
+/home/tokyo/Documents/GitHub/core/build/settings-daemon/themeadaptor.h

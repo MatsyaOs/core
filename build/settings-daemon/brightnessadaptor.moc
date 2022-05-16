@@ -23,7 +23,7 @@ QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_BrightnessAdaptor_t {
     QByteArrayData data[12];
-    char stringdata0[568];
+    char stringdata0[564];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -34,26 +34,26 @@ static const qt_meta_stringdata_BrightnessAdaptor_t qt_meta_stringdata_Brightnes
     {
 QT_MOC_LITERAL(0, 0, 17), // "BrightnessAdaptor"
 QT_MOC_LITERAL(1, 18, 15), // "D-Bus Interface"
-QT_MOC_LITERAL(2, 34, 23), // "com.cutefish.Brightness"
-QT_MOC_LITERAL(3, 58, 19), // "D-Bus Introspection"
-QT_MOC_LITERAL(4, 78, 412), // "  <interface name=\"com.cutef..."
-QT_MOC_LITERAL(5, 452, 17), // "brightnessChanged"
-QT_MOC_LITERAL(6, 470, 0), // ""
-QT_MOC_LITERAL(7, 471, 8), // "setValue"
-QT_MOC_LITERAL(8, 480, 5), // "value"
-QT_MOC_LITERAL(9, 486, 10), // "brightness"
-QT_MOC_LITERAL(10, 497, 17), // "brightnessEnabled"
-QT_MOC_LITERAL(11, 515, 13) // "maxBrightness"
+QT_MOC_LITERAL(2, 34, 21), // "com.matsya.Brightness"
+QT_MOC_LITERAL(3, 56, 19), // "D-Bus Introspection"
+QT_MOC_LITERAL(4, 76, 410), // "  <interface name=\"com.matsy..."
+QT_MOC_LITERAL(5, 448, 17), // "brightnessChanged"
+QT_MOC_LITERAL(6, 466, 0), // ""
+QT_MOC_LITERAL(7, 467, 8), // "setValue"
+QT_MOC_LITERAL(8, 476, 5), // "value"
+QT_MOC_LITERAL(9, 482, 10), // "brightness"
+QT_MOC_LITERAL(10, 493, 17), // "brightnessEnabled"
+QT_MOC_LITERAL(11, 511, 13) // "maxBrightness"
 
     },
     "BrightnessAdaptor\0D-Bus Interface\0"
-    "com.cutefish.Brightness\0D-Bus Introspection\0"
-    "  <interface name=\"com.cutefish.Brightness\">\n    <method name=\"set"
-    "Value\">\n      <arg direction=\"in\" type=\"i\" name=\"value\"/>\n   "
-    " </method>\n    <property access=\"read\" type=\"i\" name=\"maxBrightn"
-    "ess\"/>\n    <property access=\"read\" type=\"i\" name=\"brightness\"/"
-    ">\n    <property access=\"read\" type=\"b\" name=\"brightnessEnabled\""
-    "/>\n    <signal name=\"brightnessChanged\"/>\n  </interface>\n\0"
+    "com.matsya.Brightness\0D-Bus Introspection\0"
+    "  <interface name=\"com.matsya.Brightness\">\n    <method name=\"setVa"
+    "lue\">\n      <arg direction=\"in\" type=\"i\" name=\"value\"/>\n    <"
+    "/method>\n    <property access=\"read\" type=\"i\" name=\"maxBrightnes"
+    "s\"/>\n    <property access=\"read\" type=\"i\" name=\"brightness\"/>\n"
+    "    <property access=\"read\" type=\"b\" name=\"brightnessEnabled\"/>\n"
+    "    <signal name=\"brightnessChanged\"/>\n  </interface>\n\0"
     "brightnessChanged\0\0setValue\0value\0"
     "brightness\0brightnessEnabled\0maxBrightness"
 };

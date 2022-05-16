@@ -62,10 +62,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tokyo/clone/RebootOS/core
+CMAKE_SOURCE_DIR = /home/tokyo/Documents/GitHub/core
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tokyo/clone/RebootOS/core/build
+CMAKE_BINARY_DIR = /home/tokyo/Documents/GitHub/core/build
 
 # Include any dependencies generated for this target.
 include cupdatecursor/CMakeFiles/cupdatecursor.dir/depend.make
@@ -78,29 +78,29 @@ include cupdatecursor/CMakeFiles/cupdatecursor.dir/flags.make
 
 cupdatecursor/CMakeFiles/cupdatecursor.dir/cupdatecursor_autogen/mocs_compilation.cpp.o: cupdatecursor/CMakeFiles/cupdatecursor.dir/flags.make
 cupdatecursor/CMakeFiles/cupdatecursor.dir/cupdatecursor_autogen/mocs_compilation.cpp.o: cupdatecursor/cupdatecursor_autogen/mocs_compilation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tokyo/clone/RebootOS/core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cupdatecursor/CMakeFiles/cupdatecursor.dir/cupdatecursor_autogen/mocs_compilation.cpp.o"
-	cd /home/tokyo/clone/RebootOS/core/build/cupdatecursor && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cupdatecursor.dir/cupdatecursor_autogen/mocs_compilation.cpp.o -c /home/tokyo/clone/RebootOS/core/build/cupdatecursor/cupdatecursor_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tokyo/Documents/GitHub/core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cupdatecursor/CMakeFiles/cupdatecursor.dir/cupdatecursor_autogen/mocs_compilation.cpp.o"
+	cd /home/tokyo/Documents/GitHub/core/build/cupdatecursor && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cupdatecursor.dir/cupdatecursor_autogen/mocs_compilation.cpp.o -c /home/tokyo/Documents/GitHub/core/build/cupdatecursor/cupdatecursor_autogen/mocs_compilation.cpp
 
 cupdatecursor/CMakeFiles/cupdatecursor.dir/cupdatecursor_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cupdatecursor.dir/cupdatecursor_autogen/mocs_compilation.cpp.i"
-	cd /home/tokyo/clone/RebootOS/core/build/cupdatecursor && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tokyo/clone/RebootOS/core/build/cupdatecursor/cupdatecursor_autogen/mocs_compilation.cpp > CMakeFiles/cupdatecursor.dir/cupdatecursor_autogen/mocs_compilation.cpp.i
+	cd /home/tokyo/Documents/GitHub/core/build/cupdatecursor && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tokyo/Documents/GitHub/core/build/cupdatecursor/cupdatecursor_autogen/mocs_compilation.cpp > CMakeFiles/cupdatecursor.dir/cupdatecursor_autogen/mocs_compilation.cpp.i
 
 cupdatecursor/CMakeFiles/cupdatecursor.dir/cupdatecursor_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cupdatecursor.dir/cupdatecursor_autogen/mocs_compilation.cpp.s"
-	cd /home/tokyo/clone/RebootOS/core/build/cupdatecursor && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tokyo/clone/RebootOS/core/build/cupdatecursor/cupdatecursor_autogen/mocs_compilation.cpp -o CMakeFiles/cupdatecursor.dir/cupdatecursor_autogen/mocs_compilation.cpp.s
+	cd /home/tokyo/Documents/GitHub/core/build/cupdatecursor && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tokyo/Documents/GitHub/core/build/cupdatecursor/cupdatecursor_autogen/mocs_compilation.cpp -o CMakeFiles/cupdatecursor.dir/cupdatecursor_autogen/mocs_compilation.cpp.s
 
 cupdatecursor/CMakeFiles/cupdatecursor.dir/main.cpp.o: cupdatecursor/CMakeFiles/cupdatecursor.dir/flags.make
 cupdatecursor/CMakeFiles/cupdatecursor.dir/main.cpp.o: ../cupdatecursor/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tokyo/clone/RebootOS/core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object cupdatecursor/CMakeFiles/cupdatecursor.dir/main.cpp.o"
-	cd /home/tokyo/clone/RebootOS/core/build/cupdatecursor && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cupdatecursor.dir/main.cpp.o -c /home/tokyo/clone/RebootOS/core/cupdatecursor/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tokyo/Documents/GitHub/core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object cupdatecursor/CMakeFiles/cupdatecursor.dir/main.cpp.o"
+	cd /home/tokyo/Documents/GitHub/core/build/cupdatecursor && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cupdatecursor.dir/main.cpp.o -c /home/tokyo/Documents/GitHub/core/cupdatecursor/main.cpp
 
 cupdatecursor/CMakeFiles/cupdatecursor.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cupdatecursor.dir/main.cpp.i"
-	cd /home/tokyo/clone/RebootOS/core/build/cupdatecursor && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tokyo/clone/RebootOS/core/cupdatecursor/main.cpp > CMakeFiles/cupdatecursor.dir/main.cpp.i
+	cd /home/tokyo/Documents/GitHub/core/build/cupdatecursor && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tokyo/Documents/GitHub/core/cupdatecursor/main.cpp > CMakeFiles/cupdatecursor.dir/main.cpp.i
 
 cupdatecursor/CMakeFiles/cupdatecursor.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cupdatecursor.dir/main.cpp.s"
-	cd /home/tokyo/clone/RebootOS/core/build/cupdatecursor && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tokyo/clone/RebootOS/core/cupdatecursor/main.cpp -o CMakeFiles/cupdatecursor.dir/main.cpp.s
+	cd /home/tokyo/Documents/GitHub/core/build/cupdatecursor && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tokyo/Documents/GitHub/core/cupdatecursor/main.cpp -o CMakeFiles/cupdatecursor.dir/main.cpp.s
 
 # Object files for target cupdatecursor
 cupdatecursor_OBJECTS = \
@@ -128,8 +128,8 @@ cupdatecursor/cupdatecursor: /usr/lib/x86_64-linux-gnu/libXrender.so
 cupdatecursor/cupdatecursor: /usr/lib/x86_64-linux-gnu/libXfixes.so
 cupdatecursor/cupdatecursor: /usr/lib/x86_64-linux-gnu/libX11.so
 cupdatecursor/cupdatecursor: cupdatecursor/CMakeFiles/cupdatecursor.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tokyo/clone/RebootOS/core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable cupdatecursor"
-	cd /home/tokyo/clone/RebootOS/core/build/cupdatecursor && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cupdatecursor.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tokyo/Documents/GitHub/core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable cupdatecursor"
+	cd /home/tokyo/Documents/GitHub/core/build/cupdatecursor && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cupdatecursor.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 cupdatecursor/CMakeFiles/cupdatecursor.dir/build: cupdatecursor/cupdatecursor
@@ -137,10 +137,10 @@ cupdatecursor/CMakeFiles/cupdatecursor.dir/build: cupdatecursor/cupdatecursor
 .PHONY : cupdatecursor/CMakeFiles/cupdatecursor.dir/build
 
 cupdatecursor/CMakeFiles/cupdatecursor.dir/clean:
-	cd /home/tokyo/clone/RebootOS/core/build/cupdatecursor && $(CMAKE_COMMAND) -P CMakeFiles/cupdatecursor.dir/cmake_clean.cmake
+	cd /home/tokyo/Documents/GitHub/core/build/cupdatecursor && $(CMAKE_COMMAND) -P CMakeFiles/cupdatecursor.dir/cmake_clean.cmake
 .PHONY : cupdatecursor/CMakeFiles/cupdatecursor.dir/clean
 
 cupdatecursor/CMakeFiles/cupdatecursor.dir/depend:
-	cd /home/tokyo/clone/RebootOS/core/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tokyo/clone/RebootOS/core /home/tokyo/clone/RebootOS/core/cupdatecursor /home/tokyo/clone/RebootOS/core/build /home/tokyo/clone/RebootOS/core/build/cupdatecursor /home/tokyo/clone/RebootOS/core/build/cupdatecursor/CMakeFiles/cupdatecursor.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/tokyo/Documents/GitHub/core/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tokyo/Documents/GitHub/core /home/tokyo/Documents/GitHub/core/cupdatecursor /home/tokyo/Documents/GitHub/core/build /home/tokyo/Documents/GitHub/core/build/cupdatecursor /home/tokyo/Documents/GitHub/core/build/cupdatecursor/CMakeFiles/cupdatecursor.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : cupdatecursor/CMakeFiles/cupdatecursor.dir/depend
 

@@ -1,0 +1,86 @@
+{
+	"BUILD_DIR" : "/home/tokyo/Documents/GitHub/core/build/screen-brightness/matsya-screen-brightness_autogen",
+	"CMAKE_BINARY_DIR" : "/home/tokyo/Documents/GitHub/core/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/tokyo/Documents/GitHub/core/build/screen-brightness",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/tokyo/Documents/GitHub/core/screen-brightness",
+	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
+	"CMAKE_LIST_FILES" : 
+	[
+		"/home/tokyo/Documents/GitHub/core/screen-brightness/CMakeLists.txt",
+		"/home/tokyo/Documents/GitHub/core/screen-brightness/com.matsya.brightness.pkexec.policy.in"
+	],
+	"CMAKE_SOURCE_DIR" : "/home/tokyo/Documents/GitHub/core",
+	"DEP_FILE" : "",
+	"DEP_FILE_RULE_NAME" : "",
+	"HEADERS" : 
+	[
+		[
+			"/home/tokyo/Documents/GitHub/core/screen-brightness/brightnesshelper.h",
+			"MU",
+			"EWIEGA46WW/moc_brightnesshelper.cpp"
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/home/tokyo/Documents/GitHub/core/build/screen-brightness/matsya-screen-brightness_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/tokyo/Documents/GitHub/core/build/screen-brightness/matsya-screen-brightness_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : [ "QT_CORE_LIB", "QT_GUI_LIB", "QT_NO_DEBUG", "QT_WIDGETS_LIB" ],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/home/tokyo/Documents/GitHub/core/build/screen-brightness",
+		"/home/tokyo/Documents/GitHub/core/screen-brightness",
+		"/usr/include/x86_64-linux-gnu/qt5",
+		"/usr/include/x86_64-linux-gnu/qt5/QtCore",
+		"/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++",
+		"/usr/include/x86_64-linux-gnu/qt5/QtGui",
+		"/usr/include/x86_64-linux-gnu/qt5/QtWidgets",
+		"/usr/include/c++/10",
+		"/usr/include/x86_64-linux-gnu/c++/10",
+		"/usr/include/c++/10/backward",
+		"/usr/lib/gcc/x86_64-linux-gnu/10/include",
+		"/usr/local/include",
+		"/usr/include/x86_64-linux-gnu",
+		"/usr/include"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/usr/bin/c++",
+		"-dM",
+		"-E",
+		"-c",
+		"/usr/share/cmake-3.18/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/home/tokyo/Documents/GitHub/core/build/screen-brightness/matsya-screen-brightness_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 2,
+	"PARSE_CACHE_FILE" : "/home/tokyo/Documents/GitHub/core/build/screen-brightness/CMakeFiles/matsya-screen-brightness_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/usr/lib/qt5/bin/moc",
+	"QT_UIC_EXECUTABLE" : "/usr/lib/qt5/bin/uic",
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 15,
+	"SETTINGS_FILE" : "/home/tokyo/Documents/GitHub/core/build/screen-brightness/CMakeFiles/matsya-screen-brightness_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"/home/tokyo/Documents/GitHub/core/screen-brightness/brightnesshelper.cpp",
+			"MU"
+		],
+		[ "/home/tokyo/Documents/GitHub/core/screen-brightness/main.cpp", "MU" ]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : [],
+	"UIC_UI_FILES" : [],
+	"VERBOSITY" : 0
+}

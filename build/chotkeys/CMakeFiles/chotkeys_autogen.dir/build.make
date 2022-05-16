@@ -62,10 +62,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tokyo/clone/RebootOS/core
+CMAKE_SOURCE_DIR = /home/tokyo/Documents/GitHub/core
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tokyo/clone/RebootOS/core/build
+CMAKE_BINARY_DIR = /home/tokyo/Documents/GitHub/core/build
 
 # Utility rule file for chotkeys_autogen.
 
@@ -73,8 +73,8 @@ CMAKE_BINARY_DIR = /home/tokyo/clone/RebootOS/core/build
 include chotkeys/CMakeFiles/chotkeys_autogen.dir/progress.make
 
 chotkeys/CMakeFiles/chotkeys_autogen:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/clone/RebootOS/core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target chotkeys"
-	cd /home/tokyo/clone/RebootOS/core/build/chotkeys && /usr/bin/cmake -E cmake_autogen /home/tokyo/clone/RebootOS/core/build/chotkeys/CMakeFiles/chotkeys_autogen.dir/AutogenInfo.json ""
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/Documents/GitHub/core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target chotkeys"
+	cd /home/tokyo/Documents/GitHub/core/build/chotkeys && /usr/bin/cmake -E cmake_autogen /home/tokyo/Documents/GitHub/core/build/chotkeys/CMakeFiles/chotkeys_autogen.dir/AutogenInfo.json ""
 
 chotkeys_autogen: chotkeys/CMakeFiles/chotkeys_autogen
 chotkeys_autogen: chotkeys/CMakeFiles/chotkeys_autogen.dir/build.make
@@ -87,10 +87,10 @@ chotkeys/CMakeFiles/chotkeys_autogen.dir/build: chotkeys_autogen
 .PHONY : chotkeys/CMakeFiles/chotkeys_autogen.dir/build
 
 chotkeys/CMakeFiles/chotkeys_autogen.dir/clean:
-	cd /home/tokyo/clone/RebootOS/core/build/chotkeys && $(CMAKE_COMMAND) -P CMakeFiles/chotkeys_autogen.dir/cmake_clean.cmake
+	cd /home/tokyo/Documents/GitHub/core/build/chotkeys && $(CMAKE_COMMAND) -P CMakeFiles/chotkeys_autogen.dir/cmake_clean.cmake
 .PHONY : chotkeys/CMakeFiles/chotkeys_autogen.dir/clean
 
 chotkeys/CMakeFiles/chotkeys_autogen.dir/depend:
-	cd /home/tokyo/clone/RebootOS/core/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tokyo/clone/RebootOS/core /home/tokyo/clone/RebootOS/core/chotkeys /home/tokyo/clone/RebootOS/core/build /home/tokyo/clone/RebootOS/core/build/chotkeys /home/tokyo/clone/RebootOS/core/build/chotkeys/CMakeFiles/chotkeys_autogen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/tokyo/Documents/GitHub/core/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tokyo/Documents/GitHub/core /home/tokyo/Documents/GitHub/core/chotkeys /home/tokyo/Documents/GitHub/core/build /home/tokyo/Documents/GitHub/core/build/chotkeys /home/tokyo/Documents/GitHub/core/build/chotkeys/CMakeFiles/chotkeys_autogen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : chotkeys/CMakeFiles/chotkeys_autogen.dir/depend
 

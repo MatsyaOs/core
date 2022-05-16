@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/cutefish-sddm-helper.dir/cutefish-sddm-helper_autogen/mocs_compilation.cpp.o CMakeFiles/cutefish-sddm-helper.dir/main.cpp.o -o cutefish-sddm-helper  /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.15.2 /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.15.2 

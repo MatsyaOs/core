@@ -62,10 +62,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tokyo/clone/RebootOS/core
+CMAKE_SOURCE_DIR = /home/tokyo/Documents/GitHub/core
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tokyo/clone/RebootOS/core/build
+CMAKE_BINARY_DIR = /home/tokyo/Documents/GitHub/core/build
 
 # Utility rule file for KF5IdleTime_QCH.
 
@@ -82,10 +82,10 @@ powerman/CMakeFiles/KF5IdleTime_QCH.dir/build: KF5IdleTime_QCH
 .PHONY : powerman/CMakeFiles/KF5IdleTime_QCH.dir/build
 
 powerman/CMakeFiles/KF5IdleTime_QCH.dir/clean:
-	cd /home/tokyo/clone/RebootOS/core/build/powerman && $(CMAKE_COMMAND) -P CMakeFiles/KF5IdleTime_QCH.dir/cmake_clean.cmake
+	cd /home/tokyo/Documents/GitHub/core/build/powerman && $(CMAKE_COMMAND) -P CMakeFiles/KF5IdleTime_QCH.dir/cmake_clean.cmake
 .PHONY : powerman/CMakeFiles/KF5IdleTime_QCH.dir/clean
 
 powerman/CMakeFiles/KF5IdleTime_QCH.dir/depend:
-	cd /home/tokyo/clone/RebootOS/core/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tokyo/clone/RebootOS/core /home/tokyo/clone/RebootOS/core/powerman /home/tokyo/clone/RebootOS/core/build /home/tokyo/clone/RebootOS/core/build/powerman /home/tokyo/clone/RebootOS/core/build/powerman/CMakeFiles/KF5IdleTime_QCH.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/tokyo/Documents/GitHub/core/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tokyo/Documents/GitHub/core /home/tokyo/Documents/GitHub/core/powerman /home/tokyo/Documents/GitHub/core/build /home/tokyo/Documents/GitHub/core/build/powerman /home/tokyo/Documents/GitHub/core/build/powerman/CMakeFiles/KF5IdleTime_QCH.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : powerman/CMakeFiles/KF5IdleTime_QCH.dir/depend
 

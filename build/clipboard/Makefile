@@ -67,10 +67,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tokyo/clone/RebootOS/core
+CMAKE_SOURCE_DIR = /home/tokyo/Documents/GitHub/core
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tokyo/clone/RebootOS/core/build
+CMAKE_BINARY_DIR = /home/tokyo/Documents/GitHub/core/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -145,14 +145,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/tokyo/clone/RebootOS/core/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/RebootOS/core/build/CMakeFiles /home/tokyo/clone/RebootOS/core/build/clipboard//CMakeFiles/progress.marks
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 clipboard/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/RebootOS/core/build/CMakeFiles 0
+	cd /home/tokyo/Documents/GitHub/core/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/Documents/GitHub/core/build/CMakeFiles /home/tokyo/Documents/GitHub/core/build/clipboard//CMakeFiles/progress.marks
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 clipboard/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/Documents/GitHub/core/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 clipboard/clean
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 clipboard/clean
 .PHONY : clean
 
 # The main clean target
@@ -162,48 +162,48 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 clipboard/preinstall
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 clipboard/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 clipboard/preinstall
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 clipboard/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/tokyo/clone/RebootOS/core/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/tokyo/Documents/GitHub/core/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
-clipboard/CMakeFiles/cutefish-clipboard.dir/rule:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 clipboard/CMakeFiles/cutefish-clipboard.dir/rule
-.PHONY : clipboard/CMakeFiles/cutefish-clipboard.dir/rule
+clipboard/CMakeFiles/matsya-clipboard.dir/rule:
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 clipboard/CMakeFiles/matsya-clipboard.dir/rule
+.PHONY : clipboard/CMakeFiles/matsya-clipboard.dir/rule
 
 # Convenience name for target.
-cutefish-clipboard: clipboard/CMakeFiles/cutefish-clipboard.dir/rule
+matsya-clipboard: clipboard/CMakeFiles/matsya-clipboard.dir/rule
 
-.PHONY : cutefish-clipboard
+.PHONY : matsya-clipboard
 
 # fast build rule for target.
-cutefish-clipboard/fast:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f clipboard/CMakeFiles/cutefish-clipboard.dir/build.make clipboard/CMakeFiles/cutefish-clipboard.dir/build
-.PHONY : cutefish-clipboard/fast
+matsya-clipboard/fast:
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f clipboard/CMakeFiles/matsya-clipboard.dir/build.make clipboard/CMakeFiles/matsya-clipboard.dir/build
+.PHONY : matsya-clipboard/fast
 
 # Convenience name for target.
-clipboard/CMakeFiles/cutefish-clipboard_autogen.dir/rule:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 clipboard/CMakeFiles/cutefish-clipboard_autogen.dir/rule
-.PHONY : clipboard/CMakeFiles/cutefish-clipboard_autogen.dir/rule
+clipboard/CMakeFiles/matsya-clipboard_autogen.dir/rule:
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 clipboard/CMakeFiles/matsya-clipboard_autogen.dir/rule
+.PHONY : clipboard/CMakeFiles/matsya-clipboard_autogen.dir/rule
 
 # Convenience name for target.
-cutefish-clipboard_autogen: clipboard/CMakeFiles/cutefish-clipboard_autogen.dir/rule
+matsya-clipboard_autogen: clipboard/CMakeFiles/matsya-clipboard_autogen.dir/rule
 
-.PHONY : cutefish-clipboard_autogen
+.PHONY : matsya-clipboard_autogen
 
 # fast build rule for target.
-cutefish-clipboard_autogen/fast:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f clipboard/CMakeFiles/cutefish-clipboard_autogen.dir/build.make clipboard/CMakeFiles/cutefish-clipboard_autogen.dir/build
-.PHONY : cutefish-clipboard_autogen/fast
+matsya-clipboard_autogen/fast:
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f clipboard/CMakeFiles/matsya-clipboard_autogen.dir/build.make clipboard/CMakeFiles/matsya-clipboard_autogen.dir/build
+.PHONY : matsya-clipboard_autogen/fast
 
 clipboard.o: clipboard.cpp.o
 
@@ -211,7 +211,7 @@ clipboard.o: clipboard.cpp.o
 
 # target to build an object file
 clipboard.cpp.o:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f clipboard/CMakeFiles/cutefish-clipboard.dir/build.make clipboard/CMakeFiles/cutefish-clipboard.dir/clipboard.cpp.o
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f clipboard/CMakeFiles/matsya-clipboard.dir/build.make clipboard/CMakeFiles/matsya-clipboard.dir/clipboard.cpp.o
 .PHONY : clipboard.cpp.o
 
 clipboard.i: clipboard.cpp.i
@@ -220,7 +220,7 @@ clipboard.i: clipboard.cpp.i
 
 # target to preprocess a source file
 clipboard.cpp.i:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f clipboard/CMakeFiles/cutefish-clipboard.dir/build.make clipboard/CMakeFiles/cutefish-clipboard.dir/clipboard.cpp.i
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f clipboard/CMakeFiles/matsya-clipboard.dir/build.make clipboard/CMakeFiles/matsya-clipboard.dir/clipboard.cpp.i
 .PHONY : clipboard.cpp.i
 
 clipboard.s: clipboard.cpp.s
@@ -229,35 +229,8 @@ clipboard.s: clipboard.cpp.s
 
 # target to generate assembly for a file
 clipboard.cpp.s:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f clipboard/CMakeFiles/cutefish-clipboard.dir/build.make clipboard/CMakeFiles/cutefish-clipboard.dir/clipboard.cpp.s
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f clipboard/CMakeFiles/matsya-clipboard.dir/build.make clipboard/CMakeFiles/matsya-clipboard.dir/clipboard.cpp.s
 .PHONY : clipboard.cpp.s
-
-cutefish-clipboard_autogen/mocs_compilation.o: cutefish-clipboard_autogen/mocs_compilation.cpp.o
-
-.PHONY : cutefish-clipboard_autogen/mocs_compilation.o
-
-# target to build an object file
-cutefish-clipboard_autogen/mocs_compilation.cpp.o:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f clipboard/CMakeFiles/cutefish-clipboard.dir/build.make clipboard/CMakeFiles/cutefish-clipboard.dir/cutefish-clipboard_autogen/mocs_compilation.cpp.o
-.PHONY : cutefish-clipboard_autogen/mocs_compilation.cpp.o
-
-cutefish-clipboard_autogen/mocs_compilation.i: cutefish-clipboard_autogen/mocs_compilation.cpp.i
-
-.PHONY : cutefish-clipboard_autogen/mocs_compilation.i
-
-# target to preprocess a source file
-cutefish-clipboard_autogen/mocs_compilation.cpp.i:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f clipboard/CMakeFiles/cutefish-clipboard.dir/build.make clipboard/CMakeFiles/cutefish-clipboard.dir/cutefish-clipboard_autogen/mocs_compilation.cpp.i
-.PHONY : cutefish-clipboard_autogen/mocs_compilation.cpp.i
-
-cutefish-clipboard_autogen/mocs_compilation.s: cutefish-clipboard_autogen/mocs_compilation.cpp.s
-
-.PHONY : cutefish-clipboard_autogen/mocs_compilation.s
-
-# target to generate assembly for a file
-cutefish-clipboard_autogen/mocs_compilation.cpp.s:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f clipboard/CMakeFiles/cutefish-clipboard.dir/build.make clipboard/CMakeFiles/cutefish-clipboard.dir/cutefish-clipboard_autogen/mocs_compilation.cpp.s
-.PHONY : cutefish-clipboard_autogen/mocs_compilation.cpp.s
 
 main.o: main.cpp.o
 
@@ -265,7 +238,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f clipboard/CMakeFiles/cutefish-clipboard.dir/build.make clipboard/CMakeFiles/cutefish-clipboard.dir/main.cpp.o
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f clipboard/CMakeFiles/matsya-clipboard.dir/build.make clipboard/CMakeFiles/matsya-clipboard.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -274,7 +247,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f clipboard/CMakeFiles/cutefish-clipboard.dir/build.make clipboard/CMakeFiles/cutefish-clipboard.dir/main.cpp.i
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f clipboard/CMakeFiles/matsya-clipboard.dir/build.make clipboard/CMakeFiles/matsya-clipboard.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -283,8 +256,35 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f clipboard/CMakeFiles/cutefish-clipboard.dir/build.make clipboard/CMakeFiles/cutefish-clipboard.dir/main.cpp.s
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f clipboard/CMakeFiles/matsya-clipboard.dir/build.make clipboard/CMakeFiles/matsya-clipboard.dir/main.cpp.s
 .PHONY : main.cpp.s
+
+matsya-clipboard_autogen/mocs_compilation.o: matsya-clipboard_autogen/mocs_compilation.cpp.o
+
+.PHONY : matsya-clipboard_autogen/mocs_compilation.o
+
+# target to build an object file
+matsya-clipboard_autogen/mocs_compilation.cpp.o:
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f clipboard/CMakeFiles/matsya-clipboard.dir/build.make clipboard/CMakeFiles/matsya-clipboard.dir/matsya-clipboard_autogen/mocs_compilation.cpp.o
+.PHONY : matsya-clipboard_autogen/mocs_compilation.cpp.o
+
+matsya-clipboard_autogen/mocs_compilation.i: matsya-clipboard_autogen/mocs_compilation.cpp.i
+
+.PHONY : matsya-clipboard_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+matsya-clipboard_autogen/mocs_compilation.cpp.i:
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f clipboard/CMakeFiles/matsya-clipboard.dir/build.make clipboard/CMakeFiles/matsya-clipboard.dir/matsya-clipboard_autogen/mocs_compilation.cpp.i
+.PHONY : matsya-clipboard_autogen/mocs_compilation.cpp.i
+
+matsya-clipboard_autogen/mocs_compilation.s: matsya-clipboard_autogen/mocs_compilation.cpp.s
+
+.PHONY : matsya-clipboard_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+matsya-clipboard_autogen/mocs_compilation.cpp.s:
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f clipboard/CMakeFiles/matsya-clipboard.dir/build.make clipboard/CMakeFiles/matsya-clipboard.dir/matsya-clipboard_autogen/mocs_compilation.cpp.s
+.PHONY : matsya-clipboard_autogen/mocs_compilation.cpp.s
 
 # Help Target
 help:
@@ -298,17 +298,17 @@ help:
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
-	@echo "... cutefish-clipboard_autogen"
-	@echo "... cutefish-clipboard"
+	@echo "... matsya-clipboard_autogen"
+	@echo "... matsya-clipboard"
 	@echo "... clipboard.o"
 	@echo "... clipboard.i"
 	@echo "... clipboard.s"
-	@echo "... cutefish-clipboard_autogen/mocs_compilation.o"
-	@echo "... cutefish-clipboard_autogen/mocs_compilation.i"
-	@echo "... cutefish-clipboard_autogen/mocs_compilation.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... matsya-clipboard_autogen/mocs_compilation.o"
+	@echo "... matsya-clipboard_autogen/mocs_compilation.i"
+	@echo "... matsya-clipboard_autogen/mocs_compilation.s"
 .PHONY : help
 
 
@@ -320,6 +320,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/tokyo/clone/RebootOS/core/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/tokyo/Documents/GitHub/core/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

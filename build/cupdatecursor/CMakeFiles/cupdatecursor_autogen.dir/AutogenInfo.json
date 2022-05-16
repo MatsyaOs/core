@@ -1,12 +1,12 @@
 {
-	"BUILD_DIR" : "/home/tokyo/clone/RebootOS/core/build/cupdatecursor/cupdatecursor_autogen",
-	"CMAKE_BINARY_DIR" : "/home/tokyo/clone/RebootOS/core/build",
-	"CMAKE_CURRENT_BINARY_DIR" : "/home/tokyo/clone/RebootOS/core/build/cupdatecursor",
-	"CMAKE_CURRENT_SOURCE_DIR" : "/home/tokyo/clone/RebootOS/core/cupdatecursor",
+	"BUILD_DIR" : "/home/tokyo/Documents/GitHub/core/build/cupdatecursor/cupdatecursor_autogen",
+	"CMAKE_BINARY_DIR" : "/home/tokyo/Documents/GitHub/core/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/tokyo/Documents/GitHub/core/build/cupdatecursor",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/tokyo/Documents/GitHub/core/cupdatecursor",
 	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
 	"CMAKE_LIST_FILES" : 
 	[
-		"/home/tokyo/clone/RebootOS/core/cupdatecursor/CMakeLists.txt",
+		"/home/tokyo/Documents/GitHub/core/cupdatecursor/CMakeLists.txt",
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5ConfigVersion.cmake",
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5Config.cmake",
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5ModuleLocation.cmake",
@@ -32,13 +32,13 @@
 		"/usr/share/cmake-3.18/Modules/CheckFunctionExists.cmake",
 		"/usr/share/cmake-3.18/Modules/CheckLibraryExists.cmake"
 	],
-	"CMAKE_SOURCE_DIR" : "/home/tokyo/clone/RebootOS/core",
+	"CMAKE_SOURCE_DIR" : "/home/tokyo/Documents/GitHub/core",
 	"DEP_FILE" : "",
 	"DEP_FILE_RULE_NAME" : "",
 	"HEADERS" : [],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "/home/tokyo/clone/RebootOS/core/build/cupdatecursor/cupdatecursor_autogen/include",
-	"MOC_COMPILATION_FILE" : "/home/tokyo/clone/RebootOS/core/build/cupdatecursor/cupdatecursor_autogen/mocs_compilation.cpp",
+	"INCLUDE_DIR" : "/home/tokyo/Documents/GitHub/core/build/cupdatecursor/cupdatecursor_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/tokyo/Documents/GitHub/core/build/cupdatecursor/cupdatecursor_autogen/mocs_compilation.cpp",
 	"MOC_DEFINITIONS" : [ "QT_CORE_LIB", "QT_GUI_LIB", "QT_NO_DEBUG", "QT_X11EXTRAS_LIB" ],
 	"MOC_DEPEND_FILTERS" : 
 	[
@@ -49,8 +49,8 @@
 	],
 	"MOC_INCLUDES" : 
 	[
-		"/home/tokyo/clone/RebootOS/core/build/cupdatecursor",
-		"/home/tokyo/clone/RebootOS/core/cupdatecursor",
+		"/home/tokyo/Documents/GitHub/core/build/cupdatecursor",
+		"/home/tokyo/Documents/GitHub/core/cupdatecursor",
 		"/usr/include/x86_64-linux-gnu/qt5",
 		"/usr/include/x86_64-linux-gnu/qt5/QtCore",
 		"/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++",
@@ -75,20 +75,20 @@
 		"-c",
 		"/usr/share/cmake-3.18/Modules/CMakeCXXCompilerABI.cpp"
 	],
-	"MOC_PREDEFS_FILE" : "/home/tokyo/clone/RebootOS/core/build/cupdatecursor/cupdatecursor_autogen/moc_predefs.h",
+	"MOC_PREDEFS_FILE" : "/home/tokyo/Documents/GitHub/core/build/cupdatecursor/cupdatecursor_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : [],
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 2,
-	"PARSE_CACHE_FILE" : "/home/tokyo/clone/RebootOS/core/build/cupdatecursor/CMakeFiles/cupdatecursor_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE" : "/home/tokyo/Documents/GitHub/core/build/cupdatecursor/CMakeFiles/cupdatecursor_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "/usr/lib/qt5/bin/moc",
 	"QT_UIC_EXECUTABLE" : "/usr/lib/qt5/bin/uic",
 	"QT_VERSION_MAJOR" : 5,
 	"QT_VERSION_MINOR" : 15,
-	"SETTINGS_FILE" : "/home/tokyo/clone/RebootOS/core/build/cupdatecursor/CMakeFiles/cupdatecursor_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE" : "/home/tokyo/Documents/GitHub/core/build/cupdatecursor/CMakeFiles/cupdatecursor_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
-		[ "/home/tokyo/clone/RebootOS/core/cupdatecursor/main.cpp", "MU" ]
+		[ "/home/tokyo/Documents/GitHub/core/cupdatecursor/main.cpp", "MU" ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],

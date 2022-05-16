@@ -23,7 +23,7 @@ QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_NotificationAdaptor_t {
     QByteArrayData data[11];
-    char stringdata0[476];
+    char stringdata0[472];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -34,24 +34,24 @@ static const qt_meta_stringdata_NotificationAdaptor_t qt_meta_stringdata_Notific
     {
 QT_MOC_LITERAL(0, 0, 19), // "NotificationAdaptor"
 QT_MOC_LITERAL(1, 20, 15), // "D-Bus Interface"
-QT_MOC_LITERAL(2, 36, 25), // "com.cutefish.Notification"
-QT_MOC_LITERAL(3, 62, 19), // "D-Bus Introspection"
-QT_MOC_LITERAL(4, 82, 324), // "  <interface name=\"com.cutef..."
-QT_MOC_LITERAL(5, 379, 19), // "doNotDisturbChanged"
-QT_MOC_LITERAL(6, 399, 0), // ""
-QT_MOC_LITERAL(7, 400, 15), // "setDoNotDisturb"
-QT_MOC_LITERAL(8, 416, 7), // "enabled"
-QT_MOC_LITERAL(9, 424, 10), // "showWindow"
-QT_MOC_LITERAL(10, 435, 12) // "doNotDisturb"
+QT_MOC_LITERAL(2, 36, 23), // "com.matsya.Notification"
+QT_MOC_LITERAL(3, 60, 19), // "D-Bus Introspection"
+QT_MOC_LITERAL(4, 80, 322), // "  <interface name=\"com.matsy..."
+QT_MOC_LITERAL(5, 375, 19), // "doNotDisturbChanged"
+QT_MOC_LITERAL(6, 395, 0), // ""
+QT_MOC_LITERAL(7, 396, 15), // "setDoNotDisturb"
+QT_MOC_LITERAL(8, 412, 7), // "enabled"
+QT_MOC_LITERAL(9, 420, 10), // "showWindow"
+QT_MOC_LITERAL(10, 431, 12) // "doNotDisturb"
 
     },
     "NotificationAdaptor\0D-Bus Interface\0"
-    "com.cutefish.Notification\0D-Bus Introspection\0"
-    "  <interface name=\"com.cutefish.Notification\">\n    <method name=\"s"
-    "howWindow\"/>\n    <method name=\"setDoNotDisturb\">\n      <arg direc"
-    "tion=\"in\" type=\"b\" name=\"enabled\"/>\n    </method>\n    <signal "
-    "name=\"doNotDisturbChanged\"/>\n    <property access=\"read\" type=\"b"
-    "\" name=\"doNotDisturb\"/>\n  </interface>\n\0"
+    "com.matsya.Notification\0D-Bus Introspection\0"
+    "  <interface name=\"com.matsya.Notification\">\n    <method name=\"sho"
+    "wWindow\"/>\n    <method name=\"setDoNotDisturb\">\n      <arg directi"
+    "on=\"in\" type=\"b\" name=\"enabled\"/>\n    </method>\n    <signal na"
+    "me=\"doNotDisturbChanged\"/>\n    <property access=\"read\" type=\"b\""
+    " name=\"doNotDisturb\"/>\n  </interface>\n\0"
     "doNotDisturbChanged\0\0setDoNotDisturb\0"
     "enabled\0showWindow\0doNotDisturb"
 };

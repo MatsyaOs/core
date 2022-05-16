@@ -23,7 +23,7 @@ QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_PowerManagerAdaptor_t {
     QByteArrayData data[10];
-    char stringdata0[581];
+    char stringdata0[577];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -34,24 +34,24 @@ static const qt_meta_stringdata_PowerManagerAdaptor_t qt_meta_stringdata_PowerMa
     {
 QT_MOC_LITERAL(0, 0, 19), // "PowerManagerAdaptor"
 QT_MOC_LITERAL(1, 20, 15), // "D-Bus Interface"
-QT_MOC_LITERAL(2, 36, 25), // "com.cutefish.PowerManager"
-QT_MOC_LITERAL(3, 62, 19), // "D-Bus Introspection"
-QT_MOC_LITERAL(4, 82, 421), // "  <interface name=\"com.cutef..."
-QT_MOC_LITERAL(5, 467, 20), // "setDimDisplayTimeout"
-QT_MOC_LITERAL(6, 488, 0), // ""
-QT_MOC_LITERAL(7, 489, 5), // "value"
-QT_MOC_LITERAL(8, 495, 23), // "setLockWhenClosedScreen"
-QT_MOC_LITERAL(9, 519, 24) // "setSleepWhenClosedScreen"
+QT_MOC_LITERAL(2, 36, 23), // "com.matsya.PowerManager"
+QT_MOC_LITERAL(3, 60, 19), // "D-Bus Introspection"
+QT_MOC_LITERAL(4, 80, 419), // "  <interface name=\"com.matsy..."
+QT_MOC_LITERAL(5, 463, 20), // "setDimDisplayTimeout"
+QT_MOC_LITERAL(6, 484, 0), // ""
+QT_MOC_LITERAL(7, 485, 5), // "value"
+QT_MOC_LITERAL(8, 491, 23), // "setLockWhenClosedScreen"
+QT_MOC_LITERAL(9, 515, 24) // "setSleepWhenClosedScreen"
 
     },
     "PowerManagerAdaptor\0D-Bus Interface\0"
-    "com.cutefish.PowerManager\0D-Bus Introspection\0"
-    "  <interface name=\"com.cutefish.PowerManager\">\n    <method name=\"s"
-    "etDimDisplayTimeout\">\n      <arg direction=\"in\" type=\"i\" name=\""
-    "value\"/>\n    </method>\n    <method name=\"setSleepWhenClosedScreen\""
-    ">\n      <arg direction=\"in\" type=\"b\" name=\"value\"/>\n    </meth"
-    "od>\n    <method name=\"setLockWhenClosedScreen\">\n      <arg directi"
-    "on=\"in\" type=\"b\" name=\"value\"/>\n    </method>\n  </interface>\n\0"
+    "com.matsya.PowerManager\0D-Bus Introspection\0"
+    "  <interface name=\"com.matsya.PowerManager\">\n    <method name=\"set"
+    "DimDisplayTimeout\">\n      <arg direction=\"in\" type=\"i\" name=\"va"
+    "lue\"/>\n    </method>\n    <method name=\"setSleepWhenClosedScreen\">"
+    "\n      <arg direction=\"in\" type=\"b\" name=\"value\"/>\n    </metho"
+    "d>\n    <method name=\"setLockWhenClosedScreen\">\n      <arg directio"
+    "n=\"in\" type=\"b\" name=\"value\"/>\n    </method>\n  </interface>\n\0"
     "setDimDisplayTimeout\0\0value\0"
     "setLockWhenClosedScreen\0"
     "setSleepWhenClosedScreen"

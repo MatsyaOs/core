@@ -1,4 +1,4 @@
-# Install script for directory: /home/tokyo/clone/RebootOS/core
+# Install script for directory: /home/tokyo/Documents/GitHub/core
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,32 +44,32 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xRuntimex" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/etc/cutefish")
+   "/etc/matsya")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/etc" TYPE FILE FILES "/home/tokyo/clone/RebootOS/core/cutefish")
+file(INSTALL DESTINATION "/etc" TYPE FILE FILES "/home/tokyo/Documents/GitHub/core/matsya")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/tokyo/clone/RebootOS/core/build/polkit-agent/cmake_install.cmake")
-  include("/home/tokyo/clone/RebootOS/core/build/screen-brightness/cmake_install.cmake")
-  include("/home/tokyo/clone/RebootOS/core/build/session/cmake_install.cmake")
-  include("/home/tokyo/clone/RebootOS/core/build/settings-daemon/cmake_install.cmake")
-  include("/home/tokyo/clone/RebootOS/core/build/shutdown-ui/cmake_install.cmake")
-  include("/home/tokyo/clone/RebootOS/core/build/xembed-sni-proxy/cmake_install.cmake")
-  include("/home/tokyo/clone/RebootOS/core/build/powerman/cmake_install.cmake")
-  include("/home/tokyo/clone/RebootOS/core/build/cpufreq/cmake_install.cmake")
-  include("/home/tokyo/clone/RebootOS/core/build/chotkeys/cmake_install.cmake")
-  include("/home/tokyo/clone/RebootOS/core/build/cupdatecursor/cmake_install.cmake")
-  include("/home/tokyo/clone/RebootOS/core/build/gmenuproxy/cmake_install.cmake")
-  include("/home/tokyo/clone/RebootOS/core/build/notificationd/cmake_install.cmake")
-  include("/home/tokyo/clone/RebootOS/core/build/sddm-helper/cmake_install.cmake")
-  include("/home/tokyo/clone/RebootOS/core/build/clipboard/cmake_install.cmake")
+  include("/home/tokyo/Documents/GitHub/core/build/polkit-agent/cmake_install.cmake")
+  include("/home/tokyo/Documents/GitHub/core/build/screen-brightness/cmake_install.cmake")
+  include("/home/tokyo/Documents/GitHub/core/build/session/cmake_install.cmake")
+  include("/home/tokyo/Documents/GitHub/core/build/settings-daemon/cmake_install.cmake")
+  include("/home/tokyo/Documents/GitHub/core/build/shutdown-ui/cmake_install.cmake")
+  include("/home/tokyo/Documents/GitHub/core/build/xembed-sni-proxy/cmake_install.cmake")
+  include("/home/tokyo/Documents/GitHub/core/build/powerman/cmake_install.cmake")
+  include("/home/tokyo/Documents/GitHub/core/build/cpufreq/cmake_install.cmake")
+  include("/home/tokyo/Documents/GitHub/core/build/chotkeys/cmake_install.cmake")
+  include("/home/tokyo/Documents/GitHub/core/build/cupdatecursor/cmake_install.cmake")
+  include("/home/tokyo/Documents/GitHub/core/build/gmenuproxy/cmake_install.cmake")
+  include("/home/tokyo/Documents/GitHub/core/build/notificationd/cmake_install.cmake")
+  include("/home/tokyo/Documents/GitHub/core/build/sddm-helper/cmake_install.cmake")
+  include("/home/tokyo/Documents/GitHub/core/build/clipboard/cmake_install.cmake")
 
 endif()
 
@@ -81,5 +81,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/tokyo/clone/RebootOS/core/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/tokyo/Documents/GitHub/core/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

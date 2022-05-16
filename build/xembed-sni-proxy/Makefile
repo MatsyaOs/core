@@ -67,10 +67,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tokyo/clone/RebootOS/core
+CMAKE_SOURCE_DIR = /home/tokyo/Documents/GitHub/core
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tokyo/clone/RebootOS/core/build
+CMAKE_BINARY_DIR = /home/tokyo/Documents/GitHub/core/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -145,14 +145,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/tokyo/clone/RebootOS/core/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/RebootOS/core/build/CMakeFiles /home/tokyo/clone/RebootOS/core/build/xembed-sni-proxy//CMakeFiles/progress.marks
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 xembed-sni-proxy/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/RebootOS/core/build/CMakeFiles 0
+	cd /home/tokyo/Documents/GitHub/core/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/Documents/GitHub/core/build/CMakeFiles /home/tokyo/Documents/GitHub/core/build/xembed-sni-proxy//CMakeFiles/progress.marks
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 xembed-sni-proxy/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/Documents/GitHub/core/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 xembed-sni-proxy/clean
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 xembed-sni-proxy/clean
 .PHONY : clean
 
 # The main clean target
@@ -162,75 +162,48 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 xembed-sni-proxy/preinstall
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 xembed-sni-proxy/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 xembed-sni-proxy/preinstall
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 xembed-sni-proxy/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/tokyo/clone/RebootOS/core/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/tokyo/Documents/GitHub/core/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
-xembed-sni-proxy/CMakeFiles/cutefish-xembedsniproxy.dir/rule:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 xembed-sni-proxy/CMakeFiles/cutefish-xembedsniproxy.dir/rule
-.PHONY : xembed-sni-proxy/CMakeFiles/cutefish-xembedsniproxy.dir/rule
+xembed-sni-proxy/CMakeFiles/matsya-xembedsniproxy.dir/rule:
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 xembed-sni-proxy/CMakeFiles/matsya-xembedsniproxy.dir/rule
+.PHONY : xembed-sni-proxy/CMakeFiles/matsya-xembedsniproxy.dir/rule
 
 # Convenience name for target.
-cutefish-xembedsniproxy: xembed-sni-proxy/CMakeFiles/cutefish-xembedsniproxy.dir/rule
+matsya-xembedsniproxy: xembed-sni-proxy/CMakeFiles/matsya-xembedsniproxy.dir/rule
 
-.PHONY : cutefish-xembedsniproxy
+.PHONY : matsya-xembedsniproxy
 
 # fast build rule for target.
-cutefish-xembedsniproxy/fast:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f xembed-sni-proxy/CMakeFiles/cutefish-xembedsniproxy.dir/build.make xembed-sni-proxy/CMakeFiles/cutefish-xembedsniproxy.dir/build
-.PHONY : cutefish-xembedsniproxy/fast
+matsya-xembedsniproxy/fast:
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f xembed-sni-proxy/CMakeFiles/matsya-xembedsniproxy.dir/build.make xembed-sni-proxy/CMakeFiles/matsya-xembedsniproxy.dir/build
+.PHONY : matsya-xembedsniproxy/fast
 
 # Convenience name for target.
-xembed-sni-proxy/CMakeFiles/cutefish-xembedsniproxy_autogen.dir/rule:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 xembed-sni-proxy/CMakeFiles/cutefish-xembedsniproxy_autogen.dir/rule
-.PHONY : xembed-sni-proxy/CMakeFiles/cutefish-xembedsniproxy_autogen.dir/rule
+xembed-sni-proxy/CMakeFiles/matsya-xembedsniproxy_autogen.dir/rule:
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 xembed-sni-proxy/CMakeFiles/matsya-xembedsniproxy_autogen.dir/rule
+.PHONY : xembed-sni-proxy/CMakeFiles/matsya-xembedsniproxy_autogen.dir/rule
 
 # Convenience name for target.
-cutefish-xembedsniproxy_autogen: xembed-sni-proxy/CMakeFiles/cutefish-xembedsniproxy_autogen.dir/rule
+matsya-xembedsniproxy_autogen: xembed-sni-proxy/CMakeFiles/matsya-xembedsniproxy_autogen.dir/rule
 
-.PHONY : cutefish-xembedsniproxy_autogen
+.PHONY : matsya-xembedsniproxy_autogen
 
 # fast build rule for target.
-cutefish-xembedsniproxy_autogen/fast:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f xembed-sni-proxy/CMakeFiles/cutefish-xembedsniproxy_autogen.dir/build.make xembed-sni-proxy/CMakeFiles/cutefish-xembedsniproxy_autogen.dir/build
-.PHONY : cutefish-xembedsniproxy_autogen/fast
-
-cutefish-xembedsniproxy_autogen/mocs_compilation.o: cutefish-xembedsniproxy_autogen/mocs_compilation.cpp.o
-
-.PHONY : cutefish-xembedsniproxy_autogen/mocs_compilation.o
-
-# target to build an object file
-cutefish-xembedsniproxy_autogen/mocs_compilation.cpp.o:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f xembed-sni-proxy/CMakeFiles/cutefish-xembedsniproxy.dir/build.make xembed-sni-proxy/CMakeFiles/cutefish-xembedsniproxy.dir/cutefish-xembedsniproxy_autogen/mocs_compilation.cpp.o
-.PHONY : cutefish-xembedsniproxy_autogen/mocs_compilation.cpp.o
-
-cutefish-xembedsniproxy_autogen/mocs_compilation.i: cutefish-xembedsniproxy_autogen/mocs_compilation.cpp.i
-
-.PHONY : cutefish-xembedsniproxy_autogen/mocs_compilation.i
-
-# target to preprocess a source file
-cutefish-xembedsniproxy_autogen/mocs_compilation.cpp.i:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f xembed-sni-proxy/CMakeFiles/cutefish-xembedsniproxy.dir/build.make xembed-sni-proxy/CMakeFiles/cutefish-xembedsniproxy.dir/cutefish-xembedsniproxy_autogen/mocs_compilation.cpp.i
-.PHONY : cutefish-xembedsniproxy_autogen/mocs_compilation.cpp.i
-
-cutefish-xembedsniproxy_autogen/mocs_compilation.s: cutefish-xembedsniproxy_autogen/mocs_compilation.cpp.s
-
-.PHONY : cutefish-xembedsniproxy_autogen/mocs_compilation.s
-
-# target to generate assembly for a file
-cutefish-xembedsniproxy_autogen/mocs_compilation.cpp.s:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f xembed-sni-proxy/CMakeFiles/cutefish-xembedsniproxy.dir/build.make xembed-sni-proxy/CMakeFiles/cutefish-xembedsniproxy.dir/cutefish-xembedsniproxy_autogen/mocs_compilation.cpp.s
-.PHONY : cutefish-xembedsniproxy_autogen/mocs_compilation.cpp.s
+matsya-xembedsniproxy_autogen/fast:
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f xembed-sni-proxy/CMakeFiles/matsya-xembedsniproxy_autogen.dir/build.make xembed-sni-proxy/CMakeFiles/matsya-xembedsniproxy_autogen.dir/build
+.PHONY : matsya-xembedsniproxy_autogen/fast
 
 debug.o: debug.cpp.o
 
@@ -238,7 +211,7 @@ debug.o: debug.cpp.o
 
 # target to build an object file
 debug.cpp.o:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f xembed-sni-proxy/CMakeFiles/cutefish-xembedsniproxy.dir/build.make xembed-sni-proxy/CMakeFiles/cutefish-xembedsniproxy.dir/debug.cpp.o
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f xembed-sni-proxy/CMakeFiles/matsya-xembedsniproxy.dir/build.make xembed-sni-proxy/CMakeFiles/matsya-xembedsniproxy.dir/debug.cpp.o
 .PHONY : debug.cpp.o
 
 debug.i: debug.cpp.i
@@ -247,7 +220,7 @@ debug.i: debug.cpp.i
 
 # target to preprocess a source file
 debug.cpp.i:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f xembed-sni-proxy/CMakeFiles/cutefish-xembedsniproxy.dir/build.make xembed-sni-proxy/CMakeFiles/cutefish-xembedsniproxy.dir/debug.cpp.i
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f xembed-sni-proxy/CMakeFiles/matsya-xembedsniproxy.dir/build.make xembed-sni-proxy/CMakeFiles/matsya-xembedsniproxy.dir/debug.cpp.i
 .PHONY : debug.cpp.i
 
 debug.s: debug.cpp.s
@@ -256,7 +229,7 @@ debug.s: debug.cpp.s
 
 # target to generate assembly for a file
 debug.cpp.s:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f xembed-sni-proxy/CMakeFiles/cutefish-xembedsniproxy.dir/build.make xembed-sni-proxy/CMakeFiles/cutefish-xembedsniproxy.dir/debug.cpp.s
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f xembed-sni-proxy/CMakeFiles/matsya-xembedsniproxy.dir/build.make xembed-sni-proxy/CMakeFiles/matsya-xembedsniproxy.dir/debug.cpp.s
 .PHONY : debug.cpp.s
 
 fdoselectionmanager.o: fdoselectionmanager.cpp.o
@@ -265,7 +238,7 @@ fdoselectionmanager.o: fdoselectionmanager.cpp.o
 
 # target to build an object file
 fdoselectionmanager.cpp.o:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f xembed-sni-proxy/CMakeFiles/cutefish-xembedsniproxy.dir/build.make xembed-sni-proxy/CMakeFiles/cutefish-xembedsniproxy.dir/fdoselectionmanager.cpp.o
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f xembed-sni-proxy/CMakeFiles/matsya-xembedsniproxy.dir/build.make xembed-sni-proxy/CMakeFiles/matsya-xembedsniproxy.dir/fdoselectionmanager.cpp.o
 .PHONY : fdoselectionmanager.cpp.o
 
 fdoselectionmanager.i: fdoselectionmanager.cpp.i
@@ -274,7 +247,7 @@ fdoselectionmanager.i: fdoselectionmanager.cpp.i
 
 # target to preprocess a source file
 fdoselectionmanager.cpp.i:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f xembed-sni-proxy/CMakeFiles/cutefish-xembedsniproxy.dir/build.make xembed-sni-proxy/CMakeFiles/cutefish-xembedsniproxy.dir/fdoselectionmanager.cpp.i
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f xembed-sni-proxy/CMakeFiles/matsya-xembedsniproxy.dir/build.make xembed-sni-proxy/CMakeFiles/matsya-xembedsniproxy.dir/fdoselectionmanager.cpp.i
 .PHONY : fdoselectionmanager.cpp.i
 
 fdoselectionmanager.s: fdoselectionmanager.cpp.s
@@ -283,7 +256,7 @@ fdoselectionmanager.s: fdoselectionmanager.cpp.s
 
 # target to generate assembly for a file
 fdoselectionmanager.cpp.s:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f xembed-sni-proxy/CMakeFiles/cutefish-xembedsniproxy.dir/build.make xembed-sni-proxy/CMakeFiles/cutefish-xembedsniproxy.dir/fdoselectionmanager.cpp.s
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f xembed-sni-proxy/CMakeFiles/matsya-xembedsniproxy.dir/build.make xembed-sni-proxy/CMakeFiles/matsya-xembedsniproxy.dir/fdoselectionmanager.cpp.s
 .PHONY : fdoselectionmanager.cpp.s
 
 main.o: main.cpp.o
@@ -292,7 +265,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f xembed-sni-proxy/CMakeFiles/cutefish-xembedsniproxy.dir/build.make xembed-sni-proxy/CMakeFiles/cutefish-xembedsniproxy.dir/main.cpp.o
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f xembed-sni-proxy/CMakeFiles/matsya-xembedsniproxy.dir/build.make xembed-sni-proxy/CMakeFiles/matsya-xembedsniproxy.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -301,7 +274,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f xembed-sni-proxy/CMakeFiles/cutefish-xembedsniproxy.dir/build.make xembed-sni-proxy/CMakeFiles/cutefish-xembedsniproxy.dir/main.cpp.i
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f xembed-sni-proxy/CMakeFiles/matsya-xembedsniproxy.dir/build.make xembed-sni-proxy/CMakeFiles/matsya-xembedsniproxy.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -310,8 +283,35 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f xembed-sni-proxy/CMakeFiles/cutefish-xembedsniproxy.dir/build.make xembed-sni-proxy/CMakeFiles/cutefish-xembedsniproxy.dir/main.cpp.s
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f xembed-sni-proxy/CMakeFiles/matsya-xembedsniproxy.dir/build.make xembed-sni-proxy/CMakeFiles/matsya-xembedsniproxy.dir/main.cpp.s
 .PHONY : main.cpp.s
+
+matsya-xembedsniproxy_autogen/mocs_compilation.o: matsya-xembedsniproxy_autogen/mocs_compilation.cpp.o
+
+.PHONY : matsya-xembedsniproxy_autogen/mocs_compilation.o
+
+# target to build an object file
+matsya-xembedsniproxy_autogen/mocs_compilation.cpp.o:
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f xembed-sni-proxy/CMakeFiles/matsya-xembedsniproxy.dir/build.make xembed-sni-proxy/CMakeFiles/matsya-xembedsniproxy.dir/matsya-xembedsniproxy_autogen/mocs_compilation.cpp.o
+.PHONY : matsya-xembedsniproxy_autogen/mocs_compilation.cpp.o
+
+matsya-xembedsniproxy_autogen/mocs_compilation.i: matsya-xembedsniproxy_autogen/mocs_compilation.cpp.i
+
+.PHONY : matsya-xembedsniproxy_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+matsya-xembedsniproxy_autogen/mocs_compilation.cpp.i:
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f xembed-sni-proxy/CMakeFiles/matsya-xembedsniproxy.dir/build.make xembed-sni-proxy/CMakeFiles/matsya-xembedsniproxy.dir/matsya-xembedsniproxy_autogen/mocs_compilation.cpp.i
+.PHONY : matsya-xembedsniproxy_autogen/mocs_compilation.cpp.i
+
+matsya-xembedsniproxy_autogen/mocs_compilation.s: matsya-xembedsniproxy_autogen/mocs_compilation.cpp.s
+
+.PHONY : matsya-xembedsniproxy_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+matsya-xembedsniproxy_autogen/mocs_compilation.cpp.s:
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f xembed-sni-proxy/CMakeFiles/matsya-xembedsniproxy.dir/build.make xembed-sni-proxy/CMakeFiles/matsya-xembedsniproxy.dir/matsya-xembedsniproxy_autogen/mocs_compilation.cpp.s
+.PHONY : matsya-xembedsniproxy_autogen/mocs_compilation.cpp.s
 
 snidbus.o: snidbus.cpp.o
 
@@ -319,7 +319,7 @@ snidbus.o: snidbus.cpp.o
 
 # target to build an object file
 snidbus.cpp.o:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f xembed-sni-proxy/CMakeFiles/cutefish-xembedsniproxy.dir/build.make xembed-sni-proxy/CMakeFiles/cutefish-xembedsniproxy.dir/snidbus.cpp.o
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f xembed-sni-proxy/CMakeFiles/matsya-xembedsniproxy.dir/build.make xembed-sni-proxy/CMakeFiles/matsya-xembedsniproxy.dir/snidbus.cpp.o
 .PHONY : snidbus.cpp.o
 
 snidbus.i: snidbus.cpp.i
@@ -328,7 +328,7 @@ snidbus.i: snidbus.cpp.i
 
 # target to preprocess a source file
 snidbus.cpp.i:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f xembed-sni-proxy/CMakeFiles/cutefish-xembedsniproxy.dir/build.make xembed-sni-proxy/CMakeFiles/cutefish-xembedsniproxy.dir/snidbus.cpp.i
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f xembed-sni-proxy/CMakeFiles/matsya-xembedsniproxy.dir/build.make xembed-sni-proxy/CMakeFiles/matsya-xembedsniproxy.dir/snidbus.cpp.i
 .PHONY : snidbus.cpp.i
 
 snidbus.s: snidbus.cpp.s
@@ -337,7 +337,7 @@ snidbus.s: snidbus.cpp.s
 
 # target to generate assembly for a file
 snidbus.cpp.s:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f xembed-sni-proxy/CMakeFiles/cutefish-xembedsniproxy.dir/build.make xembed-sni-proxy/CMakeFiles/cutefish-xembedsniproxy.dir/snidbus.cpp.s
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f xembed-sni-proxy/CMakeFiles/matsya-xembedsniproxy.dir/build.make xembed-sni-proxy/CMakeFiles/matsya-xembedsniproxy.dir/snidbus.cpp.s
 .PHONY : snidbus.cpp.s
 
 sniproxy.o: sniproxy.cpp.o
@@ -346,7 +346,7 @@ sniproxy.o: sniproxy.cpp.o
 
 # target to build an object file
 sniproxy.cpp.o:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f xembed-sni-proxy/CMakeFiles/cutefish-xembedsniproxy.dir/build.make xembed-sni-proxy/CMakeFiles/cutefish-xembedsniproxy.dir/sniproxy.cpp.o
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f xembed-sni-proxy/CMakeFiles/matsya-xembedsniproxy.dir/build.make xembed-sni-proxy/CMakeFiles/matsya-xembedsniproxy.dir/sniproxy.cpp.o
 .PHONY : sniproxy.cpp.o
 
 sniproxy.i: sniproxy.cpp.i
@@ -355,7 +355,7 @@ sniproxy.i: sniproxy.cpp.i
 
 # target to preprocess a source file
 sniproxy.cpp.i:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f xembed-sni-proxy/CMakeFiles/cutefish-xembedsniproxy.dir/build.make xembed-sni-proxy/CMakeFiles/cutefish-xembedsniproxy.dir/sniproxy.cpp.i
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f xembed-sni-proxy/CMakeFiles/matsya-xembedsniproxy.dir/build.make xembed-sni-proxy/CMakeFiles/matsya-xembedsniproxy.dir/sniproxy.cpp.i
 .PHONY : sniproxy.cpp.i
 
 sniproxy.s: sniproxy.cpp.s
@@ -364,7 +364,7 @@ sniproxy.s: sniproxy.cpp.s
 
 # target to generate assembly for a file
 sniproxy.cpp.s:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f xembed-sni-proxy/CMakeFiles/cutefish-xembedsniproxy.dir/build.make xembed-sni-proxy/CMakeFiles/cutefish-xembedsniproxy.dir/sniproxy.cpp.s
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f xembed-sni-proxy/CMakeFiles/matsya-xembedsniproxy.dir/build.make xembed-sni-proxy/CMakeFiles/matsya-xembedsniproxy.dir/sniproxy.cpp.s
 .PHONY : sniproxy.cpp.s
 
 statusnotifieritemadaptor.o: statusnotifieritemadaptor.cpp.o
@@ -373,7 +373,7 @@ statusnotifieritemadaptor.o: statusnotifieritemadaptor.cpp.o
 
 # target to build an object file
 statusnotifieritemadaptor.cpp.o:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f xembed-sni-proxy/CMakeFiles/cutefish-xembedsniproxy.dir/build.make xembed-sni-proxy/CMakeFiles/cutefish-xembedsniproxy.dir/statusnotifieritemadaptor.cpp.o
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f xembed-sni-proxy/CMakeFiles/matsya-xembedsniproxy.dir/build.make xembed-sni-proxy/CMakeFiles/matsya-xembedsniproxy.dir/statusnotifieritemadaptor.cpp.o
 .PHONY : statusnotifieritemadaptor.cpp.o
 
 statusnotifieritemadaptor.i: statusnotifieritemadaptor.cpp.i
@@ -382,7 +382,7 @@ statusnotifieritemadaptor.i: statusnotifieritemadaptor.cpp.i
 
 # target to preprocess a source file
 statusnotifieritemadaptor.cpp.i:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f xembed-sni-proxy/CMakeFiles/cutefish-xembedsniproxy.dir/build.make xembed-sni-proxy/CMakeFiles/cutefish-xembedsniproxy.dir/statusnotifieritemadaptor.cpp.i
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f xembed-sni-proxy/CMakeFiles/matsya-xembedsniproxy.dir/build.make xembed-sni-proxy/CMakeFiles/matsya-xembedsniproxy.dir/statusnotifieritemadaptor.cpp.i
 .PHONY : statusnotifieritemadaptor.cpp.i
 
 statusnotifieritemadaptor.s: statusnotifieritemadaptor.cpp.s
@@ -391,7 +391,7 @@ statusnotifieritemadaptor.s: statusnotifieritemadaptor.cpp.s
 
 # target to generate assembly for a file
 statusnotifieritemadaptor.cpp.s:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f xembed-sni-proxy/CMakeFiles/cutefish-xembedsniproxy.dir/build.make xembed-sni-proxy/CMakeFiles/cutefish-xembedsniproxy.dir/statusnotifieritemadaptor.cpp.s
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f xembed-sni-proxy/CMakeFiles/matsya-xembedsniproxy.dir/build.make xembed-sni-proxy/CMakeFiles/matsya-xembedsniproxy.dir/statusnotifieritemadaptor.cpp.s
 .PHONY : statusnotifieritemadaptor.cpp.s
 
 statusnotifierwatcher_interface.o: statusnotifierwatcher_interface.cpp.o
@@ -400,7 +400,7 @@ statusnotifierwatcher_interface.o: statusnotifierwatcher_interface.cpp.o
 
 # target to build an object file
 statusnotifierwatcher_interface.cpp.o:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f xembed-sni-proxy/CMakeFiles/cutefish-xembedsniproxy.dir/build.make xembed-sni-proxy/CMakeFiles/cutefish-xembedsniproxy.dir/statusnotifierwatcher_interface.cpp.o
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f xembed-sni-proxy/CMakeFiles/matsya-xembedsniproxy.dir/build.make xembed-sni-proxy/CMakeFiles/matsya-xembedsniproxy.dir/statusnotifierwatcher_interface.cpp.o
 .PHONY : statusnotifierwatcher_interface.cpp.o
 
 statusnotifierwatcher_interface.i: statusnotifierwatcher_interface.cpp.i
@@ -409,7 +409,7 @@ statusnotifierwatcher_interface.i: statusnotifierwatcher_interface.cpp.i
 
 # target to preprocess a source file
 statusnotifierwatcher_interface.cpp.i:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f xembed-sni-proxy/CMakeFiles/cutefish-xembedsniproxy.dir/build.make xembed-sni-proxy/CMakeFiles/cutefish-xembedsniproxy.dir/statusnotifierwatcher_interface.cpp.i
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f xembed-sni-proxy/CMakeFiles/matsya-xembedsniproxy.dir/build.make xembed-sni-proxy/CMakeFiles/matsya-xembedsniproxy.dir/statusnotifierwatcher_interface.cpp.i
 .PHONY : statusnotifierwatcher_interface.cpp.i
 
 statusnotifierwatcher_interface.s: statusnotifierwatcher_interface.cpp.s
@@ -418,7 +418,7 @@ statusnotifierwatcher_interface.s: statusnotifierwatcher_interface.cpp.s
 
 # target to generate assembly for a file
 statusnotifierwatcher_interface.cpp.s:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f xembed-sni-proxy/CMakeFiles/cutefish-xembedsniproxy.dir/build.make xembed-sni-proxy/CMakeFiles/cutefish-xembedsniproxy.dir/statusnotifierwatcher_interface.cpp.s
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f xembed-sni-proxy/CMakeFiles/matsya-xembedsniproxy.dir/build.make xembed-sni-proxy/CMakeFiles/matsya-xembedsniproxy.dir/statusnotifierwatcher_interface.cpp.s
 .PHONY : statusnotifierwatcher_interface.cpp.s
 
 xtestsender.o: xtestsender.cpp.o
@@ -427,7 +427,7 @@ xtestsender.o: xtestsender.cpp.o
 
 # target to build an object file
 xtestsender.cpp.o:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f xembed-sni-proxy/CMakeFiles/cutefish-xembedsniproxy.dir/build.make xembed-sni-proxy/CMakeFiles/cutefish-xembedsniproxy.dir/xtestsender.cpp.o
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f xembed-sni-proxy/CMakeFiles/matsya-xembedsniproxy.dir/build.make xembed-sni-proxy/CMakeFiles/matsya-xembedsniproxy.dir/xtestsender.cpp.o
 .PHONY : xtestsender.cpp.o
 
 xtestsender.i: xtestsender.cpp.i
@@ -436,7 +436,7 @@ xtestsender.i: xtestsender.cpp.i
 
 # target to preprocess a source file
 xtestsender.cpp.i:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f xembed-sni-proxy/CMakeFiles/cutefish-xembedsniproxy.dir/build.make xembed-sni-proxy/CMakeFiles/cutefish-xembedsniproxy.dir/xtestsender.cpp.i
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f xembed-sni-proxy/CMakeFiles/matsya-xembedsniproxy.dir/build.make xembed-sni-proxy/CMakeFiles/matsya-xembedsniproxy.dir/xtestsender.cpp.i
 .PHONY : xtestsender.cpp.i
 
 xtestsender.s: xtestsender.cpp.s
@@ -445,7 +445,7 @@ xtestsender.s: xtestsender.cpp.s
 
 # target to generate assembly for a file
 xtestsender.cpp.s:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f xembed-sni-proxy/CMakeFiles/cutefish-xembedsniproxy.dir/build.make xembed-sni-proxy/CMakeFiles/cutefish-xembedsniproxy.dir/xtestsender.cpp.s
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f xembed-sni-proxy/CMakeFiles/matsya-xembedsniproxy.dir/build.make xembed-sni-proxy/CMakeFiles/matsya-xembedsniproxy.dir/xtestsender.cpp.s
 .PHONY : xtestsender.cpp.s
 
 # Help Target
@@ -460,11 +460,8 @@ help:
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
-	@echo "... cutefish-xembedsniproxy_autogen"
-	@echo "... cutefish-xembedsniproxy"
-	@echo "... cutefish-xembedsniproxy_autogen/mocs_compilation.o"
-	@echo "... cutefish-xembedsniproxy_autogen/mocs_compilation.i"
-	@echo "... cutefish-xembedsniproxy_autogen/mocs_compilation.s"
+	@echo "... matsya-xembedsniproxy_autogen"
+	@echo "... matsya-xembedsniproxy"
 	@echo "... debug.o"
 	@echo "... debug.i"
 	@echo "... debug.s"
@@ -474,6 +471,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... matsya-xembedsniproxy_autogen/mocs_compilation.o"
+	@echo "... matsya-xembedsniproxy_autogen/mocs_compilation.i"
+	@echo "... matsya-xembedsniproxy_autogen/mocs_compilation.s"
 	@echo "... snidbus.o"
 	@echo "... snidbus.i"
 	@echo "... snidbus.s"
@@ -500,6 +500,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/tokyo/clone/RebootOS/core/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/tokyo/Documents/GitHub/core/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

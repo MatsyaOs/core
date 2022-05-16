@@ -67,10 +67,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tokyo/clone/RebootOS/core
+CMAKE_SOURCE_DIR = /home/tokyo/Documents/GitHub/core
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tokyo/clone/RebootOS/core/build
+CMAKE_BINARY_DIR = /home/tokyo/Documents/GitHub/core/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -145,14 +145,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/tokyo/clone/RebootOS/core/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/RebootOS/core/build/CMakeFiles /home/tokyo/clone/RebootOS/core/build/gmenuproxy//CMakeFiles/progress.marks
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gmenuproxy/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/RebootOS/core/build/CMakeFiles 0
+	cd /home/tokyo/Documents/GitHub/core/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/Documents/GitHub/core/build/CMakeFiles /home/tokyo/Documents/GitHub/core/build/gmenuproxy//CMakeFiles/progress.marks
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gmenuproxy/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/Documents/GitHub/core/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gmenuproxy/clean
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gmenuproxy/clean
 .PHONY : clean
 
 # The main clean target
@@ -162,37 +162,37 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gmenuproxy/preinstall
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gmenuproxy/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gmenuproxy/preinstall
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gmenuproxy/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/tokyo/clone/RebootOS/core/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/tokyo/Documents/GitHub/core/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
-gmenuproxy/CMakeFiles/cutefish-gmenuproxy.dir/rule:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gmenuproxy/CMakeFiles/cutefish-gmenuproxy.dir/rule
-.PHONY : gmenuproxy/CMakeFiles/cutefish-gmenuproxy.dir/rule
+gmenuproxy/CMakeFiles/matsya-gmenuproxy.dir/rule:
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gmenuproxy/CMakeFiles/matsya-gmenuproxy.dir/rule
+.PHONY : gmenuproxy/CMakeFiles/matsya-gmenuproxy.dir/rule
 
 # Convenience name for target.
-cutefish-gmenuproxy: gmenuproxy/CMakeFiles/cutefish-gmenuproxy.dir/rule
+matsya-gmenuproxy: gmenuproxy/CMakeFiles/matsya-gmenuproxy.dir/rule
 
-.PHONY : cutefish-gmenuproxy
+.PHONY : matsya-gmenuproxy
 
 # fast build rule for target.
-cutefish-gmenuproxy/fast:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f gmenuproxy/CMakeFiles/cutefish-gmenuproxy.dir/build.make gmenuproxy/CMakeFiles/cutefish-gmenuproxy.dir/build
-.PHONY : cutefish-gmenuproxy/fast
+matsya-gmenuproxy/fast:
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f gmenuproxy/CMakeFiles/matsya-gmenuproxy.dir/build.make gmenuproxy/CMakeFiles/matsya-gmenuproxy.dir/build
+.PHONY : matsya-gmenuproxy/fast
 
 # Convenience name for target.
 gmenuproxy/CMakeFiles/KF5CoreAddons_QCH.dir/rule:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gmenuproxy/CMakeFiles/KF5CoreAddons_QCH.dir/rule
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gmenuproxy/CMakeFiles/KF5CoreAddons_QCH.dir/rule
 .PHONY : gmenuproxy/CMakeFiles/KF5CoreAddons_QCH.dir/rule
 
 # Convenience name for target.
@@ -202,23 +202,23 @@ KF5CoreAddons_QCH: gmenuproxy/CMakeFiles/KF5CoreAddons_QCH.dir/rule
 
 # fast build rule for target.
 KF5CoreAddons_QCH/fast:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f gmenuproxy/CMakeFiles/KF5CoreAddons_QCH.dir/build.make gmenuproxy/CMakeFiles/KF5CoreAddons_QCH.dir/build
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f gmenuproxy/CMakeFiles/KF5CoreAddons_QCH.dir/build.make gmenuproxy/CMakeFiles/KF5CoreAddons_QCH.dir/build
 .PHONY : KF5CoreAddons_QCH/fast
 
 # Convenience name for target.
-gmenuproxy/CMakeFiles/cutefish-gmenuproxy_autogen.dir/rule:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gmenuproxy/CMakeFiles/cutefish-gmenuproxy_autogen.dir/rule
-.PHONY : gmenuproxy/CMakeFiles/cutefish-gmenuproxy_autogen.dir/rule
+gmenuproxy/CMakeFiles/matsya-gmenuproxy_autogen.dir/rule:
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gmenuproxy/CMakeFiles/matsya-gmenuproxy_autogen.dir/rule
+.PHONY : gmenuproxy/CMakeFiles/matsya-gmenuproxy_autogen.dir/rule
 
 # Convenience name for target.
-cutefish-gmenuproxy_autogen: gmenuproxy/CMakeFiles/cutefish-gmenuproxy_autogen.dir/rule
+matsya-gmenuproxy_autogen: gmenuproxy/CMakeFiles/matsya-gmenuproxy_autogen.dir/rule
 
-.PHONY : cutefish-gmenuproxy_autogen
+.PHONY : matsya-gmenuproxy_autogen
 
 # fast build rule for target.
-cutefish-gmenuproxy_autogen/fast:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f gmenuproxy/CMakeFiles/cutefish-gmenuproxy_autogen.dir/build.make gmenuproxy/CMakeFiles/cutefish-gmenuproxy_autogen.dir/build
-.PHONY : cutefish-gmenuproxy_autogen/fast
+matsya-gmenuproxy_autogen/fast:
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f gmenuproxy/CMakeFiles/matsya-gmenuproxy_autogen.dir/build.make gmenuproxy/CMakeFiles/matsya-gmenuproxy_autogen.dir/build
+.PHONY : matsya-gmenuproxy_autogen/fast
 
 actions.o: actions.cpp.o
 
@@ -226,7 +226,7 @@ actions.o: actions.cpp.o
 
 # target to build an object file
 actions.cpp.o:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f gmenuproxy/CMakeFiles/cutefish-gmenuproxy.dir/build.make gmenuproxy/CMakeFiles/cutefish-gmenuproxy.dir/actions.cpp.o
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f gmenuproxy/CMakeFiles/matsya-gmenuproxy.dir/build.make gmenuproxy/CMakeFiles/matsya-gmenuproxy.dir/actions.cpp.o
 .PHONY : actions.cpp.o
 
 actions.i: actions.cpp.i
@@ -235,7 +235,7 @@ actions.i: actions.cpp.i
 
 # target to preprocess a source file
 actions.cpp.i:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f gmenuproxy/CMakeFiles/cutefish-gmenuproxy.dir/build.make gmenuproxy/CMakeFiles/cutefish-gmenuproxy.dir/actions.cpp.i
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f gmenuproxy/CMakeFiles/matsya-gmenuproxy.dir/build.make gmenuproxy/CMakeFiles/matsya-gmenuproxy.dir/actions.cpp.i
 .PHONY : actions.cpp.i
 
 actions.s: actions.cpp.s
@@ -244,35 +244,8 @@ actions.s: actions.cpp.s
 
 # target to generate assembly for a file
 actions.cpp.s:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f gmenuproxy/CMakeFiles/cutefish-gmenuproxy.dir/build.make gmenuproxy/CMakeFiles/cutefish-gmenuproxy.dir/actions.cpp.s
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f gmenuproxy/CMakeFiles/matsya-gmenuproxy.dir/build.make gmenuproxy/CMakeFiles/matsya-gmenuproxy.dir/actions.cpp.s
 .PHONY : actions.cpp.s
-
-cutefish-gmenuproxy_autogen/mocs_compilation.o: cutefish-gmenuproxy_autogen/mocs_compilation.cpp.o
-
-.PHONY : cutefish-gmenuproxy_autogen/mocs_compilation.o
-
-# target to build an object file
-cutefish-gmenuproxy_autogen/mocs_compilation.cpp.o:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f gmenuproxy/CMakeFiles/cutefish-gmenuproxy.dir/build.make gmenuproxy/CMakeFiles/cutefish-gmenuproxy.dir/cutefish-gmenuproxy_autogen/mocs_compilation.cpp.o
-.PHONY : cutefish-gmenuproxy_autogen/mocs_compilation.cpp.o
-
-cutefish-gmenuproxy_autogen/mocs_compilation.i: cutefish-gmenuproxy_autogen/mocs_compilation.cpp.i
-
-.PHONY : cutefish-gmenuproxy_autogen/mocs_compilation.i
-
-# target to preprocess a source file
-cutefish-gmenuproxy_autogen/mocs_compilation.cpp.i:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f gmenuproxy/CMakeFiles/cutefish-gmenuproxy.dir/build.make gmenuproxy/CMakeFiles/cutefish-gmenuproxy.dir/cutefish-gmenuproxy_autogen/mocs_compilation.cpp.i
-.PHONY : cutefish-gmenuproxy_autogen/mocs_compilation.cpp.i
-
-cutefish-gmenuproxy_autogen/mocs_compilation.s: cutefish-gmenuproxy_autogen/mocs_compilation.cpp.s
-
-.PHONY : cutefish-gmenuproxy_autogen/mocs_compilation.s
-
-# target to generate assembly for a file
-cutefish-gmenuproxy_autogen/mocs_compilation.cpp.s:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f gmenuproxy/CMakeFiles/cutefish-gmenuproxy.dir/build.make gmenuproxy/CMakeFiles/cutefish-gmenuproxy.dir/cutefish-gmenuproxy_autogen/mocs_compilation.cpp.s
-.PHONY : cutefish-gmenuproxy_autogen/mocs_compilation.cpp.s
 
 dbusmenuadaptor.o: dbusmenuadaptor.cpp.o
 
@@ -280,7 +253,7 @@ dbusmenuadaptor.o: dbusmenuadaptor.cpp.o
 
 # target to build an object file
 dbusmenuadaptor.cpp.o:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f gmenuproxy/CMakeFiles/cutefish-gmenuproxy.dir/build.make gmenuproxy/CMakeFiles/cutefish-gmenuproxy.dir/dbusmenuadaptor.cpp.o
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f gmenuproxy/CMakeFiles/matsya-gmenuproxy.dir/build.make gmenuproxy/CMakeFiles/matsya-gmenuproxy.dir/dbusmenuadaptor.cpp.o
 .PHONY : dbusmenuadaptor.cpp.o
 
 dbusmenuadaptor.i: dbusmenuadaptor.cpp.i
@@ -289,7 +262,7 @@ dbusmenuadaptor.i: dbusmenuadaptor.cpp.i
 
 # target to preprocess a source file
 dbusmenuadaptor.cpp.i:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f gmenuproxy/CMakeFiles/cutefish-gmenuproxy.dir/build.make gmenuproxy/CMakeFiles/cutefish-gmenuproxy.dir/dbusmenuadaptor.cpp.i
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f gmenuproxy/CMakeFiles/matsya-gmenuproxy.dir/build.make gmenuproxy/CMakeFiles/matsya-gmenuproxy.dir/dbusmenuadaptor.cpp.i
 .PHONY : dbusmenuadaptor.cpp.i
 
 dbusmenuadaptor.s: dbusmenuadaptor.cpp.s
@@ -298,7 +271,7 @@ dbusmenuadaptor.s: dbusmenuadaptor.cpp.s
 
 # target to generate assembly for a file
 dbusmenuadaptor.cpp.s:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f gmenuproxy/CMakeFiles/cutefish-gmenuproxy.dir/build.make gmenuproxy/CMakeFiles/cutefish-gmenuproxy.dir/dbusmenuadaptor.cpp.s
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f gmenuproxy/CMakeFiles/matsya-gmenuproxy.dir/build.make gmenuproxy/CMakeFiles/matsya-gmenuproxy.dir/dbusmenuadaptor.cpp.s
 .PHONY : dbusmenuadaptor.cpp.s
 
 extend/dbusmenutypes_p.o: extend/dbusmenutypes_p.cpp.o
@@ -307,7 +280,7 @@ extend/dbusmenutypes_p.o: extend/dbusmenutypes_p.cpp.o
 
 # target to build an object file
 extend/dbusmenutypes_p.cpp.o:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f gmenuproxy/CMakeFiles/cutefish-gmenuproxy.dir/build.make gmenuproxy/CMakeFiles/cutefish-gmenuproxy.dir/extend/dbusmenutypes_p.cpp.o
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f gmenuproxy/CMakeFiles/matsya-gmenuproxy.dir/build.make gmenuproxy/CMakeFiles/matsya-gmenuproxy.dir/extend/dbusmenutypes_p.cpp.o
 .PHONY : extend/dbusmenutypes_p.cpp.o
 
 extend/dbusmenutypes_p.i: extend/dbusmenutypes_p.cpp.i
@@ -316,7 +289,7 @@ extend/dbusmenutypes_p.i: extend/dbusmenutypes_p.cpp.i
 
 # target to preprocess a source file
 extend/dbusmenutypes_p.cpp.i:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f gmenuproxy/CMakeFiles/cutefish-gmenuproxy.dir/build.make gmenuproxy/CMakeFiles/cutefish-gmenuproxy.dir/extend/dbusmenutypes_p.cpp.i
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f gmenuproxy/CMakeFiles/matsya-gmenuproxy.dir/build.make gmenuproxy/CMakeFiles/matsya-gmenuproxy.dir/extend/dbusmenutypes_p.cpp.i
 .PHONY : extend/dbusmenutypes_p.cpp.i
 
 extend/dbusmenutypes_p.s: extend/dbusmenutypes_p.cpp.s
@@ -325,7 +298,7 @@ extend/dbusmenutypes_p.s: extend/dbusmenutypes_p.cpp.s
 
 # target to generate assembly for a file
 extend/dbusmenutypes_p.cpp.s:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f gmenuproxy/CMakeFiles/cutefish-gmenuproxy.dir/build.make gmenuproxy/CMakeFiles/cutefish-gmenuproxy.dir/extend/dbusmenutypes_p.cpp.s
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f gmenuproxy/CMakeFiles/matsya-gmenuproxy.dir/build.make gmenuproxy/CMakeFiles/matsya-gmenuproxy.dir/extend/dbusmenutypes_p.cpp.s
 .PHONY : extend/dbusmenutypes_p.cpp.s
 
 gdbusmenutypes_p.o: gdbusmenutypes_p.cpp.o
@@ -334,7 +307,7 @@ gdbusmenutypes_p.o: gdbusmenutypes_p.cpp.o
 
 # target to build an object file
 gdbusmenutypes_p.cpp.o:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f gmenuproxy/CMakeFiles/cutefish-gmenuproxy.dir/build.make gmenuproxy/CMakeFiles/cutefish-gmenuproxy.dir/gdbusmenutypes_p.cpp.o
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f gmenuproxy/CMakeFiles/matsya-gmenuproxy.dir/build.make gmenuproxy/CMakeFiles/matsya-gmenuproxy.dir/gdbusmenutypes_p.cpp.o
 .PHONY : gdbusmenutypes_p.cpp.o
 
 gdbusmenutypes_p.i: gdbusmenutypes_p.cpp.i
@@ -343,7 +316,7 @@ gdbusmenutypes_p.i: gdbusmenutypes_p.cpp.i
 
 # target to preprocess a source file
 gdbusmenutypes_p.cpp.i:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f gmenuproxy/CMakeFiles/cutefish-gmenuproxy.dir/build.make gmenuproxy/CMakeFiles/cutefish-gmenuproxy.dir/gdbusmenutypes_p.cpp.i
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f gmenuproxy/CMakeFiles/matsya-gmenuproxy.dir/build.make gmenuproxy/CMakeFiles/matsya-gmenuproxy.dir/gdbusmenutypes_p.cpp.i
 .PHONY : gdbusmenutypes_p.cpp.i
 
 gdbusmenutypes_p.s: gdbusmenutypes_p.cpp.s
@@ -352,7 +325,7 @@ gdbusmenutypes_p.s: gdbusmenutypes_p.cpp.s
 
 # target to generate assembly for a file
 gdbusmenutypes_p.cpp.s:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f gmenuproxy/CMakeFiles/cutefish-gmenuproxy.dir/build.make gmenuproxy/CMakeFiles/cutefish-gmenuproxy.dir/gdbusmenutypes_p.cpp.s
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f gmenuproxy/CMakeFiles/matsya-gmenuproxy.dir/build.make gmenuproxy/CMakeFiles/matsya-gmenuproxy.dir/gdbusmenutypes_p.cpp.s
 .PHONY : gdbusmenutypes_p.cpp.s
 
 icons.o: icons.cpp.o
@@ -361,7 +334,7 @@ icons.o: icons.cpp.o
 
 # target to build an object file
 icons.cpp.o:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f gmenuproxy/CMakeFiles/cutefish-gmenuproxy.dir/build.make gmenuproxy/CMakeFiles/cutefish-gmenuproxy.dir/icons.cpp.o
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f gmenuproxy/CMakeFiles/matsya-gmenuproxy.dir/build.make gmenuproxy/CMakeFiles/matsya-gmenuproxy.dir/icons.cpp.o
 .PHONY : icons.cpp.o
 
 icons.i: icons.cpp.i
@@ -370,7 +343,7 @@ icons.i: icons.cpp.i
 
 # target to preprocess a source file
 icons.cpp.i:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f gmenuproxy/CMakeFiles/cutefish-gmenuproxy.dir/build.make gmenuproxy/CMakeFiles/cutefish-gmenuproxy.dir/icons.cpp.i
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f gmenuproxy/CMakeFiles/matsya-gmenuproxy.dir/build.make gmenuproxy/CMakeFiles/matsya-gmenuproxy.dir/icons.cpp.i
 .PHONY : icons.cpp.i
 
 icons.s: icons.cpp.s
@@ -379,7 +352,7 @@ icons.s: icons.cpp.s
 
 # target to generate assembly for a file
 icons.cpp.s:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f gmenuproxy/CMakeFiles/cutefish-gmenuproxy.dir/build.make gmenuproxy/CMakeFiles/cutefish-gmenuproxy.dir/icons.cpp.s
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f gmenuproxy/CMakeFiles/matsya-gmenuproxy.dir/build.make gmenuproxy/CMakeFiles/matsya-gmenuproxy.dir/icons.cpp.s
 .PHONY : icons.cpp.s
 
 main.o: main.cpp.o
@@ -388,7 +361,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f gmenuproxy/CMakeFiles/cutefish-gmenuproxy.dir/build.make gmenuproxy/CMakeFiles/cutefish-gmenuproxy.dir/main.cpp.o
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f gmenuproxy/CMakeFiles/matsya-gmenuproxy.dir/build.make gmenuproxy/CMakeFiles/matsya-gmenuproxy.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -397,7 +370,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f gmenuproxy/CMakeFiles/cutefish-gmenuproxy.dir/build.make gmenuproxy/CMakeFiles/cutefish-gmenuproxy.dir/main.cpp.i
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f gmenuproxy/CMakeFiles/matsya-gmenuproxy.dir/build.make gmenuproxy/CMakeFiles/matsya-gmenuproxy.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -406,8 +379,35 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f gmenuproxy/CMakeFiles/cutefish-gmenuproxy.dir/build.make gmenuproxy/CMakeFiles/cutefish-gmenuproxy.dir/main.cpp.s
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f gmenuproxy/CMakeFiles/matsya-gmenuproxy.dir/build.make gmenuproxy/CMakeFiles/matsya-gmenuproxy.dir/main.cpp.s
 .PHONY : main.cpp.s
+
+matsya-gmenuproxy_autogen/mocs_compilation.o: matsya-gmenuproxy_autogen/mocs_compilation.cpp.o
+
+.PHONY : matsya-gmenuproxy_autogen/mocs_compilation.o
+
+# target to build an object file
+matsya-gmenuproxy_autogen/mocs_compilation.cpp.o:
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f gmenuproxy/CMakeFiles/matsya-gmenuproxy.dir/build.make gmenuproxy/CMakeFiles/matsya-gmenuproxy.dir/matsya-gmenuproxy_autogen/mocs_compilation.cpp.o
+.PHONY : matsya-gmenuproxy_autogen/mocs_compilation.cpp.o
+
+matsya-gmenuproxy_autogen/mocs_compilation.i: matsya-gmenuproxy_autogen/mocs_compilation.cpp.i
+
+.PHONY : matsya-gmenuproxy_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+matsya-gmenuproxy_autogen/mocs_compilation.cpp.i:
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f gmenuproxy/CMakeFiles/matsya-gmenuproxy.dir/build.make gmenuproxy/CMakeFiles/matsya-gmenuproxy.dir/matsya-gmenuproxy_autogen/mocs_compilation.cpp.i
+.PHONY : matsya-gmenuproxy_autogen/mocs_compilation.cpp.i
+
+matsya-gmenuproxy_autogen/mocs_compilation.s: matsya-gmenuproxy_autogen/mocs_compilation.cpp.s
+
+.PHONY : matsya-gmenuproxy_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+matsya-gmenuproxy_autogen/mocs_compilation.cpp.s:
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f gmenuproxy/CMakeFiles/matsya-gmenuproxy.dir/build.make gmenuproxy/CMakeFiles/matsya-gmenuproxy.dir/matsya-gmenuproxy_autogen/mocs_compilation.cpp.s
+.PHONY : matsya-gmenuproxy_autogen/mocs_compilation.cpp.s
 
 menu.o: menu.cpp.o
 
@@ -415,7 +415,7 @@ menu.o: menu.cpp.o
 
 # target to build an object file
 menu.cpp.o:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f gmenuproxy/CMakeFiles/cutefish-gmenuproxy.dir/build.make gmenuproxy/CMakeFiles/cutefish-gmenuproxy.dir/menu.cpp.o
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f gmenuproxy/CMakeFiles/matsya-gmenuproxy.dir/build.make gmenuproxy/CMakeFiles/matsya-gmenuproxy.dir/menu.cpp.o
 .PHONY : menu.cpp.o
 
 menu.i: menu.cpp.i
@@ -424,7 +424,7 @@ menu.i: menu.cpp.i
 
 # target to preprocess a source file
 menu.cpp.i:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f gmenuproxy/CMakeFiles/cutefish-gmenuproxy.dir/build.make gmenuproxy/CMakeFiles/cutefish-gmenuproxy.dir/menu.cpp.i
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f gmenuproxy/CMakeFiles/matsya-gmenuproxy.dir/build.make gmenuproxy/CMakeFiles/matsya-gmenuproxy.dir/menu.cpp.i
 .PHONY : menu.cpp.i
 
 menu.s: menu.cpp.s
@@ -433,7 +433,7 @@ menu.s: menu.cpp.s
 
 # target to generate assembly for a file
 menu.cpp.s:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f gmenuproxy/CMakeFiles/cutefish-gmenuproxy.dir/build.make gmenuproxy/CMakeFiles/cutefish-gmenuproxy.dir/menu.cpp.s
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f gmenuproxy/CMakeFiles/matsya-gmenuproxy.dir/build.make gmenuproxy/CMakeFiles/matsya-gmenuproxy.dir/menu.cpp.s
 .PHONY : menu.cpp.s
 
 menuproxy.o: menuproxy.cpp.o
@@ -442,7 +442,7 @@ menuproxy.o: menuproxy.cpp.o
 
 # target to build an object file
 menuproxy.cpp.o:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f gmenuproxy/CMakeFiles/cutefish-gmenuproxy.dir/build.make gmenuproxy/CMakeFiles/cutefish-gmenuproxy.dir/menuproxy.cpp.o
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f gmenuproxy/CMakeFiles/matsya-gmenuproxy.dir/build.make gmenuproxy/CMakeFiles/matsya-gmenuproxy.dir/menuproxy.cpp.o
 .PHONY : menuproxy.cpp.o
 
 menuproxy.i: menuproxy.cpp.i
@@ -451,7 +451,7 @@ menuproxy.i: menuproxy.cpp.i
 
 # target to preprocess a source file
 menuproxy.cpp.i:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f gmenuproxy/CMakeFiles/cutefish-gmenuproxy.dir/build.make gmenuproxy/CMakeFiles/cutefish-gmenuproxy.dir/menuproxy.cpp.i
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f gmenuproxy/CMakeFiles/matsya-gmenuproxy.dir/build.make gmenuproxy/CMakeFiles/matsya-gmenuproxy.dir/menuproxy.cpp.i
 .PHONY : menuproxy.cpp.i
 
 menuproxy.s: menuproxy.cpp.s
@@ -460,7 +460,7 @@ menuproxy.s: menuproxy.cpp.s
 
 # target to generate assembly for a file
 menuproxy.cpp.s:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f gmenuproxy/CMakeFiles/cutefish-gmenuproxy.dir/build.make gmenuproxy/CMakeFiles/cutefish-gmenuproxy.dir/menuproxy.cpp.s
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f gmenuproxy/CMakeFiles/matsya-gmenuproxy.dir/build.make gmenuproxy/CMakeFiles/matsya-gmenuproxy.dir/menuproxy.cpp.s
 .PHONY : menuproxy.cpp.s
 
 utils.o: utils.cpp.o
@@ -469,7 +469,7 @@ utils.o: utils.cpp.o
 
 # target to build an object file
 utils.cpp.o:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f gmenuproxy/CMakeFiles/cutefish-gmenuproxy.dir/build.make gmenuproxy/CMakeFiles/cutefish-gmenuproxy.dir/utils.cpp.o
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f gmenuproxy/CMakeFiles/matsya-gmenuproxy.dir/build.make gmenuproxy/CMakeFiles/matsya-gmenuproxy.dir/utils.cpp.o
 .PHONY : utils.cpp.o
 
 utils.i: utils.cpp.i
@@ -478,7 +478,7 @@ utils.i: utils.cpp.i
 
 # target to preprocess a source file
 utils.cpp.i:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f gmenuproxy/CMakeFiles/cutefish-gmenuproxy.dir/build.make gmenuproxy/CMakeFiles/cutefish-gmenuproxy.dir/utils.cpp.i
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f gmenuproxy/CMakeFiles/matsya-gmenuproxy.dir/build.make gmenuproxy/CMakeFiles/matsya-gmenuproxy.dir/utils.cpp.i
 .PHONY : utils.cpp.i
 
 utils.s: utils.cpp.s
@@ -487,7 +487,7 @@ utils.s: utils.cpp.s
 
 # target to generate assembly for a file
 utils.cpp.s:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f gmenuproxy/CMakeFiles/cutefish-gmenuproxy.dir/build.make gmenuproxy/CMakeFiles/cutefish-gmenuproxy.dir/utils.cpp.s
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f gmenuproxy/CMakeFiles/matsya-gmenuproxy.dir/build.make gmenuproxy/CMakeFiles/matsya-gmenuproxy.dir/utils.cpp.s
 .PHONY : utils.cpp.s
 
 window.o: window.cpp.o
@@ -496,7 +496,7 @@ window.o: window.cpp.o
 
 # target to build an object file
 window.cpp.o:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f gmenuproxy/CMakeFiles/cutefish-gmenuproxy.dir/build.make gmenuproxy/CMakeFiles/cutefish-gmenuproxy.dir/window.cpp.o
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f gmenuproxy/CMakeFiles/matsya-gmenuproxy.dir/build.make gmenuproxy/CMakeFiles/matsya-gmenuproxy.dir/window.cpp.o
 .PHONY : window.cpp.o
 
 window.i: window.cpp.i
@@ -505,7 +505,7 @@ window.i: window.cpp.i
 
 # target to preprocess a source file
 window.cpp.i:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f gmenuproxy/CMakeFiles/cutefish-gmenuproxy.dir/build.make gmenuproxy/CMakeFiles/cutefish-gmenuproxy.dir/window.cpp.i
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f gmenuproxy/CMakeFiles/matsya-gmenuproxy.dir/build.make gmenuproxy/CMakeFiles/matsya-gmenuproxy.dir/window.cpp.i
 .PHONY : window.cpp.i
 
 window.s: window.cpp.s
@@ -514,7 +514,7 @@ window.s: window.cpp.s
 
 # target to generate assembly for a file
 window.cpp.s:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f gmenuproxy/CMakeFiles/cutefish-gmenuproxy.dir/build.make gmenuproxy/CMakeFiles/cutefish-gmenuproxy.dir/window.cpp.s
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f gmenuproxy/CMakeFiles/matsya-gmenuproxy.dir/build.make gmenuproxy/CMakeFiles/matsya-gmenuproxy.dir/window.cpp.s
 .PHONY : window.cpp.s
 
 # Help Target
@@ -530,14 +530,11 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... KF5CoreAddons_QCH"
-	@echo "... cutefish-gmenuproxy_autogen"
-	@echo "... cutefish-gmenuproxy"
+	@echo "... matsya-gmenuproxy_autogen"
+	@echo "... matsya-gmenuproxy"
 	@echo "... actions.o"
 	@echo "... actions.i"
 	@echo "... actions.s"
-	@echo "... cutefish-gmenuproxy_autogen/mocs_compilation.o"
-	@echo "... cutefish-gmenuproxy_autogen/mocs_compilation.i"
-	@echo "... cutefish-gmenuproxy_autogen/mocs_compilation.s"
 	@echo "... dbusmenuadaptor.o"
 	@echo "... dbusmenuadaptor.i"
 	@echo "... dbusmenuadaptor.s"
@@ -553,6 +550,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... matsya-gmenuproxy_autogen/mocs_compilation.o"
+	@echo "... matsya-gmenuproxy_autogen/mocs_compilation.i"
+	@echo "... matsya-gmenuproxy_autogen/mocs_compilation.s"
 	@echo "... menu.o"
 	@echo "... menu.i"
 	@echo "... menu.s"
@@ -576,6 +576,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/tokyo/clone/RebootOS/core/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/tokyo/Documents/GitHub/core/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -67,10 +67,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tokyo/clone/RebootOS/core
+CMAKE_SOURCE_DIR = /home/tokyo/Documents/GitHub/core
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tokyo/clone/RebootOS/core/build
+CMAKE_BINARY_DIR = /home/tokyo/Documents/GitHub/core/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -145,14 +145,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/tokyo/clone/RebootOS/core/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/RebootOS/core/build/CMakeFiles /home/tokyo/clone/RebootOS/core/build/cupdatecursor//CMakeFiles/progress.marks
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cupdatecursor/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/RebootOS/core/build/CMakeFiles 0
+	cd /home/tokyo/Documents/GitHub/core/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/Documents/GitHub/core/build/CMakeFiles /home/tokyo/Documents/GitHub/core/build/cupdatecursor//CMakeFiles/progress.marks
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cupdatecursor/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/Documents/GitHub/core/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cupdatecursor/clean
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cupdatecursor/clean
 .PHONY : clean
 
 # The main clean target
@@ -162,22 +162,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cupdatecursor/preinstall
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cupdatecursor/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cupdatecursor/preinstall
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cupdatecursor/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/tokyo/clone/RebootOS/core/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/tokyo/Documents/GitHub/core/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 cupdatecursor/CMakeFiles/cupdatecursor.dir/rule:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cupdatecursor/CMakeFiles/cupdatecursor.dir/rule
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cupdatecursor/CMakeFiles/cupdatecursor.dir/rule
 .PHONY : cupdatecursor/CMakeFiles/cupdatecursor.dir/rule
 
 # Convenience name for target.
@@ -187,12 +187,12 @@ cupdatecursor: cupdatecursor/CMakeFiles/cupdatecursor.dir/rule
 
 # fast build rule for target.
 cupdatecursor/fast:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f cupdatecursor/CMakeFiles/cupdatecursor.dir/build.make cupdatecursor/CMakeFiles/cupdatecursor.dir/build
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f cupdatecursor/CMakeFiles/cupdatecursor.dir/build.make cupdatecursor/CMakeFiles/cupdatecursor.dir/build
 .PHONY : cupdatecursor/fast
 
 # Convenience name for target.
 cupdatecursor/CMakeFiles/cupdatecursor_autogen.dir/rule:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cupdatecursor/CMakeFiles/cupdatecursor_autogen.dir/rule
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cupdatecursor/CMakeFiles/cupdatecursor_autogen.dir/rule
 .PHONY : cupdatecursor/CMakeFiles/cupdatecursor_autogen.dir/rule
 
 # Convenience name for target.
@@ -202,7 +202,7 @@ cupdatecursor_autogen: cupdatecursor/CMakeFiles/cupdatecursor_autogen.dir/rule
 
 # fast build rule for target.
 cupdatecursor_autogen/fast:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f cupdatecursor/CMakeFiles/cupdatecursor_autogen.dir/build.make cupdatecursor/CMakeFiles/cupdatecursor_autogen.dir/build
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f cupdatecursor/CMakeFiles/cupdatecursor_autogen.dir/build.make cupdatecursor/CMakeFiles/cupdatecursor_autogen.dir/build
 .PHONY : cupdatecursor_autogen/fast
 
 cupdatecursor_autogen/mocs_compilation.o: cupdatecursor_autogen/mocs_compilation.cpp.o
@@ -211,7 +211,7 @@ cupdatecursor_autogen/mocs_compilation.o: cupdatecursor_autogen/mocs_compilation
 
 # target to build an object file
 cupdatecursor_autogen/mocs_compilation.cpp.o:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f cupdatecursor/CMakeFiles/cupdatecursor.dir/build.make cupdatecursor/CMakeFiles/cupdatecursor.dir/cupdatecursor_autogen/mocs_compilation.cpp.o
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f cupdatecursor/CMakeFiles/cupdatecursor.dir/build.make cupdatecursor/CMakeFiles/cupdatecursor.dir/cupdatecursor_autogen/mocs_compilation.cpp.o
 .PHONY : cupdatecursor_autogen/mocs_compilation.cpp.o
 
 cupdatecursor_autogen/mocs_compilation.i: cupdatecursor_autogen/mocs_compilation.cpp.i
@@ -220,7 +220,7 @@ cupdatecursor_autogen/mocs_compilation.i: cupdatecursor_autogen/mocs_compilation
 
 # target to preprocess a source file
 cupdatecursor_autogen/mocs_compilation.cpp.i:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f cupdatecursor/CMakeFiles/cupdatecursor.dir/build.make cupdatecursor/CMakeFiles/cupdatecursor.dir/cupdatecursor_autogen/mocs_compilation.cpp.i
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f cupdatecursor/CMakeFiles/cupdatecursor.dir/build.make cupdatecursor/CMakeFiles/cupdatecursor.dir/cupdatecursor_autogen/mocs_compilation.cpp.i
 .PHONY : cupdatecursor_autogen/mocs_compilation.cpp.i
 
 cupdatecursor_autogen/mocs_compilation.s: cupdatecursor_autogen/mocs_compilation.cpp.s
@@ -229,7 +229,7 @@ cupdatecursor_autogen/mocs_compilation.s: cupdatecursor_autogen/mocs_compilation
 
 # target to generate assembly for a file
 cupdatecursor_autogen/mocs_compilation.cpp.s:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f cupdatecursor/CMakeFiles/cupdatecursor.dir/build.make cupdatecursor/CMakeFiles/cupdatecursor.dir/cupdatecursor_autogen/mocs_compilation.cpp.s
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f cupdatecursor/CMakeFiles/cupdatecursor.dir/build.make cupdatecursor/CMakeFiles/cupdatecursor.dir/cupdatecursor_autogen/mocs_compilation.cpp.s
 .PHONY : cupdatecursor_autogen/mocs_compilation.cpp.s
 
 main.o: main.cpp.o
@@ -238,7 +238,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f cupdatecursor/CMakeFiles/cupdatecursor.dir/build.make cupdatecursor/CMakeFiles/cupdatecursor.dir/main.cpp.o
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f cupdatecursor/CMakeFiles/cupdatecursor.dir/build.make cupdatecursor/CMakeFiles/cupdatecursor.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -247,7 +247,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f cupdatecursor/CMakeFiles/cupdatecursor.dir/build.make cupdatecursor/CMakeFiles/cupdatecursor.dir/main.cpp.i
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f cupdatecursor/CMakeFiles/cupdatecursor.dir/build.make cupdatecursor/CMakeFiles/cupdatecursor.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -256,7 +256,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f cupdatecursor/CMakeFiles/cupdatecursor.dir/build.make cupdatecursor/CMakeFiles/cupdatecursor.dir/main.cpp.s
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f cupdatecursor/CMakeFiles/cupdatecursor.dir/build.make cupdatecursor/CMakeFiles/cupdatecursor.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -290,6 +290,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/tokyo/clone/RebootOS/core/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/tokyo/Documents/GitHub/core/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

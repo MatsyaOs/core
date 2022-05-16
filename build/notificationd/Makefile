@@ -67,10 +67,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tokyo/clone/RebootOS/core
+CMAKE_SOURCE_DIR = /home/tokyo/Documents/GitHub/core
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tokyo/clone/RebootOS/core/build
+CMAKE_BINARY_DIR = /home/tokyo/Documents/GitHub/core/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -145,14 +145,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/tokyo/clone/RebootOS/core/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/RebootOS/core/build/CMakeFiles /home/tokyo/clone/RebootOS/core/build/notificationd//CMakeFiles/progress.marks
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 notificationd/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/RebootOS/core/build/CMakeFiles 0
+	cd /home/tokyo/Documents/GitHub/core/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/Documents/GitHub/core/build/CMakeFiles /home/tokyo/Documents/GitHub/core/build/notificationd//CMakeFiles/progress.marks
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 notificationd/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/Documents/GitHub/core/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 notificationd/clean
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 notificationd/clean
 .PHONY : clean
 
 # The main clean target
@@ -162,22 +162,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 notificationd/preinstall
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 notificationd/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 notificationd/preinstall
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 notificationd/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/tokyo/clone/RebootOS/core/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/tokyo/Documents/GitHub/core/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 notificationd/CMakeFiles/notificationd_translations.dir/rule:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 notificationd/CMakeFiles/notificationd_translations.dir/rule
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 notificationd/CMakeFiles/notificationd_translations.dir/rule
 .PHONY : notificationd/CMakeFiles/notificationd_translations.dir/rule
 
 # Convenience name for target.
@@ -187,38 +187,38 @@ notificationd_translations: notificationd/CMakeFiles/notificationd_translations.
 
 # fast build rule for target.
 notificationd_translations/fast:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f notificationd/CMakeFiles/notificationd_translations.dir/build.make notificationd/CMakeFiles/notificationd_translations.dir/build
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f notificationd/CMakeFiles/notificationd_translations.dir/build.make notificationd/CMakeFiles/notificationd_translations.dir/build
 .PHONY : notificationd_translations/fast
 
 # Convenience name for target.
-notificationd/CMakeFiles/cutefish-notificationd.dir/rule:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 notificationd/CMakeFiles/cutefish-notificationd.dir/rule
-.PHONY : notificationd/CMakeFiles/cutefish-notificationd.dir/rule
+notificationd/CMakeFiles/matsya-notificationd.dir/rule:
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 notificationd/CMakeFiles/matsya-notificationd.dir/rule
+.PHONY : notificationd/CMakeFiles/matsya-notificationd.dir/rule
 
 # Convenience name for target.
-cutefish-notificationd: notificationd/CMakeFiles/cutefish-notificationd.dir/rule
+matsya-notificationd: notificationd/CMakeFiles/matsya-notificationd.dir/rule
 
-.PHONY : cutefish-notificationd
+.PHONY : matsya-notificationd
 
 # fast build rule for target.
-cutefish-notificationd/fast:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f notificationd/CMakeFiles/cutefish-notificationd.dir/build.make notificationd/CMakeFiles/cutefish-notificationd.dir/build
-.PHONY : cutefish-notificationd/fast
+matsya-notificationd/fast:
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f notificationd/CMakeFiles/matsya-notificationd.dir/build.make notificationd/CMakeFiles/matsya-notificationd.dir/build
+.PHONY : matsya-notificationd/fast
 
 # Convenience name for target.
-notificationd/CMakeFiles/cutefish-notificationd_autogen.dir/rule:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 notificationd/CMakeFiles/cutefish-notificationd_autogen.dir/rule
-.PHONY : notificationd/CMakeFiles/cutefish-notificationd_autogen.dir/rule
+notificationd/CMakeFiles/matsya-notificationd_autogen.dir/rule:
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 notificationd/CMakeFiles/matsya-notificationd_autogen.dir/rule
+.PHONY : notificationd/CMakeFiles/matsya-notificationd_autogen.dir/rule
 
 # Convenience name for target.
-cutefish-notificationd_autogen: notificationd/CMakeFiles/cutefish-notificationd_autogen.dir/rule
+matsya-notificationd_autogen: notificationd/CMakeFiles/matsya-notificationd_autogen.dir/rule
 
-.PHONY : cutefish-notificationd_autogen
+.PHONY : matsya-notificationd_autogen
 
 # fast build rule for target.
-cutefish-notificationd_autogen/fast:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f notificationd/CMakeFiles/cutefish-notificationd_autogen.dir/build.make notificationd/CMakeFiles/cutefish-notificationd_autogen.dir/build
-.PHONY : cutefish-notificationd_autogen/fast
+matsya-notificationd_autogen/fast:
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f notificationd/CMakeFiles/matsya-notificationd_autogen.dir/build.make notificationd/CMakeFiles/matsya-notificationd_autogen.dir/build
+.PHONY : matsya-notificationd_autogen/fast
 
 application.o: application.cpp.o
 
@@ -226,7 +226,7 @@ application.o: application.cpp.o
 
 # target to build an object file
 application.cpp.o:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f notificationd/CMakeFiles/cutefish-notificationd.dir/build.make notificationd/CMakeFiles/cutefish-notificationd.dir/application.cpp.o
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f notificationd/CMakeFiles/matsya-notificationd.dir/build.make notificationd/CMakeFiles/matsya-notificationd.dir/application.cpp.o
 .PHONY : application.cpp.o
 
 application.i: application.cpp.i
@@ -235,7 +235,7 @@ application.i: application.cpp.i
 
 # target to preprocess a source file
 application.cpp.i:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f notificationd/CMakeFiles/cutefish-notificationd.dir/build.make notificationd/CMakeFiles/cutefish-notificationd.dir/application.cpp.i
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f notificationd/CMakeFiles/matsya-notificationd.dir/build.make notificationd/CMakeFiles/matsya-notificationd.dir/application.cpp.i
 .PHONY : application.cpp.i
 
 application.s: application.cpp.s
@@ -244,62 +244,8 @@ application.s: application.cpp.s
 
 # target to generate assembly for a file
 application.cpp.s:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f notificationd/CMakeFiles/cutefish-notificationd.dir/build.make notificationd/CMakeFiles/cutefish-notificationd.dir/application.cpp.s
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f notificationd/CMakeFiles/matsya-notificationd.dir/build.make notificationd/CMakeFiles/matsya-notificationd.dir/application.cpp.s
 .PHONY : application.cpp.s
-
-cutefish-notificationd_autogen/EWIEGA46WW/qrc_resources.o: cutefish-notificationd_autogen/EWIEGA46WW/qrc_resources.cpp.o
-
-.PHONY : cutefish-notificationd_autogen/EWIEGA46WW/qrc_resources.o
-
-# target to build an object file
-cutefish-notificationd_autogen/EWIEGA46WW/qrc_resources.cpp.o:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f notificationd/CMakeFiles/cutefish-notificationd.dir/build.make notificationd/CMakeFiles/cutefish-notificationd.dir/cutefish-notificationd_autogen/EWIEGA46WW/qrc_resources.cpp.o
-.PHONY : cutefish-notificationd_autogen/EWIEGA46WW/qrc_resources.cpp.o
-
-cutefish-notificationd_autogen/EWIEGA46WW/qrc_resources.i: cutefish-notificationd_autogen/EWIEGA46WW/qrc_resources.cpp.i
-
-.PHONY : cutefish-notificationd_autogen/EWIEGA46WW/qrc_resources.i
-
-# target to preprocess a source file
-cutefish-notificationd_autogen/EWIEGA46WW/qrc_resources.cpp.i:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f notificationd/CMakeFiles/cutefish-notificationd.dir/build.make notificationd/CMakeFiles/cutefish-notificationd.dir/cutefish-notificationd_autogen/EWIEGA46WW/qrc_resources.cpp.i
-.PHONY : cutefish-notificationd_autogen/EWIEGA46WW/qrc_resources.cpp.i
-
-cutefish-notificationd_autogen/EWIEGA46WW/qrc_resources.s: cutefish-notificationd_autogen/EWIEGA46WW/qrc_resources.cpp.s
-
-.PHONY : cutefish-notificationd_autogen/EWIEGA46WW/qrc_resources.s
-
-# target to generate assembly for a file
-cutefish-notificationd_autogen/EWIEGA46WW/qrc_resources.cpp.s:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f notificationd/CMakeFiles/cutefish-notificationd.dir/build.make notificationd/CMakeFiles/cutefish-notificationd.dir/cutefish-notificationd_autogen/EWIEGA46WW/qrc_resources.cpp.s
-.PHONY : cutefish-notificationd_autogen/EWIEGA46WW/qrc_resources.cpp.s
-
-cutefish-notificationd_autogen/mocs_compilation.o: cutefish-notificationd_autogen/mocs_compilation.cpp.o
-
-.PHONY : cutefish-notificationd_autogen/mocs_compilation.o
-
-# target to build an object file
-cutefish-notificationd_autogen/mocs_compilation.cpp.o:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f notificationd/CMakeFiles/cutefish-notificationd.dir/build.make notificationd/CMakeFiles/cutefish-notificationd.dir/cutefish-notificationd_autogen/mocs_compilation.cpp.o
-.PHONY : cutefish-notificationd_autogen/mocs_compilation.cpp.o
-
-cutefish-notificationd_autogen/mocs_compilation.i: cutefish-notificationd_autogen/mocs_compilation.cpp.i
-
-.PHONY : cutefish-notificationd_autogen/mocs_compilation.i
-
-# target to preprocess a source file
-cutefish-notificationd_autogen/mocs_compilation.cpp.i:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f notificationd/CMakeFiles/cutefish-notificationd.dir/build.make notificationd/CMakeFiles/cutefish-notificationd.dir/cutefish-notificationd_autogen/mocs_compilation.cpp.i
-.PHONY : cutefish-notificationd_autogen/mocs_compilation.cpp.i
-
-cutefish-notificationd_autogen/mocs_compilation.s: cutefish-notificationd_autogen/mocs_compilation.cpp.s
-
-.PHONY : cutefish-notificationd_autogen/mocs_compilation.s
-
-# target to generate assembly for a file
-cutefish-notificationd_autogen/mocs_compilation.cpp.s:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f notificationd/CMakeFiles/cutefish-notificationd.dir/build.make notificationd/CMakeFiles/cutefish-notificationd.dir/cutefish-notificationd_autogen/mocs_compilation.cpp.s
-.PHONY : cutefish-notificationd_autogen/mocs_compilation.cpp.s
 
 datehelper.o: datehelper.cpp.o
 
@@ -307,7 +253,7 @@ datehelper.o: datehelper.cpp.o
 
 # target to build an object file
 datehelper.cpp.o:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f notificationd/CMakeFiles/cutefish-notificationd.dir/build.make notificationd/CMakeFiles/cutefish-notificationd.dir/datehelper.cpp.o
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f notificationd/CMakeFiles/matsya-notificationd.dir/build.make notificationd/CMakeFiles/matsya-notificationd.dir/datehelper.cpp.o
 .PHONY : datehelper.cpp.o
 
 datehelper.i: datehelper.cpp.i
@@ -316,7 +262,7 @@ datehelper.i: datehelper.cpp.i
 
 # target to preprocess a source file
 datehelper.cpp.i:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f notificationd/CMakeFiles/cutefish-notificationd.dir/build.make notificationd/CMakeFiles/cutefish-notificationd.dir/datehelper.cpp.i
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f notificationd/CMakeFiles/matsya-notificationd.dir/build.make notificationd/CMakeFiles/matsya-notificationd.dir/datehelper.cpp.i
 .PHONY : datehelper.cpp.i
 
 datehelper.s: datehelper.cpp.s
@@ -325,7 +271,7 @@ datehelper.s: datehelper.cpp.s
 
 # target to generate assembly for a file
 datehelper.cpp.s:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f notificationd/CMakeFiles/cutefish-notificationd.dir/build.make notificationd/CMakeFiles/cutefish-notificationd.dir/datehelper.cpp.s
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f notificationd/CMakeFiles/matsya-notificationd.dir/build.make notificationd/CMakeFiles/matsya-notificationd.dir/datehelper.cpp.s
 .PHONY : datehelper.cpp.s
 
 dbus/notificationsadaptor.o: dbus/notificationsadaptor.cpp.o
@@ -334,7 +280,7 @@ dbus/notificationsadaptor.o: dbus/notificationsadaptor.cpp.o
 
 # target to build an object file
 dbus/notificationsadaptor.cpp.o:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f notificationd/CMakeFiles/cutefish-notificationd.dir/build.make notificationd/CMakeFiles/cutefish-notificationd.dir/dbus/notificationsadaptor.cpp.o
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f notificationd/CMakeFiles/matsya-notificationd.dir/build.make notificationd/CMakeFiles/matsya-notificationd.dir/dbus/notificationsadaptor.cpp.o
 .PHONY : dbus/notificationsadaptor.cpp.o
 
 dbus/notificationsadaptor.i: dbus/notificationsadaptor.cpp.i
@@ -343,7 +289,7 @@ dbus/notificationsadaptor.i: dbus/notificationsadaptor.cpp.i
 
 # target to preprocess a source file
 dbus/notificationsadaptor.cpp.i:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f notificationd/CMakeFiles/cutefish-notificationd.dir/build.make notificationd/CMakeFiles/cutefish-notificationd.dir/dbus/notificationsadaptor.cpp.i
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f notificationd/CMakeFiles/matsya-notificationd.dir/build.make notificationd/CMakeFiles/matsya-notificationd.dir/dbus/notificationsadaptor.cpp.i
 .PHONY : dbus/notificationsadaptor.cpp.i
 
 dbus/notificationsadaptor.s: dbus/notificationsadaptor.cpp.s
@@ -352,7 +298,7 @@ dbus/notificationsadaptor.s: dbus/notificationsadaptor.cpp.s
 
 # target to generate assembly for a file
 dbus/notificationsadaptor.cpp.s:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f notificationd/CMakeFiles/cutefish-notificationd.dir/build.make notificationd/CMakeFiles/cutefish-notificationd.dir/dbus/notificationsadaptor.cpp.s
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f notificationd/CMakeFiles/matsya-notificationd.dir/build.make notificationd/CMakeFiles/matsya-notificationd.dir/dbus/notificationsadaptor.cpp.s
 .PHONY : dbus/notificationsadaptor.cpp.s
 
 historymodel.o: historymodel.cpp.o
@@ -361,7 +307,7 @@ historymodel.o: historymodel.cpp.o
 
 # target to build an object file
 historymodel.cpp.o:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f notificationd/CMakeFiles/cutefish-notificationd.dir/build.make notificationd/CMakeFiles/cutefish-notificationd.dir/historymodel.cpp.o
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f notificationd/CMakeFiles/matsya-notificationd.dir/build.make notificationd/CMakeFiles/matsya-notificationd.dir/historymodel.cpp.o
 .PHONY : historymodel.cpp.o
 
 historymodel.i: historymodel.cpp.i
@@ -370,7 +316,7 @@ historymodel.i: historymodel.cpp.i
 
 # target to preprocess a source file
 historymodel.cpp.i:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f notificationd/CMakeFiles/cutefish-notificationd.dir/build.make notificationd/CMakeFiles/cutefish-notificationd.dir/historymodel.cpp.i
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f notificationd/CMakeFiles/matsya-notificationd.dir/build.make notificationd/CMakeFiles/matsya-notificationd.dir/historymodel.cpp.i
 .PHONY : historymodel.cpp.i
 
 historymodel.s: historymodel.cpp.s
@@ -379,7 +325,7 @@ historymodel.s: historymodel.cpp.s
 
 # target to generate assembly for a file
 historymodel.cpp.s:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f notificationd/CMakeFiles/cutefish-notificationd.dir/build.make notificationd/CMakeFiles/cutefish-notificationd.dir/historymodel.cpp.s
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f notificationd/CMakeFiles/matsya-notificationd.dir/build.make notificationd/CMakeFiles/matsya-notificationd.dir/historymodel.cpp.s
 .PHONY : historymodel.cpp.s
 
 main.o: main.cpp.o
@@ -388,7 +334,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f notificationd/CMakeFiles/cutefish-notificationd.dir/build.make notificationd/CMakeFiles/cutefish-notificationd.dir/main.cpp.o
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f notificationd/CMakeFiles/matsya-notificationd.dir/build.make notificationd/CMakeFiles/matsya-notificationd.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -397,7 +343,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f notificationd/CMakeFiles/cutefish-notificationd.dir/build.make notificationd/CMakeFiles/cutefish-notificationd.dir/main.cpp.i
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f notificationd/CMakeFiles/matsya-notificationd.dir/build.make notificationd/CMakeFiles/matsya-notificationd.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -406,8 +352,62 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f notificationd/CMakeFiles/cutefish-notificationd.dir/build.make notificationd/CMakeFiles/cutefish-notificationd.dir/main.cpp.s
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f notificationd/CMakeFiles/matsya-notificationd.dir/build.make notificationd/CMakeFiles/matsya-notificationd.dir/main.cpp.s
 .PHONY : main.cpp.s
+
+matsya-notificationd_autogen/EWIEGA46WW/qrc_resources.o: matsya-notificationd_autogen/EWIEGA46WW/qrc_resources.cpp.o
+
+.PHONY : matsya-notificationd_autogen/EWIEGA46WW/qrc_resources.o
+
+# target to build an object file
+matsya-notificationd_autogen/EWIEGA46WW/qrc_resources.cpp.o:
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f notificationd/CMakeFiles/matsya-notificationd.dir/build.make notificationd/CMakeFiles/matsya-notificationd.dir/matsya-notificationd_autogen/EWIEGA46WW/qrc_resources.cpp.o
+.PHONY : matsya-notificationd_autogen/EWIEGA46WW/qrc_resources.cpp.o
+
+matsya-notificationd_autogen/EWIEGA46WW/qrc_resources.i: matsya-notificationd_autogen/EWIEGA46WW/qrc_resources.cpp.i
+
+.PHONY : matsya-notificationd_autogen/EWIEGA46WW/qrc_resources.i
+
+# target to preprocess a source file
+matsya-notificationd_autogen/EWIEGA46WW/qrc_resources.cpp.i:
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f notificationd/CMakeFiles/matsya-notificationd.dir/build.make notificationd/CMakeFiles/matsya-notificationd.dir/matsya-notificationd_autogen/EWIEGA46WW/qrc_resources.cpp.i
+.PHONY : matsya-notificationd_autogen/EWIEGA46WW/qrc_resources.cpp.i
+
+matsya-notificationd_autogen/EWIEGA46WW/qrc_resources.s: matsya-notificationd_autogen/EWIEGA46WW/qrc_resources.cpp.s
+
+.PHONY : matsya-notificationd_autogen/EWIEGA46WW/qrc_resources.s
+
+# target to generate assembly for a file
+matsya-notificationd_autogen/EWIEGA46WW/qrc_resources.cpp.s:
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f notificationd/CMakeFiles/matsya-notificationd.dir/build.make notificationd/CMakeFiles/matsya-notificationd.dir/matsya-notificationd_autogen/EWIEGA46WW/qrc_resources.cpp.s
+.PHONY : matsya-notificationd_autogen/EWIEGA46WW/qrc_resources.cpp.s
+
+matsya-notificationd_autogen/mocs_compilation.o: matsya-notificationd_autogen/mocs_compilation.cpp.o
+
+.PHONY : matsya-notificationd_autogen/mocs_compilation.o
+
+# target to build an object file
+matsya-notificationd_autogen/mocs_compilation.cpp.o:
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f notificationd/CMakeFiles/matsya-notificationd.dir/build.make notificationd/CMakeFiles/matsya-notificationd.dir/matsya-notificationd_autogen/mocs_compilation.cpp.o
+.PHONY : matsya-notificationd_autogen/mocs_compilation.cpp.o
+
+matsya-notificationd_autogen/mocs_compilation.i: matsya-notificationd_autogen/mocs_compilation.cpp.i
+
+.PHONY : matsya-notificationd_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+matsya-notificationd_autogen/mocs_compilation.cpp.i:
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f notificationd/CMakeFiles/matsya-notificationd.dir/build.make notificationd/CMakeFiles/matsya-notificationd.dir/matsya-notificationd_autogen/mocs_compilation.cpp.i
+.PHONY : matsya-notificationd_autogen/mocs_compilation.cpp.i
+
+matsya-notificationd_autogen/mocs_compilation.s: matsya-notificationd_autogen/mocs_compilation.cpp.s
+
+.PHONY : matsya-notificationd_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+matsya-notificationd_autogen/mocs_compilation.cpp.s:
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f notificationd/CMakeFiles/matsya-notificationd.dir/build.make notificationd/CMakeFiles/matsya-notificationd.dir/matsya-notificationd_autogen/mocs_compilation.cpp.s
+.PHONY : matsya-notificationd_autogen/mocs_compilation.cpp.s
 
 notification.o: notification.cpp.o
 
@@ -415,7 +415,7 @@ notification.o: notification.cpp.o
 
 # target to build an object file
 notification.cpp.o:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f notificationd/CMakeFiles/cutefish-notificationd.dir/build.make notificationd/CMakeFiles/cutefish-notificationd.dir/notification.cpp.o
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f notificationd/CMakeFiles/matsya-notificationd.dir/build.make notificationd/CMakeFiles/matsya-notificationd.dir/notification.cpp.o
 .PHONY : notification.cpp.o
 
 notification.i: notification.cpp.i
@@ -424,7 +424,7 @@ notification.i: notification.cpp.i
 
 # target to preprocess a source file
 notification.cpp.i:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f notificationd/CMakeFiles/cutefish-notificationd.dir/build.make notificationd/CMakeFiles/cutefish-notificationd.dir/notification.cpp.i
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f notificationd/CMakeFiles/matsya-notificationd.dir/build.make notificationd/CMakeFiles/matsya-notificationd.dir/notification.cpp.i
 .PHONY : notification.cpp.i
 
 notification.s: notification.cpp.s
@@ -433,7 +433,7 @@ notification.s: notification.cpp.s
 
 # target to generate assembly for a file
 notification.cpp.s:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f notificationd/CMakeFiles/cutefish-notificationd.dir/build.make notificationd/CMakeFiles/cutefish-notificationd.dir/notification.cpp.s
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f notificationd/CMakeFiles/matsya-notificationd.dir/build.make notificationd/CMakeFiles/matsya-notificationd.dir/notification.cpp.s
 .PHONY : notification.cpp.s
 
 notificationadaptor.o: notificationadaptor.cpp.o
@@ -442,7 +442,7 @@ notificationadaptor.o: notificationadaptor.cpp.o
 
 # target to build an object file
 notificationadaptor.cpp.o:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f notificationd/CMakeFiles/cutefish-notificationd.dir/build.make notificationd/CMakeFiles/cutefish-notificationd.dir/notificationadaptor.cpp.o
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f notificationd/CMakeFiles/matsya-notificationd.dir/build.make notificationd/CMakeFiles/matsya-notificationd.dir/notificationadaptor.cpp.o
 .PHONY : notificationadaptor.cpp.o
 
 notificationadaptor.i: notificationadaptor.cpp.i
@@ -451,7 +451,7 @@ notificationadaptor.i: notificationadaptor.cpp.i
 
 # target to preprocess a source file
 notificationadaptor.cpp.i:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f notificationd/CMakeFiles/cutefish-notificationd.dir/build.make notificationd/CMakeFiles/cutefish-notificationd.dir/notificationadaptor.cpp.i
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f notificationd/CMakeFiles/matsya-notificationd.dir/build.make notificationd/CMakeFiles/matsya-notificationd.dir/notificationadaptor.cpp.i
 .PHONY : notificationadaptor.cpp.i
 
 notificationadaptor.s: notificationadaptor.cpp.s
@@ -460,7 +460,7 @@ notificationadaptor.s: notificationadaptor.cpp.s
 
 # target to generate assembly for a file
 notificationadaptor.cpp.s:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f notificationd/CMakeFiles/cutefish-notificationd.dir/build.make notificationd/CMakeFiles/cutefish-notificationd.dir/notificationadaptor.cpp.s
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f notificationd/CMakeFiles/matsya-notificationd.dir/build.make notificationd/CMakeFiles/matsya-notificationd.dir/notificationadaptor.cpp.s
 .PHONY : notificationadaptor.cpp.s
 
 notificationpopup.o: notificationpopup.cpp.o
@@ -469,7 +469,7 @@ notificationpopup.o: notificationpopup.cpp.o
 
 # target to build an object file
 notificationpopup.cpp.o:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f notificationd/CMakeFiles/cutefish-notificationd.dir/build.make notificationd/CMakeFiles/cutefish-notificationd.dir/notificationpopup.cpp.o
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f notificationd/CMakeFiles/matsya-notificationd.dir/build.make notificationd/CMakeFiles/matsya-notificationd.dir/notificationpopup.cpp.o
 .PHONY : notificationpopup.cpp.o
 
 notificationpopup.i: notificationpopup.cpp.i
@@ -478,7 +478,7 @@ notificationpopup.i: notificationpopup.cpp.i
 
 # target to preprocess a source file
 notificationpopup.cpp.i:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f notificationd/CMakeFiles/cutefish-notificationd.dir/build.make notificationd/CMakeFiles/cutefish-notificationd.dir/notificationpopup.cpp.i
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f notificationd/CMakeFiles/matsya-notificationd.dir/build.make notificationd/CMakeFiles/matsya-notificationd.dir/notificationpopup.cpp.i
 .PHONY : notificationpopup.cpp.i
 
 notificationpopup.s: notificationpopup.cpp.s
@@ -487,7 +487,7 @@ notificationpopup.s: notificationpopup.cpp.s
 
 # target to generate assembly for a file
 notificationpopup.cpp.s:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f notificationd/CMakeFiles/cutefish-notificationd.dir/build.make notificationd/CMakeFiles/cutefish-notificationd.dir/notificationpopup.cpp.s
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f notificationd/CMakeFiles/matsya-notificationd.dir/build.make notificationd/CMakeFiles/matsya-notificationd.dir/notificationpopup.cpp.s
 .PHONY : notificationpopup.cpp.s
 
 notificationserver.o: notificationserver.cpp.o
@@ -496,7 +496,7 @@ notificationserver.o: notificationserver.cpp.o
 
 # target to build an object file
 notificationserver.cpp.o:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f notificationd/CMakeFiles/cutefish-notificationd.dir/build.make notificationd/CMakeFiles/cutefish-notificationd.dir/notificationserver.cpp.o
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f notificationd/CMakeFiles/matsya-notificationd.dir/build.make notificationd/CMakeFiles/matsya-notificationd.dir/notificationserver.cpp.o
 .PHONY : notificationserver.cpp.o
 
 notificationserver.i: notificationserver.cpp.i
@@ -505,7 +505,7 @@ notificationserver.i: notificationserver.cpp.i
 
 # target to preprocess a source file
 notificationserver.cpp.i:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f notificationd/CMakeFiles/cutefish-notificationd.dir/build.make notificationd/CMakeFiles/cutefish-notificationd.dir/notificationserver.cpp.i
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f notificationd/CMakeFiles/matsya-notificationd.dir/build.make notificationd/CMakeFiles/matsya-notificationd.dir/notificationserver.cpp.i
 .PHONY : notificationserver.cpp.i
 
 notificationserver.s: notificationserver.cpp.s
@@ -514,7 +514,7 @@ notificationserver.s: notificationserver.cpp.s
 
 # target to generate assembly for a file
 notificationserver.cpp.s:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f notificationd/CMakeFiles/cutefish-notificationd.dir/build.make notificationd/CMakeFiles/cutefish-notificationd.dir/notificationserver.cpp.s
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f notificationd/CMakeFiles/matsya-notificationd.dir/build.make notificationd/CMakeFiles/matsya-notificationd.dir/notificationserver.cpp.s
 .PHONY : notificationserver.cpp.s
 
 notificationsmodel.o: notificationsmodel.cpp.o
@@ -523,7 +523,7 @@ notificationsmodel.o: notificationsmodel.cpp.o
 
 # target to build an object file
 notificationsmodel.cpp.o:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f notificationd/CMakeFiles/cutefish-notificationd.dir/build.make notificationd/CMakeFiles/cutefish-notificationd.dir/notificationsmodel.cpp.o
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f notificationd/CMakeFiles/matsya-notificationd.dir/build.make notificationd/CMakeFiles/matsya-notificationd.dir/notificationsmodel.cpp.o
 .PHONY : notificationsmodel.cpp.o
 
 notificationsmodel.i: notificationsmodel.cpp.i
@@ -532,7 +532,7 @@ notificationsmodel.i: notificationsmodel.cpp.i
 
 # target to preprocess a source file
 notificationsmodel.cpp.i:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f notificationd/CMakeFiles/cutefish-notificationd.dir/build.make notificationd/CMakeFiles/cutefish-notificationd.dir/notificationsmodel.cpp.i
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f notificationd/CMakeFiles/matsya-notificationd.dir/build.make notificationd/CMakeFiles/matsya-notificationd.dir/notificationsmodel.cpp.i
 .PHONY : notificationsmodel.cpp.i
 
 notificationsmodel.s: notificationsmodel.cpp.s
@@ -541,7 +541,7 @@ notificationsmodel.s: notificationsmodel.cpp.s
 
 # target to generate assembly for a file
 notificationsmodel.cpp.s:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f notificationd/CMakeFiles/cutefish-notificationd.dir/build.make notificationd/CMakeFiles/cutefish-notificationd.dir/notificationsmodel.cpp.s
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f notificationd/CMakeFiles/matsya-notificationd.dir/build.make notificationd/CMakeFiles/matsya-notificationd.dir/notificationsmodel.cpp.s
 .PHONY : notificationsmodel.cpp.s
 
 notificationwindow.o: notificationwindow.cpp.o
@@ -550,7 +550,7 @@ notificationwindow.o: notificationwindow.cpp.o
 
 # target to build an object file
 notificationwindow.cpp.o:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f notificationd/CMakeFiles/cutefish-notificationd.dir/build.make notificationd/CMakeFiles/cutefish-notificationd.dir/notificationwindow.cpp.o
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f notificationd/CMakeFiles/matsya-notificationd.dir/build.make notificationd/CMakeFiles/matsya-notificationd.dir/notificationwindow.cpp.o
 .PHONY : notificationwindow.cpp.o
 
 notificationwindow.i: notificationwindow.cpp.i
@@ -559,7 +559,7 @@ notificationwindow.i: notificationwindow.cpp.i
 
 # target to preprocess a source file
 notificationwindow.cpp.i:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f notificationd/CMakeFiles/cutefish-notificationd.dir/build.make notificationd/CMakeFiles/cutefish-notificationd.dir/notificationwindow.cpp.i
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f notificationd/CMakeFiles/matsya-notificationd.dir/build.make notificationd/CMakeFiles/matsya-notificationd.dir/notificationwindow.cpp.i
 .PHONY : notificationwindow.cpp.i
 
 notificationwindow.s: notificationwindow.cpp.s
@@ -568,7 +568,7 @@ notificationwindow.s: notificationwindow.cpp.s
 
 # target to generate assembly for a file
 notificationwindow.cpp.s:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f notificationd/CMakeFiles/cutefish-notificationd.dir/build.make notificationd/CMakeFiles/cutefish-notificationd.dir/notificationwindow.cpp.s
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f notificationd/CMakeFiles/matsya-notificationd.dir/build.make notificationd/CMakeFiles/matsya-notificationd.dir/notificationwindow.cpp.s
 .PHONY : notificationwindow.cpp.s
 
 screenhelper.o: screenhelper.cpp.o
@@ -577,7 +577,7 @@ screenhelper.o: screenhelper.cpp.o
 
 # target to build an object file
 screenhelper.cpp.o:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f notificationd/CMakeFiles/cutefish-notificationd.dir/build.make notificationd/CMakeFiles/cutefish-notificationd.dir/screenhelper.cpp.o
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f notificationd/CMakeFiles/matsya-notificationd.dir/build.make notificationd/CMakeFiles/matsya-notificationd.dir/screenhelper.cpp.o
 .PHONY : screenhelper.cpp.o
 
 screenhelper.i: screenhelper.cpp.i
@@ -586,7 +586,7 @@ screenhelper.i: screenhelper.cpp.i
 
 # target to preprocess a source file
 screenhelper.cpp.i:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f notificationd/CMakeFiles/cutefish-notificationd.dir/build.make notificationd/CMakeFiles/cutefish-notificationd.dir/screenhelper.cpp.i
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f notificationd/CMakeFiles/matsya-notificationd.dir/build.make notificationd/CMakeFiles/matsya-notificationd.dir/screenhelper.cpp.i
 .PHONY : screenhelper.cpp.i
 
 screenhelper.s: screenhelper.cpp.s
@@ -595,7 +595,7 @@ screenhelper.s: screenhelper.cpp.s
 
 # target to generate assembly for a file
 screenhelper.cpp.s:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f notificationd/CMakeFiles/cutefish-notificationd.dir/build.make notificationd/CMakeFiles/cutefish-notificationd.dir/screenhelper.cpp.s
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f notificationd/CMakeFiles/matsya-notificationd.dir/build.make notificationd/CMakeFiles/matsya-notificationd.dir/screenhelper.cpp.s
 .PHONY : screenhelper.cpp.s
 
 settings.o: settings.cpp.o
@@ -604,7 +604,7 @@ settings.o: settings.cpp.o
 
 # target to build an object file
 settings.cpp.o:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f notificationd/CMakeFiles/cutefish-notificationd.dir/build.make notificationd/CMakeFiles/cutefish-notificationd.dir/settings.cpp.o
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f notificationd/CMakeFiles/matsya-notificationd.dir/build.make notificationd/CMakeFiles/matsya-notificationd.dir/settings.cpp.o
 .PHONY : settings.cpp.o
 
 settings.i: settings.cpp.i
@@ -613,7 +613,7 @@ settings.i: settings.cpp.i
 
 # target to preprocess a source file
 settings.cpp.i:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f notificationd/CMakeFiles/cutefish-notificationd.dir/build.make notificationd/CMakeFiles/cutefish-notificationd.dir/settings.cpp.i
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f notificationd/CMakeFiles/matsya-notificationd.dir/build.make notificationd/CMakeFiles/matsya-notificationd.dir/settings.cpp.i
 .PHONY : settings.cpp.i
 
 settings.s: settings.cpp.s
@@ -622,7 +622,7 @@ settings.s: settings.cpp.s
 
 # target to generate assembly for a file
 settings.cpp.s:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f notificationd/CMakeFiles/cutefish-notificationd.dir/build.make notificationd/CMakeFiles/cutefish-notificationd.dir/settings.cpp.s
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f notificationd/CMakeFiles/matsya-notificationd.dir/build.make notificationd/CMakeFiles/matsya-notificationd.dir/settings.cpp.s
 .PHONY : settings.cpp.s
 
 utils.o: utils.cpp.o
@@ -631,7 +631,7 @@ utils.o: utils.cpp.o
 
 # target to build an object file
 utils.cpp.o:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f notificationd/CMakeFiles/cutefish-notificationd.dir/build.make notificationd/CMakeFiles/cutefish-notificationd.dir/utils.cpp.o
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f notificationd/CMakeFiles/matsya-notificationd.dir/build.make notificationd/CMakeFiles/matsya-notificationd.dir/utils.cpp.o
 .PHONY : utils.cpp.o
 
 utils.i: utils.cpp.i
@@ -640,7 +640,7 @@ utils.i: utils.cpp.i
 
 # target to preprocess a source file
 utils.cpp.i:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f notificationd/CMakeFiles/cutefish-notificationd.dir/build.make notificationd/CMakeFiles/cutefish-notificationd.dir/utils.cpp.i
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f notificationd/CMakeFiles/matsya-notificationd.dir/build.make notificationd/CMakeFiles/matsya-notificationd.dir/utils.cpp.i
 .PHONY : utils.cpp.i
 
 utils.s: utils.cpp.s
@@ -649,7 +649,7 @@ utils.s: utils.cpp.s
 
 # target to generate assembly for a file
 utils.cpp.s:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f notificationd/CMakeFiles/cutefish-notificationd.dir/build.make notificationd/CMakeFiles/cutefish-notificationd.dir/utils.cpp.s
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f notificationd/CMakeFiles/matsya-notificationd.dir/build.make notificationd/CMakeFiles/matsya-notificationd.dir/utils.cpp.s
 .PHONY : utils.cpp.s
 
 # Help Target
@@ -664,18 +664,12 @@ help:
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
-	@echo "... cutefish-notificationd_autogen"
+	@echo "... matsya-notificationd_autogen"
 	@echo "... notificationd_translations"
-	@echo "... cutefish-notificationd"
+	@echo "... matsya-notificationd"
 	@echo "... application.o"
 	@echo "... application.i"
 	@echo "... application.s"
-	@echo "... cutefish-notificationd_autogen/EWIEGA46WW/qrc_resources.o"
-	@echo "... cutefish-notificationd_autogen/EWIEGA46WW/qrc_resources.i"
-	@echo "... cutefish-notificationd_autogen/EWIEGA46WW/qrc_resources.s"
-	@echo "... cutefish-notificationd_autogen/mocs_compilation.o"
-	@echo "... cutefish-notificationd_autogen/mocs_compilation.i"
-	@echo "... cutefish-notificationd_autogen/mocs_compilation.s"
 	@echo "... datehelper.o"
 	@echo "... datehelper.i"
 	@echo "... datehelper.s"
@@ -688,6 +682,12 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... matsya-notificationd_autogen/EWIEGA46WW/qrc_resources.o"
+	@echo "... matsya-notificationd_autogen/EWIEGA46WW/qrc_resources.i"
+	@echo "... matsya-notificationd_autogen/EWIEGA46WW/qrc_resources.s"
+	@echo "... matsya-notificationd_autogen/mocs_compilation.o"
+	@echo "... matsya-notificationd_autogen/mocs_compilation.i"
+	@echo "... matsya-notificationd_autogen/mocs_compilation.s"
 	@echo "... notification.o"
 	@echo "... notification.i"
 	@echo "... notification.s"
@@ -726,6 +726,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/tokyo/clone/RebootOS/core/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/tokyo/Documents/GitHub/core/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

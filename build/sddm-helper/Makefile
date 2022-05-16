@@ -67,10 +67,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tokyo/clone/RebootOS/core
+CMAKE_SOURCE_DIR = /home/tokyo/Documents/GitHub/core
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tokyo/clone/RebootOS/core/build
+CMAKE_BINARY_DIR = /home/tokyo/Documents/GitHub/core/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -145,14 +145,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/tokyo/clone/RebootOS/core/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/RebootOS/core/build/CMakeFiles /home/tokyo/clone/RebootOS/core/build/sddm-helper//CMakeFiles/progress.marks
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sddm-helper/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/RebootOS/core/build/CMakeFiles 0
+	cd /home/tokyo/Documents/GitHub/core/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/Documents/GitHub/core/build/CMakeFiles /home/tokyo/Documents/GitHub/core/build/sddm-helper//CMakeFiles/progress.marks
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sddm-helper/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/Documents/GitHub/core/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sddm-helper/clean
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sddm-helper/clean
 .PHONY : clean
 
 # The main clean target
@@ -162,75 +162,48 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sddm-helper/preinstall
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sddm-helper/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sddm-helper/preinstall
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sddm-helper/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/tokyo/clone/RebootOS/core/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/tokyo/Documents/GitHub/core/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
-sddm-helper/CMakeFiles/cutefish-sddm-helper.dir/rule:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sddm-helper/CMakeFiles/cutefish-sddm-helper.dir/rule
-.PHONY : sddm-helper/CMakeFiles/cutefish-sddm-helper.dir/rule
+sddm-helper/CMakeFiles/matsya-sddm-helper.dir/rule:
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sddm-helper/CMakeFiles/matsya-sddm-helper.dir/rule
+.PHONY : sddm-helper/CMakeFiles/matsya-sddm-helper.dir/rule
 
 # Convenience name for target.
-cutefish-sddm-helper: sddm-helper/CMakeFiles/cutefish-sddm-helper.dir/rule
+matsya-sddm-helper: sddm-helper/CMakeFiles/matsya-sddm-helper.dir/rule
 
-.PHONY : cutefish-sddm-helper
+.PHONY : matsya-sddm-helper
 
 # fast build rule for target.
-cutefish-sddm-helper/fast:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f sddm-helper/CMakeFiles/cutefish-sddm-helper.dir/build.make sddm-helper/CMakeFiles/cutefish-sddm-helper.dir/build
-.PHONY : cutefish-sddm-helper/fast
+matsya-sddm-helper/fast:
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f sddm-helper/CMakeFiles/matsya-sddm-helper.dir/build.make sddm-helper/CMakeFiles/matsya-sddm-helper.dir/build
+.PHONY : matsya-sddm-helper/fast
 
 # Convenience name for target.
-sddm-helper/CMakeFiles/cutefish-sddm-helper_autogen.dir/rule:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sddm-helper/CMakeFiles/cutefish-sddm-helper_autogen.dir/rule
-.PHONY : sddm-helper/CMakeFiles/cutefish-sddm-helper_autogen.dir/rule
+sddm-helper/CMakeFiles/matsya-sddm-helper_autogen.dir/rule:
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sddm-helper/CMakeFiles/matsya-sddm-helper_autogen.dir/rule
+.PHONY : sddm-helper/CMakeFiles/matsya-sddm-helper_autogen.dir/rule
 
 # Convenience name for target.
-cutefish-sddm-helper_autogen: sddm-helper/CMakeFiles/cutefish-sddm-helper_autogen.dir/rule
+matsya-sddm-helper_autogen: sddm-helper/CMakeFiles/matsya-sddm-helper_autogen.dir/rule
 
-.PHONY : cutefish-sddm-helper_autogen
+.PHONY : matsya-sddm-helper_autogen
 
 # fast build rule for target.
-cutefish-sddm-helper_autogen/fast:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f sddm-helper/CMakeFiles/cutefish-sddm-helper_autogen.dir/build.make sddm-helper/CMakeFiles/cutefish-sddm-helper_autogen.dir/build
-.PHONY : cutefish-sddm-helper_autogen/fast
-
-cutefish-sddm-helper_autogen/mocs_compilation.o: cutefish-sddm-helper_autogen/mocs_compilation.cpp.o
-
-.PHONY : cutefish-sddm-helper_autogen/mocs_compilation.o
-
-# target to build an object file
-cutefish-sddm-helper_autogen/mocs_compilation.cpp.o:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f sddm-helper/CMakeFiles/cutefish-sddm-helper.dir/build.make sddm-helper/CMakeFiles/cutefish-sddm-helper.dir/cutefish-sddm-helper_autogen/mocs_compilation.cpp.o
-.PHONY : cutefish-sddm-helper_autogen/mocs_compilation.cpp.o
-
-cutefish-sddm-helper_autogen/mocs_compilation.i: cutefish-sddm-helper_autogen/mocs_compilation.cpp.i
-
-.PHONY : cutefish-sddm-helper_autogen/mocs_compilation.i
-
-# target to preprocess a source file
-cutefish-sddm-helper_autogen/mocs_compilation.cpp.i:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f sddm-helper/CMakeFiles/cutefish-sddm-helper.dir/build.make sddm-helper/CMakeFiles/cutefish-sddm-helper.dir/cutefish-sddm-helper_autogen/mocs_compilation.cpp.i
-.PHONY : cutefish-sddm-helper_autogen/mocs_compilation.cpp.i
-
-cutefish-sddm-helper_autogen/mocs_compilation.s: cutefish-sddm-helper_autogen/mocs_compilation.cpp.s
-
-.PHONY : cutefish-sddm-helper_autogen/mocs_compilation.s
-
-# target to generate assembly for a file
-cutefish-sddm-helper_autogen/mocs_compilation.cpp.s:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f sddm-helper/CMakeFiles/cutefish-sddm-helper.dir/build.make sddm-helper/CMakeFiles/cutefish-sddm-helper.dir/cutefish-sddm-helper_autogen/mocs_compilation.cpp.s
-.PHONY : cutefish-sddm-helper_autogen/mocs_compilation.cpp.s
+matsya-sddm-helper_autogen/fast:
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f sddm-helper/CMakeFiles/matsya-sddm-helper_autogen.dir/build.make sddm-helper/CMakeFiles/matsya-sddm-helper_autogen.dir/build
+.PHONY : matsya-sddm-helper_autogen/fast
 
 main.o: main.cpp.o
 
@@ -238,7 +211,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f sddm-helper/CMakeFiles/cutefish-sddm-helper.dir/build.make sddm-helper/CMakeFiles/cutefish-sddm-helper.dir/main.cpp.o
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f sddm-helper/CMakeFiles/matsya-sddm-helper.dir/build.make sddm-helper/CMakeFiles/matsya-sddm-helper.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -247,7 +220,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f sddm-helper/CMakeFiles/cutefish-sddm-helper.dir/build.make sddm-helper/CMakeFiles/cutefish-sddm-helper.dir/main.cpp.i
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f sddm-helper/CMakeFiles/matsya-sddm-helper.dir/build.make sddm-helper/CMakeFiles/matsya-sddm-helper.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -256,8 +229,35 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f sddm-helper/CMakeFiles/cutefish-sddm-helper.dir/build.make sddm-helper/CMakeFiles/cutefish-sddm-helper.dir/main.cpp.s
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f sddm-helper/CMakeFiles/matsya-sddm-helper.dir/build.make sddm-helper/CMakeFiles/matsya-sddm-helper.dir/main.cpp.s
 .PHONY : main.cpp.s
+
+matsya-sddm-helper_autogen/mocs_compilation.o: matsya-sddm-helper_autogen/mocs_compilation.cpp.o
+
+.PHONY : matsya-sddm-helper_autogen/mocs_compilation.o
+
+# target to build an object file
+matsya-sddm-helper_autogen/mocs_compilation.cpp.o:
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f sddm-helper/CMakeFiles/matsya-sddm-helper.dir/build.make sddm-helper/CMakeFiles/matsya-sddm-helper.dir/matsya-sddm-helper_autogen/mocs_compilation.cpp.o
+.PHONY : matsya-sddm-helper_autogen/mocs_compilation.cpp.o
+
+matsya-sddm-helper_autogen/mocs_compilation.i: matsya-sddm-helper_autogen/mocs_compilation.cpp.i
+
+.PHONY : matsya-sddm-helper_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+matsya-sddm-helper_autogen/mocs_compilation.cpp.i:
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f sddm-helper/CMakeFiles/matsya-sddm-helper.dir/build.make sddm-helper/CMakeFiles/matsya-sddm-helper.dir/matsya-sddm-helper_autogen/mocs_compilation.cpp.i
+.PHONY : matsya-sddm-helper_autogen/mocs_compilation.cpp.i
+
+matsya-sddm-helper_autogen/mocs_compilation.s: matsya-sddm-helper_autogen/mocs_compilation.cpp.s
+
+.PHONY : matsya-sddm-helper_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+matsya-sddm-helper_autogen/mocs_compilation.cpp.s:
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f sddm-helper/CMakeFiles/matsya-sddm-helper.dir/build.make sddm-helper/CMakeFiles/matsya-sddm-helper.dir/matsya-sddm-helper_autogen/mocs_compilation.cpp.s
+.PHONY : matsya-sddm-helper_autogen/mocs_compilation.cpp.s
 
 # Help Target
 help:
@@ -271,14 +271,14 @@ help:
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
-	@echo "... cutefish-sddm-helper_autogen"
-	@echo "... cutefish-sddm-helper"
-	@echo "... cutefish-sddm-helper_autogen/mocs_compilation.o"
-	@echo "... cutefish-sddm-helper_autogen/mocs_compilation.i"
-	@echo "... cutefish-sddm-helper_autogen/mocs_compilation.s"
+	@echo "... matsya-sddm-helper_autogen"
+	@echo "... matsya-sddm-helper"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... matsya-sddm-helper_autogen/mocs_compilation.o"
+	@echo "... matsya-sddm-helper_autogen/mocs_compilation.i"
+	@echo "... matsya-sddm-helper_autogen/mocs_compilation.s"
 .PHONY : help
 
 
@@ -290,6 +290,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/tokyo/clone/RebootOS/core/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/tokyo/Documents/GitHub/core/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

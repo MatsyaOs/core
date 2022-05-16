@@ -67,10 +67,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tokyo/clone/RebootOS/core
+CMAKE_SOURCE_DIR = /home/tokyo/Documents/GitHub/core
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tokyo/clone/RebootOS/core/build
+CMAKE_BINARY_DIR = /home/tokyo/Documents/GitHub/core/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -145,14 +145,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/tokyo/clone/RebootOS/core/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/RebootOS/core/build/CMakeFiles /home/tokyo/clone/RebootOS/core/build/cpufreq//CMakeFiles/progress.marks
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cpufreq/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/RebootOS/core/build/CMakeFiles 0
+	cd /home/tokyo/Documents/GitHub/core/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/Documents/GitHub/core/build/CMakeFiles /home/tokyo/Documents/GitHub/core/build/cpufreq//CMakeFiles/progress.marks
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cpufreq/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/Documents/GitHub/core/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cpufreq/clean
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cpufreq/clean
 .PHONY : clean
 
 # The main clean target
@@ -162,75 +162,48 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cpufreq/preinstall
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cpufreq/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cpufreq/preinstall
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cpufreq/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/tokyo/clone/RebootOS/core/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/tokyo/Documents/GitHub/core/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
-cpufreq/CMakeFiles/cutefish-cpufreq.dir/rule:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cpufreq/CMakeFiles/cutefish-cpufreq.dir/rule
-.PHONY : cpufreq/CMakeFiles/cutefish-cpufreq.dir/rule
+cpufreq/CMakeFiles/matsya-cpufreq.dir/rule:
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cpufreq/CMakeFiles/matsya-cpufreq.dir/rule
+.PHONY : cpufreq/CMakeFiles/matsya-cpufreq.dir/rule
 
 # Convenience name for target.
-cutefish-cpufreq: cpufreq/CMakeFiles/cutefish-cpufreq.dir/rule
+matsya-cpufreq: cpufreq/CMakeFiles/matsya-cpufreq.dir/rule
 
-.PHONY : cutefish-cpufreq
+.PHONY : matsya-cpufreq
 
 # fast build rule for target.
-cutefish-cpufreq/fast:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f cpufreq/CMakeFiles/cutefish-cpufreq.dir/build.make cpufreq/CMakeFiles/cutefish-cpufreq.dir/build
-.PHONY : cutefish-cpufreq/fast
+matsya-cpufreq/fast:
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f cpufreq/CMakeFiles/matsya-cpufreq.dir/build.make cpufreq/CMakeFiles/matsya-cpufreq.dir/build
+.PHONY : matsya-cpufreq/fast
 
 # Convenience name for target.
-cpufreq/CMakeFiles/cutefish-cpufreq_autogen.dir/rule:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cpufreq/CMakeFiles/cutefish-cpufreq_autogen.dir/rule
-.PHONY : cpufreq/CMakeFiles/cutefish-cpufreq_autogen.dir/rule
+cpufreq/CMakeFiles/matsya-cpufreq_autogen.dir/rule:
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cpufreq/CMakeFiles/matsya-cpufreq_autogen.dir/rule
+.PHONY : cpufreq/CMakeFiles/matsya-cpufreq_autogen.dir/rule
 
 # Convenience name for target.
-cutefish-cpufreq_autogen: cpufreq/CMakeFiles/cutefish-cpufreq_autogen.dir/rule
+matsya-cpufreq_autogen: cpufreq/CMakeFiles/matsya-cpufreq_autogen.dir/rule
 
-.PHONY : cutefish-cpufreq_autogen
+.PHONY : matsya-cpufreq_autogen
 
 # fast build rule for target.
-cutefish-cpufreq_autogen/fast:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f cpufreq/CMakeFiles/cutefish-cpufreq_autogen.dir/build.make cpufreq/CMakeFiles/cutefish-cpufreq_autogen.dir/build
-.PHONY : cutefish-cpufreq_autogen/fast
-
-cutefish-cpufreq_autogen/mocs_compilation.o: cutefish-cpufreq_autogen/mocs_compilation.cpp.o
-
-.PHONY : cutefish-cpufreq_autogen/mocs_compilation.o
-
-# target to build an object file
-cutefish-cpufreq_autogen/mocs_compilation.cpp.o:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f cpufreq/CMakeFiles/cutefish-cpufreq.dir/build.make cpufreq/CMakeFiles/cutefish-cpufreq.dir/cutefish-cpufreq_autogen/mocs_compilation.cpp.o
-.PHONY : cutefish-cpufreq_autogen/mocs_compilation.cpp.o
-
-cutefish-cpufreq_autogen/mocs_compilation.i: cutefish-cpufreq_autogen/mocs_compilation.cpp.i
-
-.PHONY : cutefish-cpufreq_autogen/mocs_compilation.i
-
-# target to preprocess a source file
-cutefish-cpufreq_autogen/mocs_compilation.cpp.i:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f cpufreq/CMakeFiles/cutefish-cpufreq.dir/build.make cpufreq/CMakeFiles/cutefish-cpufreq.dir/cutefish-cpufreq_autogen/mocs_compilation.cpp.i
-.PHONY : cutefish-cpufreq_autogen/mocs_compilation.cpp.i
-
-cutefish-cpufreq_autogen/mocs_compilation.s: cutefish-cpufreq_autogen/mocs_compilation.cpp.s
-
-.PHONY : cutefish-cpufreq_autogen/mocs_compilation.s
-
-# target to generate assembly for a file
-cutefish-cpufreq_autogen/mocs_compilation.cpp.s:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f cpufreq/CMakeFiles/cutefish-cpufreq.dir/build.make cpufreq/CMakeFiles/cutefish-cpufreq.dir/cutefish-cpufreq_autogen/mocs_compilation.cpp.s
-.PHONY : cutefish-cpufreq_autogen/mocs_compilation.cpp.s
+matsya-cpufreq_autogen/fast:
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f cpufreq/CMakeFiles/matsya-cpufreq_autogen.dir/build.make cpufreq/CMakeFiles/matsya-cpufreq_autogen.dir/build
+.PHONY : matsya-cpufreq_autogen/fast
 
 main.o: main.cpp.o
 
@@ -238,7 +211,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f cpufreq/CMakeFiles/cutefish-cpufreq.dir/build.make cpufreq/CMakeFiles/cutefish-cpufreq.dir/main.cpp.o
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f cpufreq/CMakeFiles/matsya-cpufreq.dir/build.make cpufreq/CMakeFiles/matsya-cpufreq.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -247,7 +220,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f cpufreq/CMakeFiles/cutefish-cpufreq.dir/build.make cpufreq/CMakeFiles/cutefish-cpufreq.dir/main.cpp.i
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f cpufreq/CMakeFiles/matsya-cpufreq.dir/build.make cpufreq/CMakeFiles/matsya-cpufreq.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -256,8 +229,35 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f cpufreq/CMakeFiles/cutefish-cpufreq.dir/build.make cpufreq/CMakeFiles/cutefish-cpufreq.dir/main.cpp.s
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f cpufreq/CMakeFiles/matsya-cpufreq.dir/build.make cpufreq/CMakeFiles/matsya-cpufreq.dir/main.cpp.s
 .PHONY : main.cpp.s
+
+matsya-cpufreq_autogen/mocs_compilation.o: matsya-cpufreq_autogen/mocs_compilation.cpp.o
+
+.PHONY : matsya-cpufreq_autogen/mocs_compilation.o
+
+# target to build an object file
+matsya-cpufreq_autogen/mocs_compilation.cpp.o:
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f cpufreq/CMakeFiles/matsya-cpufreq.dir/build.make cpufreq/CMakeFiles/matsya-cpufreq.dir/matsya-cpufreq_autogen/mocs_compilation.cpp.o
+.PHONY : matsya-cpufreq_autogen/mocs_compilation.cpp.o
+
+matsya-cpufreq_autogen/mocs_compilation.i: matsya-cpufreq_autogen/mocs_compilation.cpp.i
+
+.PHONY : matsya-cpufreq_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+matsya-cpufreq_autogen/mocs_compilation.cpp.i:
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f cpufreq/CMakeFiles/matsya-cpufreq.dir/build.make cpufreq/CMakeFiles/matsya-cpufreq.dir/matsya-cpufreq_autogen/mocs_compilation.cpp.i
+.PHONY : matsya-cpufreq_autogen/mocs_compilation.cpp.i
+
+matsya-cpufreq_autogen/mocs_compilation.s: matsya-cpufreq_autogen/mocs_compilation.cpp.s
+
+.PHONY : matsya-cpufreq_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+matsya-cpufreq_autogen/mocs_compilation.cpp.s:
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f cpufreq/CMakeFiles/matsya-cpufreq.dir/build.make cpufreq/CMakeFiles/matsya-cpufreq.dir/matsya-cpufreq_autogen/mocs_compilation.cpp.s
+.PHONY : matsya-cpufreq_autogen/mocs_compilation.cpp.s
 
 # Help Target
 help:
@@ -271,14 +271,14 @@ help:
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
-	@echo "... cutefish-cpufreq_autogen"
-	@echo "... cutefish-cpufreq"
-	@echo "... cutefish-cpufreq_autogen/mocs_compilation.o"
-	@echo "... cutefish-cpufreq_autogen/mocs_compilation.i"
-	@echo "... cutefish-cpufreq_autogen/mocs_compilation.s"
+	@echo "... matsya-cpufreq_autogen"
+	@echo "... matsya-cpufreq"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... matsya-cpufreq_autogen/mocs_compilation.o"
+	@echo "... matsya-cpufreq_autogen/mocs_compilation.i"
+	@echo "... matsya-cpufreq_autogen/mocs_compilation.s"
 .PHONY : help
 
 
@@ -290,6 +290,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/tokyo/clone/RebootOS/core/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/tokyo/Documents/GitHub/core/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

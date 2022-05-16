@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/tokyo/clone/RebootOS/core/build/cupdatecursor/cupdatecursor_autogen/mocs_compilation.cpp
+/home/tokyo/Documents/GitHub/core/build/cupdatecursor/cupdatecursor_autogen/mocs_compilation.cpp
 
-/home/tokyo/clone/RebootOS/core/cupdatecursor/main.cpp
+/home/tokyo/Documents/GitHub/core/cupdatecursor/main.cpp
 QGuiApplication
 -
 QX11Info

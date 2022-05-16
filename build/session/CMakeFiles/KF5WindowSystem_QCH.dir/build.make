@@ -62,10 +62,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tokyo/clone/RebootOS/core
+CMAKE_SOURCE_DIR = /home/tokyo/Documents/GitHub/core
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tokyo/clone/RebootOS/core/build
+CMAKE_BINARY_DIR = /home/tokyo/Documents/GitHub/core/build
 
 # Utility rule file for KF5WindowSystem_QCH.
 
@@ -82,10 +82,10 @@ session/CMakeFiles/KF5WindowSystem_QCH.dir/build: KF5WindowSystem_QCH
 .PHONY : session/CMakeFiles/KF5WindowSystem_QCH.dir/build
 
 session/CMakeFiles/KF5WindowSystem_QCH.dir/clean:
-	cd /home/tokyo/clone/RebootOS/core/build/session && $(CMAKE_COMMAND) -P CMakeFiles/KF5WindowSystem_QCH.dir/cmake_clean.cmake
+	cd /home/tokyo/Documents/GitHub/core/build/session && $(CMAKE_COMMAND) -P CMakeFiles/KF5WindowSystem_QCH.dir/cmake_clean.cmake
 .PHONY : session/CMakeFiles/KF5WindowSystem_QCH.dir/clean
 
 session/CMakeFiles/KF5WindowSystem_QCH.dir/depend:
-	cd /home/tokyo/clone/RebootOS/core/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tokyo/clone/RebootOS/core /home/tokyo/clone/RebootOS/core/session /home/tokyo/clone/RebootOS/core/build /home/tokyo/clone/RebootOS/core/build/session /home/tokyo/clone/RebootOS/core/build/session/CMakeFiles/KF5WindowSystem_QCH.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/tokyo/Documents/GitHub/core/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tokyo/Documents/GitHub/core /home/tokyo/Documents/GitHub/core/session /home/tokyo/Documents/GitHub/core/build /home/tokyo/Documents/GitHub/core/build/session /home/tokyo/Documents/GitHub/core/build/session/CMakeFiles/KF5WindowSystem_QCH.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : session/CMakeFiles/KF5WindowSystem_QCH.dir/depend
 

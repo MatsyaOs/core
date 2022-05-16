@@ -1,5 +1,5 @@
-/home/tokyo/clone/RebootOS/core/build/chotkeys/chotkeys_autogen/EWIEGA46WW/moc_hotkeys.cpp: /home/tokyo/clone/RebootOS/core/chotkeys/hotkeys.h \
-  /home/tokyo/clone/RebootOS/core/build/chotkeys/chotkeys_autogen/moc_predefs.h \
+/home/tokyo/Documents/GitHub/core/build/chotkeys/chotkeys_autogen/EWIEGA46WW/moc_hotkeys.cpp: /home/tokyo/Documents/GitHub/core/chotkeys/hotkeys.h \
+  /home/tokyo/Documents/GitHub/core/build/chotkeys/chotkeys_autogen/moc_predefs.h \
   /usr/include/alloca.h \
   /usr/include/assert.h \
   /usr/include/c++/10/algorithm \

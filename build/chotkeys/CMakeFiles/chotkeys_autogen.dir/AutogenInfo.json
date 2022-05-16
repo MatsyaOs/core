@@ -1,12 +1,12 @@
 {
-	"BUILD_DIR" : "/home/tokyo/clone/RebootOS/core/build/chotkeys/chotkeys_autogen",
-	"CMAKE_BINARY_DIR" : "/home/tokyo/clone/RebootOS/core/build",
-	"CMAKE_CURRENT_BINARY_DIR" : "/home/tokyo/clone/RebootOS/core/build/chotkeys",
-	"CMAKE_CURRENT_SOURCE_DIR" : "/home/tokyo/clone/RebootOS/core/chotkeys",
+	"BUILD_DIR" : "/home/tokyo/Documents/GitHub/core/build/chotkeys/chotkeys_autogen",
+	"CMAKE_BINARY_DIR" : "/home/tokyo/Documents/GitHub/core/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/tokyo/Documents/GitHub/core/build/chotkeys",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/tokyo/Documents/GitHub/core/chotkeys",
 	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
 	"CMAKE_LIST_FILES" : 
 	[
-		"/home/tokyo/clone/RebootOS/core/chotkeys/CMakeLists.txt",
+		"/home/tokyo/Documents/GitHub/core/chotkeys/CMakeLists.txt",
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5ConfigVersion.cmake",
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5Config.cmake",
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5ModuleLocation.cmake",
@@ -18,8 +18,8 @@
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt5DBus/Qt5DBusConfig.cmake",
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt5X11Extras/Qt5X11ExtrasConfigVersion.cmake",
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt5X11Extras/Qt5X11ExtrasConfig.cmake",
-		"/home/tokyo/clone/RebootOS/core/cmake/FindXCB.cmake",
-		"/home/tokyo/clone/RebootOS/core/cmake/ECMFindModuleHelpers.cmake",
+		"/home/tokyo/Documents/GitHub/core/cmake/FindXCB.cmake",
+		"/home/tokyo/Documents/GitHub/core/cmake/ECMFindModuleHelpers.cmake",
 		"/usr/share/cmake-3.18/Modules/CMakeParseArguments.cmake",
 		"/usr/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake",
 		"/usr/share/cmake-3.18/Modules/FindPackageMessage.cmake",
@@ -43,25 +43,25 @@
 		"/usr/share/cmake-3.18/Modules/CheckFunctionExists.cmake",
 		"/usr/share/cmake-3.18/Modules/CheckLibraryExists.cmake"
 	],
-	"CMAKE_SOURCE_DIR" : "/home/tokyo/clone/RebootOS/core",
+	"CMAKE_SOURCE_DIR" : "/home/tokyo/Documents/GitHub/core",
 	"DEP_FILE" : "",
 	"DEP_FILE_RULE_NAME" : "",
 	"HEADERS" : 
 	[
 		[
-			"/home/tokyo/clone/RebootOS/core/chotkeys/application.h",
+			"/home/tokyo/Documents/GitHub/core/chotkeys/application.h",
 			"MU",
 			"EWIEGA46WW/moc_application.cpp"
 		],
 		[
-			"/home/tokyo/clone/RebootOS/core/chotkeys/hotkeys.h",
+			"/home/tokyo/Documents/GitHub/core/chotkeys/hotkeys.h",
 			"MU",
 			"EWIEGA46WW/moc_hotkeys.cpp"
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "/home/tokyo/clone/RebootOS/core/build/chotkeys/chotkeys_autogen/include",
-	"MOC_COMPILATION_FILE" : "/home/tokyo/clone/RebootOS/core/build/chotkeys/chotkeys_autogen/mocs_compilation.cpp",
+	"INCLUDE_DIR" : "/home/tokyo/Documents/GitHub/core/build/chotkeys/chotkeys_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/tokyo/Documents/GitHub/core/build/chotkeys/chotkeys_autogen/mocs_compilation.cpp",
 	"MOC_DEFINITIONS" : 
 	[
 		"QT_CORE_LIB",
@@ -80,8 +80,8 @@
 	],
 	"MOC_INCLUDES" : 
 	[
-		"/home/tokyo/clone/RebootOS/core/build/chotkeys",
-		"/home/tokyo/clone/RebootOS/core/chotkeys",
+		"/home/tokyo/Documents/GitHub/core/build/chotkeys",
+		"/home/tokyo/Documents/GitHub/core/chotkeys",
 		"/usr/include/x86_64-linux-gnu/qt5",
 		"/usr/include/x86_64-linux-gnu/qt5/QtCore",
 		"/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++",
@@ -108,22 +108,22 @@
 		"-c",
 		"/usr/share/cmake-3.18/Modules/CMakeCXXCompilerABI.cpp"
 	],
-	"MOC_PREDEFS_FILE" : "/home/tokyo/clone/RebootOS/core/build/chotkeys/chotkeys_autogen/moc_predefs.h",
+	"MOC_PREDEFS_FILE" : "/home/tokyo/Documents/GitHub/core/build/chotkeys/chotkeys_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : [],
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 2,
-	"PARSE_CACHE_FILE" : "/home/tokyo/clone/RebootOS/core/build/chotkeys/CMakeFiles/chotkeys_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE" : "/home/tokyo/Documents/GitHub/core/build/chotkeys/CMakeFiles/chotkeys_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "/usr/lib/qt5/bin/moc",
 	"QT_UIC_EXECUTABLE" : "/usr/lib/qt5/bin/uic",
 	"QT_VERSION_MAJOR" : 5,
 	"QT_VERSION_MINOR" : 15,
-	"SETTINGS_FILE" : "/home/tokyo/clone/RebootOS/core/build/chotkeys/CMakeFiles/chotkeys_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE" : "/home/tokyo/Documents/GitHub/core/build/chotkeys/CMakeFiles/chotkeys_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
-		[ "/home/tokyo/clone/RebootOS/core/chotkeys/application.cpp", "MU" ],
-		[ "/home/tokyo/clone/RebootOS/core/chotkeys/hotkeys.cpp", "MU" ],
-		[ "/home/tokyo/clone/RebootOS/core/chotkeys/main.cpp", "MU" ]
+		[ "/home/tokyo/Documents/GitHub/core/chotkeys/application.cpp", "MU" ],
+		[ "/home/tokyo/Documents/GitHub/core/chotkeys/hotkeys.cpp", "MU" ],
+		[ "/home/tokyo/Documents/GitHub/core/chotkeys/main.cpp", "MU" ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],

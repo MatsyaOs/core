@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/tokyo/clone/RebootOS/core/chotkeys/application.cpp" "/home/tokyo/clone/RebootOS/core/build/chotkeys/CMakeFiles/chotkeys.dir/application.cpp.o"
-  "/home/tokyo/clone/RebootOS/core/build/chotkeys/chotkeys_autogen/mocs_compilation.cpp" "/home/tokyo/clone/RebootOS/core/build/chotkeys/CMakeFiles/chotkeys.dir/chotkeys_autogen/mocs_compilation.cpp.o"
-  "/home/tokyo/clone/RebootOS/core/chotkeys/hotkeys.cpp" "/home/tokyo/clone/RebootOS/core/build/chotkeys/CMakeFiles/chotkeys.dir/hotkeys.cpp.o"
-  "/home/tokyo/clone/RebootOS/core/chotkeys/main.cpp" "/home/tokyo/clone/RebootOS/core/build/chotkeys/CMakeFiles/chotkeys.dir/main.cpp.o"
+  "/home/tokyo/Documents/GitHub/core/chotkeys/application.cpp" "/home/tokyo/Documents/GitHub/core/build/chotkeys/CMakeFiles/chotkeys.dir/application.cpp.o"
+  "/home/tokyo/Documents/GitHub/core/build/chotkeys/chotkeys_autogen/mocs_compilation.cpp" "/home/tokyo/Documents/GitHub/core/build/chotkeys/CMakeFiles/chotkeys.dir/chotkeys_autogen/mocs_compilation.cpp.o"
+  "/home/tokyo/Documents/GitHub/core/chotkeys/hotkeys.cpp" "/home/tokyo/Documents/GitHub/core/build/chotkeys/CMakeFiles/chotkeys.dir/hotkeys.cpp.o"
+  "/home/tokyo/Documents/GitHub/core/chotkeys/main.cpp" "/home/tokyo/Documents/GitHub/core/build/chotkeys/CMakeFiles/chotkeys.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

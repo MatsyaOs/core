@@ -62,10 +62,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tokyo/clone/RebootOS/core
+CMAKE_SOURCE_DIR = /home/tokyo/Documents/GitHub/core
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tokyo/clone/RebootOS/core/build
+CMAKE_BINARY_DIR = /home/tokyo/Documents/GitHub/core/build
 
 # Include any dependencies generated for this target.
 include chotkeys/CMakeFiles/chotkeys.dir/depend.make
@@ -78,55 +78,55 @@ include chotkeys/CMakeFiles/chotkeys.dir/flags.make
 
 chotkeys/CMakeFiles/chotkeys.dir/chotkeys_autogen/mocs_compilation.cpp.o: chotkeys/CMakeFiles/chotkeys.dir/flags.make
 chotkeys/CMakeFiles/chotkeys.dir/chotkeys_autogen/mocs_compilation.cpp.o: chotkeys/chotkeys_autogen/mocs_compilation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tokyo/clone/RebootOS/core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object chotkeys/CMakeFiles/chotkeys.dir/chotkeys_autogen/mocs_compilation.cpp.o"
-	cd /home/tokyo/clone/RebootOS/core/build/chotkeys && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkeys.dir/chotkeys_autogen/mocs_compilation.cpp.o -c /home/tokyo/clone/RebootOS/core/build/chotkeys/chotkeys_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tokyo/Documents/GitHub/core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object chotkeys/CMakeFiles/chotkeys.dir/chotkeys_autogen/mocs_compilation.cpp.o"
+	cd /home/tokyo/Documents/GitHub/core/build/chotkeys && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkeys.dir/chotkeys_autogen/mocs_compilation.cpp.o -c /home/tokyo/Documents/GitHub/core/build/chotkeys/chotkeys_autogen/mocs_compilation.cpp
 
 chotkeys/CMakeFiles/chotkeys.dir/chotkeys_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkeys.dir/chotkeys_autogen/mocs_compilation.cpp.i"
-	cd /home/tokyo/clone/RebootOS/core/build/chotkeys && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tokyo/clone/RebootOS/core/build/chotkeys/chotkeys_autogen/mocs_compilation.cpp > CMakeFiles/chotkeys.dir/chotkeys_autogen/mocs_compilation.cpp.i
+	cd /home/tokyo/Documents/GitHub/core/build/chotkeys && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tokyo/Documents/GitHub/core/build/chotkeys/chotkeys_autogen/mocs_compilation.cpp > CMakeFiles/chotkeys.dir/chotkeys_autogen/mocs_compilation.cpp.i
 
 chotkeys/CMakeFiles/chotkeys.dir/chotkeys_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkeys.dir/chotkeys_autogen/mocs_compilation.cpp.s"
-	cd /home/tokyo/clone/RebootOS/core/build/chotkeys && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tokyo/clone/RebootOS/core/build/chotkeys/chotkeys_autogen/mocs_compilation.cpp -o CMakeFiles/chotkeys.dir/chotkeys_autogen/mocs_compilation.cpp.s
+	cd /home/tokyo/Documents/GitHub/core/build/chotkeys && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tokyo/Documents/GitHub/core/build/chotkeys/chotkeys_autogen/mocs_compilation.cpp -o CMakeFiles/chotkeys.dir/chotkeys_autogen/mocs_compilation.cpp.s
 
 chotkeys/CMakeFiles/chotkeys.dir/main.cpp.o: chotkeys/CMakeFiles/chotkeys.dir/flags.make
 chotkeys/CMakeFiles/chotkeys.dir/main.cpp.o: ../chotkeys/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tokyo/clone/RebootOS/core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object chotkeys/CMakeFiles/chotkeys.dir/main.cpp.o"
-	cd /home/tokyo/clone/RebootOS/core/build/chotkeys && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkeys.dir/main.cpp.o -c /home/tokyo/clone/RebootOS/core/chotkeys/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tokyo/Documents/GitHub/core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object chotkeys/CMakeFiles/chotkeys.dir/main.cpp.o"
+	cd /home/tokyo/Documents/GitHub/core/build/chotkeys && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkeys.dir/main.cpp.o -c /home/tokyo/Documents/GitHub/core/chotkeys/main.cpp
 
 chotkeys/CMakeFiles/chotkeys.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkeys.dir/main.cpp.i"
-	cd /home/tokyo/clone/RebootOS/core/build/chotkeys && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tokyo/clone/RebootOS/core/chotkeys/main.cpp > CMakeFiles/chotkeys.dir/main.cpp.i
+	cd /home/tokyo/Documents/GitHub/core/build/chotkeys && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tokyo/Documents/GitHub/core/chotkeys/main.cpp > CMakeFiles/chotkeys.dir/main.cpp.i
 
 chotkeys/CMakeFiles/chotkeys.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkeys.dir/main.cpp.s"
-	cd /home/tokyo/clone/RebootOS/core/build/chotkeys && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tokyo/clone/RebootOS/core/chotkeys/main.cpp -o CMakeFiles/chotkeys.dir/main.cpp.s
+	cd /home/tokyo/Documents/GitHub/core/build/chotkeys && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tokyo/Documents/GitHub/core/chotkeys/main.cpp -o CMakeFiles/chotkeys.dir/main.cpp.s
 
 chotkeys/CMakeFiles/chotkeys.dir/application.cpp.o: chotkeys/CMakeFiles/chotkeys.dir/flags.make
 chotkeys/CMakeFiles/chotkeys.dir/application.cpp.o: ../chotkeys/application.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tokyo/clone/RebootOS/core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object chotkeys/CMakeFiles/chotkeys.dir/application.cpp.o"
-	cd /home/tokyo/clone/RebootOS/core/build/chotkeys && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkeys.dir/application.cpp.o -c /home/tokyo/clone/RebootOS/core/chotkeys/application.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tokyo/Documents/GitHub/core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object chotkeys/CMakeFiles/chotkeys.dir/application.cpp.o"
+	cd /home/tokyo/Documents/GitHub/core/build/chotkeys && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkeys.dir/application.cpp.o -c /home/tokyo/Documents/GitHub/core/chotkeys/application.cpp
 
 chotkeys/CMakeFiles/chotkeys.dir/application.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkeys.dir/application.cpp.i"
-	cd /home/tokyo/clone/RebootOS/core/build/chotkeys && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tokyo/clone/RebootOS/core/chotkeys/application.cpp > CMakeFiles/chotkeys.dir/application.cpp.i
+	cd /home/tokyo/Documents/GitHub/core/build/chotkeys && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tokyo/Documents/GitHub/core/chotkeys/application.cpp > CMakeFiles/chotkeys.dir/application.cpp.i
 
 chotkeys/CMakeFiles/chotkeys.dir/application.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkeys.dir/application.cpp.s"
-	cd /home/tokyo/clone/RebootOS/core/build/chotkeys && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tokyo/clone/RebootOS/core/chotkeys/application.cpp -o CMakeFiles/chotkeys.dir/application.cpp.s
+	cd /home/tokyo/Documents/GitHub/core/build/chotkeys && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tokyo/Documents/GitHub/core/chotkeys/application.cpp -o CMakeFiles/chotkeys.dir/application.cpp.s
 
 chotkeys/CMakeFiles/chotkeys.dir/hotkeys.cpp.o: chotkeys/CMakeFiles/chotkeys.dir/flags.make
 chotkeys/CMakeFiles/chotkeys.dir/hotkeys.cpp.o: ../chotkeys/hotkeys.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tokyo/clone/RebootOS/core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object chotkeys/CMakeFiles/chotkeys.dir/hotkeys.cpp.o"
-	cd /home/tokyo/clone/RebootOS/core/build/chotkeys && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkeys.dir/hotkeys.cpp.o -c /home/tokyo/clone/RebootOS/core/chotkeys/hotkeys.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tokyo/Documents/GitHub/core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object chotkeys/CMakeFiles/chotkeys.dir/hotkeys.cpp.o"
+	cd /home/tokyo/Documents/GitHub/core/build/chotkeys && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/chotkeys.dir/hotkeys.cpp.o -c /home/tokyo/Documents/GitHub/core/chotkeys/hotkeys.cpp
 
 chotkeys/CMakeFiles/chotkeys.dir/hotkeys.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chotkeys.dir/hotkeys.cpp.i"
-	cd /home/tokyo/clone/RebootOS/core/build/chotkeys && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tokyo/clone/RebootOS/core/chotkeys/hotkeys.cpp > CMakeFiles/chotkeys.dir/hotkeys.cpp.i
+	cd /home/tokyo/Documents/GitHub/core/build/chotkeys && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tokyo/Documents/GitHub/core/chotkeys/hotkeys.cpp > CMakeFiles/chotkeys.dir/hotkeys.cpp.i
 
 chotkeys/CMakeFiles/chotkeys.dir/hotkeys.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chotkeys.dir/hotkeys.cpp.s"
-	cd /home/tokyo/clone/RebootOS/core/build/chotkeys && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tokyo/clone/RebootOS/core/chotkeys/hotkeys.cpp -o CMakeFiles/chotkeys.dir/hotkeys.cpp.s
+	cd /home/tokyo/Documents/GitHub/core/build/chotkeys && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tokyo/Documents/GitHub/core/chotkeys/hotkeys.cpp -o CMakeFiles/chotkeys.dir/hotkeys.cpp.s
 
 # Object files for target chotkeys
 chotkeys_OBJECTS = \
@@ -155,8 +155,8 @@ chotkeys/chotkeys: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.15.2
 chotkeys/chotkeys: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.15.2
 chotkeys/chotkeys: /usr/lib/x86_64-linux-gnu/libxcb.so
 chotkeys/chotkeys: chotkeys/CMakeFiles/chotkeys.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tokyo/clone/RebootOS/core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable chotkeys"
-	cd /home/tokyo/clone/RebootOS/core/build/chotkeys && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/chotkeys.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tokyo/Documents/GitHub/core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable chotkeys"
+	cd /home/tokyo/Documents/GitHub/core/build/chotkeys && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/chotkeys.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 chotkeys/CMakeFiles/chotkeys.dir/build: chotkeys/chotkeys
@@ -164,10 +164,10 @@ chotkeys/CMakeFiles/chotkeys.dir/build: chotkeys/chotkeys
 .PHONY : chotkeys/CMakeFiles/chotkeys.dir/build
 
 chotkeys/CMakeFiles/chotkeys.dir/clean:
-	cd /home/tokyo/clone/RebootOS/core/build/chotkeys && $(CMAKE_COMMAND) -P CMakeFiles/chotkeys.dir/cmake_clean.cmake
+	cd /home/tokyo/Documents/GitHub/core/build/chotkeys && $(CMAKE_COMMAND) -P CMakeFiles/chotkeys.dir/cmake_clean.cmake
 .PHONY : chotkeys/CMakeFiles/chotkeys.dir/clean
 
 chotkeys/CMakeFiles/chotkeys.dir/depend:
-	cd /home/tokyo/clone/RebootOS/core/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tokyo/clone/RebootOS/core /home/tokyo/clone/RebootOS/core/chotkeys /home/tokyo/clone/RebootOS/core/build /home/tokyo/clone/RebootOS/core/build/chotkeys /home/tokyo/clone/RebootOS/core/build/chotkeys/CMakeFiles/chotkeys.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/tokyo/Documents/GitHub/core/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tokyo/Documents/GitHub/core /home/tokyo/Documents/GitHub/core/chotkeys /home/tokyo/Documents/GitHub/core/build /home/tokyo/Documents/GitHub/core/build/chotkeys /home/tokyo/Documents/GitHub/core/build/chotkeys/CMakeFiles/chotkeys.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : chotkeys/CMakeFiles/chotkeys.dir/depend
 

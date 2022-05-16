@@ -62,10 +62,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tokyo/clone/RebootOS/core
+CMAKE_SOURCE_DIR = /home/tokyo/Documents/GitHub/core
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tokyo/clone/RebootOS/core/build
+CMAKE_BINARY_DIR = /home/tokyo/Documents/GitHub/core/build
 
 # Utility rule file for cupdatecursor_autogen.
 
@@ -73,8 +73,8 @@ CMAKE_BINARY_DIR = /home/tokyo/clone/RebootOS/core/build
 include cupdatecursor/CMakeFiles/cupdatecursor_autogen.dir/progress.make
 
 cupdatecursor/CMakeFiles/cupdatecursor_autogen:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/clone/RebootOS/core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target cupdatecursor"
-	cd /home/tokyo/clone/RebootOS/core/build/cupdatecursor && /usr/bin/cmake -E cmake_autogen /home/tokyo/clone/RebootOS/core/build/cupdatecursor/CMakeFiles/cupdatecursor_autogen.dir/AutogenInfo.json ""
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tokyo/Documents/GitHub/core/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target cupdatecursor"
+	cd /home/tokyo/Documents/GitHub/core/build/cupdatecursor && /usr/bin/cmake -E cmake_autogen /home/tokyo/Documents/GitHub/core/build/cupdatecursor/CMakeFiles/cupdatecursor_autogen.dir/AutogenInfo.json ""
 
 cupdatecursor_autogen: cupdatecursor/CMakeFiles/cupdatecursor_autogen
 cupdatecursor_autogen: cupdatecursor/CMakeFiles/cupdatecursor_autogen.dir/build.make
@@ -87,10 +87,10 @@ cupdatecursor/CMakeFiles/cupdatecursor_autogen.dir/build: cupdatecursor_autogen
 .PHONY : cupdatecursor/CMakeFiles/cupdatecursor_autogen.dir/build
 
 cupdatecursor/CMakeFiles/cupdatecursor_autogen.dir/clean:
-	cd /home/tokyo/clone/RebootOS/core/build/cupdatecursor && $(CMAKE_COMMAND) -P CMakeFiles/cupdatecursor_autogen.dir/cmake_clean.cmake
+	cd /home/tokyo/Documents/GitHub/core/build/cupdatecursor && $(CMAKE_COMMAND) -P CMakeFiles/cupdatecursor_autogen.dir/cmake_clean.cmake
 .PHONY : cupdatecursor/CMakeFiles/cupdatecursor_autogen.dir/clean
 
 cupdatecursor/CMakeFiles/cupdatecursor_autogen.dir/depend:
-	cd /home/tokyo/clone/RebootOS/core/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tokyo/clone/RebootOS/core /home/tokyo/clone/RebootOS/core/cupdatecursor /home/tokyo/clone/RebootOS/core/build /home/tokyo/clone/RebootOS/core/build/cupdatecursor /home/tokyo/clone/RebootOS/core/build/cupdatecursor/CMakeFiles/cupdatecursor_autogen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/tokyo/Documents/GitHub/core/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tokyo/Documents/GitHub/core /home/tokyo/Documents/GitHub/core/cupdatecursor /home/tokyo/Documents/GitHub/core/build /home/tokyo/Documents/GitHub/core/build/cupdatecursor /home/tokyo/Documents/GitHub/core/build/cupdatecursor/CMakeFiles/cupdatecursor_autogen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : cupdatecursor/CMakeFiles/cupdatecursor_autogen.dir/depend
 

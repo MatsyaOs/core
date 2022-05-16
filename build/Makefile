@@ -67,10 +67,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tokyo/clone/RebootOS/core
+CMAKE_SOURCE_DIR = /home/tokyo/Documents/GitHub/core
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tokyo/clone/RebootOS/core/build
+CMAKE_BINARY_DIR = /home/tokyo/Documents/GitHub/core/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -145,9 +145,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/RebootOS/core/build/CMakeFiles /home/tokyo/clone/RebootOS/core/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/Documents/GitHub/core/build/CMakeFiles /home/tokyo/Documents/GitHub/core/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/RebootOS/core/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/Documents/GitHub/core/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -189,69 +189,69 @@ polkit-agent-translations/fast:
 .PHONY : polkit-agent-translations/fast
 
 #=============================================================================
-# Target rules for targets named cutefish-polkit-agent
+# Target rules for targets named matsya-polkit-agent
 
 # Build rule for target.
-cutefish-polkit-agent: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cutefish-polkit-agent
-.PHONY : cutefish-polkit-agent
+matsya-polkit-agent: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 matsya-polkit-agent
+.PHONY : matsya-polkit-agent
 
 # fast build rule for target.
-cutefish-polkit-agent/fast:
-	$(MAKE) $(MAKESILENT) -f polkit-agent/CMakeFiles/cutefish-polkit-agent.dir/build.make polkit-agent/CMakeFiles/cutefish-polkit-agent.dir/build
-.PHONY : cutefish-polkit-agent/fast
+matsya-polkit-agent/fast:
+	$(MAKE) $(MAKESILENT) -f polkit-agent/CMakeFiles/matsya-polkit-agent.dir/build.make polkit-agent/CMakeFiles/matsya-polkit-agent.dir/build
+.PHONY : matsya-polkit-agent/fast
 
 #=============================================================================
-# Target rules for targets named cutefish-polkit-agent_autogen
+# Target rules for targets named matsya-polkit-agent_autogen
 
 # Build rule for target.
-cutefish-polkit-agent_autogen: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cutefish-polkit-agent_autogen
-.PHONY : cutefish-polkit-agent_autogen
+matsya-polkit-agent_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 matsya-polkit-agent_autogen
+.PHONY : matsya-polkit-agent_autogen
 
 # fast build rule for target.
-cutefish-polkit-agent_autogen/fast:
-	$(MAKE) $(MAKESILENT) -f polkit-agent/CMakeFiles/cutefish-polkit-agent_autogen.dir/build.make polkit-agent/CMakeFiles/cutefish-polkit-agent_autogen.dir/build
-.PHONY : cutefish-polkit-agent_autogen/fast
+matsya-polkit-agent_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f polkit-agent/CMakeFiles/matsya-polkit-agent_autogen.dir/build.make polkit-agent/CMakeFiles/matsya-polkit-agent_autogen.dir/build
+.PHONY : matsya-polkit-agent_autogen/fast
 
 #=============================================================================
-# Target rules for targets named cutefish-screen-brightness
+# Target rules for targets named matsya-screen-brightness
 
 # Build rule for target.
-cutefish-screen-brightness: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cutefish-screen-brightness
-.PHONY : cutefish-screen-brightness
+matsya-screen-brightness: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 matsya-screen-brightness
+.PHONY : matsya-screen-brightness
 
 # fast build rule for target.
-cutefish-screen-brightness/fast:
-	$(MAKE) $(MAKESILENT) -f screen-brightness/CMakeFiles/cutefish-screen-brightness.dir/build.make screen-brightness/CMakeFiles/cutefish-screen-brightness.dir/build
-.PHONY : cutefish-screen-brightness/fast
+matsya-screen-brightness/fast:
+	$(MAKE) $(MAKESILENT) -f screen-brightness/CMakeFiles/matsya-screen-brightness.dir/build.make screen-brightness/CMakeFiles/matsya-screen-brightness.dir/build
+.PHONY : matsya-screen-brightness/fast
 
 #=============================================================================
-# Target rules for targets named cutefish-screen-brightness_autogen
+# Target rules for targets named matsya-screen-brightness_autogen
 
 # Build rule for target.
-cutefish-screen-brightness_autogen: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cutefish-screen-brightness_autogen
-.PHONY : cutefish-screen-brightness_autogen
+matsya-screen-brightness_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 matsya-screen-brightness_autogen
+.PHONY : matsya-screen-brightness_autogen
 
 # fast build rule for target.
-cutefish-screen-brightness_autogen/fast:
-	$(MAKE) $(MAKESILENT) -f screen-brightness/CMakeFiles/cutefish-screen-brightness_autogen.dir/build.make screen-brightness/CMakeFiles/cutefish-screen-brightness_autogen.dir/build
-.PHONY : cutefish-screen-brightness_autogen/fast
+matsya-screen-brightness_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f screen-brightness/CMakeFiles/matsya-screen-brightness_autogen.dir/build.make screen-brightness/CMakeFiles/matsya-screen-brightness_autogen.dir/build
+.PHONY : matsya-screen-brightness_autogen/fast
 
 #=============================================================================
-# Target rules for targets named cutefish-session
+# Target rules for targets named matsya-session
 
 # Build rule for target.
-cutefish-session: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cutefish-session
-.PHONY : cutefish-session
+matsya-session: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 matsya-session
+.PHONY : matsya-session
 
 # fast build rule for target.
-cutefish-session/fast:
-	$(MAKE) $(MAKESILENT) -f session/CMakeFiles/cutefish-session.dir/build.make session/CMakeFiles/cutefish-session.dir/build
-.PHONY : cutefish-session/fast
+matsya-session/fast:
+	$(MAKE) $(MAKESILENT) -f session/CMakeFiles/matsya-session.dir/build.make session/CMakeFiles/matsya-session.dir/build
+.PHONY : matsya-session/fast
 
 #=============================================================================
 # Target rules for targets named KF5WindowSystem_QCH
@@ -267,17 +267,17 @@ KF5WindowSystem_QCH/fast:
 .PHONY : KF5WindowSystem_QCH/fast
 
 #=============================================================================
-# Target rules for targets named cutefish-session_autogen
+# Target rules for targets named matsya-session_autogen
 
 # Build rule for target.
-cutefish-session_autogen: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cutefish-session_autogen
-.PHONY : cutefish-session_autogen
+matsya-session_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 matsya-session_autogen
+.PHONY : matsya-session_autogen
 
 # fast build rule for target.
-cutefish-session_autogen/fast:
-	$(MAKE) $(MAKESILENT) -f session/CMakeFiles/cutefish-session_autogen.dir/build.make session/CMakeFiles/cutefish-session_autogen.dir/build
-.PHONY : cutefish-session_autogen/fast
+matsya-session_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f session/CMakeFiles/matsya-session_autogen.dir/build.make session/CMakeFiles/matsya-session_autogen.dir/build
+.PHONY : matsya-session_autogen/fast
 
 #=============================================================================
 # Target rules for targets named translations
@@ -293,30 +293,30 @@ translations/fast:
 .PHONY : translations/fast
 
 #=============================================================================
-# Target rules for targets named cutefish-settings-daemon
+# Target rules for targets named matsya-settings-daemon
 
 # Build rule for target.
-cutefish-settings-daemon: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cutefish-settings-daemon
-.PHONY : cutefish-settings-daemon
+matsya-settings-daemon: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 matsya-settings-daemon
+.PHONY : matsya-settings-daemon
 
 # fast build rule for target.
-cutefish-settings-daemon/fast:
-	$(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/build.make settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/build
-.PHONY : cutefish-settings-daemon/fast
+matsya-settings-daemon/fast:
+	$(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/matsya-settings-daemon.dir/build.make settings-daemon/CMakeFiles/matsya-settings-daemon.dir/build
+.PHONY : matsya-settings-daemon/fast
 
 #=============================================================================
-# Target rules for targets named cutefish-settings-daemon_autogen
+# Target rules for targets named matsya-settings-daemon_autogen
 
 # Build rule for target.
-cutefish-settings-daemon_autogen: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cutefish-settings-daemon_autogen
-.PHONY : cutefish-settings-daemon_autogen
+matsya-settings-daemon_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 matsya-settings-daemon_autogen
+.PHONY : matsya-settings-daemon_autogen
 
 # fast build rule for target.
-cutefish-settings-daemon_autogen/fast:
-	$(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/cutefish-settings-daemon_autogen.dir/build.make settings-daemon/CMakeFiles/cutefish-settings-daemon_autogen.dir/build
-.PHONY : cutefish-settings-daemon_autogen/fast
+matsya-settings-daemon_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/matsya-settings-daemon_autogen.dir/build.make settings-daemon/CMakeFiles/matsya-settings-daemon_autogen.dir/build
+.PHONY : matsya-settings-daemon_autogen/fast
 
 #=============================================================================
 # Target rules for targets named shutdown-translations
@@ -332,69 +332,69 @@ shutdown-translations/fast:
 .PHONY : shutdown-translations/fast
 
 #=============================================================================
-# Target rules for targets named cutefish-shutdown
+# Target rules for targets named matsya-shutdown
 
 # Build rule for target.
-cutefish-shutdown: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cutefish-shutdown
-.PHONY : cutefish-shutdown
+matsya-shutdown: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 matsya-shutdown
+.PHONY : matsya-shutdown
 
 # fast build rule for target.
-cutefish-shutdown/fast:
-	$(MAKE) $(MAKESILENT) -f shutdown-ui/CMakeFiles/cutefish-shutdown.dir/build.make shutdown-ui/CMakeFiles/cutefish-shutdown.dir/build
-.PHONY : cutefish-shutdown/fast
+matsya-shutdown/fast:
+	$(MAKE) $(MAKESILENT) -f shutdown-ui/CMakeFiles/matsya-shutdown.dir/build.make shutdown-ui/CMakeFiles/matsya-shutdown.dir/build
+.PHONY : matsya-shutdown/fast
 
 #=============================================================================
-# Target rules for targets named cutefish-shutdown_autogen
+# Target rules for targets named matsya-shutdown_autogen
 
 # Build rule for target.
-cutefish-shutdown_autogen: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cutefish-shutdown_autogen
-.PHONY : cutefish-shutdown_autogen
+matsya-shutdown_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 matsya-shutdown_autogen
+.PHONY : matsya-shutdown_autogen
 
 # fast build rule for target.
-cutefish-shutdown_autogen/fast:
-	$(MAKE) $(MAKESILENT) -f shutdown-ui/CMakeFiles/cutefish-shutdown_autogen.dir/build.make shutdown-ui/CMakeFiles/cutefish-shutdown_autogen.dir/build
-.PHONY : cutefish-shutdown_autogen/fast
+matsya-shutdown_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f shutdown-ui/CMakeFiles/matsya-shutdown_autogen.dir/build.make shutdown-ui/CMakeFiles/matsya-shutdown_autogen.dir/build
+.PHONY : matsya-shutdown_autogen/fast
 
 #=============================================================================
-# Target rules for targets named cutefish-xembedsniproxy
+# Target rules for targets named matsya-xembedsniproxy
 
 # Build rule for target.
-cutefish-xembedsniproxy: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cutefish-xembedsniproxy
-.PHONY : cutefish-xembedsniproxy
+matsya-xembedsniproxy: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 matsya-xembedsniproxy
+.PHONY : matsya-xembedsniproxy
 
 # fast build rule for target.
-cutefish-xembedsniproxy/fast:
-	$(MAKE) $(MAKESILENT) -f xembed-sni-proxy/CMakeFiles/cutefish-xembedsniproxy.dir/build.make xembed-sni-proxy/CMakeFiles/cutefish-xembedsniproxy.dir/build
-.PHONY : cutefish-xembedsniproxy/fast
+matsya-xembedsniproxy/fast:
+	$(MAKE) $(MAKESILENT) -f xembed-sni-proxy/CMakeFiles/matsya-xembedsniproxy.dir/build.make xembed-sni-proxy/CMakeFiles/matsya-xembedsniproxy.dir/build
+.PHONY : matsya-xembedsniproxy/fast
 
 #=============================================================================
-# Target rules for targets named cutefish-xembedsniproxy_autogen
+# Target rules for targets named matsya-xembedsniproxy_autogen
 
 # Build rule for target.
-cutefish-xembedsniproxy_autogen: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cutefish-xembedsniproxy_autogen
-.PHONY : cutefish-xembedsniproxy_autogen
+matsya-xembedsniproxy_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 matsya-xembedsniproxy_autogen
+.PHONY : matsya-xembedsniproxy_autogen
 
 # fast build rule for target.
-cutefish-xembedsniproxy_autogen/fast:
-	$(MAKE) $(MAKESILENT) -f xembed-sni-proxy/CMakeFiles/cutefish-xembedsniproxy_autogen.dir/build.make xembed-sni-proxy/CMakeFiles/cutefish-xembedsniproxy_autogen.dir/build
-.PHONY : cutefish-xembedsniproxy_autogen/fast
+matsya-xembedsniproxy_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f xembed-sni-proxy/CMakeFiles/matsya-xembedsniproxy_autogen.dir/build.make xembed-sni-proxy/CMakeFiles/matsya-xembedsniproxy_autogen.dir/build
+.PHONY : matsya-xembedsniproxy_autogen/fast
 
 #=============================================================================
-# Target rules for targets named cutefish-powerman
+# Target rules for targets named matsya-powerman
 
 # Build rule for target.
-cutefish-powerman: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cutefish-powerman
-.PHONY : cutefish-powerman
+matsya-powerman: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 matsya-powerman
+.PHONY : matsya-powerman
 
 # fast build rule for target.
-cutefish-powerman/fast:
-	$(MAKE) $(MAKESILENT) -f powerman/CMakeFiles/cutefish-powerman.dir/build.make powerman/CMakeFiles/cutefish-powerman.dir/build
-.PHONY : cutefish-powerman/fast
+matsya-powerman/fast:
+	$(MAKE) $(MAKESILENT) -f powerman/CMakeFiles/matsya-powerman.dir/build.make powerman/CMakeFiles/matsya-powerman.dir/build
+.PHONY : matsya-powerman/fast
 
 #=============================================================================
 # Target rules for targets named KF5IdleTime_QCH
@@ -410,43 +410,43 @@ KF5IdleTime_QCH/fast:
 .PHONY : KF5IdleTime_QCH/fast
 
 #=============================================================================
-# Target rules for targets named cutefish-powerman_autogen
+# Target rules for targets named matsya-powerman_autogen
 
 # Build rule for target.
-cutefish-powerman_autogen: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cutefish-powerman_autogen
-.PHONY : cutefish-powerman_autogen
+matsya-powerman_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 matsya-powerman_autogen
+.PHONY : matsya-powerman_autogen
 
 # fast build rule for target.
-cutefish-powerman_autogen/fast:
-	$(MAKE) $(MAKESILENT) -f powerman/CMakeFiles/cutefish-powerman_autogen.dir/build.make powerman/CMakeFiles/cutefish-powerman_autogen.dir/build
-.PHONY : cutefish-powerman_autogen/fast
+matsya-powerman_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f powerman/CMakeFiles/matsya-powerman_autogen.dir/build.make powerman/CMakeFiles/matsya-powerman_autogen.dir/build
+.PHONY : matsya-powerman_autogen/fast
 
 #=============================================================================
-# Target rules for targets named cutefish-cpufreq
+# Target rules for targets named matsya-cpufreq
 
 # Build rule for target.
-cutefish-cpufreq: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cutefish-cpufreq
-.PHONY : cutefish-cpufreq
+matsya-cpufreq: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 matsya-cpufreq
+.PHONY : matsya-cpufreq
 
 # fast build rule for target.
-cutefish-cpufreq/fast:
-	$(MAKE) $(MAKESILENT) -f cpufreq/CMakeFiles/cutefish-cpufreq.dir/build.make cpufreq/CMakeFiles/cutefish-cpufreq.dir/build
-.PHONY : cutefish-cpufreq/fast
+matsya-cpufreq/fast:
+	$(MAKE) $(MAKESILENT) -f cpufreq/CMakeFiles/matsya-cpufreq.dir/build.make cpufreq/CMakeFiles/matsya-cpufreq.dir/build
+.PHONY : matsya-cpufreq/fast
 
 #=============================================================================
-# Target rules for targets named cutefish-cpufreq_autogen
+# Target rules for targets named matsya-cpufreq_autogen
 
 # Build rule for target.
-cutefish-cpufreq_autogen: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cutefish-cpufreq_autogen
-.PHONY : cutefish-cpufreq_autogen
+matsya-cpufreq_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 matsya-cpufreq_autogen
+.PHONY : matsya-cpufreq_autogen
 
 # fast build rule for target.
-cutefish-cpufreq_autogen/fast:
-	$(MAKE) $(MAKESILENT) -f cpufreq/CMakeFiles/cutefish-cpufreq_autogen.dir/build.make cpufreq/CMakeFiles/cutefish-cpufreq_autogen.dir/build
-.PHONY : cutefish-cpufreq_autogen/fast
+matsya-cpufreq_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f cpufreq/CMakeFiles/matsya-cpufreq_autogen.dir/build.make cpufreq/CMakeFiles/matsya-cpufreq_autogen.dir/build
+.PHONY : matsya-cpufreq_autogen/fast
 
 #=============================================================================
 # Target rules for targets named chotkeys
@@ -501,17 +501,17 @@ cupdatecursor_autogen/fast:
 .PHONY : cupdatecursor_autogen/fast
 
 #=============================================================================
-# Target rules for targets named cutefish-gmenuproxy
+# Target rules for targets named matsya-gmenuproxy
 
 # Build rule for target.
-cutefish-gmenuproxy: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cutefish-gmenuproxy
-.PHONY : cutefish-gmenuproxy
+matsya-gmenuproxy: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 matsya-gmenuproxy
+.PHONY : matsya-gmenuproxy
 
 # fast build rule for target.
-cutefish-gmenuproxy/fast:
-	$(MAKE) $(MAKESILENT) -f gmenuproxy/CMakeFiles/cutefish-gmenuproxy.dir/build.make gmenuproxy/CMakeFiles/cutefish-gmenuproxy.dir/build
-.PHONY : cutefish-gmenuproxy/fast
+matsya-gmenuproxy/fast:
+	$(MAKE) $(MAKESILENT) -f gmenuproxy/CMakeFiles/matsya-gmenuproxy.dir/build.make gmenuproxy/CMakeFiles/matsya-gmenuproxy.dir/build
+.PHONY : matsya-gmenuproxy/fast
 
 #=============================================================================
 # Target rules for targets named KF5CoreAddons_QCH
@@ -527,17 +527,17 @@ KF5CoreAddons_QCH/fast:
 .PHONY : KF5CoreAddons_QCH/fast
 
 #=============================================================================
-# Target rules for targets named cutefish-gmenuproxy_autogen
+# Target rules for targets named matsya-gmenuproxy_autogen
 
 # Build rule for target.
-cutefish-gmenuproxy_autogen: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cutefish-gmenuproxy_autogen
-.PHONY : cutefish-gmenuproxy_autogen
+matsya-gmenuproxy_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 matsya-gmenuproxy_autogen
+.PHONY : matsya-gmenuproxy_autogen
 
 # fast build rule for target.
-cutefish-gmenuproxy_autogen/fast:
-	$(MAKE) $(MAKESILENT) -f gmenuproxy/CMakeFiles/cutefish-gmenuproxy_autogen.dir/build.make gmenuproxy/CMakeFiles/cutefish-gmenuproxy_autogen.dir/build
-.PHONY : cutefish-gmenuproxy_autogen/fast
+matsya-gmenuproxy_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f gmenuproxy/CMakeFiles/matsya-gmenuproxy_autogen.dir/build.make gmenuproxy/CMakeFiles/matsya-gmenuproxy_autogen.dir/build
+.PHONY : matsya-gmenuproxy_autogen/fast
 
 #=============================================================================
 # Target rules for targets named notificationd_translations
@@ -553,82 +553,82 @@ notificationd_translations/fast:
 .PHONY : notificationd_translations/fast
 
 #=============================================================================
-# Target rules for targets named cutefish-notificationd
+# Target rules for targets named matsya-notificationd
 
 # Build rule for target.
-cutefish-notificationd: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cutefish-notificationd
-.PHONY : cutefish-notificationd
+matsya-notificationd: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 matsya-notificationd
+.PHONY : matsya-notificationd
 
 # fast build rule for target.
-cutefish-notificationd/fast:
-	$(MAKE) $(MAKESILENT) -f notificationd/CMakeFiles/cutefish-notificationd.dir/build.make notificationd/CMakeFiles/cutefish-notificationd.dir/build
-.PHONY : cutefish-notificationd/fast
+matsya-notificationd/fast:
+	$(MAKE) $(MAKESILENT) -f notificationd/CMakeFiles/matsya-notificationd.dir/build.make notificationd/CMakeFiles/matsya-notificationd.dir/build
+.PHONY : matsya-notificationd/fast
 
 #=============================================================================
-# Target rules for targets named cutefish-notificationd_autogen
+# Target rules for targets named matsya-notificationd_autogen
 
 # Build rule for target.
-cutefish-notificationd_autogen: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cutefish-notificationd_autogen
-.PHONY : cutefish-notificationd_autogen
+matsya-notificationd_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 matsya-notificationd_autogen
+.PHONY : matsya-notificationd_autogen
 
 # fast build rule for target.
-cutefish-notificationd_autogen/fast:
-	$(MAKE) $(MAKESILENT) -f notificationd/CMakeFiles/cutefish-notificationd_autogen.dir/build.make notificationd/CMakeFiles/cutefish-notificationd_autogen.dir/build
-.PHONY : cutefish-notificationd_autogen/fast
+matsya-notificationd_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f notificationd/CMakeFiles/matsya-notificationd_autogen.dir/build.make notificationd/CMakeFiles/matsya-notificationd_autogen.dir/build
+.PHONY : matsya-notificationd_autogen/fast
 
 #=============================================================================
-# Target rules for targets named cutefish-sddm-helper
+# Target rules for targets named matsya-sddm-helper
 
 # Build rule for target.
-cutefish-sddm-helper: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cutefish-sddm-helper
-.PHONY : cutefish-sddm-helper
+matsya-sddm-helper: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 matsya-sddm-helper
+.PHONY : matsya-sddm-helper
 
 # fast build rule for target.
-cutefish-sddm-helper/fast:
-	$(MAKE) $(MAKESILENT) -f sddm-helper/CMakeFiles/cutefish-sddm-helper.dir/build.make sddm-helper/CMakeFiles/cutefish-sddm-helper.dir/build
-.PHONY : cutefish-sddm-helper/fast
+matsya-sddm-helper/fast:
+	$(MAKE) $(MAKESILENT) -f sddm-helper/CMakeFiles/matsya-sddm-helper.dir/build.make sddm-helper/CMakeFiles/matsya-sddm-helper.dir/build
+.PHONY : matsya-sddm-helper/fast
 
 #=============================================================================
-# Target rules for targets named cutefish-sddm-helper_autogen
+# Target rules for targets named matsya-sddm-helper_autogen
 
 # Build rule for target.
-cutefish-sddm-helper_autogen: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cutefish-sddm-helper_autogen
-.PHONY : cutefish-sddm-helper_autogen
+matsya-sddm-helper_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 matsya-sddm-helper_autogen
+.PHONY : matsya-sddm-helper_autogen
 
 # fast build rule for target.
-cutefish-sddm-helper_autogen/fast:
-	$(MAKE) $(MAKESILENT) -f sddm-helper/CMakeFiles/cutefish-sddm-helper_autogen.dir/build.make sddm-helper/CMakeFiles/cutefish-sddm-helper_autogen.dir/build
-.PHONY : cutefish-sddm-helper_autogen/fast
+matsya-sddm-helper_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f sddm-helper/CMakeFiles/matsya-sddm-helper_autogen.dir/build.make sddm-helper/CMakeFiles/matsya-sddm-helper_autogen.dir/build
+.PHONY : matsya-sddm-helper_autogen/fast
 
 #=============================================================================
-# Target rules for targets named cutefish-clipboard
+# Target rules for targets named matsya-clipboard
 
 # Build rule for target.
-cutefish-clipboard: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cutefish-clipboard
-.PHONY : cutefish-clipboard
+matsya-clipboard: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 matsya-clipboard
+.PHONY : matsya-clipboard
 
 # fast build rule for target.
-cutefish-clipboard/fast:
-	$(MAKE) $(MAKESILENT) -f clipboard/CMakeFiles/cutefish-clipboard.dir/build.make clipboard/CMakeFiles/cutefish-clipboard.dir/build
-.PHONY : cutefish-clipboard/fast
+matsya-clipboard/fast:
+	$(MAKE) $(MAKESILENT) -f clipboard/CMakeFiles/matsya-clipboard.dir/build.make clipboard/CMakeFiles/matsya-clipboard.dir/build
+.PHONY : matsya-clipboard/fast
 
 #=============================================================================
-# Target rules for targets named cutefish-clipboard_autogen
+# Target rules for targets named matsya-clipboard_autogen
 
 # Build rule for target.
-cutefish-clipboard_autogen: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cutefish-clipboard_autogen
-.PHONY : cutefish-clipboard_autogen
+matsya-clipboard_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 matsya-clipboard_autogen
+.PHONY : matsya-clipboard_autogen
 
 # fast build rule for target.
-cutefish-clipboard_autogen/fast:
-	$(MAKE) $(MAKESILENT) -f clipboard/CMakeFiles/cutefish-clipboard_autogen.dir/build.make clipboard/CMakeFiles/cutefish-clipboard_autogen.dir/build
-.PHONY : cutefish-clipboard_autogen/fast
+matsya-clipboard_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f clipboard/CMakeFiles/matsya-clipboard_autogen.dir/build.make clipboard/CMakeFiles/matsya-clipboard_autogen.dir/build
+.PHONY : matsya-clipboard_autogen/fast
 
 # Help Target
 help:
@@ -647,36 +647,36 @@ help:
 	@echo "... KF5WindowSystem_QCH"
 	@echo "... chotkeys_autogen"
 	@echo "... cupdatecursor_autogen"
-	@echo "... cutefish-clipboard_autogen"
-	@echo "... cutefish-cpufreq_autogen"
-	@echo "... cutefish-gmenuproxy_autogen"
-	@echo "... cutefish-notificationd_autogen"
-	@echo "... cutefish-polkit-agent_autogen"
-	@echo "... cutefish-powerman_autogen"
-	@echo "... cutefish-screen-brightness_autogen"
-	@echo "... cutefish-sddm-helper_autogen"
-	@echo "... cutefish-session_autogen"
-	@echo "... cutefish-settings-daemon_autogen"
-	@echo "... cutefish-shutdown_autogen"
-	@echo "... cutefish-xembedsniproxy_autogen"
+	@echo "... matsya-clipboard_autogen"
+	@echo "... matsya-cpufreq_autogen"
+	@echo "... matsya-gmenuproxy_autogen"
+	@echo "... matsya-notificationd_autogen"
+	@echo "... matsya-polkit-agent_autogen"
+	@echo "... matsya-powerman_autogen"
+	@echo "... matsya-screen-brightness_autogen"
+	@echo "... matsya-sddm-helper_autogen"
+	@echo "... matsya-session_autogen"
+	@echo "... matsya-settings-daemon_autogen"
+	@echo "... matsya-shutdown_autogen"
+	@echo "... matsya-xembedsniproxy_autogen"
 	@echo "... notificationd_translations"
 	@echo "... polkit-agent-translations"
 	@echo "... shutdown-translations"
 	@echo "... translations"
 	@echo "... chotkeys"
 	@echo "... cupdatecursor"
-	@echo "... cutefish-clipboard"
-	@echo "... cutefish-cpufreq"
-	@echo "... cutefish-gmenuproxy"
-	@echo "... cutefish-notificationd"
-	@echo "... cutefish-polkit-agent"
-	@echo "... cutefish-powerman"
-	@echo "... cutefish-screen-brightness"
-	@echo "... cutefish-sddm-helper"
-	@echo "... cutefish-session"
-	@echo "... cutefish-settings-daemon"
-	@echo "... cutefish-shutdown"
-	@echo "... cutefish-xembedsniproxy"
+	@echo "... matsya-clipboard"
+	@echo "... matsya-cpufreq"
+	@echo "... matsya-gmenuproxy"
+	@echo "... matsya-notificationd"
+	@echo "... matsya-polkit-agent"
+	@echo "... matsya-powerman"
+	@echo "... matsya-screen-brightness"
+	@echo "... matsya-sddm-helper"
+	@echo "... matsya-session"
+	@echo "... matsya-settings-daemon"
+	@echo "... matsya-shutdown"
+	@echo "... matsya-xembedsniproxy"
 .PHONY : help
 
 

@@ -1,0 +1,28 @@
+{
+	"BUILD_DIR" : "/home/tokyo/Documents/GitHub/core/build/shutdown-ui/matsya-shutdown_autogen",
+	"CMAKE_BINARY_DIR" : "/home/tokyo/Documents/GitHub/core/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/tokyo/Documents/GitHub/core/build/shutdown-ui",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/tokyo/Documents/GitHub/core/shutdown-ui",
+	"CMAKE_SOURCE_DIR" : "/home/tokyo/Documents/GitHub/core",
+	"INCLUDE_DIR" : "/home/tokyo/Documents/GitHub/core/build/shutdown-ui/matsya-shutdown_autogen/include",
+	"INPUTS" : 
+	[
+		"/home/tokyo/Documents/GitHub/core/shutdown-ui/IconButton.qml",
+		"/home/tokyo/Documents/GitHub/core/shutdown-ui/main.qml",
+		"/home/tokyo/Documents/GitHub/core/shutdown-ui/icons/system-shutdown.svg",
+		"/home/tokyo/Documents/GitHub/core/shutdown-ui/icons/system-log-out.svg",
+		"/home/tokyo/Documents/GitHub/core/shutdown-ui/icons/system-lock-screen.svg",
+		"/home/tokyo/Documents/GitHub/core/shutdown-ui/icons/system-reboot.svg",
+		"/home/tokyo/Documents/GitHub/core/shutdown-ui/icons/system-suspend.svg"
+	],
+	"LOCK_FILE" : "/home/tokyo/Documents/GitHub/core/build/shutdown-ui/CMakeFiles/matsya-shutdown_autogen.dir/AutoRcc_qml_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "qml" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_qml.cpp",
+	"RCC_EXECUTABLE" : "/usr/lib/qt5/bin/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/home/tokyo/Documents/GitHub/core/build/shutdown-ui/CMakeFiles/matsya-shutdown_autogen.dir/AutoRcc_qml_EWIEGA46WW_Used.txt",
+	"SOURCE" : "/home/tokyo/Documents/GitHub/core/shutdown-ui/qml.qrc",
+	"VERBOSITY" : 0
+}

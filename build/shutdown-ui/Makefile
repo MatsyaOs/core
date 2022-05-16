@@ -67,10 +67,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tokyo/clone/RebootOS/core
+CMAKE_SOURCE_DIR = /home/tokyo/Documents/GitHub/core
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tokyo/clone/RebootOS/core/build
+CMAKE_BINARY_DIR = /home/tokyo/Documents/GitHub/core/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -145,14 +145,14 @@ install/local/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/tokyo/clone/RebootOS/core/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/RebootOS/core/build/CMakeFiles /home/tokyo/clone/RebootOS/core/build/shutdown-ui//CMakeFiles/progress.marks
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 shutdown-ui/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/RebootOS/core/build/CMakeFiles 0
+	cd /home/tokyo/Documents/GitHub/core/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/Documents/GitHub/core/build/CMakeFiles /home/tokyo/Documents/GitHub/core/build/shutdown-ui//CMakeFiles/progress.marks
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 shutdown-ui/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/Documents/GitHub/core/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 shutdown-ui/clean
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 shutdown-ui/clean
 .PHONY : clean
 
 # The main clean target
@@ -162,22 +162,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 shutdown-ui/preinstall
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 shutdown-ui/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 shutdown-ui/preinstall
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 shutdown-ui/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/tokyo/clone/RebootOS/core/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/tokyo/Documents/GitHub/core/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 shutdown-ui/CMakeFiles/shutdown-translations.dir/rule:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 shutdown-ui/CMakeFiles/shutdown-translations.dir/rule
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 shutdown-ui/CMakeFiles/shutdown-translations.dir/rule
 .PHONY : shutdown-ui/CMakeFiles/shutdown-translations.dir/rule
 
 # Convenience name for target.
@@ -187,38 +187,38 @@ shutdown-translations: shutdown-ui/CMakeFiles/shutdown-translations.dir/rule
 
 # fast build rule for target.
 shutdown-translations/fast:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f shutdown-ui/CMakeFiles/shutdown-translations.dir/build.make shutdown-ui/CMakeFiles/shutdown-translations.dir/build
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f shutdown-ui/CMakeFiles/shutdown-translations.dir/build.make shutdown-ui/CMakeFiles/shutdown-translations.dir/build
 .PHONY : shutdown-translations/fast
 
 # Convenience name for target.
-shutdown-ui/CMakeFiles/cutefish-shutdown.dir/rule:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 shutdown-ui/CMakeFiles/cutefish-shutdown.dir/rule
-.PHONY : shutdown-ui/CMakeFiles/cutefish-shutdown.dir/rule
+shutdown-ui/CMakeFiles/matsya-shutdown.dir/rule:
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 shutdown-ui/CMakeFiles/matsya-shutdown.dir/rule
+.PHONY : shutdown-ui/CMakeFiles/matsya-shutdown.dir/rule
 
 # Convenience name for target.
-cutefish-shutdown: shutdown-ui/CMakeFiles/cutefish-shutdown.dir/rule
+matsya-shutdown: shutdown-ui/CMakeFiles/matsya-shutdown.dir/rule
 
-.PHONY : cutefish-shutdown
+.PHONY : matsya-shutdown
 
 # fast build rule for target.
-cutefish-shutdown/fast:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f shutdown-ui/CMakeFiles/cutefish-shutdown.dir/build.make shutdown-ui/CMakeFiles/cutefish-shutdown.dir/build
-.PHONY : cutefish-shutdown/fast
+matsya-shutdown/fast:
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f shutdown-ui/CMakeFiles/matsya-shutdown.dir/build.make shutdown-ui/CMakeFiles/matsya-shutdown.dir/build
+.PHONY : matsya-shutdown/fast
 
 # Convenience name for target.
-shutdown-ui/CMakeFiles/cutefish-shutdown_autogen.dir/rule:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 shutdown-ui/CMakeFiles/cutefish-shutdown_autogen.dir/rule
-.PHONY : shutdown-ui/CMakeFiles/cutefish-shutdown_autogen.dir/rule
+shutdown-ui/CMakeFiles/matsya-shutdown_autogen.dir/rule:
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 shutdown-ui/CMakeFiles/matsya-shutdown_autogen.dir/rule
+.PHONY : shutdown-ui/CMakeFiles/matsya-shutdown_autogen.dir/rule
 
 # Convenience name for target.
-cutefish-shutdown_autogen: shutdown-ui/CMakeFiles/cutefish-shutdown_autogen.dir/rule
+matsya-shutdown_autogen: shutdown-ui/CMakeFiles/matsya-shutdown_autogen.dir/rule
 
-.PHONY : cutefish-shutdown_autogen
+.PHONY : matsya-shutdown_autogen
 
 # fast build rule for target.
-cutefish-shutdown_autogen/fast:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f shutdown-ui/CMakeFiles/cutefish-shutdown_autogen.dir/build.make shutdown-ui/CMakeFiles/cutefish-shutdown_autogen.dir/build
-.PHONY : cutefish-shutdown_autogen/fast
+matsya-shutdown_autogen/fast:
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f shutdown-ui/CMakeFiles/matsya-shutdown_autogen.dir/build.make shutdown-ui/CMakeFiles/matsya-shutdown_autogen.dir/build
+.PHONY : matsya-shutdown_autogen/fast
 
 actions.o: actions.cpp.o
 
@@ -226,7 +226,7 @@ actions.o: actions.cpp.o
 
 # target to build an object file
 actions.cpp.o:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f shutdown-ui/CMakeFiles/cutefish-shutdown.dir/build.make shutdown-ui/CMakeFiles/cutefish-shutdown.dir/actions.cpp.o
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f shutdown-ui/CMakeFiles/matsya-shutdown.dir/build.make shutdown-ui/CMakeFiles/matsya-shutdown.dir/actions.cpp.o
 .PHONY : actions.cpp.o
 
 actions.i: actions.cpp.i
@@ -235,7 +235,7 @@ actions.i: actions.cpp.i
 
 # target to preprocess a source file
 actions.cpp.i:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f shutdown-ui/CMakeFiles/cutefish-shutdown.dir/build.make shutdown-ui/CMakeFiles/cutefish-shutdown.dir/actions.cpp.i
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f shutdown-ui/CMakeFiles/matsya-shutdown.dir/build.make shutdown-ui/CMakeFiles/matsya-shutdown.dir/actions.cpp.i
 .PHONY : actions.cpp.i
 
 actions.s: actions.cpp.s
@@ -244,62 +244,8 @@ actions.s: actions.cpp.s
 
 # target to generate assembly for a file
 actions.cpp.s:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f shutdown-ui/CMakeFiles/cutefish-shutdown.dir/build.make shutdown-ui/CMakeFiles/cutefish-shutdown.dir/actions.cpp.s
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f shutdown-ui/CMakeFiles/matsya-shutdown.dir/build.make shutdown-ui/CMakeFiles/matsya-shutdown.dir/actions.cpp.s
 .PHONY : actions.cpp.s
-
-cutefish-shutdown_autogen/EWIEGA46WW/qrc_qml.o: cutefish-shutdown_autogen/EWIEGA46WW/qrc_qml.cpp.o
-
-.PHONY : cutefish-shutdown_autogen/EWIEGA46WW/qrc_qml.o
-
-# target to build an object file
-cutefish-shutdown_autogen/EWIEGA46WW/qrc_qml.cpp.o:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f shutdown-ui/CMakeFiles/cutefish-shutdown.dir/build.make shutdown-ui/CMakeFiles/cutefish-shutdown.dir/cutefish-shutdown_autogen/EWIEGA46WW/qrc_qml.cpp.o
-.PHONY : cutefish-shutdown_autogen/EWIEGA46WW/qrc_qml.cpp.o
-
-cutefish-shutdown_autogen/EWIEGA46WW/qrc_qml.i: cutefish-shutdown_autogen/EWIEGA46WW/qrc_qml.cpp.i
-
-.PHONY : cutefish-shutdown_autogen/EWIEGA46WW/qrc_qml.i
-
-# target to preprocess a source file
-cutefish-shutdown_autogen/EWIEGA46WW/qrc_qml.cpp.i:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f shutdown-ui/CMakeFiles/cutefish-shutdown.dir/build.make shutdown-ui/CMakeFiles/cutefish-shutdown.dir/cutefish-shutdown_autogen/EWIEGA46WW/qrc_qml.cpp.i
-.PHONY : cutefish-shutdown_autogen/EWIEGA46WW/qrc_qml.cpp.i
-
-cutefish-shutdown_autogen/EWIEGA46WW/qrc_qml.s: cutefish-shutdown_autogen/EWIEGA46WW/qrc_qml.cpp.s
-
-.PHONY : cutefish-shutdown_autogen/EWIEGA46WW/qrc_qml.s
-
-# target to generate assembly for a file
-cutefish-shutdown_autogen/EWIEGA46WW/qrc_qml.cpp.s:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f shutdown-ui/CMakeFiles/cutefish-shutdown.dir/build.make shutdown-ui/CMakeFiles/cutefish-shutdown.dir/cutefish-shutdown_autogen/EWIEGA46WW/qrc_qml.cpp.s
-.PHONY : cutefish-shutdown_autogen/EWIEGA46WW/qrc_qml.cpp.s
-
-cutefish-shutdown_autogen/mocs_compilation.o: cutefish-shutdown_autogen/mocs_compilation.cpp.o
-
-.PHONY : cutefish-shutdown_autogen/mocs_compilation.o
-
-# target to build an object file
-cutefish-shutdown_autogen/mocs_compilation.cpp.o:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f shutdown-ui/CMakeFiles/cutefish-shutdown.dir/build.make shutdown-ui/CMakeFiles/cutefish-shutdown.dir/cutefish-shutdown_autogen/mocs_compilation.cpp.o
-.PHONY : cutefish-shutdown_autogen/mocs_compilation.cpp.o
-
-cutefish-shutdown_autogen/mocs_compilation.i: cutefish-shutdown_autogen/mocs_compilation.cpp.i
-
-.PHONY : cutefish-shutdown_autogen/mocs_compilation.i
-
-# target to preprocess a source file
-cutefish-shutdown_autogen/mocs_compilation.cpp.i:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f shutdown-ui/CMakeFiles/cutefish-shutdown.dir/build.make shutdown-ui/CMakeFiles/cutefish-shutdown.dir/cutefish-shutdown_autogen/mocs_compilation.cpp.i
-.PHONY : cutefish-shutdown_autogen/mocs_compilation.cpp.i
-
-cutefish-shutdown_autogen/mocs_compilation.s: cutefish-shutdown_autogen/mocs_compilation.cpp.s
-
-.PHONY : cutefish-shutdown_autogen/mocs_compilation.s
-
-# target to generate assembly for a file
-cutefish-shutdown_autogen/mocs_compilation.cpp.s:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f shutdown-ui/CMakeFiles/cutefish-shutdown.dir/build.make shutdown-ui/CMakeFiles/cutefish-shutdown.dir/cutefish-shutdown_autogen/mocs_compilation.cpp.s
-.PHONY : cutefish-shutdown_autogen/mocs_compilation.cpp.s
 
 main.o: main.cpp.o
 
@@ -307,7 +253,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f shutdown-ui/CMakeFiles/cutefish-shutdown.dir/build.make shutdown-ui/CMakeFiles/cutefish-shutdown.dir/main.cpp.o
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f shutdown-ui/CMakeFiles/matsya-shutdown.dir/build.make shutdown-ui/CMakeFiles/matsya-shutdown.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -316,7 +262,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f shutdown-ui/CMakeFiles/cutefish-shutdown.dir/build.make shutdown-ui/CMakeFiles/cutefish-shutdown.dir/main.cpp.i
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f shutdown-ui/CMakeFiles/matsya-shutdown.dir/build.make shutdown-ui/CMakeFiles/matsya-shutdown.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -325,8 +271,62 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f shutdown-ui/CMakeFiles/cutefish-shutdown.dir/build.make shutdown-ui/CMakeFiles/cutefish-shutdown.dir/main.cpp.s
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f shutdown-ui/CMakeFiles/matsya-shutdown.dir/build.make shutdown-ui/CMakeFiles/matsya-shutdown.dir/main.cpp.s
 .PHONY : main.cpp.s
+
+matsya-shutdown_autogen/EWIEGA46WW/qrc_qml.o: matsya-shutdown_autogen/EWIEGA46WW/qrc_qml.cpp.o
+
+.PHONY : matsya-shutdown_autogen/EWIEGA46WW/qrc_qml.o
+
+# target to build an object file
+matsya-shutdown_autogen/EWIEGA46WW/qrc_qml.cpp.o:
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f shutdown-ui/CMakeFiles/matsya-shutdown.dir/build.make shutdown-ui/CMakeFiles/matsya-shutdown.dir/matsya-shutdown_autogen/EWIEGA46WW/qrc_qml.cpp.o
+.PHONY : matsya-shutdown_autogen/EWIEGA46WW/qrc_qml.cpp.o
+
+matsya-shutdown_autogen/EWIEGA46WW/qrc_qml.i: matsya-shutdown_autogen/EWIEGA46WW/qrc_qml.cpp.i
+
+.PHONY : matsya-shutdown_autogen/EWIEGA46WW/qrc_qml.i
+
+# target to preprocess a source file
+matsya-shutdown_autogen/EWIEGA46WW/qrc_qml.cpp.i:
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f shutdown-ui/CMakeFiles/matsya-shutdown.dir/build.make shutdown-ui/CMakeFiles/matsya-shutdown.dir/matsya-shutdown_autogen/EWIEGA46WW/qrc_qml.cpp.i
+.PHONY : matsya-shutdown_autogen/EWIEGA46WW/qrc_qml.cpp.i
+
+matsya-shutdown_autogen/EWIEGA46WW/qrc_qml.s: matsya-shutdown_autogen/EWIEGA46WW/qrc_qml.cpp.s
+
+.PHONY : matsya-shutdown_autogen/EWIEGA46WW/qrc_qml.s
+
+# target to generate assembly for a file
+matsya-shutdown_autogen/EWIEGA46WW/qrc_qml.cpp.s:
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f shutdown-ui/CMakeFiles/matsya-shutdown.dir/build.make shutdown-ui/CMakeFiles/matsya-shutdown.dir/matsya-shutdown_autogen/EWIEGA46WW/qrc_qml.cpp.s
+.PHONY : matsya-shutdown_autogen/EWIEGA46WW/qrc_qml.cpp.s
+
+matsya-shutdown_autogen/mocs_compilation.o: matsya-shutdown_autogen/mocs_compilation.cpp.o
+
+.PHONY : matsya-shutdown_autogen/mocs_compilation.o
+
+# target to build an object file
+matsya-shutdown_autogen/mocs_compilation.cpp.o:
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f shutdown-ui/CMakeFiles/matsya-shutdown.dir/build.make shutdown-ui/CMakeFiles/matsya-shutdown.dir/matsya-shutdown_autogen/mocs_compilation.cpp.o
+.PHONY : matsya-shutdown_autogen/mocs_compilation.cpp.o
+
+matsya-shutdown_autogen/mocs_compilation.i: matsya-shutdown_autogen/mocs_compilation.cpp.i
+
+.PHONY : matsya-shutdown_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+matsya-shutdown_autogen/mocs_compilation.cpp.i:
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f shutdown-ui/CMakeFiles/matsya-shutdown.dir/build.make shutdown-ui/CMakeFiles/matsya-shutdown.dir/matsya-shutdown_autogen/mocs_compilation.cpp.i
+.PHONY : matsya-shutdown_autogen/mocs_compilation.cpp.i
+
+matsya-shutdown_autogen/mocs_compilation.s: matsya-shutdown_autogen/mocs_compilation.cpp.s
+
+.PHONY : matsya-shutdown_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+matsya-shutdown_autogen/mocs_compilation.cpp.s:
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f shutdown-ui/CMakeFiles/matsya-shutdown.dir/build.make shutdown-ui/CMakeFiles/matsya-shutdown.dir/matsya-shutdown_autogen/mocs_compilation.cpp.s
+.PHONY : matsya-shutdown_autogen/mocs_compilation.cpp.s
 
 # Help Target
 help:
@@ -340,21 +340,21 @@ help:
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
-	@echo "... cutefish-shutdown_autogen"
+	@echo "... matsya-shutdown_autogen"
 	@echo "... shutdown-translations"
-	@echo "... cutefish-shutdown"
+	@echo "... matsya-shutdown"
 	@echo "... actions.o"
 	@echo "... actions.i"
 	@echo "... actions.s"
-	@echo "... cutefish-shutdown_autogen/EWIEGA46WW/qrc_qml.o"
-	@echo "... cutefish-shutdown_autogen/EWIEGA46WW/qrc_qml.i"
-	@echo "... cutefish-shutdown_autogen/EWIEGA46WW/qrc_qml.s"
-	@echo "... cutefish-shutdown_autogen/mocs_compilation.o"
-	@echo "... cutefish-shutdown_autogen/mocs_compilation.i"
-	@echo "... cutefish-shutdown_autogen/mocs_compilation.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... matsya-shutdown_autogen/EWIEGA46WW/qrc_qml.o"
+	@echo "... matsya-shutdown_autogen/EWIEGA46WW/qrc_qml.i"
+	@echo "... matsya-shutdown_autogen/EWIEGA46WW/qrc_qml.s"
+	@echo "... matsya-shutdown_autogen/mocs_compilation.o"
+	@echo "... matsya-shutdown_autogen/mocs_compilation.i"
+	@echo "... matsya-shutdown_autogen/mocs_compilation.s"
 .PHONY : help
 
 
@@ -366,6 +366,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/tokyo/clone/RebootOS/core/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/tokyo/Documents/GitHub/core/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

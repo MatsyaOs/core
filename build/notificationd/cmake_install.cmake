@@ -1,4 +1,4 @@
-# Install script for directory: /home/tokyo/clone/RebootOS/core/notificationd
+# Install script for directory: /home/tokyo/Documents/GitHub/core/notificationd
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -43,41 +43,41 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xRuntimex" OR NOT CMAKE_INSTALL_COMPONENT)
-  if(EXISTS "$ENV{DESTDIR}/usr/bin/cutefish-notificationd" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}/usr/bin/cutefish-notificationd")
+  if(EXISTS "$ENV{DESTDIR}/usr/bin/matsya-notificationd" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}/usr/bin/matsya-notificationd")
     file(RPATH_CHECK
-         FILE "$ENV{DESTDIR}/usr/bin/cutefish-notificationd"
+         FILE "$ENV{DESTDIR}/usr/bin/matsya-notificationd"
          RPATH "")
   endif()
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/usr/bin/cutefish-notificationd")
+   "/usr/bin/matsya-notificationd")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/usr/bin" TYPE EXECUTABLE FILES "/home/tokyo/clone/RebootOS/core/build/notificationd/cutefish-notificationd")
-  if(EXISTS "$ENV{DESTDIR}/usr/bin/cutefish-notificationd" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}/usr/bin/cutefish-notificationd")
+file(INSTALL DESTINATION "/usr/bin" TYPE EXECUTABLE FILES "/home/tokyo/Documents/GitHub/core/build/notificationd/matsya-notificationd")
+  if(EXISTS "$ENV{DESTDIR}/usr/bin/matsya-notificationd" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}/usr/bin/matsya-notificationd")
     if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}/usr/bin/cutefish-notificationd")
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}/usr/bin/matsya-notificationd")
     endif()
   endif()
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/usr/share/cutefish-notificationd/translations/en_US.qm;/usr/share/cutefish-notificationd/translations/zh_CN.qm")
+   "/usr/share/matsya-notificationd/translations/en_US.qm;/usr/share/matsya-notificationd/translations/zh_CN.qm")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/usr/share/cutefish-notificationd/translations" TYPE FILE FILES
-    "/home/tokyo/clone/RebootOS/core/build/notificationd/en_US.qm"
-    "/home/tokyo/clone/RebootOS/core/build/notificationd/zh_CN.qm"
+file(INSTALL DESTINATION "/usr/share/matsya-notificationd/translations" TYPE FILE FILES
+    "/home/tokyo/Documents/GitHub/core/build/notificationd/en_US.qm"
+    "/home/tokyo/Documents/GitHub/core/build/notificationd/zh_CN.qm"
     )
 endif()
 

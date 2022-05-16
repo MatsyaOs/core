@@ -67,10 +67,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tokyo/clone/RebootOS/core
+CMAKE_SOURCE_DIR = /home/tokyo/Documents/GitHub/core
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tokyo/clone/RebootOS/core/build
+CMAKE_BINARY_DIR = /home/tokyo/Documents/GitHub/core/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -145,14 +145,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/tokyo/clone/RebootOS/core/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/RebootOS/core/build/CMakeFiles /home/tokyo/clone/RebootOS/core/build/polkit-agent//CMakeFiles/progress.marks
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 polkit-agent/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/RebootOS/core/build/CMakeFiles 0
+	cd /home/tokyo/Documents/GitHub/core/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/Documents/GitHub/core/build/CMakeFiles /home/tokyo/Documents/GitHub/core/build/polkit-agent//CMakeFiles/progress.marks
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 polkit-agent/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/Documents/GitHub/core/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 polkit-agent/clean
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 polkit-agent/clean
 .PHONY : clean
 
 # The main clean target
@@ -162,22 +162,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 polkit-agent/preinstall
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 polkit-agent/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 polkit-agent/preinstall
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 polkit-agent/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/tokyo/clone/RebootOS/core/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/tokyo/Documents/GitHub/core/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 polkit-agent/CMakeFiles/polkit-agent-translations.dir/rule:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 polkit-agent/CMakeFiles/polkit-agent-translations.dir/rule
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 polkit-agent/CMakeFiles/polkit-agent-translations.dir/rule
 .PHONY : polkit-agent/CMakeFiles/polkit-agent-translations.dir/rule
 
 # Convenience name for target.
@@ -187,92 +187,38 @@ polkit-agent-translations: polkit-agent/CMakeFiles/polkit-agent-translations.dir
 
 # fast build rule for target.
 polkit-agent-translations/fast:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f polkit-agent/CMakeFiles/polkit-agent-translations.dir/build.make polkit-agent/CMakeFiles/polkit-agent-translations.dir/build
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f polkit-agent/CMakeFiles/polkit-agent-translations.dir/build.make polkit-agent/CMakeFiles/polkit-agent-translations.dir/build
 .PHONY : polkit-agent-translations/fast
 
 # Convenience name for target.
-polkit-agent/CMakeFiles/cutefish-polkit-agent.dir/rule:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 polkit-agent/CMakeFiles/cutefish-polkit-agent.dir/rule
-.PHONY : polkit-agent/CMakeFiles/cutefish-polkit-agent.dir/rule
+polkit-agent/CMakeFiles/matsya-polkit-agent.dir/rule:
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 polkit-agent/CMakeFiles/matsya-polkit-agent.dir/rule
+.PHONY : polkit-agent/CMakeFiles/matsya-polkit-agent.dir/rule
 
 # Convenience name for target.
-cutefish-polkit-agent: polkit-agent/CMakeFiles/cutefish-polkit-agent.dir/rule
+matsya-polkit-agent: polkit-agent/CMakeFiles/matsya-polkit-agent.dir/rule
 
-.PHONY : cutefish-polkit-agent
+.PHONY : matsya-polkit-agent
 
 # fast build rule for target.
-cutefish-polkit-agent/fast:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f polkit-agent/CMakeFiles/cutefish-polkit-agent.dir/build.make polkit-agent/CMakeFiles/cutefish-polkit-agent.dir/build
-.PHONY : cutefish-polkit-agent/fast
+matsya-polkit-agent/fast:
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f polkit-agent/CMakeFiles/matsya-polkit-agent.dir/build.make polkit-agent/CMakeFiles/matsya-polkit-agent.dir/build
+.PHONY : matsya-polkit-agent/fast
 
 # Convenience name for target.
-polkit-agent/CMakeFiles/cutefish-polkit-agent_autogen.dir/rule:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 polkit-agent/CMakeFiles/cutefish-polkit-agent_autogen.dir/rule
-.PHONY : polkit-agent/CMakeFiles/cutefish-polkit-agent_autogen.dir/rule
+polkit-agent/CMakeFiles/matsya-polkit-agent_autogen.dir/rule:
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 polkit-agent/CMakeFiles/matsya-polkit-agent_autogen.dir/rule
+.PHONY : polkit-agent/CMakeFiles/matsya-polkit-agent_autogen.dir/rule
 
 # Convenience name for target.
-cutefish-polkit-agent_autogen: polkit-agent/CMakeFiles/cutefish-polkit-agent_autogen.dir/rule
+matsya-polkit-agent_autogen: polkit-agent/CMakeFiles/matsya-polkit-agent_autogen.dir/rule
 
-.PHONY : cutefish-polkit-agent_autogen
+.PHONY : matsya-polkit-agent_autogen
 
 # fast build rule for target.
-cutefish-polkit-agent_autogen/fast:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f polkit-agent/CMakeFiles/cutefish-polkit-agent_autogen.dir/build.make polkit-agent/CMakeFiles/cutefish-polkit-agent_autogen.dir/build
-.PHONY : cutefish-polkit-agent_autogen/fast
-
-cutefish-polkit-agent_autogen/EWIEGA46WW/qrc_qml.o: cutefish-polkit-agent_autogen/EWIEGA46WW/qrc_qml.cpp.o
-
-.PHONY : cutefish-polkit-agent_autogen/EWIEGA46WW/qrc_qml.o
-
-# target to build an object file
-cutefish-polkit-agent_autogen/EWIEGA46WW/qrc_qml.cpp.o:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f polkit-agent/CMakeFiles/cutefish-polkit-agent.dir/build.make polkit-agent/CMakeFiles/cutefish-polkit-agent.dir/cutefish-polkit-agent_autogen/EWIEGA46WW/qrc_qml.cpp.o
-.PHONY : cutefish-polkit-agent_autogen/EWIEGA46WW/qrc_qml.cpp.o
-
-cutefish-polkit-agent_autogen/EWIEGA46WW/qrc_qml.i: cutefish-polkit-agent_autogen/EWIEGA46WW/qrc_qml.cpp.i
-
-.PHONY : cutefish-polkit-agent_autogen/EWIEGA46WW/qrc_qml.i
-
-# target to preprocess a source file
-cutefish-polkit-agent_autogen/EWIEGA46WW/qrc_qml.cpp.i:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f polkit-agent/CMakeFiles/cutefish-polkit-agent.dir/build.make polkit-agent/CMakeFiles/cutefish-polkit-agent.dir/cutefish-polkit-agent_autogen/EWIEGA46WW/qrc_qml.cpp.i
-.PHONY : cutefish-polkit-agent_autogen/EWIEGA46WW/qrc_qml.cpp.i
-
-cutefish-polkit-agent_autogen/EWIEGA46WW/qrc_qml.s: cutefish-polkit-agent_autogen/EWIEGA46WW/qrc_qml.cpp.s
-
-.PHONY : cutefish-polkit-agent_autogen/EWIEGA46WW/qrc_qml.s
-
-# target to generate assembly for a file
-cutefish-polkit-agent_autogen/EWIEGA46WW/qrc_qml.cpp.s:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f polkit-agent/CMakeFiles/cutefish-polkit-agent.dir/build.make polkit-agent/CMakeFiles/cutefish-polkit-agent.dir/cutefish-polkit-agent_autogen/EWIEGA46WW/qrc_qml.cpp.s
-.PHONY : cutefish-polkit-agent_autogen/EWIEGA46WW/qrc_qml.cpp.s
-
-cutefish-polkit-agent_autogen/mocs_compilation.o: cutefish-polkit-agent_autogen/mocs_compilation.cpp.o
-
-.PHONY : cutefish-polkit-agent_autogen/mocs_compilation.o
-
-# target to build an object file
-cutefish-polkit-agent_autogen/mocs_compilation.cpp.o:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f polkit-agent/CMakeFiles/cutefish-polkit-agent.dir/build.make polkit-agent/CMakeFiles/cutefish-polkit-agent.dir/cutefish-polkit-agent_autogen/mocs_compilation.cpp.o
-.PHONY : cutefish-polkit-agent_autogen/mocs_compilation.cpp.o
-
-cutefish-polkit-agent_autogen/mocs_compilation.i: cutefish-polkit-agent_autogen/mocs_compilation.cpp.i
-
-.PHONY : cutefish-polkit-agent_autogen/mocs_compilation.i
-
-# target to preprocess a source file
-cutefish-polkit-agent_autogen/mocs_compilation.cpp.i:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f polkit-agent/CMakeFiles/cutefish-polkit-agent.dir/build.make polkit-agent/CMakeFiles/cutefish-polkit-agent.dir/cutefish-polkit-agent_autogen/mocs_compilation.cpp.i
-.PHONY : cutefish-polkit-agent_autogen/mocs_compilation.cpp.i
-
-cutefish-polkit-agent_autogen/mocs_compilation.s: cutefish-polkit-agent_autogen/mocs_compilation.cpp.s
-
-.PHONY : cutefish-polkit-agent_autogen/mocs_compilation.s
-
-# target to generate assembly for a file
-cutefish-polkit-agent_autogen/mocs_compilation.cpp.s:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f polkit-agent/CMakeFiles/cutefish-polkit-agent.dir/build.make polkit-agent/CMakeFiles/cutefish-polkit-agent.dir/cutefish-polkit-agent_autogen/mocs_compilation.cpp.s
-.PHONY : cutefish-polkit-agent_autogen/mocs_compilation.cpp.s
+matsya-polkit-agent_autogen/fast:
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f polkit-agent/CMakeFiles/matsya-polkit-agent_autogen.dir/build.make polkit-agent/CMakeFiles/matsya-polkit-agent_autogen.dir/build
+.PHONY : matsya-polkit-agent_autogen/fast
 
 dialog.o: dialog.cpp.o
 
@@ -280,7 +226,7 @@ dialog.o: dialog.cpp.o
 
 # target to build an object file
 dialog.cpp.o:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f polkit-agent/CMakeFiles/cutefish-polkit-agent.dir/build.make polkit-agent/CMakeFiles/cutefish-polkit-agent.dir/dialog.cpp.o
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f polkit-agent/CMakeFiles/matsya-polkit-agent.dir/build.make polkit-agent/CMakeFiles/matsya-polkit-agent.dir/dialog.cpp.o
 .PHONY : dialog.cpp.o
 
 dialog.i: dialog.cpp.i
@@ -289,7 +235,7 @@ dialog.i: dialog.cpp.i
 
 # target to preprocess a source file
 dialog.cpp.i:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f polkit-agent/CMakeFiles/cutefish-polkit-agent.dir/build.make polkit-agent/CMakeFiles/cutefish-polkit-agent.dir/dialog.cpp.i
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f polkit-agent/CMakeFiles/matsya-polkit-agent.dir/build.make polkit-agent/CMakeFiles/matsya-polkit-agent.dir/dialog.cpp.i
 .PHONY : dialog.cpp.i
 
 dialog.s: dialog.cpp.s
@@ -298,7 +244,7 @@ dialog.s: dialog.cpp.s
 
 # target to generate assembly for a file
 dialog.cpp.s:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f polkit-agent/CMakeFiles/cutefish-polkit-agent.dir/build.make polkit-agent/CMakeFiles/cutefish-polkit-agent.dir/dialog.cpp.s
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f polkit-agent/CMakeFiles/matsya-polkit-agent.dir/build.make polkit-agent/CMakeFiles/matsya-polkit-agent.dir/dialog.cpp.s
 .PHONY : dialog.cpp.s
 
 main.o: main.cpp.o
@@ -307,7 +253,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f polkit-agent/CMakeFiles/cutefish-polkit-agent.dir/build.make polkit-agent/CMakeFiles/cutefish-polkit-agent.dir/main.cpp.o
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f polkit-agent/CMakeFiles/matsya-polkit-agent.dir/build.make polkit-agent/CMakeFiles/matsya-polkit-agent.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -316,7 +262,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f polkit-agent/CMakeFiles/cutefish-polkit-agent.dir/build.make polkit-agent/CMakeFiles/cutefish-polkit-agent.dir/main.cpp.i
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f polkit-agent/CMakeFiles/matsya-polkit-agent.dir/build.make polkit-agent/CMakeFiles/matsya-polkit-agent.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -325,8 +271,62 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f polkit-agent/CMakeFiles/cutefish-polkit-agent.dir/build.make polkit-agent/CMakeFiles/cutefish-polkit-agent.dir/main.cpp.s
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f polkit-agent/CMakeFiles/matsya-polkit-agent.dir/build.make polkit-agent/CMakeFiles/matsya-polkit-agent.dir/main.cpp.s
 .PHONY : main.cpp.s
+
+matsya-polkit-agent_autogen/EWIEGA46WW/qrc_qml.o: matsya-polkit-agent_autogen/EWIEGA46WW/qrc_qml.cpp.o
+
+.PHONY : matsya-polkit-agent_autogen/EWIEGA46WW/qrc_qml.o
+
+# target to build an object file
+matsya-polkit-agent_autogen/EWIEGA46WW/qrc_qml.cpp.o:
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f polkit-agent/CMakeFiles/matsya-polkit-agent.dir/build.make polkit-agent/CMakeFiles/matsya-polkit-agent.dir/matsya-polkit-agent_autogen/EWIEGA46WW/qrc_qml.cpp.o
+.PHONY : matsya-polkit-agent_autogen/EWIEGA46WW/qrc_qml.cpp.o
+
+matsya-polkit-agent_autogen/EWIEGA46WW/qrc_qml.i: matsya-polkit-agent_autogen/EWIEGA46WW/qrc_qml.cpp.i
+
+.PHONY : matsya-polkit-agent_autogen/EWIEGA46WW/qrc_qml.i
+
+# target to preprocess a source file
+matsya-polkit-agent_autogen/EWIEGA46WW/qrc_qml.cpp.i:
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f polkit-agent/CMakeFiles/matsya-polkit-agent.dir/build.make polkit-agent/CMakeFiles/matsya-polkit-agent.dir/matsya-polkit-agent_autogen/EWIEGA46WW/qrc_qml.cpp.i
+.PHONY : matsya-polkit-agent_autogen/EWIEGA46WW/qrc_qml.cpp.i
+
+matsya-polkit-agent_autogen/EWIEGA46WW/qrc_qml.s: matsya-polkit-agent_autogen/EWIEGA46WW/qrc_qml.cpp.s
+
+.PHONY : matsya-polkit-agent_autogen/EWIEGA46WW/qrc_qml.s
+
+# target to generate assembly for a file
+matsya-polkit-agent_autogen/EWIEGA46WW/qrc_qml.cpp.s:
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f polkit-agent/CMakeFiles/matsya-polkit-agent.dir/build.make polkit-agent/CMakeFiles/matsya-polkit-agent.dir/matsya-polkit-agent_autogen/EWIEGA46WW/qrc_qml.cpp.s
+.PHONY : matsya-polkit-agent_autogen/EWIEGA46WW/qrc_qml.cpp.s
+
+matsya-polkit-agent_autogen/mocs_compilation.o: matsya-polkit-agent_autogen/mocs_compilation.cpp.o
+
+.PHONY : matsya-polkit-agent_autogen/mocs_compilation.o
+
+# target to build an object file
+matsya-polkit-agent_autogen/mocs_compilation.cpp.o:
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f polkit-agent/CMakeFiles/matsya-polkit-agent.dir/build.make polkit-agent/CMakeFiles/matsya-polkit-agent.dir/matsya-polkit-agent_autogen/mocs_compilation.cpp.o
+.PHONY : matsya-polkit-agent_autogen/mocs_compilation.cpp.o
+
+matsya-polkit-agent_autogen/mocs_compilation.i: matsya-polkit-agent_autogen/mocs_compilation.cpp.i
+
+.PHONY : matsya-polkit-agent_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+matsya-polkit-agent_autogen/mocs_compilation.cpp.i:
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f polkit-agent/CMakeFiles/matsya-polkit-agent.dir/build.make polkit-agent/CMakeFiles/matsya-polkit-agent.dir/matsya-polkit-agent_autogen/mocs_compilation.cpp.i
+.PHONY : matsya-polkit-agent_autogen/mocs_compilation.cpp.i
+
+matsya-polkit-agent_autogen/mocs_compilation.s: matsya-polkit-agent_autogen/mocs_compilation.cpp.s
+
+.PHONY : matsya-polkit-agent_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+matsya-polkit-agent_autogen/mocs_compilation.cpp.s:
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f polkit-agent/CMakeFiles/matsya-polkit-agent.dir/build.make polkit-agent/CMakeFiles/matsya-polkit-agent.dir/matsya-polkit-agent_autogen/mocs_compilation.cpp.s
+.PHONY : matsya-polkit-agent_autogen/mocs_compilation.cpp.s
 
 polkitagentlistener.o: polkitagentlistener.cpp.o
 
@@ -334,7 +334,7 @@ polkitagentlistener.o: polkitagentlistener.cpp.o
 
 # target to build an object file
 polkitagentlistener.cpp.o:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f polkit-agent/CMakeFiles/cutefish-polkit-agent.dir/build.make polkit-agent/CMakeFiles/cutefish-polkit-agent.dir/polkitagentlistener.cpp.o
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f polkit-agent/CMakeFiles/matsya-polkit-agent.dir/build.make polkit-agent/CMakeFiles/matsya-polkit-agent.dir/polkitagentlistener.cpp.o
 .PHONY : polkitagentlistener.cpp.o
 
 polkitagentlistener.i: polkitagentlistener.cpp.i
@@ -343,7 +343,7 @@ polkitagentlistener.i: polkitagentlistener.cpp.i
 
 # target to preprocess a source file
 polkitagentlistener.cpp.i:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f polkit-agent/CMakeFiles/cutefish-polkit-agent.dir/build.make polkit-agent/CMakeFiles/cutefish-polkit-agent.dir/polkitagentlistener.cpp.i
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f polkit-agent/CMakeFiles/matsya-polkit-agent.dir/build.make polkit-agent/CMakeFiles/matsya-polkit-agent.dir/polkitagentlistener.cpp.i
 .PHONY : polkitagentlistener.cpp.i
 
 polkitagentlistener.s: polkitagentlistener.cpp.s
@@ -352,7 +352,7 @@ polkitagentlistener.s: polkitagentlistener.cpp.s
 
 # target to generate assembly for a file
 polkitagentlistener.cpp.s:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f polkit-agent/CMakeFiles/cutefish-polkit-agent.dir/build.make polkit-agent/CMakeFiles/cutefish-polkit-agent.dir/polkitagentlistener.cpp.s
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f polkit-agent/CMakeFiles/matsya-polkit-agent.dir/build.make polkit-agent/CMakeFiles/matsya-polkit-agent.dir/polkitagentlistener.cpp.s
 .PHONY : polkitagentlistener.cpp.s
 
 # Help Target
@@ -367,21 +367,21 @@ help:
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
-	@echo "... cutefish-polkit-agent_autogen"
+	@echo "... matsya-polkit-agent_autogen"
 	@echo "... polkit-agent-translations"
-	@echo "... cutefish-polkit-agent"
-	@echo "... cutefish-polkit-agent_autogen/EWIEGA46WW/qrc_qml.o"
-	@echo "... cutefish-polkit-agent_autogen/EWIEGA46WW/qrc_qml.i"
-	@echo "... cutefish-polkit-agent_autogen/EWIEGA46WW/qrc_qml.s"
-	@echo "... cutefish-polkit-agent_autogen/mocs_compilation.o"
-	@echo "... cutefish-polkit-agent_autogen/mocs_compilation.i"
-	@echo "... cutefish-polkit-agent_autogen/mocs_compilation.s"
+	@echo "... matsya-polkit-agent"
 	@echo "... dialog.o"
 	@echo "... dialog.i"
 	@echo "... dialog.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... matsya-polkit-agent_autogen/EWIEGA46WW/qrc_qml.o"
+	@echo "... matsya-polkit-agent_autogen/EWIEGA46WW/qrc_qml.i"
+	@echo "... matsya-polkit-agent_autogen/EWIEGA46WW/qrc_qml.s"
+	@echo "... matsya-polkit-agent_autogen/mocs_compilation.o"
+	@echo "... matsya-polkit-agent_autogen/mocs_compilation.i"
+	@echo "... matsya-polkit-agent_autogen/mocs_compilation.s"
 	@echo "... polkitagentlistener.o"
 	@echo "... polkitagentlistener.i"
 	@echo "... polkitagentlistener.s"
@@ -396,6 +396,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/tokyo/clone/RebootOS/core/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/tokyo/Documents/GitHub/core/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

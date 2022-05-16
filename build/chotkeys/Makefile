@@ -67,10 +67,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tokyo/clone/RebootOS/core
+CMAKE_SOURCE_DIR = /home/tokyo/Documents/GitHub/core
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tokyo/clone/RebootOS/core/build
+CMAKE_BINARY_DIR = /home/tokyo/Documents/GitHub/core/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -145,14 +145,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/tokyo/clone/RebootOS/core/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/RebootOS/core/build/CMakeFiles /home/tokyo/clone/RebootOS/core/build/chotkeys//CMakeFiles/progress.marks
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 chotkeys/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/RebootOS/core/build/CMakeFiles 0
+	cd /home/tokyo/Documents/GitHub/core/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/Documents/GitHub/core/build/CMakeFiles /home/tokyo/Documents/GitHub/core/build/chotkeys//CMakeFiles/progress.marks
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 chotkeys/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/Documents/GitHub/core/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 chotkeys/clean
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 chotkeys/clean
 .PHONY : clean
 
 # The main clean target
@@ -162,22 +162,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 chotkeys/preinstall
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 chotkeys/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 chotkeys/preinstall
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 chotkeys/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/tokyo/clone/RebootOS/core/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/tokyo/Documents/GitHub/core/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 chotkeys/CMakeFiles/chotkeys.dir/rule:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 chotkeys/CMakeFiles/chotkeys.dir/rule
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 chotkeys/CMakeFiles/chotkeys.dir/rule
 .PHONY : chotkeys/CMakeFiles/chotkeys.dir/rule
 
 # Convenience name for target.
@@ -187,12 +187,12 @@ chotkeys: chotkeys/CMakeFiles/chotkeys.dir/rule
 
 # fast build rule for target.
 chotkeys/fast:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f chotkeys/CMakeFiles/chotkeys.dir/build.make chotkeys/CMakeFiles/chotkeys.dir/build
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f chotkeys/CMakeFiles/chotkeys.dir/build.make chotkeys/CMakeFiles/chotkeys.dir/build
 .PHONY : chotkeys/fast
 
 # Convenience name for target.
 chotkeys/CMakeFiles/chotkeys_autogen.dir/rule:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 chotkeys/CMakeFiles/chotkeys_autogen.dir/rule
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 chotkeys/CMakeFiles/chotkeys_autogen.dir/rule
 .PHONY : chotkeys/CMakeFiles/chotkeys_autogen.dir/rule
 
 # Convenience name for target.
@@ -202,7 +202,7 @@ chotkeys_autogen: chotkeys/CMakeFiles/chotkeys_autogen.dir/rule
 
 # fast build rule for target.
 chotkeys_autogen/fast:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f chotkeys/CMakeFiles/chotkeys_autogen.dir/build.make chotkeys/CMakeFiles/chotkeys_autogen.dir/build
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f chotkeys/CMakeFiles/chotkeys_autogen.dir/build.make chotkeys/CMakeFiles/chotkeys_autogen.dir/build
 .PHONY : chotkeys_autogen/fast
 
 application.o: application.cpp.o
@@ -211,7 +211,7 @@ application.o: application.cpp.o
 
 # target to build an object file
 application.cpp.o:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f chotkeys/CMakeFiles/chotkeys.dir/build.make chotkeys/CMakeFiles/chotkeys.dir/application.cpp.o
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f chotkeys/CMakeFiles/chotkeys.dir/build.make chotkeys/CMakeFiles/chotkeys.dir/application.cpp.o
 .PHONY : application.cpp.o
 
 application.i: application.cpp.i
@@ -220,7 +220,7 @@ application.i: application.cpp.i
 
 # target to preprocess a source file
 application.cpp.i:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f chotkeys/CMakeFiles/chotkeys.dir/build.make chotkeys/CMakeFiles/chotkeys.dir/application.cpp.i
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f chotkeys/CMakeFiles/chotkeys.dir/build.make chotkeys/CMakeFiles/chotkeys.dir/application.cpp.i
 .PHONY : application.cpp.i
 
 application.s: application.cpp.s
@@ -229,7 +229,7 @@ application.s: application.cpp.s
 
 # target to generate assembly for a file
 application.cpp.s:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f chotkeys/CMakeFiles/chotkeys.dir/build.make chotkeys/CMakeFiles/chotkeys.dir/application.cpp.s
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f chotkeys/CMakeFiles/chotkeys.dir/build.make chotkeys/CMakeFiles/chotkeys.dir/application.cpp.s
 .PHONY : application.cpp.s
 
 chotkeys_autogen/mocs_compilation.o: chotkeys_autogen/mocs_compilation.cpp.o
@@ -238,7 +238,7 @@ chotkeys_autogen/mocs_compilation.o: chotkeys_autogen/mocs_compilation.cpp.o
 
 # target to build an object file
 chotkeys_autogen/mocs_compilation.cpp.o:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f chotkeys/CMakeFiles/chotkeys.dir/build.make chotkeys/CMakeFiles/chotkeys.dir/chotkeys_autogen/mocs_compilation.cpp.o
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f chotkeys/CMakeFiles/chotkeys.dir/build.make chotkeys/CMakeFiles/chotkeys.dir/chotkeys_autogen/mocs_compilation.cpp.o
 .PHONY : chotkeys_autogen/mocs_compilation.cpp.o
 
 chotkeys_autogen/mocs_compilation.i: chotkeys_autogen/mocs_compilation.cpp.i
@@ -247,7 +247,7 @@ chotkeys_autogen/mocs_compilation.i: chotkeys_autogen/mocs_compilation.cpp.i
 
 # target to preprocess a source file
 chotkeys_autogen/mocs_compilation.cpp.i:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f chotkeys/CMakeFiles/chotkeys.dir/build.make chotkeys/CMakeFiles/chotkeys.dir/chotkeys_autogen/mocs_compilation.cpp.i
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f chotkeys/CMakeFiles/chotkeys.dir/build.make chotkeys/CMakeFiles/chotkeys.dir/chotkeys_autogen/mocs_compilation.cpp.i
 .PHONY : chotkeys_autogen/mocs_compilation.cpp.i
 
 chotkeys_autogen/mocs_compilation.s: chotkeys_autogen/mocs_compilation.cpp.s
@@ -256,7 +256,7 @@ chotkeys_autogen/mocs_compilation.s: chotkeys_autogen/mocs_compilation.cpp.s
 
 # target to generate assembly for a file
 chotkeys_autogen/mocs_compilation.cpp.s:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f chotkeys/CMakeFiles/chotkeys.dir/build.make chotkeys/CMakeFiles/chotkeys.dir/chotkeys_autogen/mocs_compilation.cpp.s
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f chotkeys/CMakeFiles/chotkeys.dir/build.make chotkeys/CMakeFiles/chotkeys.dir/chotkeys_autogen/mocs_compilation.cpp.s
 .PHONY : chotkeys_autogen/mocs_compilation.cpp.s
 
 hotkeys.o: hotkeys.cpp.o
@@ -265,7 +265,7 @@ hotkeys.o: hotkeys.cpp.o
 
 # target to build an object file
 hotkeys.cpp.o:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f chotkeys/CMakeFiles/chotkeys.dir/build.make chotkeys/CMakeFiles/chotkeys.dir/hotkeys.cpp.o
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f chotkeys/CMakeFiles/chotkeys.dir/build.make chotkeys/CMakeFiles/chotkeys.dir/hotkeys.cpp.o
 .PHONY : hotkeys.cpp.o
 
 hotkeys.i: hotkeys.cpp.i
@@ -274,7 +274,7 @@ hotkeys.i: hotkeys.cpp.i
 
 # target to preprocess a source file
 hotkeys.cpp.i:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f chotkeys/CMakeFiles/chotkeys.dir/build.make chotkeys/CMakeFiles/chotkeys.dir/hotkeys.cpp.i
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f chotkeys/CMakeFiles/chotkeys.dir/build.make chotkeys/CMakeFiles/chotkeys.dir/hotkeys.cpp.i
 .PHONY : hotkeys.cpp.i
 
 hotkeys.s: hotkeys.cpp.s
@@ -283,7 +283,7 @@ hotkeys.s: hotkeys.cpp.s
 
 # target to generate assembly for a file
 hotkeys.cpp.s:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f chotkeys/CMakeFiles/chotkeys.dir/build.make chotkeys/CMakeFiles/chotkeys.dir/hotkeys.cpp.s
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f chotkeys/CMakeFiles/chotkeys.dir/build.make chotkeys/CMakeFiles/chotkeys.dir/hotkeys.cpp.s
 .PHONY : hotkeys.cpp.s
 
 main.o: main.cpp.o
@@ -292,7 +292,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f chotkeys/CMakeFiles/chotkeys.dir/build.make chotkeys/CMakeFiles/chotkeys.dir/main.cpp.o
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f chotkeys/CMakeFiles/chotkeys.dir/build.make chotkeys/CMakeFiles/chotkeys.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -301,7 +301,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f chotkeys/CMakeFiles/chotkeys.dir/build.make chotkeys/CMakeFiles/chotkeys.dir/main.cpp.i
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f chotkeys/CMakeFiles/chotkeys.dir/build.make chotkeys/CMakeFiles/chotkeys.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -310,7 +310,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f chotkeys/CMakeFiles/chotkeys.dir/build.make chotkeys/CMakeFiles/chotkeys.dir/main.cpp.s
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f chotkeys/CMakeFiles/chotkeys.dir/build.make chotkeys/CMakeFiles/chotkeys.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -350,6 +350,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/tokyo/clone/RebootOS/core/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/tokyo/Documents/GitHub/core/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

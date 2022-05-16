@@ -67,10 +67,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tokyo/clone/RebootOS/core
+CMAKE_SOURCE_DIR = /home/tokyo/Documents/GitHub/core
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tokyo/clone/RebootOS/core/build
+CMAKE_BINARY_DIR = /home/tokyo/Documents/GitHub/core/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -145,14 +145,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/tokyo/clone/RebootOS/core/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/RebootOS/core/build/CMakeFiles /home/tokyo/clone/RebootOS/core/build/powerman//CMakeFiles/progress.marks
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 powerman/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/RebootOS/core/build/CMakeFiles 0
+	cd /home/tokyo/Documents/GitHub/core/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/Documents/GitHub/core/build/CMakeFiles /home/tokyo/Documents/GitHub/core/build/powerman//CMakeFiles/progress.marks
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 powerman/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/Documents/GitHub/core/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 powerman/clean
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 powerman/clean
 .PHONY : clean
 
 # The main clean target
@@ -162,37 +162,37 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 powerman/preinstall
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 powerman/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 powerman/preinstall
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 powerman/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/tokyo/clone/RebootOS/core/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/tokyo/Documents/GitHub/core/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
-powerman/CMakeFiles/cutefish-powerman.dir/rule:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 powerman/CMakeFiles/cutefish-powerman.dir/rule
-.PHONY : powerman/CMakeFiles/cutefish-powerman.dir/rule
+powerman/CMakeFiles/matsya-powerman.dir/rule:
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 powerman/CMakeFiles/matsya-powerman.dir/rule
+.PHONY : powerman/CMakeFiles/matsya-powerman.dir/rule
 
 # Convenience name for target.
-cutefish-powerman: powerman/CMakeFiles/cutefish-powerman.dir/rule
+matsya-powerman: powerman/CMakeFiles/matsya-powerman.dir/rule
 
-.PHONY : cutefish-powerman
+.PHONY : matsya-powerman
 
 # fast build rule for target.
-cutefish-powerman/fast:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f powerman/CMakeFiles/cutefish-powerman.dir/build.make powerman/CMakeFiles/cutefish-powerman.dir/build
-.PHONY : cutefish-powerman/fast
+matsya-powerman/fast:
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f powerman/CMakeFiles/matsya-powerman.dir/build.make powerman/CMakeFiles/matsya-powerman.dir/build
+.PHONY : matsya-powerman/fast
 
 # Convenience name for target.
 powerman/CMakeFiles/KF5IdleTime_QCH.dir/rule:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 powerman/CMakeFiles/KF5IdleTime_QCH.dir/rule
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 powerman/CMakeFiles/KF5IdleTime_QCH.dir/rule
 .PHONY : powerman/CMakeFiles/KF5IdleTime_QCH.dir/rule
 
 # Convenience name for target.
@@ -202,23 +202,23 @@ KF5IdleTime_QCH: powerman/CMakeFiles/KF5IdleTime_QCH.dir/rule
 
 # fast build rule for target.
 KF5IdleTime_QCH/fast:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f powerman/CMakeFiles/KF5IdleTime_QCH.dir/build.make powerman/CMakeFiles/KF5IdleTime_QCH.dir/build
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f powerman/CMakeFiles/KF5IdleTime_QCH.dir/build.make powerman/CMakeFiles/KF5IdleTime_QCH.dir/build
 .PHONY : KF5IdleTime_QCH/fast
 
 # Convenience name for target.
-powerman/CMakeFiles/cutefish-powerman_autogen.dir/rule:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 powerman/CMakeFiles/cutefish-powerman_autogen.dir/rule
-.PHONY : powerman/CMakeFiles/cutefish-powerman_autogen.dir/rule
+powerman/CMakeFiles/matsya-powerman_autogen.dir/rule:
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 powerman/CMakeFiles/matsya-powerman_autogen.dir/rule
+.PHONY : powerman/CMakeFiles/matsya-powerman_autogen.dir/rule
 
 # Convenience name for target.
-cutefish-powerman_autogen: powerman/CMakeFiles/cutefish-powerman_autogen.dir/rule
+matsya-powerman_autogen: powerman/CMakeFiles/matsya-powerman_autogen.dir/rule
 
-.PHONY : cutefish-powerman_autogen
+.PHONY : matsya-powerman_autogen
 
 # fast build rule for target.
-cutefish-powerman_autogen/fast:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f powerman/CMakeFiles/cutefish-powerman_autogen.dir/build.make powerman/CMakeFiles/cutefish-powerman_autogen.dir/build
-.PHONY : cutefish-powerman_autogen/fast
+matsya-powerman_autogen/fast:
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f powerman/CMakeFiles/matsya-powerman_autogen.dir/build.make powerman/CMakeFiles/matsya-powerman_autogen.dir/build
+.PHONY : matsya-powerman_autogen/fast
 
 action.o: action.cpp.o
 
@@ -226,7 +226,7 @@ action.o: action.cpp.o
 
 # target to build an object file
 action.cpp.o:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f powerman/CMakeFiles/cutefish-powerman.dir/build.make powerman/CMakeFiles/cutefish-powerman.dir/action.cpp.o
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f powerman/CMakeFiles/matsya-powerman.dir/build.make powerman/CMakeFiles/matsya-powerman.dir/action.cpp.o
 .PHONY : action.cpp.o
 
 action.i: action.cpp.i
@@ -235,7 +235,7 @@ action.i: action.cpp.i
 
 # target to preprocess a source file
 action.cpp.i:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f powerman/CMakeFiles/cutefish-powerman.dir/build.make powerman/CMakeFiles/cutefish-powerman.dir/action.cpp.i
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f powerman/CMakeFiles/matsya-powerman.dir/build.make powerman/CMakeFiles/matsya-powerman.dir/action.cpp.i
 .PHONY : action.cpp.i
 
 action.s: action.cpp.s
@@ -244,7 +244,7 @@ action.s: action.cpp.s
 
 # target to generate assembly for a file
 action.cpp.s:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f powerman/CMakeFiles/cutefish-powerman.dir/build.make powerman/CMakeFiles/cutefish-powerman.dir/action.cpp.s
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f powerman/CMakeFiles/matsya-powerman.dir/build.make powerman/CMakeFiles/matsya-powerman.dir/action.cpp.s
 .PHONY : action.cpp.s
 
 application.o: application.cpp.o
@@ -253,7 +253,7 @@ application.o: application.cpp.o
 
 # target to build an object file
 application.cpp.o:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f powerman/CMakeFiles/cutefish-powerman.dir/build.make powerman/CMakeFiles/cutefish-powerman.dir/application.cpp.o
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f powerman/CMakeFiles/matsya-powerman.dir/build.make powerman/CMakeFiles/matsya-powerman.dir/application.cpp.o
 .PHONY : application.cpp.o
 
 application.i: application.cpp.i
@@ -262,7 +262,7 @@ application.i: application.cpp.i
 
 # target to preprocess a source file
 application.cpp.i:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f powerman/CMakeFiles/cutefish-powerman.dir/build.make powerman/CMakeFiles/cutefish-powerman.dir/application.cpp.i
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f powerman/CMakeFiles/matsya-powerman.dir/build.make powerman/CMakeFiles/matsya-powerman.dir/application.cpp.i
 .PHONY : application.cpp.i
 
 application.s: application.cpp.s
@@ -271,7 +271,7 @@ application.s: application.cpp.s
 
 # target to generate assembly for a file
 application.cpp.s:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f powerman/CMakeFiles/cutefish-powerman.dir/build.make powerman/CMakeFiles/cutefish-powerman.dir/application.cpp.s
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f powerman/CMakeFiles/matsya-powerman.dir/build.make powerman/CMakeFiles/matsya-powerman.dir/application.cpp.s
 .PHONY : application.cpp.s
 
 cpu/cpuitem.o: cpu/cpuitem.cpp.o
@@ -280,7 +280,7 @@ cpu/cpuitem.o: cpu/cpuitem.cpp.o
 
 # target to build an object file
 cpu/cpuitem.cpp.o:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f powerman/CMakeFiles/cutefish-powerman.dir/build.make powerman/CMakeFiles/cutefish-powerman.dir/cpu/cpuitem.cpp.o
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f powerman/CMakeFiles/matsya-powerman.dir/build.make powerman/CMakeFiles/matsya-powerman.dir/cpu/cpuitem.cpp.o
 .PHONY : cpu/cpuitem.cpp.o
 
 cpu/cpuitem.i: cpu/cpuitem.cpp.i
@@ -289,7 +289,7 @@ cpu/cpuitem.i: cpu/cpuitem.cpp.i
 
 # target to preprocess a source file
 cpu/cpuitem.cpp.i:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f powerman/CMakeFiles/cutefish-powerman.dir/build.make powerman/CMakeFiles/cutefish-powerman.dir/cpu/cpuitem.cpp.i
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f powerman/CMakeFiles/matsya-powerman.dir/build.make powerman/CMakeFiles/matsya-powerman.dir/cpu/cpuitem.cpp.i
 .PHONY : cpu/cpuitem.cpp.i
 
 cpu/cpuitem.s: cpu/cpuitem.cpp.s
@@ -298,7 +298,7 @@ cpu/cpuitem.s: cpu/cpuitem.cpp.s
 
 # target to generate assembly for a file
 cpu/cpuitem.cpp.s:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f powerman/CMakeFiles/cutefish-powerman.dir/build.make powerman/CMakeFiles/cutefish-powerman.dir/cpu/cpuitem.cpp.s
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f powerman/CMakeFiles/matsya-powerman.dir/build.make powerman/CMakeFiles/matsya-powerman.dir/cpu/cpuitem.cpp.s
 .PHONY : cpu/cpuitem.cpp.s
 
 cpu/cpumanagement.o: cpu/cpumanagement.cpp.o
@@ -307,7 +307,7 @@ cpu/cpumanagement.o: cpu/cpumanagement.cpp.o
 
 # target to build an object file
 cpu/cpumanagement.cpp.o:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f powerman/CMakeFiles/cutefish-powerman.dir/build.make powerman/CMakeFiles/cutefish-powerman.dir/cpu/cpumanagement.cpp.o
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f powerman/CMakeFiles/matsya-powerman.dir/build.make powerman/CMakeFiles/matsya-powerman.dir/cpu/cpumanagement.cpp.o
 .PHONY : cpu/cpumanagement.cpp.o
 
 cpu/cpumanagement.i: cpu/cpumanagement.cpp.i
@@ -316,7 +316,7 @@ cpu/cpumanagement.i: cpu/cpumanagement.cpp.i
 
 # target to preprocess a source file
 cpu/cpumanagement.cpp.i:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f powerman/CMakeFiles/cutefish-powerman.dir/build.make powerman/CMakeFiles/cutefish-powerman.dir/cpu/cpumanagement.cpp.i
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f powerman/CMakeFiles/matsya-powerman.dir/build.make powerman/CMakeFiles/matsya-powerman.dir/cpu/cpumanagement.cpp.i
 .PHONY : cpu/cpumanagement.cpp.i
 
 cpu/cpumanagement.s: cpu/cpumanagement.cpp.s
@@ -325,7 +325,7 @@ cpu/cpumanagement.s: cpu/cpumanagement.cpp.s
 
 # target to generate assembly for a file
 cpu/cpumanagement.cpp.s:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f powerman/CMakeFiles/cutefish-powerman.dir/build.make powerman/CMakeFiles/cutefish-powerman.dir/cpu/cpumanagement.cpp.s
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f powerman/CMakeFiles/matsya-powerman.dir/build.make powerman/CMakeFiles/matsya-powerman.dir/cpu/cpumanagement.cpp.s
 .PHONY : cpu/cpumanagement.cpp.s
 
 cpumanagementadaptor.o: cpumanagementadaptor.cpp.o
@@ -334,7 +334,7 @@ cpumanagementadaptor.o: cpumanagementadaptor.cpp.o
 
 # target to build an object file
 cpumanagementadaptor.cpp.o:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f powerman/CMakeFiles/cutefish-powerman.dir/build.make powerman/CMakeFiles/cutefish-powerman.dir/cpumanagementadaptor.cpp.o
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f powerman/CMakeFiles/matsya-powerman.dir/build.make powerman/CMakeFiles/matsya-powerman.dir/cpumanagementadaptor.cpp.o
 .PHONY : cpumanagementadaptor.cpp.o
 
 cpumanagementadaptor.i: cpumanagementadaptor.cpp.i
@@ -343,7 +343,7 @@ cpumanagementadaptor.i: cpumanagementadaptor.cpp.i
 
 # target to preprocess a source file
 cpumanagementadaptor.cpp.i:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f powerman/CMakeFiles/cutefish-powerman.dir/build.make powerman/CMakeFiles/cutefish-powerman.dir/cpumanagementadaptor.cpp.i
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f powerman/CMakeFiles/matsya-powerman.dir/build.make powerman/CMakeFiles/matsya-powerman.dir/cpumanagementadaptor.cpp.i
 .PHONY : cpumanagementadaptor.cpp.i
 
 cpumanagementadaptor.s: cpumanagementadaptor.cpp.s
@@ -352,35 +352,8 @@ cpumanagementadaptor.s: cpumanagementadaptor.cpp.s
 
 # target to generate assembly for a file
 cpumanagementadaptor.cpp.s:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f powerman/CMakeFiles/cutefish-powerman.dir/build.make powerman/CMakeFiles/cutefish-powerman.dir/cpumanagementadaptor.cpp.s
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f powerman/CMakeFiles/matsya-powerman.dir/build.make powerman/CMakeFiles/matsya-powerman.dir/cpumanagementadaptor.cpp.s
 .PHONY : cpumanagementadaptor.cpp.s
-
-cutefish-powerman_autogen/mocs_compilation.o: cutefish-powerman_autogen/mocs_compilation.cpp.o
-
-.PHONY : cutefish-powerman_autogen/mocs_compilation.o
-
-# target to build an object file
-cutefish-powerman_autogen/mocs_compilation.cpp.o:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f powerman/CMakeFiles/cutefish-powerman.dir/build.make powerman/CMakeFiles/cutefish-powerman.dir/cutefish-powerman_autogen/mocs_compilation.cpp.o
-.PHONY : cutefish-powerman_autogen/mocs_compilation.cpp.o
-
-cutefish-powerman_autogen/mocs_compilation.i: cutefish-powerman_autogen/mocs_compilation.cpp.i
-
-.PHONY : cutefish-powerman_autogen/mocs_compilation.i
-
-# target to preprocess a source file
-cutefish-powerman_autogen/mocs_compilation.cpp.i:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f powerman/CMakeFiles/cutefish-powerman.dir/build.make powerman/CMakeFiles/cutefish-powerman.dir/cutefish-powerman_autogen/mocs_compilation.cpp.i
-.PHONY : cutefish-powerman_autogen/mocs_compilation.cpp.i
-
-cutefish-powerman_autogen/mocs_compilation.s: cutefish-powerman_autogen/mocs_compilation.cpp.s
-
-.PHONY : cutefish-powerman_autogen/mocs_compilation.s
-
-# target to generate assembly for a file
-cutefish-powerman_autogen/mocs_compilation.cpp.s:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f powerman/CMakeFiles/cutefish-powerman.dir/build.make powerman/CMakeFiles/cutefish-powerman.dir/cutefish-powerman_autogen/mocs_compilation.cpp.s
-.PHONY : cutefish-powerman_autogen/mocs_compilation.cpp.s
 
 dimdisplayaction.o: dimdisplayaction.cpp.o
 
@@ -388,7 +361,7 @@ dimdisplayaction.o: dimdisplayaction.cpp.o
 
 # target to build an object file
 dimdisplayaction.cpp.o:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f powerman/CMakeFiles/cutefish-powerman.dir/build.make powerman/CMakeFiles/cutefish-powerman.dir/dimdisplayaction.cpp.o
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f powerman/CMakeFiles/matsya-powerman.dir/build.make powerman/CMakeFiles/matsya-powerman.dir/dimdisplayaction.cpp.o
 .PHONY : dimdisplayaction.cpp.o
 
 dimdisplayaction.i: dimdisplayaction.cpp.i
@@ -397,7 +370,7 @@ dimdisplayaction.i: dimdisplayaction.cpp.i
 
 # target to preprocess a source file
 dimdisplayaction.cpp.i:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f powerman/CMakeFiles/cutefish-powerman.dir/build.make powerman/CMakeFiles/cutefish-powerman.dir/dimdisplayaction.cpp.i
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f powerman/CMakeFiles/matsya-powerman.dir/build.make powerman/CMakeFiles/matsya-powerman.dir/dimdisplayaction.cpp.i
 .PHONY : dimdisplayaction.cpp.i
 
 dimdisplayaction.s: dimdisplayaction.cpp.s
@@ -406,7 +379,7 @@ dimdisplayaction.s: dimdisplayaction.cpp.s
 
 # target to generate assembly for a file
 dimdisplayaction.cpp.s:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f powerman/CMakeFiles/cutefish-powerman.dir/build.make powerman/CMakeFiles/cutefish-powerman.dir/dimdisplayaction.cpp.s
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f powerman/CMakeFiles/matsya-powerman.dir/build.make powerman/CMakeFiles/matsya-powerman.dir/dimdisplayaction.cpp.s
 .PHONY : dimdisplayaction.cpp.s
 
 idlemanager.o: idlemanager.cpp.o
@@ -415,7 +388,7 @@ idlemanager.o: idlemanager.cpp.o
 
 # target to build an object file
 idlemanager.cpp.o:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f powerman/CMakeFiles/cutefish-powerman.dir/build.make powerman/CMakeFiles/cutefish-powerman.dir/idlemanager.cpp.o
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f powerman/CMakeFiles/matsya-powerman.dir/build.make powerman/CMakeFiles/matsya-powerman.dir/idlemanager.cpp.o
 .PHONY : idlemanager.cpp.o
 
 idlemanager.i: idlemanager.cpp.i
@@ -424,7 +397,7 @@ idlemanager.i: idlemanager.cpp.i
 
 # target to preprocess a source file
 idlemanager.cpp.i:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f powerman/CMakeFiles/cutefish-powerman.dir/build.make powerman/CMakeFiles/cutefish-powerman.dir/idlemanager.cpp.i
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f powerman/CMakeFiles/matsya-powerman.dir/build.make powerman/CMakeFiles/matsya-powerman.dir/idlemanager.cpp.i
 .PHONY : idlemanager.cpp.i
 
 idlemanager.s: idlemanager.cpp.s
@@ -433,7 +406,7 @@ idlemanager.s: idlemanager.cpp.s
 
 # target to generate assembly for a file
 idlemanager.cpp.s:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f powerman/CMakeFiles/cutefish-powerman.dir/build.make powerman/CMakeFiles/cutefish-powerman.dir/idlemanager.cpp.s
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f powerman/CMakeFiles/matsya-powerman.dir/build.make powerman/CMakeFiles/matsya-powerman.dir/idlemanager.cpp.s
 .PHONY : idlemanager.cpp.s
 
 lidwatcher.o: lidwatcher.cpp.o
@@ -442,7 +415,7 @@ lidwatcher.o: lidwatcher.cpp.o
 
 # target to build an object file
 lidwatcher.cpp.o:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f powerman/CMakeFiles/cutefish-powerman.dir/build.make powerman/CMakeFiles/cutefish-powerman.dir/lidwatcher.cpp.o
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f powerman/CMakeFiles/matsya-powerman.dir/build.make powerman/CMakeFiles/matsya-powerman.dir/lidwatcher.cpp.o
 .PHONY : lidwatcher.cpp.o
 
 lidwatcher.i: lidwatcher.cpp.i
@@ -451,7 +424,7 @@ lidwatcher.i: lidwatcher.cpp.i
 
 # target to preprocess a source file
 lidwatcher.cpp.i:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f powerman/CMakeFiles/cutefish-powerman.dir/build.make powerman/CMakeFiles/cutefish-powerman.dir/lidwatcher.cpp.i
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f powerman/CMakeFiles/matsya-powerman.dir/build.make powerman/CMakeFiles/matsya-powerman.dir/lidwatcher.cpp.i
 .PHONY : lidwatcher.cpp.i
 
 lidwatcher.s: lidwatcher.cpp.s
@@ -460,7 +433,7 @@ lidwatcher.s: lidwatcher.cpp.s
 
 # target to generate assembly for a file
 lidwatcher.cpp.s:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f powerman/CMakeFiles/cutefish-powerman.dir/build.make powerman/CMakeFiles/cutefish-powerman.dir/lidwatcher.cpp.s
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f powerman/CMakeFiles/matsya-powerman.dir/build.make powerman/CMakeFiles/matsya-powerman.dir/lidwatcher.cpp.s
 .PHONY : lidwatcher.cpp.s
 
 main.o: main.cpp.o
@@ -469,7 +442,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f powerman/CMakeFiles/cutefish-powerman.dir/build.make powerman/CMakeFiles/cutefish-powerman.dir/main.cpp.o
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f powerman/CMakeFiles/matsya-powerman.dir/build.make powerman/CMakeFiles/matsya-powerman.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -478,7 +451,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f powerman/CMakeFiles/cutefish-powerman.dir/build.make powerman/CMakeFiles/cutefish-powerman.dir/main.cpp.i
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f powerman/CMakeFiles/matsya-powerman.dir/build.make powerman/CMakeFiles/matsya-powerman.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -487,8 +460,35 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f powerman/CMakeFiles/cutefish-powerman.dir/build.make powerman/CMakeFiles/cutefish-powerman.dir/main.cpp.s
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f powerman/CMakeFiles/matsya-powerman.dir/build.make powerman/CMakeFiles/matsya-powerman.dir/main.cpp.s
 .PHONY : main.cpp.s
+
+matsya-powerman_autogen/mocs_compilation.o: matsya-powerman_autogen/mocs_compilation.cpp.o
+
+.PHONY : matsya-powerman_autogen/mocs_compilation.o
+
+# target to build an object file
+matsya-powerman_autogen/mocs_compilation.cpp.o:
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f powerman/CMakeFiles/matsya-powerman.dir/build.make powerman/CMakeFiles/matsya-powerman.dir/matsya-powerman_autogen/mocs_compilation.cpp.o
+.PHONY : matsya-powerman_autogen/mocs_compilation.cpp.o
+
+matsya-powerman_autogen/mocs_compilation.i: matsya-powerman_autogen/mocs_compilation.cpp.i
+
+.PHONY : matsya-powerman_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+matsya-powerman_autogen/mocs_compilation.cpp.i:
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f powerman/CMakeFiles/matsya-powerman.dir/build.make powerman/CMakeFiles/matsya-powerman.dir/matsya-powerman_autogen/mocs_compilation.cpp.i
+.PHONY : matsya-powerman_autogen/mocs_compilation.cpp.i
+
+matsya-powerman_autogen/mocs_compilation.s: matsya-powerman_autogen/mocs_compilation.cpp.s
+
+.PHONY : matsya-powerman_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+matsya-powerman_autogen/mocs_compilation.cpp.s:
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f powerman/CMakeFiles/matsya-powerman.dir/build.make powerman/CMakeFiles/matsya-powerman.dir/matsya-powerman_autogen/mocs_compilation.cpp.s
+.PHONY : matsya-powerman_autogen/mocs_compilation.cpp.s
 
 powermanageradaptor.o: powermanageradaptor.cpp.o
 
@@ -496,7 +496,7 @@ powermanageradaptor.o: powermanageradaptor.cpp.o
 
 # target to build an object file
 powermanageradaptor.cpp.o:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f powerman/CMakeFiles/cutefish-powerman.dir/build.make powerman/CMakeFiles/cutefish-powerman.dir/powermanageradaptor.cpp.o
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f powerman/CMakeFiles/matsya-powerman.dir/build.make powerman/CMakeFiles/matsya-powerman.dir/powermanageradaptor.cpp.o
 .PHONY : powermanageradaptor.cpp.o
 
 powermanageradaptor.i: powermanageradaptor.cpp.i
@@ -505,7 +505,7 @@ powermanageradaptor.i: powermanageradaptor.cpp.i
 
 # target to preprocess a source file
 powermanageradaptor.cpp.i:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f powerman/CMakeFiles/cutefish-powerman.dir/build.make powerman/CMakeFiles/cutefish-powerman.dir/powermanageradaptor.cpp.i
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f powerman/CMakeFiles/matsya-powerman.dir/build.make powerman/CMakeFiles/matsya-powerman.dir/powermanageradaptor.cpp.i
 .PHONY : powermanageradaptor.cpp.i
 
 powermanageradaptor.s: powermanageradaptor.cpp.s
@@ -514,7 +514,7 @@ powermanageradaptor.s: powermanageradaptor.cpp.s
 
 # target to generate assembly for a file
 powermanageradaptor.cpp.s:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f powerman/CMakeFiles/cutefish-powerman.dir/build.make powerman/CMakeFiles/cutefish-powerman.dir/powermanageradaptor.cpp.s
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f powerman/CMakeFiles/matsya-powerman.dir/build.make powerman/CMakeFiles/matsya-powerman.dir/powermanageradaptor.cpp.s
 .PHONY : powermanageradaptor.cpp.s
 
 screenlocker_interface.o: screenlocker_interface.cpp.o
@@ -523,7 +523,7 @@ screenlocker_interface.o: screenlocker_interface.cpp.o
 
 # target to build an object file
 screenlocker_interface.cpp.o:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f powerman/CMakeFiles/cutefish-powerman.dir/build.make powerman/CMakeFiles/cutefish-powerman.dir/screenlocker_interface.cpp.o
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f powerman/CMakeFiles/matsya-powerman.dir/build.make powerman/CMakeFiles/matsya-powerman.dir/screenlocker_interface.cpp.o
 .PHONY : screenlocker_interface.cpp.o
 
 screenlocker_interface.i: screenlocker_interface.cpp.i
@@ -532,7 +532,7 @@ screenlocker_interface.i: screenlocker_interface.cpp.i
 
 # target to preprocess a source file
 screenlocker_interface.cpp.i:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f powerman/CMakeFiles/cutefish-powerman.dir/build.make powerman/CMakeFiles/cutefish-powerman.dir/screenlocker_interface.cpp.i
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f powerman/CMakeFiles/matsya-powerman.dir/build.make powerman/CMakeFiles/matsya-powerman.dir/screenlocker_interface.cpp.i
 .PHONY : screenlocker_interface.cpp.i
 
 screenlocker_interface.s: screenlocker_interface.cpp.s
@@ -541,7 +541,7 @@ screenlocker_interface.s: screenlocker_interface.cpp.s
 
 # target to generate assembly for a file
 screenlocker_interface.cpp.s:
-	cd /home/tokyo/clone/RebootOS/core/build && $(MAKE) $(MAKESILENT) -f powerman/CMakeFiles/cutefish-powerman.dir/build.make powerman/CMakeFiles/cutefish-powerman.dir/screenlocker_interface.cpp.s
+	cd /home/tokyo/Documents/GitHub/core/build && $(MAKE) $(MAKESILENT) -f powerman/CMakeFiles/matsya-powerman.dir/build.make powerman/CMakeFiles/matsya-powerman.dir/screenlocker_interface.cpp.s
 .PHONY : screenlocker_interface.cpp.s
 
 # Help Target
@@ -557,8 +557,8 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... KF5IdleTime_QCH"
-	@echo "... cutefish-powerman_autogen"
-	@echo "... cutefish-powerman"
+	@echo "... matsya-powerman_autogen"
+	@echo "... matsya-powerman"
 	@echo "... action.o"
 	@echo "... action.i"
 	@echo "... action.s"
@@ -574,9 +574,6 @@ help:
 	@echo "... cpumanagementadaptor.o"
 	@echo "... cpumanagementadaptor.i"
 	@echo "... cpumanagementadaptor.s"
-	@echo "... cutefish-powerman_autogen/mocs_compilation.o"
-	@echo "... cutefish-powerman_autogen/mocs_compilation.i"
-	@echo "... cutefish-powerman_autogen/mocs_compilation.s"
 	@echo "... dimdisplayaction.o"
 	@echo "... dimdisplayaction.i"
 	@echo "... dimdisplayaction.s"
@@ -589,6 +586,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... matsya-powerman_autogen/mocs_compilation.o"
+	@echo "... matsya-powerman_autogen/mocs_compilation.i"
+	@echo "... matsya-powerman_autogen/mocs_compilation.s"
 	@echo "... powermanageradaptor.o"
 	@echo "... powermanageradaptor.i"
 	@echo "... powermanageradaptor.s"
@@ -606,6 +606,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/tokyo/clone/RebootOS/core/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/tokyo/Documents/GitHub/core/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

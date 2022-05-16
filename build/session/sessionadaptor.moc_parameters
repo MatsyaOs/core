@@ -1,5 +1,5 @@
--I/home/tokyo/clone/RebootOS/core/session
--I/home/tokyo/clone/RebootOS/core/build/session
+-I/home/tokyo/Documents/GitHub/core/session
+-I/home/tokyo/Documents/GitHub/core/build/session
 -o
-/home/tokyo/clone/RebootOS/core/build/session/sessionadaptor.moc
-/home/tokyo/clone/RebootOS/core/build/session/sessionadaptor.h
+/home/tokyo/Documents/GitHub/core/build/session/sessionadaptor.moc
+/home/tokyo/Documents/GitHub/core/build/session/sessionadaptor.h

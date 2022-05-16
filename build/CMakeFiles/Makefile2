@@ -63,10 +63,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tokyo/clone/RebootOS/core
+CMAKE_SOURCE_DIR = /home/tokyo/Documents/GitHub/core
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tokyo/clone/RebootOS/core/build
+CMAKE_BINARY_DIR = /home/tokyo/Documents/GitHub/core/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -148,7 +148,7 @@ chotkeys/clean: chotkeys/CMakeFiles/chotkeys_autogen.dir/clean
 # Directory level rules for directory clipboard
 
 # Recursive "all" directory target.
-clipboard/all: clipboard/CMakeFiles/cutefish-clipboard.dir/all
+clipboard/all: clipboard/CMakeFiles/matsya-clipboard.dir/all
 
 .PHONY : clipboard/all
 
@@ -158,8 +158,8 @@ clipboard/preinstall:
 .PHONY : clipboard/preinstall
 
 # Recursive "clean" directory target.
-clipboard/clean: clipboard/CMakeFiles/cutefish-clipboard.dir/clean
-clipboard/clean: clipboard/CMakeFiles/cutefish-clipboard_autogen.dir/clean
+clipboard/clean: clipboard/CMakeFiles/matsya-clipboard.dir/clean
+clipboard/clean: clipboard/CMakeFiles/matsya-clipboard_autogen.dir/clean
 
 .PHONY : clipboard/clean
 
@@ -167,7 +167,7 @@ clipboard/clean: clipboard/CMakeFiles/cutefish-clipboard_autogen.dir/clean
 # Directory level rules for directory cpufreq
 
 # Recursive "all" directory target.
-cpufreq/all: cpufreq/CMakeFiles/cutefish-cpufreq.dir/all
+cpufreq/all: cpufreq/CMakeFiles/matsya-cpufreq.dir/all
 
 .PHONY : cpufreq/all
 
@@ -177,8 +177,8 @@ cpufreq/preinstall:
 .PHONY : cpufreq/preinstall
 
 # Recursive "clean" directory target.
-cpufreq/clean: cpufreq/CMakeFiles/cutefish-cpufreq.dir/clean
-cpufreq/clean: cpufreq/CMakeFiles/cutefish-cpufreq_autogen.dir/clean
+cpufreq/clean: cpufreq/CMakeFiles/matsya-cpufreq.dir/clean
+cpufreq/clean: cpufreq/CMakeFiles/matsya-cpufreq_autogen.dir/clean
 
 .PHONY : cpufreq/clean
 
@@ -205,7 +205,7 @@ cupdatecursor/clean: cupdatecursor/CMakeFiles/cupdatecursor_autogen.dir/clean
 # Directory level rules for directory gmenuproxy
 
 # Recursive "all" directory target.
-gmenuproxy/all: gmenuproxy/CMakeFiles/cutefish-gmenuproxy.dir/all
+gmenuproxy/all: gmenuproxy/CMakeFiles/matsya-gmenuproxy.dir/all
 
 .PHONY : gmenuproxy/all
 
@@ -215,9 +215,9 @@ gmenuproxy/preinstall:
 .PHONY : gmenuproxy/preinstall
 
 # Recursive "clean" directory target.
-gmenuproxy/clean: gmenuproxy/CMakeFiles/cutefish-gmenuproxy.dir/clean
+gmenuproxy/clean: gmenuproxy/CMakeFiles/matsya-gmenuproxy.dir/clean
 gmenuproxy/clean: gmenuproxy/CMakeFiles/KF5CoreAddons_QCH.dir/clean
-gmenuproxy/clean: gmenuproxy/CMakeFiles/cutefish-gmenuproxy_autogen.dir/clean
+gmenuproxy/clean: gmenuproxy/CMakeFiles/matsya-gmenuproxy_autogen.dir/clean
 
 .PHONY : gmenuproxy/clean
 
@@ -225,7 +225,7 @@ gmenuproxy/clean: gmenuproxy/CMakeFiles/cutefish-gmenuproxy_autogen.dir/clean
 # Directory level rules for directory notificationd
 
 # Recursive "all" directory target.
-notificationd/all: notificationd/CMakeFiles/cutefish-notificationd.dir/all
+notificationd/all: notificationd/CMakeFiles/matsya-notificationd.dir/all
 
 .PHONY : notificationd/all
 
@@ -236,8 +236,8 @@ notificationd/preinstall:
 
 # Recursive "clean" directory target.
 notificationd/clean: notificationd/CMakeFiles/notificationd_translations.dir/clean
-notificationd/clean: notificationd/CMakeFiles/cutefish-notificationd.dir/clean
-notificationd/clean: notificationd/CMakeFiles/cutefish-notificationd_autogen.dir/clean
+notificationd/clean: notificationd/CMakeFiles/matsya-notificationd.dir/clean
+notificationd/clean: notificationd/CMakeFiles/matsya-notificationd_autogen.dir/clean
 
 .PHONY : notificationd/clean
 
@@ -245,7 +245,7 @@ notificationd/clean: notificationd/CMakeFiles/cutefish-notificationd_autogen.dir
 # Directory level rules for directory polkit-agent
 
 # Recursive "all" directory target.
-polkit-agent/all: polkit-agent/CMakeFiles/cutefish-polkit-agent.dir/all
+polkit-agent/all: polkit-agent/CMakeFiles/matsya-polkit-agent.dir/all
 
 .PHONY : polkit-agent/all
 
@@ -256,8 +256,8 @@ polkit-agent/preinstall:
 
 # Recursive "clean" directory target.
 polkit-agent/clean: polkit-agent/CMakeFiles/polkit-agent-translations.dir/clean
-polkit-agent/clean: polkit-agent/CMakeFiles/cutefish-polkit-agent.dir/clean
-polkit-agent/clean: polkit-agent/CMakeFiles/cutefish-polkit-agent_autogen.dir/clean
+polkit-agent/clean: polkit-agent/CMakeFiles/matsya-polkit-agent.dir/clean
+polkit-agent/clean: polkit-agent/CMakeFiles/matsya-polkit-agent_autogen.dir/clean
 
 .PHONY : polkit-agent/clean
 
@@ -265,7 +265,7 @@ polkit-agent/clean: polkit-agent/CMakeFiles/cutefish-polkit-agent_autogen.dir/cl
 # Directory level rules for directory powerman
 
 # Recursive "all" directory target.
-powerman/all: powerman/CMakeFiles/cutefish-powerman.dir/all
+powerman/all: powerman/CMakeFiles/matsya-powerman.dir/all
 
 .PHONY : powerman/all
 
@@ -275,9 +275,9 @@ powerman/preinstall:
 .PHONY : powerman/preinstall
 
 # Recursive "clean" directory target.
-powerman/clean: powerman/CMakeFiles/cutefish-powerman.dir/clean
+powerman/clean: powerman/CMakeFiles/matsya-powerman.dir/clean
 powerman/clean: powerman/CMakeFiles/KF5IdleTime_QCH.dir/clean
-powerman/clean: powerman/CMakeFiles/cutefish-powerman_autogen.dir/clean
+powerman/clean: powerman/CMakeFiles/matsya-powerman_autogen.dir/clean
 
 .PHONY : powerman/clean
 
@@ -285,7 +285,7 @@ powerman/clean: powerman/CMakeFiles/cutefish-powerman_autogen.dir/clean
 # Directory level rules for directory screen-brightness
 
 # Recursive "all" directory target.
-screen-brightness/all: screen-brightness/CMakeFiles/cutefish-screen-brightness.dir/all
+screen-brightness/all: screen-brightness/CMakeFiles/matsya-screen-brightness.dir/all
 
 .PHONY : screen-brightness/all
 
@@ -295,8 +295,8 @@ screen-brightness/preinstall:
 .PHONY : screen-brightness/preinstall
 
 # Recursive "clean" directory target.
-screen-brightness/clean: screen-brightness/CMakeFiles/cutefish-screen-brightness.dir/clean
-screen-brightness/clean: screen-brightness/CMakeFiles/cutefish-screen-brightness_autogen.dir/clean
+screen-brightness/clean: screen-brightness/CMakeFiles/matsya-screen-brightness.dir/clean
+screen-brightness/clean: screen-brightness/CMakeFiles/matsya-screen-brightness_autogen.dir/clean
 
 .PHONY : screen-brightness/clean
 
@@ -304,7 +304,7 @@ screen-brightness/clean: screen-brightness/CMakeFiles/cutefish-screen-brightness
 # Directory level rules for directory sddm-helper
 
 # Recursive "all" directory target.
-sddm-helper/all: sddm-helper/CMakeFiles/cutefish-sddm-helper.dir/all
+sddm-helper/all: sddm-helper/CMakeFiles/matsya-sddm-helper.dir/all
 
 .PHONY : sddm-helper/all
 
@@ -314,8 +314,8 @@ sddm-helper/preinstall:
 .PHONY : sddm-helper/preinstall
 
 # Recursive "clean" directory target.
-sddm-helper/clean: sddm-helper/CMakeFiles/cutefish-sddm-helper.dir/clean
-sddm-helper/clean: sddm-helper/CMakeFiles/cutefish-sddm-helper_autogen.dir/clean
+sddm-helper/clean: sddm-helper/CMakeFiles/matsya-sddm-helper.dir/clean
+sddm-helper/clean: sddm-helper/CMakeFiles/matsya-sddm-helper_autogen.dir/clean
 
 .PHONY : sddm-helper/clean
 
@@ -323,7 +323,7 @@ sddm-helper/clean: sddm-helper/CMakeFiles/cutefish-sddm-helper_autogen.dir/clean
 # Directory level rules for directory session
 
 # Recursive "all" directory target.
-session/all: session/CMakeFiles/cutefish-session.dir/all
+session/all: session/CMakeFiles/matsya-session.dir/all
 
 .PHONY : session/all
 
@@ -333,9 +333,9 @@ session/preinstall:
 .PHONY : session/preinstall
 
 # Recursive "clean" directory target.
-session/clean: session/CMakeFiles/cutefish-session.dir/clean
+session/clean: session/CMakeFiles/matsya-session.dir/clean
 session/clean: session/CMakeFiles/KF5WindowSystem_QCH.dir/clean
-session/clean: session/CMakeFiles/cutefish-session_autogen.dir/clean
+session/clean: session/CMakeFiles/matsya-session_autogen.dir/clean
 
 .PHONY : session/clean
 
@@ -343,7 +343,7 @@ session/clean: session/CMakeFiles/cutefish-session_autogen.dir/clean
 # Directory level rules for directory settings-daemon
 
 # Recursive "all" directory target.
-settings-daemon/all: settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/all
+settings-daemon/all: settings-daemon/CMakeFiles/matsya-settings-daemon.dir/all
 
 .PHONY : settings-daemon/all
 
@@ -354,8 +354,8 @@ settings-daemon/preinstall:
 
 # Recursive "clean" directory target.
 settings-daemon/clean: settings-daemon/CMakeFiles/translations.dir/clean
-settings-daemon/clean: settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/clean
-settings-daemon/clean: settings-daemon/CMakeFiles/cutefish-settings-daemon_autogen.dir/clean
+settings-daemon/clean: settings-daemon/CMakeFiles/matsya-settings-daemon.dir/clean
+settings-daemon/clean: settings-daemon/CMakeFiles/matsya-settings-daemon_autogen.dir/clean
 
 .PHONY : settings-daemon/clean
 
@@ -363,7 +363,7 @@ settings-daemon/clean: settings-daemon/CMakeFiles/cutefish-settings-daemon_autog
 # Directory level rules for directory shutdown-ui
 
 # Recursive "all" directory target.
-shutdown-ui/all: shutdown-ui/CMakeFiles/cutefish-shutdown.dir/all
+shutdown-ui/all: shutdown-ui/CMakeFiles/matsya-shutdown.dir/all
 
 .PHONY : shutdown-ui/all
 
@@ -374,8 +374,8 @@ shutdown-ui/preinstall:
 
 # Recursive "clean" directory target.
 shutdown-ui/clean: shutdown-ui/CMakeFiles/shutdown-translations.dir/clean
-shutdown-ui/clean: shutdown-ui/CMakeFiles/cutefish-shutdown.dir/clean
-shutdown-ui/clean: shutdown-ui/CMakeFiles/cutefish-shutdown_autogen.dir/clean
+shutdown-ui/clean: shutdown-ui/CMakeFiles/matsya-shutdown.dir/clean
+shutdown-ui/clean: shutdown-ui/CMakeFiles/matsya-shutdown_autogen.dir/clean
 
 .PHONY : shutdown-ui/clean
 
@@ -383,7 +383,7 @@ shutdown-ui/clean: shutdown-ui/CMakeFiles/cutefish-shutdown_autogen.dir/clean
 # Directory level rules for directory xembed-sni-proxy
 
 # Recursive "all" directory target.
-xembed-sni-proxy/all: xembed-sni-proxy/CMakeFiles/cutefish-xembedsniproxy.dir/all
+xembed-sni-proxy/all: xembed-sni-proxy/CMakeFiles/matsya-xembedsniproxy.dir/all
 
 .PHONY : xembed-sni-proxy/all
 
@@ -393,8 +393,8 @@ xembed-sni-proxy/preinstall:
 .PHONY : xembed-sni-proxy/preinstall
 
 # Recursive "clean" directory target.
-xembed-sni-proxy/clean: xembed-sni-proxy/CMakeFiles/cutefish-xembedsniproxy.dir/clean
-xembed-sni-proxy/clean: xembed-sni-proxy/CMakeFiles/cutefish-xembedsniproxy_autogen.dir/clean
+xembed-sni-proxy/clean: xembed-sni-proxy/CMakeFiles/matsya-xembedsniproxy.dir/clean
+xembed-sni-proxy/clean: xembed-sni-proxy/CMakeFiles/matsya-xembedsniproxy_autogen.dir/clean
 
 .PHONY : xembed-sni-proxy/clean
 
@@ -405,14 +405,14 @@ xembed-sni-proxy/clean: xembed-sni-proxy/CMakeFiles/cutefish-xembedsniproxy_auto
 polkit-agent/CMakeFiles/polkit-agent-translations.dir/all:
 	$(MAKE) $(MAKESILENT) -f polkit-agent/CMakeFiles/polkit-agent-translations.dir/build.make polkit-agent/CMakeFiles/polkit-agent-translations.dir/depend
 	$(MAKE) $(MAKESILENT) -f polkit-agent/CMakeFiles/polkit-agent-translations.dir/build.make polkit-agent/CMakeFiles/polkit-agent-translations.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tokyo/clone/RebootOS/core/build/CMakeFiles --progress-num=39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59 "Built target polkit-agent-translations"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tokyo/Documents/GitHub/core/build/CMakeFiles --progress-num=39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59 "Built target polkit-agent-translations"
 .PHONY : polkit-agent/CMakeFiles/polkit-agent-translations.dir/all
 
 # Build rule for subdir invocation for target.
 polkit-agent/CMakeFiles/polkit-agent-translations.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/RebootOS/core/build/CMakeFiles 21
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/Documents/GitHub/core/build/CMakeFiles 21
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 polkit-agent/CMakeFiles/polkit-agent-translations.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/RebootOS/core/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/Documents/GitHub/core/build/CMakeFiles 0
 .PHONY : polkit-agent/CMakeFiles/polkit-agent-translations.dir/rule
 
 # Convenience name for target.
@@ -426,140 +426,140 @@ polkit-agent/CMakeFiles/polkit-agent-translations.dir/clean:
 .PHONY : polkit-agent/CMakeFiles/polkit-agent-translations.dir/clean
 
 #=============================================================================
-# Target rules for target polkit-agent/CMakeFiles/cutefish-polkit-agent.dir
+# Target rules for target polkit-agent/CMakeFiles/matsya-polkit-agent.dir
 
 # All Build rule for target.
-polkit-agent/CMakeFiles/cutefish-polkit-agent.dir/all: polkit-agent/CMakeFiles/polkit-agent-translations.dir/all
-polkit-agent/CMakeFiles/cutefish-polkit-agent.dir/all: polkit-agent/CMakeFiles/cutefish-polkit-agent_autogen.dir/all
-	$(MAKE) $(MAKESILENT) -f polkit-agent/CMakeFiles/cutefish-polkit-agent.dir/build.make polkit-agent/CMakeFiles/cutefish-polkit-agent.dir/depend
-	$(MAKE) $(MAKESILENT) -f polkit-agent/CMakeFiles/cutefish-polkit-agent.dir/build.make polkit-agent/CMakeFiles/cutefish-polkit-agent.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tokyo/clone/RebootOS/core/build/CMakeFiles --progress-num=12,13 "Built target cutefish-polkit-agent"
-.PHONY : polkit-agent/CMakeFiles/cutefish-polkit-agent.dir/all
+polkit-agent/CMakeFiles/matsya-polkit-agent.dir/all: polkit-agent/CMakeFiles/polkit-agent-translations.dir/all
+polkit-agent/CMakeFiles/matsya-polkit-agent.dir/all: polkit-agent/CMakeFiles/matsya-polkit-agent_autogen.dir/all
+	$(MAKE) $(MAKESILENT) -f polkit-agent/CMakeFiles/matsya-polkit-agent.dir/build.make polkit-agent/CMakeFiles/matsya-polkit-agent.dir/depend
+	$(MAKE) $(MAKESILENT) -f polkit-agent/CMakeFiles/matsya-polkit-agent.dir/build.make polkit-agent/CMakeFiles/matsya-polkit-agent.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tokyo/Documents/GitHub/core/build/CMakeFiles --progress-num=12,13 "Built target matsya-polkit-agent"
+.PHONY : polkit-agent/CMakeFiles/matsya-polkit-agent.dir/all
 
 # Build rule for subdir invocation for target.
-polkit-agent/CMakeFiles/cutefish-polkit-agent.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/RebootOS/core/build/CMakeFiles 23
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 polkit-agent/CMakeFiles/cutefish-polkit-agent.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/RebootOS/core/build/CMakeFiles 0
-.PHONY : polkit-agent/CMakeFiles/cutefish-polkit-agent.dir/rule
+polkit-agent/CMakeFiles/matsya-polkit-agent.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/Documents/GitHub/core/build/CMakeFiles 23
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 polkit-agent/CMakeFiles/matsya-polkit-agent.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/Documents/GitHub/core/build/CMakeFiles 0
+.PHONY : polkit-agent/CMakeFiles/matsya-polkit-agent.dir/rule
 
 # Convenience name for target.
-cutefish-polkit-agent: polkit-agent/CMakeFiles/cutefish-polkit-agent.dir/rule
+matsya-polkit-agent: polkit-agent/CMakeFiles/matsya-polkit-agent.dir/rule
 
-.PHONY : cutefish-polkit-agent
+.PHONY : matsya-polkit-agent
 
 # clean rule for target.
-polkit-agent/CMakeFiles/cutefish-polkit-agent.dir/clean:
-	$(MAKE) $(MAKESILENT) -f polkit-agent/CMakeFiles/cutefish-polkit-agent.dir/build.make polkit-agent/CMakeFiles/cutefish-polkit-agent.dir/clean
-.PHONY : polkit-agent/CMakeFiles/cutefish-polkit-agent.dir/clean
+polkit-agent/CMakeFiles/matsya-polkit-agent.dir/clean:
+	$(MAKE) $(MAKESILENT) -f polkit-agent/CMakeFiles/matsya-polkit-agent.dir/build.make polkit-agent/CMakeFiles/matsya-polkit-agent.dir/clean
+.PHONY : polkit-agent/CMakeFiles/matsya-polkit-agent.dir/clean
 
 #=============================================================================
-# Target rules for target polkit-agent/CMakeFiles/cutefish-polkit-agent_autogen.dir
+# Target rules for target polkit-agent/CMakeFiles/matsya-polkit-agent_autogen.dir
 
 # All Build rule for target.
-polkit-agent/CMakeFiles/cutefish-polkit-agent_autogen.dir/all: polkit-agent/CMakeFiles/polkit-agent-translations.dir/all
-	$(MAKE) $(MAKESILENT) -f polkit-agent/CMakeFiles/cutefish-polkit-agent_autogen.dir/build.make polkit-agent/CMakeFiles/cutefish-polkit-agent_autogen.dir/depend
-	$(MAKE) $(MAKESILENT) -f polkit-agent/CMakeFiles/cutefish-polkit-agent_autogen.dir/build.make polkit-agent/CMakeFiles/cutefish-polkit-agent_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tokyo/clone/RebootOS/core/build/CMakeFiles --progress-num= "Built target cutefish-polkit-agent_autogen"
-.PHONY : polkit-agent/CMakeFiles/cutefish-polkit-agent_autogen.dir/all
+polkit-agent/CMakeFiles/matsya-polkit-agent_autogen.dir/all: polkit-agent/CMakeFiles/polkit-agent-translations.dir/all
+	$(MAKE) $(MAKESILENT) -f polkit-agent/CMakeFiles/matsya-polkit-agent_autogen.dir/build.make polkit-agent/CMakeFiles/matsya-polkit-agent_autogen.dir/depend
+	$(MAKE) $(MAKESILENT) -f polkit-agent/CMakeFiles/matsya-polkit-agent_autogen.dir/build.make polkit-agent/CMakeFiles/matsya-polkit-agent_autogen.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tokyo/Documents/GitHub/core/build/CMakeFiles --progress-num= "Built target matsya-polkit-agent_autogen"
+.PHONY : polkit-agent/CMakeFiles/matsya-polkit-agent_autogen.dir/all
 
 # Build rule for subdir invocation for target.
-polkit-agent/CMakeFiles/cutefish-polkit-agent_autogen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/RebootOS/core/build/CMakeFiles 21
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 polkit-agent/CMakeFiles/cutefish-polkit-agent_autogen.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/RebootOS/core/build/CMakeFiles 0
-.PHONY : polkit-agent/CMakeFiles/cutefish-polkit-agent_autogen.dir/rule
+polkit-agent/CMakeFiles/matsya-polkit-agent_autogen.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/Documents/GitHub/core/build/CMakeFiles 21
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 polkit-agent/CMakeFiles/matsya-polkit-agent_autogen.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/Documents/GitHub/core/build/CMakeFiles 0
+.PHONY : polkit-agent/CMakeFiles/matsya-polkit-agent_autogen.dir/rule
 
 # Convenience name for target.
-cutefish-polkit-agent_autogen: polkit-agent/CMakeFiles/cutefish-polkit-agent_autogen.dir/rule
+matsya-polkit-agent_autogen: polkit-agent/CMakeFiles/matsya-polkit-agent_autogen.dir/rule
 
-.PHONY : cutefish-polkit-agent_autogen
+.PHONY : matsya-polkit-agent_autogen
 
 # clean rule for target.
-polkit-agent/CMakeFiles/cutefish-polkit-agent_autogen.dir/clean:
-	$(MAKE) $(MAKESILENT) -f polkit-agent/CMakeFiles/cutefish-polkit-agent_autogen.dir/build.make polkit-agent/CMakeFiles/cutefish-polkit-agent_autogen.dir/clean
-.PHONY : polkit-agent/CMakeFiles/cutefish-polkit-agent_autogen.dir/clean
+polkit-agent/CMakeFiles/matsya-polkit-agent_autogen.dir/clean:
+	$(MAKE) $(MAKESILENT) -f polkit-agent/CMakeFiles/matsya-polkit-agent_autogen.dir/build.make polkit-agent/CMakeFiles/matsya-polkit-agent_autogen.dir/clean
+.PHONY : polkit-agent/CMakeFiles/matsya-polkit-agent_autogen.dir/clean
 
 #=============================================================================
-# Target rules for target screen-brightness/CMakeFiles/cutefish-screen-brightness.dir
+# Target rules for target screen-brightness/CMakeFiles/matsya-screen-brightness.dir
 
 # All Build rule for target.
-screen-brightness/CMakeFiles/cutefish-screen-brightness.dir/all: screen-brightness/CMakeFiles/cutefish-screen-brightness_autogen.dir/all
-	$(MAKE) $(MAKESILENT) -f screen-brightness/CMakeFiles/cutefish-screen-brightness.dir/build.make screen-brightness/CMakeFiles/cutefish-screen-brightness.dir/depend
-	$(MAKE) $(MAKESILENT) -f screen-brightness/CMakeFiles/cutefish-screen-brightness.dir/build.make screen-brightness/CMakeFiles/cutefish-screen-brightness.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tokyo/clone/RebootOS/core/build/CMakeFiles --progress-num=18 "Built target cutefish-screen-brightness"
-.PHONY : screen-brightness/CMakeFiles/cutefish-screen-brightness.dir/all
+screen-brightness/CMakeFiles/matsya-screen-brightness.dir/all: screen-brightness/CMakeFiles/matsya-screen-brightness_autogen.dir/all
+	$(MAKE) $(MAKESILENT) -f screen-brightness/CMakeFiles/matsya-screen-brightness.dir/build.make screen-brightness/CMakeFiles/matsya-screen-brightness.dir/depend
+	$(MAKE) $(MAKESILENT) -f screen-brightness/CMakeFiles/matsya-screen-brightness.dir/build.make screen-brightness/CMakeFiles/matsya-screen-brightness.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tokyo/Documents/GitHub/core/build/CMakeFiles --progress-num=18 "Built target matsya-screen-brightness"
+.PHONY : screen-brightness/CMakeFiles/matsya-screen-brightness.dir/all
 
 # Build rule for subdir invocation for target.
-screen-brightness/CMakeFiles/cutefish-screen-brightness.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/RebootOS/core/build/CMakeFiles 1
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 screen-brightness/CMakeFiles/cutefish-screen-brightness.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/RebootOS/core/build/CMakeFiles 0
-.PHONY : screen-brightness/CMakeFiles/cutefish-screen-brightness.dir/rule
+screen-brightness/CMakeFiles/matsya-screen-brightness.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/Documents/GitHub/core/build/CMakeFiles 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 screen-brightness/CMakeFiles/matsya-screen-brightness.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/Documents/GitHub/core/build/CMakeFiles 0
+.PHONY : screen-brightness/CMakeFiles/matsya-screen-brightness.dir/rule
 
 # Convenience name for target.
-cutefish-screen-brightness: screen-brightness/CMakeFiles/cutefish-screen-brightness.dir/rule
+matsya-screen-brightness: screen-brightness/CMakeFiles/matsya-screen-brightness.dir/rule
 
-.PHONY : cutefish-screen-brightness
+.PHONY : matsya-screen-brightness
 
 # clean rule for target.
-screen-brightness/CMakeFiles/cutefish-screen-brightness.dir/clean:
-	$(MAKE) $(MAKESILENT) -f screen-brightness/CMakeFiles/cutefish-screen-brightness.dir/build.make screen-brightness/CMakeFiles/cutefish-screen-brightness.dir/clean
-.PHONY : screen-brightness/CMakeFiles/cutefish-screen-brightness.dir/clean
+screen-brightness/CMakeFiles/matsya-screen-brightness.dir/clean:
+	$(MAKE) $(MAKESILENT) -f screen-brightness/CMakeFiles/matsya-screen-brightness.dir/build.make screen-brightness/CMakeFiles/matsya-screen-brightness.dir/clean
+.PHONY : screen-brightness/CMakeFiles/matsya-screen-brightness.dir/clean
 
 #=============================================================================
-# Target rules for target screen-brightness/CMakeFiles/cutefish-screen-brightness_autogen.dir
+# Target rules for target screen-brightness/CMakeFiles/matsya-screen-brightness_autogen.dir
 
 # All Build rule for target.
-screen-brightness/CMakeFiles/cutefish-screen-brightness_autogen.dir/all:
-	$(MAKE) $(MAKESILENT) -f screen-brightness/CMakeFiles/cutefish-screen-brightness_autogen.dir/build.make screen-brightness/CMakeFiles/cutefish-screen-brightness_autogen.dir/depend
-	$(MAKE) $(MAKESILENT) -f screen-brightness/CMakeFiles/cutefish-screen-brightness_autogen.dir/build.make screen-brightness/CMakeFiles/cutefish-screen-brightness_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tokyo/clone/RebootOS/core/build/CMakeFiles --progress-num= "Built target cutefish-screen-brightness_autogen"
-.PHONY : screen-brightness/CMakeFiles/cutefish-screen-brightness_autogen.dir/all
+screen-brightness/CMakeFiles/matsya-screen-brightness_autogen.dir/all:
+	$(MAKE) $(MAKESILENT) -f screen-brightness/CMakeFiles/matsya-screen-brightness_autogen.dir/build.make screen-brightness/CMakeFiles/matsya-screen-brightness_autogen.dir/depend
+	$(MAKE) $(MAKESILENT) -f screen-brightness/CMakeFiles/matsya-screen-brightness_autogen.dir/build.make screen-brightness/CMakeFiles/matsya-screen-brightness_autogen.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tokyo/Documents/GitHub/core/build/CMakeFiles --progress-num= "Built target matsya-screen-brightness_autogen"
+.PHONY : screen-brightness/CMakeFiles/matsya-screen-brightness_autogen.dir/all
 
 # Build rule for subdir invocation for target.
-screen-brightness/CMakeFiles/cutefish-screen-brightness_autogen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/RebootOS/core/build/CMakeFiles 0
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 screen-brightness/CMakeFiles/cutefish-screen-brightness_autogen.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/RebootOS/core/build/CMakeFiles 0
-.PHONY : screen-brightness/CMakeFiles/cutefish-screen-brightness_autogen.dir/rule
+screen-brightness/CMakeFiles/matsya-screen-brightness_autogen.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/Documents/GitHub/core/build/CMakeFiles 0
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 screen-brightness/CMakeFiles/matsya-screen-brightness_autogen.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/Documents/GitHub/core/build/CMakeFiles 0
+.PHONY : screen-brightness/CMakeFiles/matsya-screen-brightness_autogen.dir/rule
 
 # Convenience name for target.
-cutefish-screen-brightness_autogen: screen-brightness/CMakeFiles/cutefish-screen-brightness_autogen.dir/rule
+matsya-screen-brightness_autogen: screen-brightness/CMakeFiles/matsya-screen-brightness_autogen.dir/rule
 
-.PHONY : cutefish-screen-brightness_autogen
+.PHONY : matsya-screen-brightness_autogen
 
 # clean rule for target.
-screen-brightness/CMakeFiles/cutefish-screen-brightness_autogen.dir/clean:
-	$(MAKE) $(MAKESILENT) -f screen-brightness/CMakeFiles/cutefish-screen-brightness_autogen.dir/build.make screen-brightness/CMakeFiles/cutefish-screen-brightness_autogen.dir/clean
-.PHONY : screen-brightness/CMakeFiles/cutefish-screen-brightness_autogen.dir/clean
+screen-brightness/CMakeFiles/matsya-screen-brightness_autogen.dir/clean:
+	$(MAKE) $(MAKESILENT) -f screen-brightness/CMakeFiles/matsya-screen-brightness_autogen.dir/build.make screen-brightness/CMakeFiles/matsya-screen-brightness_autogen.dir/clean
+.PHONY : screen-brightness/CMakeFiles/matsya-screen-brightness_autogen.dir/clean
 
 #=============================================================================
-# Target rules for target session/CMakeFiles/cutefish-session.dir
+# Target rules for target session/CMakeFiles/matsya-session.dir
 
 # All Build rule for target.
-session/CMakeFiles/cutefish-session.dir/all: session/CMakeFiles/cutefish-session_autogen.dir/all
-	$(MAKE) $(MAKESILENT) -f session/CMakeFiles/cutefish-session.dir/build.make session/CMakeFiles/cutefish-session.dir/depend
-	$(MAKE) $(MAKESILENT) -f session/CMakeFiles/cutefish-session.dir/build.make session/CMakeFiles/cutefish-session.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tokyo/clone/RebootOS/core/build/CMakeFiles --progress-num=20,21,22 "Built target cutefish-session"
-.PHONY : session/CMakeFiles/cutefish-session.dir/all
+session/CMakeFiles/matsya-session.dir/all: session/CMakeFiles/matsya-session_autogen.dir/all
+	$(MAKE) $(MAKESILENT) -f session/CMakeFiles/matsya-session.dir/build.make session/CMakeFiles/matsya-session.dir/depend
+	$(MAKE) $(MAKESILENT) -f session/CMakeFiles/matsya-session.dir/build.make session/CMakeFiles/matsya-session.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tokyo/Documents/GitHub/core/build/CMakeFiles --progress-num=20,21,22 "Built target matsya-session"
+.PHONY : session/CMakeFiles/matsya-session.dir/all
 
 # Build rule for subdir invocation for target.
-session/CMakeFiles/cutefish-session.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/RebootOS/core/build/CMakeFiles 3
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 session/CMakeFiles/cutefish-session.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/RebootOS/core/build/CMakeFiles 0
-.PHONY : session/CMakeFiles/cutefish-session.dir/rule
+session/CMakeFiles/matsya-session.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/Documents/GitHub/core/build/CMakeFiles 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 session/CMakeFiles/matsya-session.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/Documents/GitHub/core/build/CMakeFiles 0
+.PHONY : session/CMakeFiles/matsya-session.dir/rule
 
 # Convenience name for target.
-cutefish-session: session/CMakeFiles/cutefish-session.dir/rule
+matsya-session: session/CMakeFiles/matsya-session.dir/rule
 
-.PHONY : cutefish-session
+.PHONY : matsya-session
 
 # clean rule for target.
-session/CMakeFiles/cutefish-session.dir/clean:
-	$(MAKE) $(MAKESILENT) -f session/CMakeFiles/cutefish-session.dir/build.make session/CMakeFiles/cutefish-session.dir/clean
-.PHONY : session/CMakeFiles/cutefish-session.dir/clean
+session/CMakeFiles/matsya-session.dir/clean:
+	$(MAKE) $(MAKESILENT) -f session/CMakeFiles/matsya-session.dir/build.make session/CMakeFiles/matsya-session.dir/clean
+.PHONY : session/CMakeFiles/matsya-session.dir/clean
 
 #=============================================================================
 # Target rules for target session/CMakeFiles/KF5WindowSystem_QCH.dir
@@ -568,14 +568,14 @@ session/CMakeFiles/cutefish-session.dir/clean:
 session/CMakeFiles/KF5WindowSystem_QCH.dir/all:
 	$(MAKE) $(MAKESILENT) -f session/CMakeFiles/KF5WindowSystem_QCH.dir/build.make session/CMakeFiles/KF5WindowSystem_QCH.dir/depend
 	$(MAKE) $(MAKESILENT) -f session/CMakeFiles/KF5WindowSystem_QCH.dir/build.make session/CMakeFiles/KF5WindowSystem_QCH.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tokyo/clone/RebootOS/core/build/CMakeFiles --progress-num= "Built target KF5WindowSystem_QCH"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tokyo/Documents/GitHub/core/build/CMakeFiles --progress-num= "Built target KF5WindowSystem_QCH"
 .PHONY : session/CMakeFiles/KF5WindowSystem_QCH.dir/all
 
 # Build rule for subdir invocation for target.
 session/CMakeFiles/KF5WindowSystem_QCH.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/RebootOS/core/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/Documents/GitHub/core/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 session/CMakeFiles/KF5WindowSystem_QCH.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/RebootOS/core/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/Documents/GitHub/core/build/CMakeFiles 0
 .PHONY : session/CMakeFiles/KF5WindowSystem_QCH.dir/rule
 
 # Convenience name for target.
@@ -589,31 +589,31 @@ session/CMakeFiles/KF5WindowSystem_QCH.dir/clean:
 .PHONY : session/CMakeFiles/KF5WindowSystem_QCH.dir/clean
 
 #=============================================================================
-# Target rules for target session/CMakeFiles/cutefish-session_autogen.dir
+# Target rules for target session/CMakeFiles/matsya-session_autogen.dir
 
 # All Build rule for target.
-session/CMakeFiles/cutefish-session_autogen.dir/all:
-	$(MAKE) $(MAKESILENT) -f session/CMakeFiles/cutefish-session_autogen.dir/build.make session/CMakeFiles/cutefish-session_autogen.dir/depend
-	$(MAKE) $(MAKESILENT) -f session/CMakeFiles/cutefish-session_autogen.dir/build.make session/CMakeFiles/cutefish-session_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tokyo/clone/RebootOS/core/build/CMakeFiles --progress-num= "Built target cutefish-session_autogen"
-.PHONY : session/CMakeFiles/cutefish-session_autogen.dir/all
+session/CMakeFiles/matsya-session_autogen.dir/all:
+	$(MAKE) $(MAKESILENT) -f session/CMakeFiles/matsya-session_autogen.dir/build.make session/CMakeFiles/matsya-session_autogen.dir/depend
+	$(MAKE) $(MAKESILENT) -f session/CMakeFiles/matsya-session_autogen.dir/build.make session/CMakeFiles/matsya-session_autogen.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tokyo/Documents/GitHub/core/build/CMakeFiles --progress-num= "Built target matsya-session_autogen"
+.PHONY : session/CMakeFiles/matsya-session_autogen.dir/all
 
 # Build rule for subdir invocation for target.
-session/CMakeFiles/cutefish-session_autogen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/RebootOS/core/build/CMakeFiles 0
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 session/CMakeFiles/cutefish-session_autogen.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/RebootOS/core/build/CMakeFiles 0
-.PHONY : session/CMakeFiles/cutefish-session_autogen.dir/rule
+session/CMakeFiles/matsya-session_autogen.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/Documents/GitHub/core/build/CMakeFiles 0
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 session/CMakeFiles/matsya-session_autogen.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/Documents/GitHub/core/build/CMakeFiles 0
+.PHONY : session/CMakeFiles/matsya-session_autogen.dir/rule
 
 # Convenience name for target.
-cutefish-session_autogen: session/CMakeFiles/cutefish-session_autogen.dir/rule
+matsya-session_autogen: session/CMakeFiles/matsya-session_autogen.dir/rule
 
-.PHONY : cutefish-session_autogen
+.PHONY : matsya-session_autogen
 
 # clean rule for target.
-session/CMakeFiles/cutefish-session_autogen.dir/clean:
-	$(MAKE) $(MAKESILENT) -f session/CMakeFiles/cutefish-session_autogen.dir/build.make session/CMakeFiles/cutefish-session_autogen.dir/clean
-.PHONY : session/CMakeFiles/cutefish-session_autogen.dir/clean
+session/CMakeFiles/matsya-session_autogen.dir/clean:
+	$(MAKE) $(MAKESILENT) -f session/CMakeFiles/matsya-session_autogen.dir/build.make session/CMakeFiles/matsya-session_autogen.dir/clean
+.PHONY : session/CMakeFiles/matsya-session_autogen.dir/clean
 
 #=============================================================================
 # Target rules for target settings-daemon/CMakeFiles/translations.dir
@@ -622,14 +622,14 @@ session/CMakeFiles/cutefish-session_autogen.dir/clean:
 settings-daemon/CMakeFiles/translations.dir/all:
 	$(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/translations.dir/build.make settings-daemon/CMakeFiles/translations.dir/depend
 	$(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/translations.dir/build.make settings-daemon/CMakeFiles/translations.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tokyo/clone/RebootOS/core/build/CMakeFiles --progress-num=80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100 "Built target translations"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tokyo/Documents/GitHub/core/build/CMakeFiles --progress-num=80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100 "Built target translations"
 .PHONY : settings-daemon/CMakeFiles/translations.dir/all
 
 # Build rule for subdir invocation for target.
 settings-daemon/CMakeFiles/translations.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/RebootOS/core/build/CMakeFiles 21
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/Documents/GitHub/core/build/CMakeFiles 21
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 settings-daemon/CMakeFiles/translations.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/RebootOS/core/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/Documents/GitHub/core/build/CMakeFiles 0
 .PHONY : settings-daemon/CMakeFiles/translations.dir/rule
 
 # Convenience name for target.
@@ -643,59 +643,59 @@ settings-daemon/CMakeFiles/translations.dir/clean:
 .PHONY : settings-daemon/CMakeFiles/translations.dir/clean
 
 #=============================================================================
-# Target rules for target settings-daemon/CMakeFiles/cutefish-settings-daemon.dir
+# Target rules for target settings-daemon/CMakeFiles/matsya-settings-daemon.dir
 
 # All Build rule for target.
-settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/all: settings-daemon/CMakeFiles/translations.dir/all
-settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/all: settings-daemon/CMakeFiles/cutefish-settings-daemon_autogen.dir/all
-	$(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/build.make settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/depend
-	$(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/build.make settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tokyo/clone/RebootOS/core/build/CMakeFiles --progress-num=23,24,25,26,27,28,29,30,31,32 "Built target cutefish-settings-daemon"
-.PHONY : settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/all
+settings-daemon/CMakeFiles/matsya-settings-daemon.dir/all: settings-daemon/CMakeFiles/translations.dir/all
+settings-daemon/CMakeFiles/matsya-settings-daemon.dir/all: settings-daemon/CMakeFiles/matsya-settings-daemon_autogen.dir/all
+	$(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/matsya-settings-daemon.dir/build.make settings-daemon/CMakeFiles/matsya-settings-daemon.dir/depend
+	$(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/matsya-settings-daemon.dir/build.make settings-daemon/CMakeFiles/matsya-settings-daemon.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tokyo/Documents/GitHub/core/build/CMakeFiles --progress-num=23,24,25,26,27,28,29,30,31,32 "Built target matsya-settings-daemon"
+.PHONY : settings-daemon/CMakeFiles/matsya-settings-daemon.dir/all
 
 # Build rule for subdir invocation for target.
-settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/RebootOS/core/build/CMakeFiles 32
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/RebootOS/core/build/CMakeFiles 0
-.PHONY : settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/rule
+settings-daemon/CMakeFiles/matsya-settings-daemon.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/Documents/GitHub/core/build/CMakeFiles 32
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 settings-daemon/CMakeFiles/matsya-settings-daemon.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/Documents/GitHub/core/build/CMakeFiles 0
+.PHONY : settings-daemon/CMakeFiles/matsya-settings-daemon.dir/rule
 
 # Convenience name for target.
-cutefish-settings-daemon: settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/rule
+matsya-settings-daemon: settings-daemon/CMakeFiles/matsya-settings-daemon.dir/rule
 
-.PHONY : cutefish-settings-daemon
+.PHONY : matsya-settings-daemon
 
 # clean rule for target.
-settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/clean:
-	$(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/build.make settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/clean
-.PHONY : settings-daemon/CMakeFiles/cutefish-settings-daemon.dir/clean
+settings-daemon/CMakeFiles/matsya-settings-daemon.dir/clean:
+	$(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/matsya-settings-daemon.dir/build.make settings-daemon/CMakeFiles/matsya-settings-daemon.dir/clean
+.PHONY : settings-daemon/CMakeFiles/matsya-settings-daemon.dir/clean
 
 #=============================================================================
-# Target rules for target settings-daemon/CMakeFiles/cutefish-settings-daemon_autogen.dir
+# Target rules for target settings-daemon/CMakeFiles/matsya-settings-daemon_autogen.dir
 
 # All Build rule for target.
-settings-daemon/CMakeFiles/cutefish-settings-daemon_autogen.dir/all: settings-daemon/CMakeFiles/translations.dir/all
-	$(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/cutefish-settings-daemon_autogen.dir/build.make settings-daemon/CMakeFiles/cutefish-settings-daemon_autogen.dir/depend
-	$(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/cutefish-settings-daemon_autogen.dir/build.make settings-daemon/CMakeFiles/cutefish-settings-daemon_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tokyo/clone/RebootOS/core/build/CMakeFiles --progress-num=33 "Built target cutefish-settings-daemon_autogen"
-.PHONY : settings-daemon/CMakeFiles/cutefish-settings-daemon_autogen.dir/all
+settings-daemon/CMakeFiles/matsya-settings-daemon_autogen.dir/all: settings-daemon/CMakeFiles/translations.dir/all
+	$(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/matsya-settings-daemon_autogen.dir/build.make settings-daemon/CMakeFiles/matsya-settings-daemon_autogen.dir/depend
+	$(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/matsya-settings-daemon_autogen.dir/build.make settings-daemon/CMakeFiles/matsya-settings-daemon_autogen.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tokyo/Documents/GitHub/core/build/CMakeFiles --progress-num=33 "Built target matsya-settings-daemon_autogen"
+.PHONY : settings-daemon/CMakeFiles/matsya-settings-daemon_autogen.dir/all
 
 # Build rule for subdir invocation for target.
-settings-daemon/CMakeFiles/cutefish-settings-daemon_autogen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/RebootOS/core/build/CMakeFiles 22
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 settings-daemon/CMakeFiles/cutefish-settings-daemon_autogen.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/RebootOS/core/build/CMakeFiles 0
-.PHONY : settings-daemon/CMakeFiles/cutefish-settings-daemon_autogen.dir/rule
+settings-daemon/CMakeFiles/matsya-settings-daemon_autogen.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/Documents/GitHub/core/build/CMakeFiles 22
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 settings-daemon/CMakeFiles/matsya-settings-daemon_autogen.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/Documents/GitHub/core/build/CMakeFiles 0
+.PHONY : settings-daemon/CMakeFiles/matsya-settings-daemon_autogen.dir/rule
 
 # Convenience name for target.
-cutefish-settings-daemon_autogen: settings-daemon/CMakeFiles/cutefish-settings-daemon_autogen.dir/rule
+matsya-settings-daemon_autogen: settings-daemon/CMakeFiles/matsya-settings-daemon_autogen.dir/rule
 
-.PHONY : cutefish-settings-daemon_autogen
+.PHONY : matsya-settings-daemon_autogen
 
 # clean rule for target.
-settings-daemon/CMakeFiles/cutefish-settings-daemon_autogen.dir/clean:
-	$(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/cutefish-settings-daemon_autogen.dir/build.make settings-daemon/CMakeFiles/cutefish-settings-daemon_autogen.dir/clean
-.PHONY : settings-daemon/CMakeFiles/cutefish-settings-daemon_autogen.dir/clean
+settings-daemon/CMakeFiles/matsya-settings-daemon_autogen.dir/clean:
+	$(MAKE) $(MAKESILENT) -f settings-daemon/CMakeFiles/matsya-settings-daemon_autogen.dir/build.make settings-daemon/CMakeFiles/matsya-settings-daemon_autogen.dir/clean
+.PHONY : settings-daemon/CMakeFiles/matsya-settings-daemon_autogen.dir/clean
 
 #=============================================================================
 # Target rules for target shutdown-ui/CMakeFiles/shutdown-translations.dir
@@ -704,14 +704,14 @@ settings-daemon/CMakeFiles/cutefish-settings-daemon_autogen.dir/clean:
 shutdown-ui/CMakeFiles/shutdown-translations.dir/all:
 	$(MAKE) $(MAKESILENT) -f shutdown-ui/CMakeFiles/shutdown-translations.dir/build.make shutdown-ui/CMakeFiles/shutdown-translations.dir/depend
 	$(MAKE) $(MAKESILENT) -f shutdown-ui/CMakeFiles/shutdown-translations.dir/build.make shutdown-ui/CMakeFiles/shutdown-translations.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tokyo/clone/RebootOS/core/build/CMakeFiles --progress-num=60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79 "Built target shutdown-translations"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tokyo/Documents/GitHub/core/build/CMakeFiles --progress-num=60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79 "Built target shutdown-translations"
 .PHONY : shutdown-ui/CMakeFiles/shutdown-translations.dir/all
 
 # Build rule for subdir invocation for target.
 shutdown-ui/CMakeFiles/shutdown-translations.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/RebootOS/core/build/CMakeFiles 20
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/Documents/GitHub/core/build/CMakeFiles 20
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 shutdown-ui/CMakeFiles/shutdown-translations.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/RebootOS/core/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/Documents/GitHub/core/build/CMakeFiles 0
 .PHONY : shutdown-ui/CMakeFiles/shutdown-translations.dir/rule
 
 # Convenience name for target.
@@ -725,140 +725,140 @@ shutdown-ui/CMakeFiles/shutdown-translations.dir/clean:
 .PHONY : shutdown-ui/CMakeFiles/shutdown-translations.dir/clean
 
 #=============================================================================
-# Target rules for target shutdown-ui/CMakeFiles/cutefish-shutdown.dir
+# Target rules for target shutdown-ui/CMakeFiles/matsya-shutdown.dir
 
 # All Build rule for target.
-shutdown-ui/CMakeFiles/cutefish-shutdown.dir/all: shutdown-ui/CMakeFiles/shutdown-translations.dir/all
-shutdown-ui/CMakeFiles/cutefish-shutdown.dir/all: shutdown-ui/CMakeFiles/cutefish-shutdown_autogen.dir/all
-	$(MAKE) $(MAKESILENT) -f shutdown-ui/CMakeFiles/cutefish-shutdown.dir/build.make shutdown-ui/CMakeFiles/cutefish-shutdown.dir/depend
-	$(MAKE) $(MAKESILENT) -f shutdown-ui/CMakeFiles/cutefish-shutdown.dir/build.make shutdown-ui/CMakeFiles/cutefish-shutdown.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tokyo/clone/RebootOS/core/build/CMakeFiles --progress-num=34 "Built target cutefish-shutdown"
-.PHONY : shutdown-ui/CMakeFiles/cutefish-shutdown.dir/all
+shutdown-ui/CMakeFiles/matsya-shutdown.dir/all: shutdown-ui/CMakeFiles/shutdown-translations.dir/all
+shutdown-ui/CMakeFiles/matsya-shutdown.dir/all: shutdown-ui/CMakeFiles/matsya-shutdown_autogen.dir/all
+	$(MAKE) $(MAKESILENT) -f shutdown-ui/CMakeFiles/matsya-shutdown.dir/build.make shutdown-ui/CMakeFiles/matsya-shutdown.dir/depend
+	$(MAKE) $(MAKESILENT) -f shutdown-ui/CMakeFiles/matsya-shutdown.dir/build.make shutdown-ui/CMakeFiles/matsya-shutdown.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tokyo/Documents/GitHub/core/build/CMakeFiles --progress-num=34 "Built target matsya-shutdown"
+.PHONY : shutdown-ui/CMakeFiles/matsya-shutdown.dir/all
 
 # Build rule for subdir invocation for target.
-shutdown-ui/CMakeFiles/cutefish-shutdown.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/RebootOS/core/build/CMakeFiles 21
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 shutdown-ui/CMakeFiles/cutefish-shutdown.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/RebootOS/core/build/CMakeFiles 0
-.PHONY : shutdown-ui/CMakeFiles/cutefish-shutdown.dir/rule
+shutdown-ui/CMakeFiles/matsya-shutdown.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/Documents/GitHub/core/build/CMakeFiles 21
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 shutdown-ui/CMakeFiles/matsya-shutdown.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/Documents/GitHub/core/build/CMakeFiles 0
+.PHONY : shutdown-ui/CMakeFiles/matsya-shutdown.dir/rule
 
 # Convenience name for target.
-cutefish-shutdown: shutdown-ui/CMakeFiles/cutefish-shutdown.dir/rule
+matsya-shutdown: shutdown-ui/CMakeFiles/matsya-shutdown.dir/rule
 
-.PHONY : cutefish-shutdown
+.PHONY : matsya-shutdown
 
 # clean rule for target.
-shutdown-ui/CMakeFiles/cutefish-shutdown.dir/clean:
-	$(MAKE) $(MAKESILENT) -f shutdown-ui/CMakeFiles/cutefish-shutdown.dir/build.make shutdown-ui/CMakeFiles/cutefish-shutdown.dir/clean
-.PHONY : shutdown-ui/CMakeFiles/cutefish-shutdown.dir/clean
+shutdown-ui/CMakeFiles/matsya-shutdown.dir/clean:
+	$(MAKE) $(MAKESILENT) -f shutdown-ui/CMakeFiles/matsya-shutdown.dir/build.make shutdown-ui/CMakeFiles/matsya-shutdown.dir/clean
+.PHONY : shutdown-ui/CMakeFiles/matsya-shutdown.dir/clean
 
 #=============================================================================
-# Target rules for target shutdown-ui/CMakeFiles/cutefish-shutdown_autogen.dir
+# Target rules for target shutdown-ui/CMakeFiles/matsya-shutdown_autogen.dir
 
 # All Build rule for target.
-shutdown-ui/CMakeFiles/cutefish-shutdown_autogen.dir/all: shutdown-ui/CMakeFiles/shutdown-translations.dir/all
-	$(MAKE) $(MAKESILENT) -f shutdown-ui/CMakeFiles/cutefish-shutdown_autogen.dir/build.make shutdown-ui/CMakeFiles/cutefish-shutdown_autogen.dir/depend
-	$(MAKE) $(MAKESILENT) -f shutdown-ui/CMakeFiles/cutefish-shutdown_autogen.dir/build.make shutdown-ui/CMakeFiles/cutefish-shutdown_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tokyo/clone/RebootOS/core/build/CMakeFiles --progress-num= "Built target cutefish-shutdown_autogen"
-.PHONY : shutdown-ui/CMakeFiles/cutefish-shutdown_autogen.dir/all
+shutdown-ui/CMakeFiles/matsya-shutdown_autogen.dir/all: shutdown-ui/CMakeFiles/shutdown-translations.dir/all
+	$(MAKE) $(MAKESILENT) -f shutdown-ui/CMakeFiles/matsya-shutdown_autogen.dir/build.make shutdown-ui/CMakeFiles/matsya-shutdown_autogen.dir/depend
+	$(MAKE) $(MAKESILENT) -f shutdown-ui/CMakeFiles/matsya-shutdown_autogen.dir/build.make shutdown-ui/CMakeFiles/matsya-shutdown_autogen.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tokyo/Documents/GitHub/core/build/CMakeFiles --progress-num= "Built target matsya-shutdown_autogen"
+.PHONY : shutdown-ui/CMakeFiles/matsya-shutdown_autogen.dir/all
 
 # Build rule for subdir invocation for target.
-shutdown-ui/CMakeFiles/cutefish-shutdown_autogen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/RebootOS/core/build/CMakeFiles 20
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 shutdown-ui/CMakeFiles/cutefish-shutdown_autogen.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/RebootOS/core/build/CMakeFiles 0
-.PHONY : shutdown-ui/CMakeFiles/cutefish-shutdown_autogen.dir/rule
+shutdown-ui/CMakeFiles/matsya-shutdown_autogen.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/Documents/GitHub/core/build/CMakeFiles 20
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 shutdown-ui/CMakeFiles/matsya-shutdown_autogen.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/Documents/GitHub/core/build/CMakeFiles 0
+.PHONY : shutdown-ui/CMakeFiles/matsya-shutdown_autogen.dir/rule
 
 # Convenience name for target.
-cutefish-shutdown_autogen: shutdown-ui/CMakeFiles/cutefish-shutdown_autogen.dir/rule
+matsya-shutdown_autogen: shutdown-ui/CMakeFiles/matsya-shutdown_autogen.dir/rule
 
-.PHONY : cutefish-shutdown_autogen
+.PHONY : matsya-shutdown_autogen
 
 # clean rule for target.
-shutdown-ui/CMakeFiles/cutefish-shutdown_autogen.dir/clean:
-	$(MAKE) $(MAKESILENT) -f shutdown-ui/CMakeFiles/cutefish-shutdown_autogen.dir/build.make shutdown-ui/CMakeFiles/cutefish-shutdown_autogen.dir/clean
-.PHONY : shutdown-ui/CMakeFiles/cutefish-shutdown_autogen.dir/clean
+shutdown-ui/CMakeFiles/matsya-shutdown_autogen.dir/clean:
+	$(MAKE) $(MAKESILENT) -f shutdown-ui/CMakeFiles/matsya-shutdown_autogen.dir/build.make shutdown-ui/CMakeFiles/matsya-shutdown_autogen.dir/clean
+.PHONY : shutdown-ui/CMakeFiles/matsya-shutdown_autogen.dir/clean
 
 #=============================================================================
-# Target rules for target xembed-sni-proxy/CMakeFiles/cutefish-xembedsniproxy.dir
+# Target rules for target xembed-sni-proxy/CMakeFiles/matsya-xembedsniproxy.dir
 
 # All Build rule for target.
-xembed-sni-proxy/CMakeFiles/cutefish-xembedsniproxy.dir/all: xembed-sni-proxy/CMakeFiles/cutefish-xembedsniproxy_autogen.dir/all
-	$(MAKE) $(MAKESILENT) -f xembed-sni-proxy/CMakeFiles/cutefish-xembedsniproxy.dir/build.make xembed-sni-proxy/CMakeFiles/cutefish-xembedsniproxy.dir/depend
-	$(MAKE) $(MAKESILENT) -f xembed-sni-proxy/CMakeFiles/cutefish-xembedsniproxy.dir/build.make xembed-sni-proxy/CMakeFiles/cutefish-xembedsniproxy.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tokyo/clone/RebootOS/core/build/CMakeFiles --progress-num=35,36,37 "Built target cutefish-xembedsniproxy"
-.PHONY : xembed-sni-proxy/CMakeFiles/cutefish-xembedsniproxy.dir/all
+xembed-sni-proxy/CMakeFiles/matsya-xembedsniproxy.dir/all: xembed-sni-proxy/CMakeFiles/matsya-xembedsniproxy_autogen.dir/all
+	$(MAKE) $(MAKESILENT) -f xembed-sni-proxy/CMakeFiles/matsya-xembedsniproxy.dir/build.make xembed-sni-proxy/CMakeFiles/matsya-xembedsniproxy.dir/depend
+	$(MAKE) $(MAKESILENT) -f xembed-sni-proxy/CMakeFiles/matsya-xembedsniproxy.dir/build.make xembed-sni-proxy/CMakeFiles/matsya-xembedsniproxy.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tokyo/Documents/GitHub/core/build/CMakeFiles --progress-num=35,36,37 "Built target matsya-xembedsniproxy"
+.PHONY : xembed-sni-proxy/CMakeFiles/matsya-xembedsniproxy.dir/all
 
 # Build rule for subdir invocation for target.
-xembed-sni-proxy/CMakeFiles/cutefish-xembedsniproxy.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/RebootOS/core/build/CMakeFiles 3
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 xembed-sni-proxy/CMakeFiles/cutefish-xembedsniproxy.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/RebootOS/core/build/CMakeFiles 0
-.PHONY : xembed-sni-proxy/CMakeFiles/cutefish-xembedsniproxy.dir/rule
+xembed-sni-proxy/CMakeFiles/matsya-xembedsniproxy.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/Documents/GitHub/core/build/CMakeFiles 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 xembed-sni-proxy/CMakeFiles/matsya-xembedsniproxy.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/Documents/GitHub/core/build/CMakeFiles 0
+.PHONY : xembed-sni-proxy/CMakeFiles/matsya-xembedsniproxy.dir/rule
 
 # Convenience name for target.
-cutefish-xembedsniproxy: xembed-sni-proxy/CMakeFiles/cutefish-xembedsniproxy.dir/rule
+matsya-xembedsniproxy: xembed-sni-proxy/CMakeFiles/matsya-xembedsniproxy.dir/rule
 
-.PHONY : cutefish-xembedsniproxy
+.PHONY : matsya-xembedsniproxy
 
 # clean rule for target.
-xembed-sni-proxy/CMakeFiles/cutefish-xembedsniproxy.dir/clean:
-	$(MAKE) $(MAKESILENT) -f xembed-sni-proxy/CMakeFiles/cutefish-xembedsniproxy.dir/build.make xembed-sni-proxy/CMakeFiles/cutefish-xembedsniproxy.dir/clean
-.PHONY : xembed-sni-proxy/CMakeFiles/cutefish-xembedsniproxy.dir/clean
+xembed-sni-proxy/CMakeFiles/matsya-xembedsniproxy.dir/clean:
+	$(MAKE) $(MAKESILENT) -f xembed-sni-proxy/CMakeFiles/matsya-xembedsniproxy.dir/build.make xembed-sni-proxy/CMakeFiles/matsya-xembedsniproxy.dir/clean
+.PHONY : xembed-sni-proxy/CMakeFiles/matsya-xembedsniproxy.dir/clean
 
 #=============================================================================
-# Target rules for target xembed-sni-proxy/CMakeFiles/cutefish-xembedsniproxy_autogen.dir
+# Target rules for target xembed-sni-proxy/CMakeFiles/matsya-xembedsniproxy_autogen.dir
 
 # All Build rule for target.
-xembed-sni-proxy/CMakeFiles/cutefish-xembedsniproxy_autogen.dir/all:
-	$(MAKE) $(MAKESILENT) -f xembed-sni-proxy/CMakeFiles/cutefish-xembedsniproxy_autogen.dir/build.make xembed-sni-proxy/CMakeFiles/cutefish-xembedsniproxy_autogen.dir/depend
-	$(MAKE) $(MAKESILENT) -f xembed-sni-proxy/CMakeFiles/cutefish-xembedsniproxy_autogen.dir/build.make xembed-sni-proxy/CMakeFiles/cutefish-xembedsniproxy_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tokyo/clone/RebootOS/core/build/CMakeFiles --progress-num= "Built target cutefish-xembedsniproxy_autogen"
-.PHONY : xembed-sni-proxy/CMakeFiles/cutefish-xembedsniproxy_autogen.dir/all
+xembed-sni-proxy/CMakeFiles/matsya-xembedsniproxy_autogen.dir/all:
+	$(MAKE) $(MAKESILENT) -f xembed-sni-proxy/CMakeFiles/matsya-xembedsniproxy_autogen.dir/build.make xembed-sni-proxy/CMakeFiles/matsya-xembedsniproxy_autogen.dir/depend
+	$(MAKE) $(MAKESILENT) -f xembed-sni-proxy/CMakeFiles/matsya-xembedsniproxy_autogen.dir/build.make xembed-sni-proxy/CMakeFiles/matsya-xembedsniproxy_autogen.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tokyo/Documents/GitHub/core/build/CMakeFiles --progress-num= "Built target matsya-xembedsniproxy_autogen"
+.PHONY : xembed-sni-proxy/CMakeFiles/matsya-xembedsniproxy_autogen.dir/all
 
 # Build rule for subdir invocation for target.
-xembed-sni-proxy/CMakeFiles/cutefish-xembedsniproxy_autogen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/RebootOS/core/build/CMakeFiles 0
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 xembed-sni-proxy/CMakeFiles/cutefish-xembedsniproxy_autogen.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/RebootOS/core/build/CMakeFiles 0
-.PHONY : xembed-sni-proxy/CMakeFiles/cutefish-xembedsniproxy_autogen.dir/rule
+xembed-sni-proxy/CMakeFiles/matsya-xembedsniproxy_autogen.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/Documents/GitHub/core/build/CMakeFiles 0
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 xembed-sni-proxy/CMakeFiles/matsya-xembedsniproxy_autogen.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/Documents/GitHub/core/build/CMakeFiles 0
+.PHONY : xembed-sni-proxy/CMakeFiles/matsya-xembedsniproxy_autogen.dir/rule
 
 # Convenience name for target.
-cutefish-xembedsniproxy_autogen: xembed-sni-proxy/CMakeFiles/cutefish-xembedsniproxy_autogen.dir/rule
+matsya-xembedsniproxy_autogen: xembed-sni-proxy/CMakeFiles/matsya-xembedsniproxy_autogen.dir/rule
 
-.PHONY : cutefish-xembedsniproxy_autogen
+.PHONY : matsya-xembedsniproxy_autogen
 
 # clean rule for target.
-xembed-sni-proxy/CMakeFiles/cutefish-xembedsniproxy_autogen.dir/clean:
-	$(MAKE) $(MAKESILENT) -f xembed-sni-proxy/CMakeFiles/cutefish-xembedsniproxy_autogen.dir/build.make xembed-sni-proxy/CMakeFiles/cutefish-xembedsniproxy_autogen.dir/clean
-.PHONY : xembed-sni-proxy/CMakeFiles/cutefish-xembedsniproxy_autogen.dir/clean
+xembed-sni-proxy/CMakeFiles/matsya-xembedsniproxy_autogen.dir/clean:
+	$(MAKE) $(MAKESILENT) -f xembed-sni-proxy/CMakeFiles/matsya-xembedsniproxy_autogen.dir/build.make xembed-sni-proxy/CMakeFiles/matsya-xembedsniproxy_autogen.dir/clean
+.PHONY : xembed-sni-proxy/CMakeFiles/matsya-xembedsniproxy_autogen.dir/clean
 
 #=============================================================================
-# Target rules for target powerman/CMakeFiles/cutefish-powerman.dir
+# Target rules for target powerman/CMakeFiles/matsya-powerman.dir
 
 # All Build rule for target.
-powerman/CMakeFiles/cutefish-powerman.dir/all: powerman/CMakeFiles/cutefish-powerman_autogen.dir/all
-	$(MAKE) $(MAKESILENT) -f powerman/CMakeFiles/cutefish-powerman.dir/build.make powerman/CMakeFiles/cutefish-powerman.dir/depend
-	$(MAKE) $(MAKESILENT) -f powerman/CMakeFiles/cutefish-powerman.dir/build.make powerman/CMakeFiles/cutefish-powerman.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tokyo/clone/RebootOS/core/build/CMakeFiles --progress-num=14,15,16,17 "Built target cutefish-powerman"
-.PHONY : powerman/CMakeFiles/cutefish-powerman.dir/all
+powerman/CMakeFiles/matsya-powerman.dir/all: powerman/CMakeFiles/matsya-powerman_autogen.dir/all
+	$(MAKE) $(MAKESILENT) -f powerman/CMakeFiles/matsya-powerman.dir/build.make powerman/CMakeFiles/matsya-powerman.dir/depend
+	$(MAKE) $(MAKESILENT) -f powerman/CMakeFiles/matsya-powerman.dir/build.make powerman/CMakeFiles/matsya-powerman.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tokyo/Documents/GitHub/core/build/CMakeFiles --progress-num=14,15,16,17 "Built target matsya-powerman"
+.PHONY : powerman/CMakeFiles/matsya-powerman.dir/all
 
 # Build rule for subdir invocation for target.
-powerman/CMakeFiles/cutefish-powerman.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/RebootOS/core/build/CMakeFiles 4
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 powerman/CMakeFiles/cutefish-powerman.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/RebootOS/core/build/CMakeFiles 0
-.PHONY : powerman/CMakeFiles/cutefish-powerman.dir/rule
+powerman/CMakeFiles/matsya-powerman.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/Documents/GitHub/core/build/CMakeFiles 4
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 powerman/CMakeFiles/matsya-powerman.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/Documents/GitHub/core/build/CMakeFiles 0
+.PHONY : powerman/CMakeFiles/matsya-powerman.dir/rule
 
 # Convenience name for target.
-cutefish-powerman: powerman/CMakeFiles/cutefish-powerman.dir/rule
+matsya-powerman: powerman/CMakeFiles/matsya-powerman.dir/rule
 
-.PHONY : cutefish-powerman
+.PHONY : matsya-powerman
 
 # clean rule for target.
-powerman/CMakeFiles/cutefish-powerman.dir/clean:
-	$(MAKE) $(MAKESILENT) -f powerman/CMakeFiles/cutefish-powerman.dir/build.make powerman/CMakeFiles/cutefish-powerman.dir/clean
-.PHONY : powerman/CMakeFiles/cutefish-powerman.dir/clean
+powerman/CMakeFiles/matsya-powerman.dir/clean:
+	$(MAKE) $(MAKESILENT) -f powerman/CMakeFiles/matsya-powerman.dir/build.make powerman/CMakeFiles/matsya-powerman.dir/clean
+.PHONY : powerman/CMakeFiles/matsya-powerman.dir/clean
 
 #=============================================================================
 # Target rules for target powerman/CMakeFiles/KF5IdleTime_QCH.dir
@@ -867,14 +867,14 @@ powerman/CMakeFiles/cutefish-powerman.dir/clean:
 powerman/CMakeFiles/KF5IdleTime_QCH.dir/all:
 	$(MAKE) $(MAKESILENT) -f powerman/CMakeFiles/KF5IdleTime_QCH.dir/build.make powerman/CMakeFiles/KF5IdleTime_QCH.dir/depend
 	$(MAKE) $(MAKESILENT) -f powerman/CMakeFiles/KF5IdleTime_QCH.dir/build.make powerman/CMakeFiles/KF5IdleTime_QCH.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tokyo/clone/RebootOS/core/build/CMakeFiles --progress-num= "Built target KF5IdleTime_QCH"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tokyo/Documents/GitHub/core/build/CMakeFiles --progress-num= "Built target KF5IdleTime_QCH"
 .PHONY : powerman/CMakeFiles/KF5IdleTime_QCH.dir/all
 
 # Build rule for subdir invocation for target.
 powerman/CMakeFiles/KF5IdleTime_QCH.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/RebootOS/core/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/Documents/GitHub/core/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 powerman/CMakeFiles/KF5IdleTime_QCH.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/RebootOS/core/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/Documents/GitHub/core/build/CMakeFiles 0
 .PHONY : powerman/CMakeFiles/KF5IdleTime_QCH.dir/rule
 
 # Convenience name for target.
@@ -888,85 +888,85 @@ powerman/CMakeFiles/KF5IdleTime_QCH.dir/clean:
 .PHONY : powerman/CMakeFiles/KF5IdleTime_QCH.dir/clean
 
 #=============================================================================
-# Target rules for target powerman/CMakeFiles/cutefish-powerman_autogen.dir
+# Target rules for target powerman/CMakeFiles/matsya-powerman_autogen.dir
 
 # All Build rule for target.
-powerman/CMakeFiles/cutefish-powerman_autogen.dir/all:
-	$(MAKE) $(MAKESILENT) -f powerman/CMakeFiles/cutefish-powerman_autogen.dir/build.make powerman/CMakeFiles/cutefish-powerman_autogen.dir/depend
-	$(MAKE) $(MAKESILENT) -f powerman/CMakeFiles/cutefish-powerman_autogen.dir/build.make powerman/CMakeFiles/cutefish-powerman_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tokyo/clone/RebootOS/core/build/CMakeFiles --progress-num= "Built target cutefish-powerman_autogen"
-.PHONY : powerman/CMakeFiles/cutefish-powerman_autogen.dir/all
+powerman/CMakeFiles/matsya-powerman_autogen.dir/all:
+	$(MAKE) $(MAKESILENT) -f powerman/CMakeFiles/matsya-powerman_autogen.dir/build.make powerman/CMakeFiles/matsya-powerman_autogen.dir/depend
+	$(MAKE) $(MAKESILENT) -f powerman/CMakeFiles/matsya-powerman_autogen.dir/build.make powerman/CMakeFiles/matsya-powerman_autogen.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tokyo/Documents/GitHub/core/build/CMakeFiles --progress-num= "Built target matsya-powerman_autogen"
+.PHONY : powerman/CMakeFiles/matsya-powerman_autogen.dir/all
 
 # Build rule for subdir invocation for target.
-powerman/CMakeFiles/cutefish-powerman_autogen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/RebootOS/core/build/CMakeFiles 0
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 powerman/CMakeFiles/cutefish-powerman_autogen.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/RebootOS/core/build/CMakeFiles 0
-.PHONY : powerman/CMakeFiles/cutefish-powerman_autogen.dir/rule
+powerman/CMakeFiles/matsya-powerman_autogen.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/Documents/GitHub/core/build/CMakeFiles 0
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 powerman/CMakeFiles/matsya-powerman_autogen.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/Documents/GitHub/core/build/CMakeFiles 0
+.PHONY : powerman/CMakeFiles/matsya-powerman_autogen.dir/rule
 
 # Convenience name for target.
-cutefish-powerman_autogen: powerman/CMakeFiles/cutefish-powerman_autogen.dir/rule
+matsya-powerman_autogen: powerman/CMakeFiles/matsya-powerman_autogen.dir/rule
 
-.PHONY : cutefish-powerman_autogen
+.PHONY : matsya-powerman_autogen
 
 # clean rule for target.
-powerman/CMakeFiles/cutefish-powerman_autogen.dir/clean:
-	$(MAKE) $(MAKESILENT) -f powerman/CMakeFiles/cutefish-powerman_autogen.dir/build.make powerman/CMakeFiles/cutefish-powerman_autogen.dir/clean
-.PHONY : powerman/CMakeFiles/cutefish-powerman_autogen.dir/clean
+powerman/CMakeFiles/matsya-powerman_autogen.dir/clean:
+	$(MAKE) $(MAKESILENT) -f powerman/CMakeFiles/matsya-powerman_autogen.dir/build.make powerman/CMakeFiles/matsya-powerman_autogen.dir/clean
+.PHONY : powerman/CMakeFiles/matsya-powerman_autogen.dir/clean
 
 #=============================================================================
-# Target rules for target cpufreq/CMakeFiles/cutefish-cpufreq.dir
+# Target rules for target cpufreq/CMakeFiles/matsya-cpufreq.dir
 
 # All Build rule for target.
-cpufreq/CMakeFiles/cutefish-cpufreq.dir/all: cpufreq/CMakeFiles/cutefish-cpufreq_autogen.dir/all
-	$(MAKE) $(MAKESILENT) -f cpufreq/CMakeFiles/cutefish-cpufreq.dir/build.make cpufreq/CMakeFiles/cutefish-cpufreq.dir/depend
-	$(MAKE) $(MAKESILENT) -f cpufreq/CMakeFiles/cutefish-cpufreq.dir/build.make cpufreq/CMakeFiles/cutefish-cpufreq.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tokyo/clone/RebootOS/core/build/CMakeFiles --progress-num= "Built target cutefish-cpufreq"
-.PHONY : cpufreq/CMakeFiles/cutefish-cpufreq.dir/all
+cpufreq/CMakeFiles/matsya-cpufreq.dir/all: cpufreq/CMakeFiles/matsya-cpufreq_autogen.dir/all
+	$(MAKE) $(MAKESILENT) -f cpufreq/CMakeFiles/matsya-cpufreq.dir/build.make cpufreq/CMakeFiles/matsya-cpufreq.dir/depend
+	$(MAKE) $(MAKESILENT) -f cpufreq/CMakeFiles/matsya-cpufreq.dir/build.make cpufreq/CMakeFiles/matsya-cpufreq.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tokyo/Documents/GitHub/core/build/CMakeFiles --progress-num= "Built target matsya-cpufreq"
+.PHONY : cpufreq/CMakeFiles/matsya-cpufreq.dir/all
 
 # Build rule for subdir invocation for target.
-cpufreq/CMakeFiles/cutefish-cpufreq.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/RebootOS/core/build/CMakeFiles 1
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cpufreq/CMakeFiles/cutefish-cpufreq.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/RebootOS/core/build/CMakeFiles 0
-.PHONY : cpufreq/CMakeFiles/cutefish-cpufreq.dir/rule
+cpufreq/CMakeFiles/matsya-cpufreq.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/Documents/GitHub/core/build/CMakeFiles 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cpufreq/CMakeFiles/matsya-cpufreq.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/Documents/GitHub/core/build/CMakeFiles 0
+.PHONY : cpufreq/CMakeFiles/matsya-cpufreq.dir/rule
 
 # Convenience name for target.
-cutefish-cpufreq: cpufreq/CMakeFiles/cutefish-cpufreq.dir/rule
+matsya-cpufreq: cpufreq/CMakeFiles/matsya-cpufreq.dir/rule
 
-.PHONY : cutefish-cpufreq
+.PHONY : matsya-cpufreq
 
 # clean rule for target.
-cpufreq/CMakeFiles/cutefish-cpufreq.dir/clean:
-	$(MAKE) $(MAKESILENT) -f cpufreq/CMakeFiles/cutefish-cpufreq.dir/build.make cpufreq/CMakeFiles/cutefish-cpufreq.dir/clean
-.PHONY : cpufreq/CMakeFiles/cutefish-cpufreq.dir/clean
+cpufreq/CMakeFiles/matsya-cpufreq.dir/clean:
+	$(MAKE) $(MAKESILENT) -f cpufreq/CMakeFiles/matsya-cpufreq.dir/build.make cpufreq/CMakeFiles/matsya-cpufreq.dir/clean
+.PHONY : cpufreq/CMakeFiles/matsya-cpufreq.dir/clean
 
 #=============================================================================
-# Target rules for target cpufreq/CMakeFiles/cutefish-cpufreq_autogen.dir
+# Target rules for target cpufreq/CMakeFiles/matsya-cpufreq_autogen.dir
 
 # All Build rule for target.
-cpufreq/CMakeFiles/cutefish-cpufreq_autogen.dir/all:
-	$(MAKE) $(MAKESILENT) -f cpufreq/CMakeFiles/cutefish-cpufreq_autogen.dir/build.make cpufreq/CMakeFiles/cutefish-cpufreq_autogen.dir/depend
-	$(MAKE) $(MAKESILENT) -f cpufreq/CMakeFiles/cutefish-cpufreq_autogen.dir/build.make cpufreq/CMakeFiles/cutefish-cpufreq_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tokyo/clone/RebootOS/core/build/CMakeFiles --progress-num=4 "Built target cutefish-cpufreq_autogen"
-.PHONY : cpufreq/CMakeFiles/cutefish-cpufreq_autogen.dir/all
+cpufreq/CMakeFiles/matsya-cpufreq_autogen.dir/all:
+	$(MAKE) $(MAKESILENT) -f cpufreq/CMakeFiles/matsya-cpufreq_autogen.dir/build.make cpufreq/CMakeFiles/matsya-cpufreq_autogen.dir/depend
+	$(MAKE) $(MAKESILENT) -f cpufreq/CMakeFiles/matsya-cpufreq_autogen.dir/build.make cpufreq/CMakeFiles/matsya-cpufreq_autogen.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tokyo/Documents/GitHub/core/build/CMakeFiles --progress-num=4 "Built target matsya-cpufreq_autogen"
+.PHONY : cpufreq/CMakeFiles/matsya-cpufreq_autogen.dir/all
 
 # Build rule for subdir invocation for target.
-cpufreq/CMakeFiles/cutefish-cpufreq_autogen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/RebootOS/core/build/CMakeFiles 1
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cpufreq/CMakeFiles/cutefish-cpufreq_autogen.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/RebootOS/core/build/CMakeFiles 0
-.PHONY : cpufreq/CMakeFiles/cutefish-cpufreq_autogen.dir/rule
+cpufreq/CMakeFiles/matsya-cpufreq_autogen.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/Documents/GitHub/core/build/CMakeFiles 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cpufreq/CMakeFiles/matsya-cpufreq_autogen.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/Documents/GitHub/core/build/CMakeFiles 0
+.PHONY : cpufreq/CMakeFiles/matsya-cpufreq_autogen.dir/rule
 
 # Convenience name for target.
-cutefish-cpufreq_autogen: cpufreq/CMakeFiles/cutefish-cpufreq_autogen.dir/rule
+matsya-cpufreq_autogen: cpufreq/CMakeFiles/matsya-cpufreq_autogen.dir/rule
 
-.PHONY : cutefish-cpufreq_autogen
+.PHONY : matsya-cpufreq_autogen
 
 # clean rule for target.
-cpufreq/CMakeFiles/cutefish-cpufreq_autogen.dir/clean:
-	$(MAKE) $(MAKESILENT) -f cpufreq/CMakeFiles/cutefish-cpufreq_autogen.dir/build.make cpufreq/CMakeFiles/cutefish-cpufreq_autogen.dir/clean
-.PHONY : cpufreq/CMakeFiles/cutefish-cpufreq_autogen.dir/clean
+cpufreq/CMakeFiles/matsya-cpufreq_autogen.dir/clean:
+	$(MAKE) $(MAKESILENT) -f cpufreq/CMakeFiles/matsya-cpufreq_autogen.dir/build.make cpufreq/CMakeFiles/matsya-cpufreq_autogen.dir/clean
+.PHONY : cpufreq/CMakeFiles/matsya-cpufreq_autogen.dir/clean
 
 #=============================================================================
 # Target rules for target chotkeys/CMakeFiles/chotkeys.dir
@@ -975,14 +975,14 @@ cpufreq/CMakeFiles/cutefish-cpufreq_autogen.dir/clean:
 chotkeys/CMakeFiles/chotkeys.dir/all: chotkeys/CMakeFiles/chotkeys_autogen.dir/all
 	$(MAKE) $(MAKESILENT) -f chotkeys/CMakeFiles/chotkeys.dir/build.make chotkeys/CMakeFiles/chotkeys.dir/depend
 	$(MAKE) $(MAKESILENT) -f chotkeys/CMakeFiles/chotkeys.dir/build.make chotkeys/CMakeFiles/chotkeys.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tokyo/clone/RebootOS/core/build/CMakeFiles --progress-num=1 "Built target chotkeys"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tokyo/Documents/GitHub/core/build/CMakeFiles --progress-num=1 "Built target chotkeys"
 .PHONY : chotkeys/CMakeFiles/chotkeys.dir/all
 
 # Build rule for subdir invocation for target.
 chotkeys/CMakeFiles/chotkeys.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/RebootOS/core/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/Documents/GitHub/core/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 chotkeys/CMakeFiles/chotkeys.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/RebootOS/core/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/Documents/GitHub/core/build/CMakeFiles 0
 .PHONY : chotkeys/CMakeFiles/chotkeys.dir/rule
 
 # Convenience name for target.
@@ -1002,14 +1002,14 @@ chotkeys/CMakeFiles/chotkeys.dir/clean:
 chotkeys/CMakeFiles/chotkeys_autogen.dir/all:
 	$(MAKE) $(MAKESILENT) -f chotkeys/CMakeFiles/chotkeys_autogen.dir/build.make chotkeys/CMakeFiles/chotkeys_autogen.dir/depend
 	$(MAKE) $(MAKESILENT) -f chotkeys/CMakeFiles/chotkeys_autogen.dir/build.make chotkeys/CMakeFiles/chotkeys_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tokyo/clone/RebootOS/core/build/CMakeFiles --progress-num= "Built target chotkeys_autogen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tokyo/Documents/GitHub/core/build/CMakeFiles --progress-num= "Built target chotkeys_autogen"
 .PHONY : chotkeys/CMakeFiles/chotkeys_autogen.dir/all
 
 # Build rule for subdir invocation for target.
 chotkeys/CMakeFiles/chotkeys_autogen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/RebootOS/core/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/Documents/GitHub/core/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 chotkeys/CMakeFiles/chotkeys_autogen.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/RebootOS/core/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/Documents/GitHub/core/build/CMakeFiles 0
 .PHONY : chotkeys/CMakeFiles/chotkeys_autogen.dir/rule
 
 # Convenience name for target.
@@ -1029,14 +1029,14 @@ chotkeys/CMakeFiles/chotkeys_autogen.dir/clean:
 cupdatecursor/CMakeFiles/cupdatecursor.dir/all: cupdatecursor/CMakeFiles/cupdatecursor_autogen.dir/all
 	$(MAKE) $(MAKESILENT) -f cupdatecursor/CMakeFiles/cupdatecursor.dir/build.make cupdatecursor/CMakeFiles/cupdatecursor.dir/depend
 	$(MAKE) $(MAKESILENT) -f cupdatecursor/CMakeFiles/cupdatecursor.dir/build.make cupdatecursor/CMakeFiles/cupdatecursor.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tokyo/clone/RebootOS/core/build/CMakeFiles --progress-num= "Built target cupdatecursor"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tokyo/Documents/GitHub/core/build/CMakeFiles --progress-num= "Built target cupdatecursor"
 .PHONY : cupdatecursor/CMakeFiles/cupdatecursor.dir/all
 
 # Build rule for subdir invocation for target.
 cupdatecursor/CMakeFiles/cupdatecursor.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/RebootOS/core/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/Documents/GitHub/core/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cupdatecursor/CMakeFiles/cupdatecursor.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/RebootOS/core/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/Documents/GitHub/core/build/CMakeFiles 0
 .PHONY : cupdatecursor/CMakeFiles/cupdatecursor.dir/rule
 
 # Convenience name for target.
@@ -1056,14 +1056,14 @@ cupdatecursor/CMakeFiles/cupdatecursor.dir/clean:
 cupdatecursor/CMakeFiles/cupdatecursor_autogen.dir/all:
 	$(MAKE) $(MAKESILENT) -f cupdatecursor/CMakeFiles/cupdatecursor_autogen.dir/build.make cupdatecursor/CMakeFiles/cupdatecursor_autogen.dir/depend
 	$(MAKE) $(MAKESILENT) -f cupdatecursor/CMakeFiles/cupdatecursor_autogen.dir/build.make cupdatecursor/CMakeFiles/cupdatecursor_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tokyo/clone/RebootOS/core/build/CMakeFiles --progress-num=2 "Built target cupdatecursor_autogen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tokyo/Documents/GitHub/core/build/CMakeFiles --progress-num=2 "Built target cupdatecursor_autogen"
 .PHONY : cupdatecursor/CMakeFiles/cupdatecursor_autogen.dir/all
 
 # Build rule for subdir invocation for target.
 cupdatecursor/CMakeFiles/cupdatecursor_autogen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/RebootOS/core/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/Documents/GitHub/core/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cupdatecursor/CMakeFiles/cupdatecursor_autogen.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/RebootOS/core/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/Documents/GitHub/core/build/CMakeFiles 0
 .PHONY : cupdatecursor/CMakeFiles/cupdatecursor_autogen.dir/rule
 
 # Convenience name for target.
@@ -1077,31 +1077,31 @@ cupdatecursor/CMakeFiles/cupdatecursor_autogen.dir/clean:
 .PHONY : cupdatecursor/CMakeFiles/cupdatecursor_autogen.dir/clean
 
 #=============================================================================
-# Target rules for target gmenuproxy/CMakeFiles/cutefish-gmenuproxy.dir
+# Target rules for target gmenuproxy/CMakeFiles/matsya-gmenuproxy.dir
 
 # All Build rule for target.
-gmenuproxy/CMakeFiles/cutefish-gmenuproxy.dir/all: gmenuproxy/CMakeFiles/cutefish-gmenuproxy_autogen.dir/all
-	$(MAKE) $(MAKESILENT) -f gmenuproxy/CMakeFiles/cutefish-gmenuproxy.dir/build.make gmenuproxy/CMakeFiles/cutefish-gmenuproxy.dir/depend
-	$(MAKE) $(MAKESILENT) -f gmenuproxy/CMakeFiles/cutefish-gmenuproxy.dir/build.make gmenuproxy/CMakeFiles/cutefish-gmenuproxy.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tokyo/clone/RebootOS/core/build/CMakeFiles --progress-num=5,6 "Built target cutefish-gmenuproxy"
-.PHONY : gmenuproxy/CMakeFiles/cutefish-gmenuproxy.dir/all
+gmenuproxy/CMakeFiles/matsya-gmenuproxy.dir/all: gmenuproxy/CMakeFiles/matsya-gmenuproxy_autogen.dir/all
+	$(MAKE) $(MAKESILENT) -f gmenuproxy/CMakeFiles/matsya-gmenuproxy.dir/build.make gmenuproxy/CMakeFiles/matsya-gmenuproxy.dir/depend
+	$(MAKE) $(MAKESILENT) -f gmenuproxy/CMakeFiles/matsya-gmenuproxy.dir/build.make gmenuproxy/CMakeFiles/matsya-gmenuproxy.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tokyo/Documents/GitHub/core/build/CMakeFiles --progress-num=5,6 "Built target matsya-gmenuproxy"
+.PHONY : gmenuproxy/CMakeFiles/matsya-gmenuproxy.dir/all
 
 # Build rule for subdir invocation for target.
-gmenuproxy/CMakeFiles/cutefish-gmenuproxy.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/RebootOS/core/build/CMakeFiles 3
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gmenuproxy/CMakeFiles/cutefish-gmenuproxy.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/RebootOS/core/build/CMakeFiles 0
-.PHONY : gmenuproxy/CMakeFiles/cutefish-gmenuproxy.dir/rule
+gmenuproxy/CMakeFiles/matsya-gmenuproxy.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/Documents/GitHub/core/build/CMakeFiles 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gmenuproxy/CMakeFiles/matsya-gmenuproxy.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/Documents/GitHub/core/build/CMakeFiles 0
+.PHONY : gmenuproxy/CMakeFiles/matsya-gmenuproxy.dir/rule
 
 # Convenience name for target.
-cutefish-gmenuproxy: gmenuproxy/CMakeFiles/cutefish-gmenuproxy.dir/rule
+matsya-gmenuproxy: gmenuproxy/CMakeFiles/matsya-gmenuproxy.dir/rule
 
-.PHONY : cutefish-gmenuproxy
+.PHONY : matsya-gmenuproxy
 
 # clean rule for target.
-gmenuproxy/CMakeFiles/cutefish-gmenuproxy.dir/clean:
-	$(MAKE) $(MAKESILENT) -f gmenuproxy/CMakeFiles/cutefish-gmenuproxy.dir/build.make gmenuproxy/CMakeFiles/cutefish-gmenuproxy.dir/clean
-.PHONY : gmenuproxy/CMakeFiles/cutefish-gmenuproxy.dir/clean
+gmenuproxy/CMakeFiles/matsya-gmenuproxy.dir/clean:
+	$(MAKE) $(MAKESILENT) -f gmenuproxy/CMakeFiles/matsya-gmenuproxy.dir/build.make gmenuproxy/CMakeFiles/matsya-gmenuproxy.dir/clean
+.PHONY : gmenuproxy/CMakeFiles/matsya-gmenuproxy.dir/clean
 
 #=============================================================================
 # Target rules for target gmenuproxy/CMakeFiles/KF5CoreAddons_QCH.dir
@@ -1110,14 +1110,14 @@ gmenuproxy/CMakeFiles/cutefish-gmenuproxy.dir/clean:
 gmenuproxy/CMakeFiles/KF5CoreAddons_QCH.dir/all:
 	$(MAKE) $(MAKESILENT) -f gmenuproxy/CMakeFiles/KF5CoreAddons_QCH.dir/build.make gmenuproxy/CMakeFiles/KF5CoreAddons_QCH.dir/depend
 	$(MAKE) $(MAKESILENT) -f gmenuproxy/CMakeFiles/KF5CoreAddons_QCH.dir/build.make gmenuproxy/CMakeFiles/KF5CoreAddons_QCH.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tokyo/clone/RebootOS/core/build/CMakeFiles --progress-num= "Built target KF5CoreAddons_QCH"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tokyo/Documents/GitHub/core/build/CMakeFiles --progress-num= "Built target KF5CoreAddons_QCH"
 .PHONY : gmenuproxy/CMakeFiles/KF5CoreAddons_QCH.dir/all
 
 # Build rule for subdir invocation for target.
 gmenuproxy/CMakeFiles/KF5CoreAddons_QCH.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/RebootOS/core/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/Documents/GitHub/core/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gmenuproxy/CMakeFiles/KF5CoreAddons_QCH.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/RebootOS/core/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/Documents/GitHub/core/build/CMakeFiles 0
 .PHONY : gmenuproxy/CMakeFiles/KF5CoreAddons_QCH.dir/rule
 
 # Convenience name for target.
@@ -1131,31 +1131,31 @@ gmenuproxy/CMakeFiles/KF5CoreAddons_QCH.dir/clean:
 .PHONY : gmenuproxy/CMakeFiles/KF5CoreAddons_QCH.dir/clean
 
 #=============================================================================
-# Target rules for target gmenuproxy/CMakeFiles/cutefish-gmenuproxy_autogen.dir
+# Target rules for target gmenuproxy/CMakeFiles/matsya-gmenuproxy_autogen.dir
 
 # All Build rule for target.
-gmenuproxy/CMakeFiles/cutefish-gmenuproxy_autogen.dir/all:
-	$(MAKE) $(MAKESILENT) -f gmenuproxy/CMakeFiles/cutefish-gmenuproxy_autogen.dir/build.make gmenuproxy/CMakeFiles/cutefish-gmenuproxy_autogen.dir/depend
-	$(MAKE) $(MAKESILENT) -f gmenuproxy/CMakeFiles/cutefish-gmenuproxy_autogen.dir/build.make gmenuproxy/CMakeFiles/cutefish-gmenuproxy_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tokyo/clone/RebootOS/core/build/CMakeFiles --progress-num=7 "Built target cutefish-gmenuproxy_autogen"
-.PHONY : gmenuproxy/CMakeFiles/cutefish-gmenuproxy_autogen.dir/all
+gmenuproxy/CMakeFiles/matsya-gmenuproxy_autogen.dir/all:
+	$(MAKE) $(MAKESILENT) -f gmenuproxy/CMakeFiles/matsya-gmenuproxy_autogen.dir/build.make gmenuproxy/CMakeFiles/matsya-gmenuproxy_autogen.dir/depend
+	$(MAKE) $(MAKESILENT) -f gmenuproxy/CMakeFiles/matsya-gmenuproxy_autogen.dir/build.make gmenuproxy/CMakeFiles/matsya-gmenuproxy_autogen.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tokyo/Documents/GitHub/core/build/CMakeFiles --progress-num=7 "Built target matsya-gmenuproxy_autogen"
+.PHONY : gmenuproxy/CMakeFiles/matsya-gmenuproxy_autogen.dir/all
 
 # Build rule for subdir invocation for target.
-gmenuproxy/CMakeFiles/cutefish-gmenuproxy_autogen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/RebootOS/core/build/CMakeFiles 1
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gmenuproxy/CMakeFiles/cutefish-gmenuproxy_autogen.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/RebootOS/core/build/CMakeFiles 0
-.PHONY : gmenuproxy/CMakeFiles/cutefish-gmenuproxy_autogen.dir/rule
+gmenuproxy/CMakeFiles/matsya-gmenuproxy_autogen.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/Documents/GitHub/core/build/CMakeFiles 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gmenuproxy/CMakeFiles/matsya-gmenuproxy_autogen.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/Documents/GitHub/core/build/CMakeFiles 0
+.PHONY : gmenuproxy/CMakeFiles/matsya-gmenuproxy_autogen.dir/rule
 
 # Convenience name for target.
-cutefish-gmenuproxy_autogen: gmenuproxy/CMakeFiles/cutefish-gmenuproxy_autogen.dir/rule
+matsya-gmenuproxy_autogen: gmenuproxy/CMakeFiles/matsya-gmenuproxy_autogen.dir/rule
 
-.PHONY : cutefish-gmenuproxy_autogen
+.PHONY : matsya-gmenuproxy_autogen
 
 # clean rule for target.
-gmenuproxy/CMakeFiles/cutefish-gmenuproxy_autogen.dir/clean:
-	$(MAKE) $(MAKESILENT) -f gmenuproxy/CMakeFiles/cutefish-gmenuproxy_autogen.dir/build.make gmenuproxy/CMakeFiles/cutefish-gmenuproxy_autogen.dir/clean
-.PHONY : gmenuproxy/CMakeFiles/cutefish-gmenuproxy_autogen.dir/clean
+gmenuproxy/CMakeFiles/matsya-gmenuproxy_autogen.dir/clean:
+	$(MAKE) $(MAKESILENT) -f gmenuproxy/CMakeFiles/matsya-gmenuproxy_autogen.dir/build.make gmenuproxy/CMakeFiles/matsya-gmenuproxy_autogen.dir/clean
+.PHONY : gmenuproxy/CMakeFiles/matsya-gmenuproxy_autogen.dir/clean
 
 #=============================================================================
 # Target rules for target notificationd/CMakeFiles/notificationd_translations.dir
@@ -1164,14 +1164,14 @@ gmenuproxy/CMakeFiles/cutefish-gmenuproxy_autogen.dir/clean:
 notificationd/CMakeFiles/notificationd_translations.dir/all:
 	$(MAKE) $(MAKESILENT) -f notificationd/CMakeFiles/notificationd_translations.dir/build.make notificationd/CMakeFiles/notificationd_translations.dir/depend
 	$(MAKE) $(MAKESILENT) -f notificationd/CMakeFiles/notificationd_translations.dir/build.make notificationd/CMakeFiles/notificationd_translations.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tokyo/clone/RebootOS/core/build/CMakeFiles --progress-num=38 "Built target notificationd_translations"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tokyo/Documents/GitHub/core/build/CMakeFiles --progress-num=38 "Built target notificationd_translations"
 .PHONY : notificationd/CMakeFiles/notificationd_translations.dir/all
 
 # Build rule for subdir invocation for target.
 notificationd/CMakeFiles/notificationd_translations.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/RebootOS/core/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/Documents/GitHub/core/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 notificationd/CMakeFiles/notificationd_translations.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/RebootOS/core/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/Documents/GitHub/core/build/CMakeFiles 0
 .PHONY : notificationd/CMakeFiles/notificationd_translations.dir/rule
 
 # Convenience name for target.
@@ -1185,167 +1185,167 @@ notificationd/CMakeFiles/notificationd_translations.dir/clean:
 .PHONY : notificationd/CMakeFiles/notificationd_translations.dir/clean
 
 #=============================================================================
-# Target rules for target notificationd/CMakeFiles/cutefish-notificationd.dir
+# Target rules for target notificationd/CMakeFiles/matsya-notificationd.dir
 
 # All Build rule for target.
-notificationd/CMakeFiles/cutefish-notificationd.dir/all: notificationd/CMakeFiles/notificationd_translations.dir/all
-notificationd/CMakeFiles/cutefish-notificationd.dir/all: notificationd/CMakeFiles/cutefish-notificationd_autogen.dir/all
-	$(MAKE) $(MAKESILENT) -f notificationd/CMakeFiles/cutefish-notificationd.dir/build.make notificationd/CMakeFiles/cutefish-notificationd.dir/depend
-	$(MAKE) $(MAKESILENT) -f notificationd/CMakeFiles/cutefish-notificationd.dir/build.make notificationd/CMakeFiles/cutefish-notificationd.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tokyo/clone/RebootOS/core/build/CMakeFiles --progress-num=8,9,10,11 "Built target cutefish-notificationd"
-.PHONY : notificationd/CMakeFiles/cutefish-notificationd.dir/all
+notificationd/CMakeFiles/matsya-notificationd.dir/all: notificationd/CMakeFiles/notificationd_translations.dir/all
+notificationd/CMakeFiles/matsya-notificationd.dir/all: notificationd/CMakeFiles/matsya-notificationd_autogen.dir/all
+	$(MAKE) $(MAKESILENT) -f notificationd/CMakeFiles/matsya-notificationd.dir/build.make notificationd/CMakeFiles/matsya-notificationd.dir/depend
+	$(MAKE) $(MAKESILENT) -f notificationd/CMakeFiles/matsya-notificationd.dir/build.make notificationd/CMakeFiles/matsya-notificationd.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tokyo/Documents/GitHub/core/build/CMakeFiles --progress-num=8,9,10,11 "Built target matsya-notificationd"
+.PHONY : notificationd/CMakeFiles/matsya-notificationd.dir/all
 
 # Build rule for subdir invocation for target.
-notificationd/CMakeFiles/cutefish-notificationd.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/RebootOS/core/build/CMakeFiles 5
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 notificationd/CMakeFiles/cutefish-notificationd.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/RebootOS/core/build/CMakeFiles 0
-.PHONY : notificationd/CMakeFiles/cutefish-notificationd.dir/rule
+notificationd/CMakeFiles/matsya-notificationd.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/Documents/GitHub/core/build/CMakeFiles 5
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 notificationd/CMakeFiles/matsya-notificationd.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/Documents/GitHub/core/build/CMakeFiles 0
+.PHONY : notificationd/CMakeFiles/matsya-notificationd.dir/rule
 
 # Convenience name for target.
-cutefish-notificationd: notificationd/CMakeFiles/cutefish-notificationd.dir/rule
+matsya-notificationd: notificationd/CMakeFiles/matsya-notificationd.dir/rule
 
-.PHONY : cutefish-notificationd
+.PHONY : matsya-notificationd
 
 # clean rule for target.
-notificationd/CMakeFiles/cutefish-notificationd.dir/clean:
-	$(MAKE) $(MAKESILENT) -f notificationd/CMakeFiles/cutefish-notificationd.dir/build.make notificationd/CMakeFiles/cutefish-notificationd.dir/clean
-.PHONY : notificationd/CMakeFiles/cutefish-notificationd.dir/clean
+notificationd/CMakeFiles/matsya-notificationd.dir/clean:
+	$(MAKE) $(MAKESILENT) -f notificationd/CMakeFiles/matsya-notificationd.dir/build.make notificationd/CMakeFiles/matsya-notificationd.dir/clean
+.PHONY : notificationd/CMakeFiles/matsya-notificationd.dir/clean
 
 #=============================================================================
-# Target rules for target notificationd/CMakeFiles/cutefish-notificationd_autogen.dir
+# Target rules for target notificationd/CMakeFiles/matsya-notificationd_autogen.dir
 
 # All Build rule for target.
-notificationd/CMakeFiles/cutefish-notificationd_autogen.dir/all: notificationd/CMakeFiles/notificationd_translations.dir/all
-	$(MAKE) $(MAKESILENT) -f notificationd/CMakeFiles/cutefish-notificationd_autogen.dir/build.make notificationd/CMakeFiles/cutefish-notificationd_autogen.dir/depend
-	$(MAKE) $(MAKESILENT) -f notificationd/CMakeFiles/cutefish-notificationd_autogen.dir/build.make notificationd/CMakeFiles/cutefish-notificationd_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tokyo/clone/RebootOS/core/build/CMakeFiles --progress-num= "Built target cutefish-notificationd_autogen"
-.PHONY : notificationd/CMakeFiles/cutefish-notificationd_autogen.dir/all
+notificationd/CMakeFiles/matsya-notificationd_autogen.dir/all: notificationd/CMakeFiles/notificationd_translations.dir/all
+	$(MAKE) $(MAKESILENT) -f notificationd/CMakeFiles/matsya-notificationd_autogen.dir/build.make notificationd/CMakeFiles/matsya-notificationd_autogen.dir/depend
+	$(MAKE) $(MAKESILENT) -f notificationd/CMakeFiles/matsya-notificationd_autogen.dir/build.make notificationd/CMakeFiles/matsya-notificationd_autogen.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tokyo/Documents/GitHub/core/build/CMakeFiles --progress-num= "Built target matsya-notificationd_autogen"
+.PHONY : notificationd/CMakeFiles/matsya-notificationd_autogen.dir/all
 
 # Build rule for subdir invocation for target.
-notificationd/CMakeFiles/cutefish-notificationd_autogen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/RebootOS/core/build/CMakeFiles 1
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 notificationd/CMakeFiles/cutefish-notificationd_autogen.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/RebootOS/core/build/CMakeFiles 0
-.PHONY : notificationd/CMakeFiles/cutefish-notificationd_autogen.dir/rule
+notificationd/CMakeFiles/matsya-notificationd_autogen.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/Documents/GitHub/core/build/CMakeFiles 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 notificationd/CMakeFiles/matsya-notificationd_autogen.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/Documents/GitHub/core/build/CMakeFiles 0
+.PHONY : notificationd/CMakeFiles/matsya-notificationd_autogen.dir/rule
 
 # Convenience name for target.
-cutefish-notificationd_autogen: notificationd/CMakeFiles/cutefish-notificationd_autogen.dir/rule
+matsya-notificationd_autogen: notificationd/CMakeFiles/matsya-notificationd_autogen.dir/rule
 
-.PHONY : cutefish-notificationd_autogen
+.PHONY : matsya-notificationd_autogen
 
 # clean rule for target.
-notificationd/CMakeFiles/cutefish-notificationd_autogen.dir/clean:
-	$(MAKE) $(MAKESILENT) -f notificationd/CMakeFiles/cutefish-notificationd_autogen.dir/build.make notificationd/CMakeFiles/cutefish-notificationd_autogen.dir/clean
-.PHONY : notificationd/CMakeFiles/cutefish-notificationd_autogen.dir/clean
+notificationd/CMakeFiles/matsya-notificationd_autogen.dir/clean:
+	$(MAKE) $(MAKESILENT) -f notificationd/CMakeFiles/matsya-notificationd_autogen.dir/build.make notificationd/CMakeFiles/matsya-notificationd_autogen.dir/clean
+.PHONY : notificationd/CMakeFiles/matsya-notificationd_autogen.dir/clean
 
 #=============================================================================
-# Target rules for target sddm-helper/CMakeFiles/cutefish-sddm-helper.dir
+# Target rules for target sddm-helper/CMakeFiles/matsya-sddm-helper.dir
 
 # All Build rule for target.
-sddm-helper/CMakeFiles/cutefish-sddm-helper.dir/all: sddm-helper/CMakeFiles/cutefish-sddm-helper_autogen.dir/all
-	$(MAKE) $(MAKESILENT) -f sddm-helper/CMakeFiles/cutefish-sddm-helper.dir/build.make sddm-helper/CMakeFiles/cutefish-sddm-helper.dir/depend
-	$(MAKE) $(MAKESILENT) -f sddm-helper/CMakeFiles/cutefish-sddm-helper.dir/build.make sddm-helper/CMakeFiles/cutefish-sddm-helper.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tokyo/clone/RebootOS/core/build/CMakeFiles --progress-num=19 "Built target cutefish-sddm-helper"
-.PHONY : sddm-helper/CMakeFiles/cutefish-sddm-helper.dir/all
+sddm-helper/CMakeFiles/matsya-sddm-helper.dir/all: sddm-helper/CMakeFiles/matsya-sddm-helper_autogen.dir/all
+	$(MAKE) $(MAKESILENT) -f sddm-helper/CMakeFiles/matsya-sddm-helper.dir/build.make sddm-helper/CMakeFiles/matsya-sddm-helper.dir/depend
+	$(MAKE) $(MAKESILENT) -f sddm-helper/CMakeFiles/matsya-sddm-helper.dir/build.make sddm-helper/CMakeFiles/matsya-sddm-helper.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tokyo/Documents/GitHub/core/build/CMakeFiles --progress-num=19 "Built target matsya-sddm-helper"
+.PHONY : sddm-helper/CMakeFiles/matsya-sddm-helper.dir/all
 
 # Build rule for subdir invocation for target.
-sddm-helper/CMakeFiles/cutefish-sddm-helper.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/RebootOS/core/build/CMakeFiles 1
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sddm-helper/CMakeFiles/cutefish-sddm-helper.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/RebootOS/core/build/CMakeFiles 0
-.PHONY : sddm-helper/CMakeFiles/cutefish-sddm-helper.dir/rule
+sddm-helper/CMakeFiles/matsya-sddm-helper.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/Documents/GitHub/core/build/CMakeFiles 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sddm-helper/CMakeFiles/matsya-sddm-helper.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/Documents/GitHub/core/build/CMakeFiles 0
+.PHONY : sddm-helper/CMakeFiles/matsya-sddm-helper.dir/rule
 
 # Convenience name for target.
-cutefish-sddm-helper: sddm-helper/CMakeFiles/cutefish-sddm-helper.dir/rule
+matsya-sddm-helper: sddm-helper/CMakeFiles/matsya-sddm-helper.dir/rule
 
-.PHONY : cutefish-sddm-helper
+.PHONY : matsya-sddm-helper
 
 # clean rule for target.
-sddm-helper/CMakeFiles/cutefish-sddm-helper.dir/clean:
-	$(MAKE) $(MAKESILENT) -f sddm-helper/CMakeFiles/cutefish-sddm-helper.dir/build.make sddm-helper/CMakeFiles/cutefish-sddm-helper.dir/clean
-.PHONY : sddm-helper/CMakeFiles/cutefish-sddm-helper.dir/clean
+sddm-helper/CMakeFiles/matsya-sddm-helper.dir/clean:
+	$(MAKE) $(MAKESILENT) -f sddm-helper/CMakeFiles/matsya-sddm-helper.dir/build.make sddm-helper/CMakeFiles/matsya-sddm-helper.dir/clean
+.PHONY : sddm-helper/CMakeFiles/matsya-sddm-helper.dir/clean
 
 #=============================================================================
-# Target rules for target sddm-helper/CMakeFiles/cutefish-sddm-helper_autogen.dir
+# Target rules for target sddm-helper/CMakeFiles/matsya-sddm-helper_autogen.dir
 
 # All Build rule for target.
-sddm-helper/CMakeFiles/cutefish-sddm-helper_autogen.dir/all:
-	$(MAKE) $(MAKESILENT) -f sddm-helper/CMakeFiles/cutefish-sddm-helper_autogen.dir/build.make sddm-helper/CMakeFiles/cutefish-sddm-helper_autogen.dir/depend
-	$(MAKE) $(MAKESILENT) -f sddm-helper/CMakeFiles/cutefish-sddm-helper_autogen.dir/build.make sddm-helper/CMakeFiles/cutefish-sddm-helper_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tokyo/clone/RebootOS/core/build/CMakeFiles --progress-num= "Built target cutefish-sddm-helper_autogen"
-.PHONY : sddm-helper/CMakeFiles/cutefish-sddm-helper_autogen.dir/all
+sddm-helper/CMakeFiles/matsya-sddm-helper_autogen.dir/all:
+	$(MAKE) $(MAKESILENT) -f sddm-helper/CMakeFiles/matsya-sddm-helper_autogen.dir/build.make sddm-helper/CMakeFiles/matsya-sddm-helper_autogen.dir/depend
+	$(MAKE) $(MAKESILENT) -f sddm-helper/CMakeFiles/matsya-sddm-helper_autogen.dir/build.make sddm-helper/CMakeFiles/matsya-sddm-helper_autogen.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tokyo/Documents/GitHub/core/build/CMakeFiles --progress-num= "Built target matsya-sddm-helper_autogen"
+.PHONY : sddm-helper/CMakeFiles/matsya-sddm-helper_autogen.dir/all
 
 # Build rule for subdir invocation for target.
-sddm-helper/CMakeFiles/cutefish-sddm-helper_autogen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/RebootOS/core/build/CMakeFiles 0
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sddm-helper/CMakeFiles/cutefish-sddm-helper_autogen.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/RebootOS/core/build/CMakeFiles 0
-.PHONY : sddm-helper/CMakeFiles/cutefish-sddm-helper_autogen.dir/rule
+sddm-helper/CMakeFiles/matsya-sddm-helper_autogen.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/Documents/GitHub/core/build/CMakeFiles 0
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sddm-helper/CMakeFiles/matsya-sddm-helper_autogen.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/Documents/GitHub/core/build/CMakeFiles 0
+.PHONY : sddm-helper/CMakeFiles/matsya-sddm-helper_autogen.dir/rule
 
 # Convenience name for target.
-cutefish-sddm-helper_autogen: sddm-helper/CMakeFiles/cutefish-sddm-helper_autogen.dir/rule
+matsya-sddm-helper_autogen: sddm-helper/CMakeFiles/matsya-sddm-helper_autogen.dir/rule
 
-.PHONY : cutefish-sddm-helper_autogen
+.PHONY : matsya-sddm-helper_autogen
 
 # clean rule for target.
-sddm-helper/CMakeFiles/cutefish-sddm-helper_autogen.dir/clean:
-	$(MAKE) $(MAKESILENT) -f sddm-helper/CMakeFiles/cutefish-sddm-helper_autogen.dir/build.make sddm-helper/CMakeFiles/cutefish-sddm-helper_autogen.dir/clean
-.PHONY : sddm-helper/CMakeFiles/cutefish-sddm-helper_autogen.dir/clean
+sddm-helper/CMakeFiles/matsya-sddm-helper_autogen.dir/clean:
+	$(MAKE) $(MAKESILENT) -f sddm-helper/CMakeFiles/matsya-sddm-helper_autogen.dir/build.make sddm-helper/CMakeFiles/matsya-sddm-helper_autogen.dir/clean
+.PHONY : sddm-helper/CMakeFiles/matsya-sddm-helper_autogen.dir/clean
 
 #=============================================================================
-# Target rules for target clipboard/CMakeFiles/cutefish-clipboard.dir
+# Target rules for target clipboard/CMakeFiles/matsya-clipboard.dir
 
 # All Build rule for target.
-clipboard/CMakeFiles/cutefish-clipboard.dir/all: clipboard/CMakeFiles/cutefish-clipboard_autogen.dir/all
-	$(MAKE) $(MAKESILENT) -f clipboard/CMakeFiles/cutefish-clipboard.dir/build.make clipboard/CMakeFiles/cutefish-clipboard.dir/depend
-	$(MAKE) $(MAKESILENT) -f clipboard/CMakeFiles/cutefish-clipboard.dir/build.make clipboard/CMakeFiles/cutefish-clipboard.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tokyo/clone/RebootOS/core/build/CMakeFiles --progress-num=3 "Built target cutefish-clipboard"
-.PHONY : clipboard/CMakeFiles/cutefish-clipboard.dir/all
+clipboard/CMakeFiles/matsya-clipboard.dir/all: clipboard/CMakeFiles/matsya-clipboard_autogen.dir/all
+	$(MAKE) $(MAKESILENT) -f clipboard/CMakeFiles/matsya-clipboard.dir/build.make clipboard/CMakeFiles/matsya-clipboard.dir/depend
+	$(MAKE) $(MAKESILENT) -f clipboard/CMakeFiles/matsya-clipboard.dir/build.make clipboard/CMakeFiles/matsya-clipboard.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tokyo/Documents/GitHub/core/build/CMakeFiles --progress-num=3 "Built target matsya-clipboard"
+.PHONY : clipboard/CMakeFiles/matsya-clipboard.dir/all
 
 # Build rule for subdir invocation for target.
-clipboard/CMakeFiles/cutefish-clipboard.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/RebootOS/core/build/CMakeFiles 1
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 clipboard/CMakeFiles/cutefish-clipboard.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/RebootOS/core/build/CMakeFiles 0
-.PHONY : clipboard/CMakeFiles/cutefish-clipboard.dir/rule
+clipboard/CMakeFiles/matsya-clipboard.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/Documents/GitHub/core/build/CMakeFiles 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 clipboard/CMakeFiles/matsya-clipboard.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/Documents/GitHub/core/build/CMakeFiles 0
+.PHONY : clipboard/CMakeFiles/matsya-clipboard.dir/rule
 
 # Convenience name for target.
-cutefish-clipboard: clipboard/CMakeFiles/cutefish-clipboard.dir/rule
+matsya-clipboard: clipboard/CMakeFiles/matsya-clipboard.dir/rule
 
-.PHONY : cutefish-clipboard
+.PHONY : matsya-clipboard
 
 # clean rule for target.
-clipboard/CMakeFiles/cutefish-clipboard.dir/clean:
-	$(MAKE) $(MAKESILENT) -f clipboard/CMakeFiles/cutefish-clipboard.dir/build.make clipboard/CMakeFiles/cutefish-clipboard.dir/clean
-.PHONY : clipboard/CMakeFiles/cutefish-clipboard.dir/clean
+clipboard/CMakeFiles/matsya-clipboard.dir/clean:
+	$(MAKE) $(MAKESILENT) -f clipboard/CMakeFiles/matsya-clipboard.dir/build.make clipboard/CMakeFiles/matsya-clipboard.dir/clean
+.PHONY : clipboard/CMakeFiles/matsya-clipboard.dir/clean
 
 #=============================================================================
-# Target rules for target clipboard/CMakeFiles/cutefish-clipboard_autogen.dir
+# Target rules for target clipboard/CMakeFiles/matsya-clipboard_autogen.dir
 
 # All Build rule for target.
-clipboard/CMakeFiles/cutefish-clipboard_autogen.dir/all:
-	$(MAKE) $(MAKESILENT) -f clipboard/CMakeFiles/cutefish-clipboard_autogen.dir/build.make clipboard/CMakeFiles/cutefish-clipboard_autogen.dir/depend
-	$(MAKE) $(MAKESILENT) -f clipboard/CMakeFiles/cutefish-clipboard_autogen.dir/build.make clipboard/CMakeFiles/cutefish-clipboard_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tokyo/clone/RebootOS/core/build/CMakeFiles --progress-num= "Built target cutefish-clipboard_autogen"
-.PHONY : clipboard/CMakeFiles/cutefish-clipboard_autogen.dir/all
+clipboard/CMakeFiles/matsya-clipboard_autogen.dir/all:
+	$(MAKE) $(MAKESILENT) -f clipboard/CMakeFiles/matsya-clipboard_autogen.dir/build.make clipboard/CMakeFiles/matsya-clipboard_autogen.dir/depend
+	$(MAKE) $(MAKESILENT) -f clipboard/CMakeFiles/matsya-clipboard_autogen.dir/build.make clipboard/CMakeFiles/matsya-clipboard_autogen.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tokyo/Documents/GitHub/core/build/CMakeFiles --progress-num= "Built target matsya-clipboard_autogen"
+.PHONY : clipboard/CMakeFiles/matsya-clipboard_autogen.dir/all
 
 # Build rule for subdir invocation for target.
-clipboard/CMakeFiles/cutefish-clipboard_autogen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/RebootOS/core/build/CMakeFiles 0
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 clipboard/CMakeFiles/cutefish-clipboard_autogen.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/RebootOS/core/build/CMakeFiles 0
-.PHONY : clipboard/CMakeFiles/cutefish-clipboard_autogen.dir/rule
+clipboard/CMakeFiles/matsya-clipboard_autogen.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/Documents/GitHub/core/build/CMakeFiles 0
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 clipboard/CMakeFiles/matsya-clipboard_autogen.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/Documents/GitHub/core/build/CMakeFiles 0
+.PHONY : clipboard/CMakeFiles/matsya-clipboard_autogen.dir/rule
 
 # Convenience name for target.
-cutefish-clipboard_autogen: clipboard/CMakeFiles/cutefish-clipboard_autogen.dir/rule
+matsya-clipboard_autogen: clipboard/CMakeFiles/matsya-clipboard_autogen.dir/rule
 
-.PHONY : cutefish-clipboard_autogen
+.PHONY : matsya-clipboard_autogen
 
 # clean rule for target.
-clipboard/CMakeFiles/cutefish-clipboard_autogen.dir/clean:
-	$(MAKE) $(MAKESILENT) -f clipboard/CMakeFiles/cutefish-clipboard_autogen.dir/build.make clipboard/CMakeFiles/cutefish-clipboard_autogen.dir/clean
-.PHONY : clipboard/CMakeFiles/cutefish-clipboard_autogen.dir/clean
+clipboard/CMakeFiles/matsya-clipboard_autogen.dir/clean:
+	$(MAKE) $(MAKESILENT) -f clipboard/CMakeFiles/matsya-clipboard_autogen.dir/build.make clipboard/CMakeFiles/matsya-clipboard_autogen.dir/clean
+.PHONY : clipboard/CMakeFiles/matsya-clipboard_autogen.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
