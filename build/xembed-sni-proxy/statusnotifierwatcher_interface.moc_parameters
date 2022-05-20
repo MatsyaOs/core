@@ -1,9 +1,0 @@
--I/home/tokyo/Documents/GitHub/core/xembed-sni-proxy
--I/home/tokyo/Documents/GitHub/core/build/xembed-sni-proxy
--DQT_NO_CAST_TO_ASCII
--DQT_NO_CAST_FROM_ASCII
--DQT_NO_URL_CAST_FROM_STRING
--DQT_NO_CAST_FROM_BYTEARRAY
--o
-/home/tokyo/Documents/GitHub/core/build/xembed-sni-proxy/statusnotifierwatcher_interface.moc
-/home/tokyo/Documents/GitHub/core/build/xembed-sni-proxy/statusnotifierwatcher_interface.h
