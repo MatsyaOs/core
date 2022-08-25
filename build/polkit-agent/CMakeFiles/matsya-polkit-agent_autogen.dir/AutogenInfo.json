@@ -1,0 +1,133 @@
+{
+	"BUILD_DIR" : "/home/tokyo/matsyaos/QT6/done/core/build/polkit-agent/matsya-polkit-agent_autogen",
+	"CMAKE_BINARY_DIR" : "/home/tokyo/matsyaos/QT6/done/core/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/tokyo/matsyaos/QT6/done/core/build/polkit-agent",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/tokyo/matsyaos/QT6/done/core/polkit-agent",
+	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
+	"CMAKE_LIST_FILES" : 
+	[
+		"/home/tokyo/matsyaos/QT6/done/core/polkit-agent/CMakeLists.txt",
+		"/usr/share/cmake/Modules/FindPkgConfig.cmake",
+		"/usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake",
+		"/usr/share/cmake/Modules/FindPackageMessage.cmake",
+		"/usr/lib64/cmake/PolkitQt5-1/PolkitQt5-1ConfigVersion.cmake",
+		"/usr/lib64/cmake/PolkitQt5-1/PolkitQt5-1Config.cmake",
+		"/usr/lib64/cmake/PolkitQt5-1/PolkitQt5-1Targets.cmake",
+		"/usr/lib64/cmake/PolkitQt5-1/PolkitQt5-1Targets-noconfig.cmake",
+		"/home/tokyo/matsyaos/QT6/done/core/polkit-agent/qml.qrc"
+	],
+	"CMAKE_SOURCE_DIR" : "/home/tokyo/matsyaos/QT6/done/core",
+	"DEP_FILE" : "",
+	"DEP_FILE_RULE_NAME" : "",
+	"HEADERS" : 
+	[
+		[
+			"/home/tokyo/matsyaos/QT6/done/core/polkit-agent/dialog.h",
+			"MU",
+			"EWIEGA46WW/moc_dialog.cpp",
+			null
+		],
+		[
+			"/home/tokyo/matsyaos/QT6/done/core/polkit-agent/polkitagentlistener.h",
+			"MU",
+			"EWIEGA46WW/moc_polkitagentlistener.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/home/tokyo/matsyaos/QT6/done/core/build/polkit-agent/matsya-polkit-agent_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/tokyo/matsyaos/QT6/done/core/build/polkit-agent/matsya-polkit-agent_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"QT_CORE_LIB",
+		"QT_GUI_LIB",
+		"QT_NETWORK_LIB",
+		"QT_NO_DEBUG",
+		"QT_QMLMODELS_LIB",
+		"QT_QML_LIB",
+		"QT_QUICKCONTROLS2_LIB",
+		"QT_QUICK_LIB",
+		"QT_WIDGETS_LIB"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/home/tokyo/matsyaos/QT6/done/core/build/polkit-agent",
+		"/home/tokyo/matsyaos/QT6/done/core/polkit-agent",
+		"/usr/include/polkit-1",
+		"/usr/include/glib-2.0",
+		"/usr/lib/glib-2.0/include",
+		"/usr/include/sysprof-4",
+		"/usr/include/libmount",
+		"/usr/include/blkid",
+		"/usr/include/polkit-qt5-1",
+		"/usr/include/qt",
+		"/usr/include/qt/QtCore",
+		"/usr/lib/qt/mkspecs/linux-g++",
+		"/usr/include/qt/QtWidgets",
+		"/usr/include/qt/QtGui",
+		"/usr/include/qt/QtQuick",
+		"/usr/include/qt/QtQmlModels",
+		"/usr/include/qt/QtQml",
+		"/usr/include/qt/QtNetwork",
+		"/usr/include/qt/QtQuickControls2",
+		"/usr/include/c++/12.1.0",
+		"/usr/include/c++/12.1.0/x86_64-pc-linux-gnu",
+		"/usr/include/c++/12.1.0/backward",
+		"/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/include",
+		"/usr/local/include",
+		"/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/include-fixed",
+		"/usr/include"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/usr/bin/c++",
+		"-dM",
+		"-E",
+		"-c",
+		"/usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/home/tokyo/matsyaos/QT6/done/core/build/polkit-agent/matsya-polkit-agent_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 2,
+	"PARSE_CACHE_FILE" : "/home/tokyo/matsyaos/QT6/done/core/build/polkit-agent/CMakeFiles/matsya-polkit-agent_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/usr/bin/moc",
+	"QT_UIC_EXECUTABLE" : "/usr/bin/uic",
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 15,
+	"SETTINGS_FILE" : "/home/tokyo/matsyaos/QT6/done/core/build/polkit-agent/CMakeFiles/matsya-polkit-agent_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"/home/tokyo/matsyaos/QT6/done/core/polkit-agent/dialog.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/tokyo/matsyaos/QT6/done/core/polkit-agent/main.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/tokyo/matsyaos/QT6/done/core/polkit-agent/polkitagentlistener.cpp",
+			"MU",
+			null
+		]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : [],
+	"UIC_UI_FILES" : [],
+	"VERBOSITY" : 0
+}

@@ -1,0 +1,5 @@
+-I/home/tokyo/matsyaos/QT6/done/core/powerman
+-I/home/tokyo/matsyaos/QT6/done/core/build/powerman
+-o
+/home/tokyo/matsyaos/QT6/done/core/build/powerman/cpumanagementadaptor.moc
+/home/tokyo/matsyaos/QT6/done/core/build/powerman/cpumanagementadaptor.h

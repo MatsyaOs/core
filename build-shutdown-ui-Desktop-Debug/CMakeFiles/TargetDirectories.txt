@@ -1,0 +1,8 @@
+/home/tokyo/matsyaos/QT6/done/core/build-shutdown-ui-Desktop-Debug/CMakeFiles/matsya-shutdown.dir
+/home/tokyo/matsyaos/QT6/done/core/build-shutdown-ui-Desktop-Debug/CMakeFiles/shutdown-translations.dir
+/home/tokyo/matsyaos/QT6/done/core/build-shutdown-ui-Desktop-Debug/CMakeFiles/edit_cache.dir
+/home/tokyo/matsyaos/QT6/done/core/build-shutdown-ui-Desktop-Debug/CMakeFiles/rebuild_cache.dir
+/home/tokyo/matsyaos/QT6/done/core/build-shutdown-ui-Desktop-Debug/CMakeFiles/list_install_components.dir
+/home/tokyo/matsyaos/QT6/done/core/build-shutdown-ui-Desktop-Debug/CMakeFiles/install.dir
+/home/tokyo/matsyaos/QT6/done/core/build-shutdown-ui-Desktop-Debug/CMakeFiles/install/local.dir
+/home/tokyo/matsyaos/QT6/done/core/build-shutdown-ui-Desktop-Debug/CMakeFiles/install/strip.dir

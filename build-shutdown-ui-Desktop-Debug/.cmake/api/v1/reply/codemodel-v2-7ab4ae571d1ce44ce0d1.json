@@ -1,0 +1,66 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-d039a19bece28e62f4e2.json",
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "matsya-shutdown",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "matsya-shutdown::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-matsya-shutdown-Debug-bbeca8ba1a23df559be7.json",
+					"name" : "matsya-shutdown",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "shutdown-translations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-shutdown-translations-Debug-2a9ee9d64ca8d8bcfd65.json",
+					"name" : "shutdown-translations",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/tokyo/matsyaos/QT6/done/core/build-shutdown-ui-Desktop-Debug",
+		"source" : "/home/tokyo/matsyaos/QT6/done/core/shutdown-ui"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

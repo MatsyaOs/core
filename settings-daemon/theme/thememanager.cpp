@@ -68,13 +68,13 @@ ThemeManager::ThemeManager(QObject *parent)
     // init value
     m_isDarkMode = m_settings->value("DarkMode", false).toBool();
     m_darkModeDimsWallpaer = m_settings->value("DarkModeDimsWallpaer", false).toBool();
-    m_wallpaperPath = m_settings->value("Wallpaper", "/usr/share/backgrounds/matsyaos/default.jpg").toString();
+    m_wallpaperPath = m_settings->value("Wallpaper", "/usr/share/backgrounds/matsyaos/1.jpg").toString();
     m_accentColor = m_settings->value("AccentColor", 0).toInt();
     m_backgroundType = m_settings->value("BackgroundType", 0).toInt();
     m_backgroundColor = m_settings->value("BackgroundColor", "#2B8ADA").toString();
     m_cursorTheme = m_settings->value("CursorTheme", "default").toString();
     m_cursorSize = m_settings->value("CursorSize", 24).toInt();
-    m_iconTheme = m_settings->value("IconTheme", "Crule").toString();
+    m_iconTheme = m_settings->value("IconTheme", "WhiteSur").toString();
 
     // Start the DE and need to update the settings again.
     updateGtk3Config();

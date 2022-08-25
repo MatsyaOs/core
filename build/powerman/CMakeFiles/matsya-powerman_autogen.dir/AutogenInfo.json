@@ -1,0 +1,211 @@
+{
+	"BUILD_DIR" : "/home/tokyo/matsyaos/QT6/done/core/build/powerman/matsya-powerman_autogen",
+	"CMAKE_BINARY_DIR" : "/home/tokyo/matsyaos/QT6/done/core/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/tokyo/matsyaos/QT6/done/core/build/powerman",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/tokyo/matsyaos/QT6/done/core/powerman",
+	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
+	"CMAKE_LIST_FILES" : 
+	[
+		"/home/tokyo/matsyaos/QT6/done/core/powerman/CMakeLists.txt",
+		"/usr/lib64/cmake/KF5IdleTime/KF5IdleTimeConfigVersion.cmake",
+		"/usr/lib64/cmake/KF5IdleTime/KF5IdleTimeConfig.cmake",
+		"/usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake",
+		"/usr/lib64/cmake/Qt5Core/Qt5CoreConfigVersion.cmake",
+		"/usr/lib64/cmake/Qt5Core/Qt5CoreConfig.cmake",
+		"/usr/lib64/cmake/KF5IdleTime/KF5IdleTimeTargets.cmake",
+		"/usr/lib64/cmake/KF5IdleTime/KF5IdleTimeTargets-noconfig.cmake",
+		"/usr/lib64/cmake/KF5IdleTime/KF5IdleTimeQchTargets.cmake",
+		"/usr/share/cmake/Modules/FindX11.cmake",
+		"/usr/share/cmake/Modules/FindFreetype.cmake",
+		"/usr/share/cmake/Modules/SelectLibraryConfigurations.cmake",
+		"/usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake",
+		"/usr/share/cmake/Modules/FindPackageMessage.cmake",
+		"/usr/share/cmake/Modules/FindFontconfig.cmake",
+		"/usr/share/cmake/Modules/FindPkgConfig.cmake",
+		"/usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake",
+		"/usr/share/cmake/Modules/FindPackageMessage.cmake",
+		"/usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake",
+		"/usr/share/cmake/Modules/FindPackageMessage.cmake",
+		"/usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake",
+		"/usr/share/cmake/Modules/FindPackageMessage.cmake",
+		"/usr/share/cmake/Modules/CheckFunctionExists.cmake",
+		"/usr/share/cmake/Modules/CheckLibraryExists.cmake",
+		"/home/tokyo/matsyaos/QT6/done/core/cmake/FindXCB.cmake",
+		"/home/tokyo/matsyaos/QT6/done/core/cmake/ECMFindModuleHelpers.cmake",
+		"/usr/share/cmake/Modules/CMakeParseArguments.cmake",
+		"/usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake",
+		"/usr/share/cmake/Modules/FindPackageMessage.cmake",
+		"/usr/share/cmake/Modules/FindPkgConfig.cmake",
+		"/usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake",
+		"/usr/share/cmake/Modules/FindPackageMessage.cmake",
+		"/usr/share/cmake/Modules/FeatureSummary.cmake"
+	],
+	"CMAKE_SOURCE_DIR" : "/home/tokyo/matsyaos/QT6/done/core",
+	"DEP_FILE" : "",
+	"DEP_FILE_RULE_NAME" : "",
+	"HEADERS" : 
+	[
+		[
+			"/home/tokyo/matsyaos/QT6/done/core/powerman/action.h",
+			"MU",
+			"EWIEGA46WW/moc_action.cpp",
+			null
+		],
+		[
+			"/home/tokyo/matsyaos/QT6/done/core/powerman/application.h",
+			"MU",
+			"EWIEGA46WW/moc_application.cpp",
+			null
+		],
+		[
+			"/home/tokyo/matsyaos/QT6/done/core/powerman/cpu/cpuitem.h",
+			"MU",
+			"OUR7IK7SM5/moc_cpuitem.cpp",
+			null
+		],
+		[
+			"/home/tokyo/matsyaos/QT6/done/core/powerman/cpu/cpumanagement.h",
+			"MU",
+			"OUR7IK7SM5/moc_cpumanagement.cpp",
+			null
+		],
+		[
+			"/home/tokyo/matsyaos/QT6/done/core/powerman/dimdisplayaction.h",
+			"MU",
+			"EWIEGA46WW/moc_dimdisplayaction.cpp",
+			null
+		],
+		[
+			"/home/tokyo/matsyaos/QT6/done/core/powerman/idlemanager.h",
+			"MU",
+			"EWIEGA46WW/moc_idlemanager.cpp",
+			null
+		],
+		[
+			"/home/tokyo/matsyaos/QT6/done/core/powerman/lidwatcher.h",
+			"MU",
+			"EWIEGA46WW/moc_lidwatcher.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/home/tokyo/matsyaos/QT6/done/core/build/powerman/matsya-powerman_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/tokyo/matsyaos/QT6/done/core/build/powerman/matsya-powerman_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"QT_CORE_LIB",
+		"QT_DBUS_LIB",
+		"QT_GUI_LIB",
+		"QT_NETWORK_LIB",
+		"QT_NO_DEBUG",
+		"QT_QMLMODELS_LIB",
+		"QT_QML_LIB",
+		"QT_QUICK_LIB",
+		"QT_WIDGETS_LIB",
+		"QT_X11EXTRAS_LIB"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/home/tokyo/matsyaos/QT6/done/core/build/powerman",
+		"/home/tokyo/matsyaos/QT6/done/core/powerman",
+		"/usr/include/qt",
+		"/usr/include/qt/QtCore",
+		"/usr/lib/qt/mkspecs/linux-g++",
+		"/usr/include/qt/QtGui",
+		"/usr/include/qt/QtWidgets",
+		"/usr/include/qt/QtQuick",
+		"/usr/include/qt/QtQmlModels",
+		"/usr/include/qt/QtQml",
+		"/usr/include/qt/QtNetwork",
+		"/usr/include/qt/QtDBus",
+		"/usr/include/qt/QtX11Extras",
+		"/usr/include/KF5/KIdleTime",
+		"/usr/include/KF5",
+		"/usr/include",
+		"/usr/include/c++/12.1.0",
+		"/usr/include/c++/12.1.0/x86_64-pc-linux-gnu",
+		"/usr/include/c++/12.1.0/backward",
+		"/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/include",
+		"/usr/local/include",
+		"/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/include-fixed"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/usr/bin/c++",
+		"-dM",
+		"-E",
+		"-c",
+		"/usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/home/tokyo/matsyaos/QT6/done/core/build/powerman/matsya-powerman_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : 
+	[
+		"/home/tokyo/matsyaos/QT6/done/core/build/powerman/cpumanagementadaptor.h",
+		"/home/tokyo/matsyaos/QT6/done/core/build/powerman/powermanageradaptor.h",
+		"/home/tokyo/matsyaos/QT6/done/core/build/powerman/screenlocker_interface.h"
+	],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 2,
+	"PARSE_CACHE_FILE" : "/home/tokyo/matsyaos/QT6/done/core/build/powerman/CMakeFiles/matsya-powerman_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/usr/bin/moc",
+	"QT_UIC_EXECUTABLE" : "/usr/bin/uic",
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 15,
+	"SETTINGS_FILE" : "/home/tokyo/matsyaos/QT6/done/core/build/powerman/CMakeFiles/matsya-powerman_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[ "/home/tokyo/matsyaos/QT6/done/core/powerman/action.cpp", "MU", null ],
+		[
+			"/home/tokyo/matsyaos/QT6/done/core/powerman/application.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/tokyo/matsyaos/QT6/done/core/powerman/cpu/cpuitem.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/tokyo/matsyaos/QT6/done/core/powerman/cpu/cpumanagement.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/tokyo/matsyaos/QT6/done/core/powerman/dimdisplayaction.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/tokyo/matsyaos/QT6/done/core/powerman/idlemanager.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/tokyo/matsyaos/QT6/done/core/powerman/lidwatcher.cpp",
+			"MU",
+			null
+		],
+		[ "/home/tokyo/matsyaos/QT6/done/core/powerman/main.cpp", "MU", null ]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : 
+	[
+		"/home/tokyo/matsyaos/QT6/done/core/build/powerman/cpumanagementadaptor.h",
+		"/home/tokyo/matsyaos/QT6/done/core/build/powerman/powermanageradaptor.h",
+		"/home/tokyo/matsyaos/QT6/done/core/build/powerman/screenlocker_interface.h"
+	],
+	"UIC_UI_FILES" : [],
+	"VERBOSITY" : 0
+}

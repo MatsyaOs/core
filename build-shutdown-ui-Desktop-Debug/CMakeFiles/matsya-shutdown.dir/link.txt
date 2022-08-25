@@ -1,0 +1,1 @@
+/usr/bin/g++ -DQT_QML_DEBUG -g -rdynamic "CMakeFiles/matsya-shutdown.dir/main.o" "CMakeFiles/matsya-shutdown.dir/actions.o" -o matsya-shutdown  -lQt5::Core -lQt5::Widgets -lQt5::Quick -lQt5::QuickControls2 -lQt5::DBus 
