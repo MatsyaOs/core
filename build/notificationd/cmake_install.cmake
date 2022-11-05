@@ -1,8 +1,8 @@
-# Install script for directory: /home/tokyo/matsyaos/QT6/done/core/notificationd
+# Install script for directory: /run/media/tokyo/DATA/Documents/final/core/notificationd
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/usr")
+  set(CMAKE_INSTALL_PREFIX "/home/tokyo/archuseriso/profiles/matsya/airootfs/usr")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -42,7 +42,7 @@ if(NOT DEFINED CMAKE_OBJDUMP)
   set(CMAKE_OBJDUMP "/usr/bin/objdump")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xRuntimex" OR NOT CMAKE_INSTALL_COMPONENT)
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Runtime" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}/usr/bin/matsya-notificationd" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}/usr/bin/matsya-notificationd")
     file(RPATH_CHECK
@@ -57,27 +57,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xRuntimex" OR NOT CMAKE_INSTALL_COMP
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/usr/bin" TYPE EXECUTABLE FILES "/home/tokyo/matsyaos/QT6/done/core/build/notificationd/matsya-notificationd")
+  file(INSTALL DESTINATION "/usr/bin" TYPE EXECUTABLE FILES "/run/media/tokyo/DATA/Documents/final/core/build/notificationd/matsya-notificationd")
   if(EXISTS "$ENV{DESTDIR}/usr/bin/matsya-notificationd" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}/usr/bin/matsya-notificationd")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}/usr/bin/matsya-notificationd")
     endif()
   endif()
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/usr/share/matsya-notificationd/translations/en_US.qm;/usr/share/matsya-notificationd/translations/zh_CN.qm")
-  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
-    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
-  endif()
-  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
-    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
-  endif()
-  file(INSTALL DESTINATION "/usr/share/matsya-notificationd/translations" TYPE FILE FILES
-    "/home/tokyo/matsyaos/QT6/done/core/build/notificationd/en_US.qm"
-    "/home/tokyo/matsyaos/QT6/done/core/build/notificationd/zh_CN.qm"
-    )
 endif()
 

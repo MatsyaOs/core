@@ -1,0 +1,246 @@
+
+
+Thu Nov  3 22:51:45 2022
+Command line: TestDisk
+
+TestDisk 7.1, Data Recovery Utility, July 2019
+Christophe GRENIER <grenier@cgsecurity.org>
+https://www.cgsecurity.org
+OS: Linux, kernel 6.0.2-arch1-1 (#1 SMP PREEMPT_DYNAMIC Sat, 15 Oct 2022 14:00:49 +0000) x86_64
+Compiler: GCC 11.2
+ext2fs lib: 1.46.5, ntfs lib: libntfs-3g, reiserfs lib: none, ewf lib: none, curses lib: ncurses 6.3
+User is not root!
+Hard disk list
+
+
+TestDisk exited normally.
+Using locale 'en_US.UTF-8'.
+
+
+Thu Nov  3 22:51:47 2022
+Command line: TestDisk /debug
+
+TestDisk 7.1, Data Recovery Utility, July 2019
+Christophe GRENIER <grenier@cgsecurity.org>
+https://www.cgsecurity.org
+OS: Linux, kernel 6.0.2-arch1-1 (#1 SMP PREEMPT_DYNAMIC Sat, 15 Oct 2022 14:00:49 +0000) x86_64
+Compiler: GCC 11.2
+ext2fs lib: 1.46.5, ntfs lib: libntfs-3g, reiserfs lib: none, ewf lib: none, curses lib: ncurses 6.3
+/dev/sda: LBA, HPA, LBA48 support
+/dev/sda: size       468862128 sectors
+/dev/sda: user_max   468862128 sectors
+/dev/sda: native_max 468862128 sectors
+/dev/sdb: LBA, HPA, LBA48, DCO support
+/dev/sdb: size       976773168 sectors
+/dev/sdb: user_max   976773168 sectors
+/dev/sdb: native_max 976773168 sectors
+Warning: can't get size for Disk /dev/mapper/control - 0 B - 0 sectors, sector size=512
+Hard disk list
+Disk /dev/sda - 240 GB / 223 GiB - CHS 29185 255 63, sector size=512 - OSC SSD 240GB, S/N:OSC20081400000000221, FW:S0130B0
+Disk /dev/sdb - 500 GB / 465 GiB - CHS 60801 255 63, sector size=512 - ST500LT012-1DG142, S/N:SBY1C294, FW:0001SDM1
+
+Partition table type (auto): None
+Disk /dev/sdb - 500 GB / 465 GiB - ST500LT012-1DG142
+Partition table type: Intel
+
+Analyse Disk /dev/sdb - 500 GB / 465 GiB - CHS 60801 255 63
+Geometry from i386 MBR: head=255 sector=2
+BAD_RS LBA=2048 64512
+NTFS at 0/32/33
+NTFS at 52291/30/28
+Current partition structure:
+ 1 P HPFS - NTFS              0  32 33 52291  30 27  840054784 [DATA]
+
+Bad relative sector.
+ 2 P HPFS - NTFS          52291  30 28 60801  80 15  136716288 [install os in this par]
+No partition is bootable
+
+search_part()
+Disk /dev/sdb - 500 GB / 465 GiB - CHS 60801 255 63
+NTFS at 0/32/33
+filesystem size           840054784
+sectors_per_cluster       8
+mft_lcn                   4
+mftmirr_lcn               52503423
+clusters_per_mft_record   -10
+clusters_per_index_record 1
+     HPFS - NTFS              0  32 33 52291  30 27  840054784 [DATA]
+     NTFS, blocksize=4096, 430 GB / 400 GiB
+NTFS at 52291/30/28
+filesystem size           136716288
+sectors_per_cluster       8
+mft_lcn                   4
+mftmirr_lcn               8544767
+clusters_per_mft_record   -10
+clusters_per_index_record 1
+     HPFS - NTFS          52291  30 28 60801  80 15  136716288 [install os in this par]
+     NTFS, blocksize=4096, 69 GB / 65 GiB
+
+Results
+   * HPFS - NTFS              0  32 33 52291  30 27  840054784 [DATA]
+     NTFS, blocksize=4096, 430 GB / 400 GiB
+   P HPFS - NTFS          52291  30 28 60801  80 15  136716288 [install os in this par]
+     NTFS, blocksize=4096, 69 GB / 65 GiB
+
+Hint for advanced users: dmsetup may be used if you prefer to avoid rewriting the partition table for the moment:
+echo "0 840054784 linear /dev/sdb 2048" | dmsetup create test0
+echo "0 136716288 linear /dev/sdb 840056832" | dmsetup create test1
+
+interface_write()
+ 1 * HPFS - NTFS              0  32 33 52291  30 27  840054784 [DATA]
+ 2 P HPFS - NTFS          52291  30 28 60801  80 15  136716288 [install os in this par]
+Can't open backup.log file: No such file or directory
+interface_load
+ntfs_device_testdisk_io_ioctl() unimplemented
+
+
+dir_partition inode=5
+   * HPFS - NTFS              0  32 33 52291  30 27  840054784 [DATA]
+     NTFS, blocksize=4096, 430 GB / 400 GiB
+Directory /
+       5 dr-xr-xr-x     0      0         0 31-Oct-2022 12:11 .
+       5 dr-xr-xr-x     0      0         0 31-Oct-2022 12:11 ..
+  228047 dr-xr-xr-x     0      0         0  3-Nov-2022 22:49 .Trash-1000
+  228057 dr-xr-xr-x     0      0         0  3-Nov-2022 14:28 Documents
+     279 dr-xr-xr-x     0      0         0  5-Sep-2022 23:29 WebSeries
+      64 dr-xr-xr-x     0      0         0  5-Sep-2022 23:00 movies
+    1182 dr-xr-xr-x     0      0         0  7-Sep-2022 19:22 vid
+
+dir_partition inode=228047
+   * HPFS - NTFS              0  32 33 52291  30 27  840054784 [DATA]
+     NTFS, blocksize=4096, 430 GB / 400 GiB
+Directory /.Trash-1000
+  228047 dr-xr-xr-x     0      0         0  3-Nov-2022 22:49 .
+       5 dr-xr-xr-x     0      0         0 31-Oct-2022 12:11 ..
+  228049 dr-xr-xr-x     0      0         0  3-Nov-2022 22:49 files
+  228048 dr-xr-xr-x     0      0         0  3-Nov-2022 22:49 info
+  160912 -r--r--r--     0      0      1464  3-Nov-2022 14:57 directorysizes
+
+dir_partition inode=228049
+   * HPFS - NTFS              0  32 33 52291  30 27  840054784 [DATA]
+     NTFS, blocksize=4096, 430 GB / 400 GiB
+Directory /.Trash-1000/files
+  228049 dr-xr-xr-x     0      0         0  3-Nov-2022 22:49 .
+  228047 dr-xr-xr-x     0      0         0  3-Nov-2022 22:49 ..
+    2003 dr-xr-xr-x     0      0         0  3-Jun-2022 18:26 Debs
+    1206 dr-xr-xr-x     0      0         0 24-Jun-2022 16:26 QT5
+    7283 dr-xr-xr-x     0      0         0 31-Oct-2022 12:09 backup
+    1281 dr-xr-xr-x     0      0         0  5-Sep-2022 09:24 build-appmotor-Desktop-Debug
+    1969 dr-xr-xr-x     0      0         0 15-Jun-2022 02:18 build-appmotor-Desktop-Debug (1)
+    1970 dr-xr-xr-x     0      0         0 23-Aug-2022 16:13 build-core-Desktop-Debug
+    1999 dr-xr-xr-x     0      0         0  4-Jun-2022 14:45 build-debinstaller-Desktop-Debug
+    1971 dr-xr-xr-x     0      0         0  2-Sep-2022 14:14 build-dock-Desktop-Debug
+    1282 dr-xr-xr-x     0      0         0  5-Sep-2022 09:24 build-filemanager-Desktop-Debug
+    1972 dr-xr-xr-x     0      0         0  8-Jun-2022 00:50 build-filemanager-Desktop-Debug (1)
+    1283 dr-xr-xr-x     0      0         0  5-Sep-2022 09:24 build-filemanager-Qt_6_3_0_qt6-Debug
+    1973 dr-xr-xr-x     0      0         0  8-Jun-2022 01:00 build-filemanager-Qt_6_3_0_qt6-Debug (1)
+    1974 dr-xr-xr-x     0      0         0 29-Aug-2022 21:37 build-launcher-Desktop-Debug
+    1975 dr-xr-xr-x     0      0         0  2-Sep-2022 13:52 build-matsya-settings-Desktop-Debug
+    1274 dr-xr-xr-x     0      0         0 24-Aug-2022 00:10 build-matsyaui-Desktop-Debug
+    2000 dr-xr-xr-x     0      0         0  4-Jun-2022 13:30 build-matsyaui-Desktop-Debug (1)
+    1976 dr-xr-xr-x     0      0         0 12-Aug-2022 03:01 build-screenlocker-main-Desktop-Debug
+    1284 dr-xr-xr-x     0      0         0  5-Sep-2022 09:24 build-statusbar-Desktop-Debug
+    1285 dr-xr-xr-x     0      0         0  5-Sep-2022 09:24 build-statusbar-Qt_6_3_0_qt6-Debug
+    1977 dr-xr-xr-x     0      0         0 31-Aug-2022 00:31 build-terminal-Desktop-Debug
+    1978 dr-xr-xr-x     0      0         0 22-Aug-2022 21:06 build-terminal-Qt_6_3_0_qt6-Debug
+    1287 dr-xr-xr-x     0      0         0  8-Aug-2022 12:34 build-texteditor-Desktop-Debug
+    1979 dr-xr-xr-x     0      0         0  1-Oct-2022 10:23 build-videoplayer-Desktop-Debug
+    1204 dr-xr-xr-x     0      0         0  3-Nov-2022 13:53 done
+    1209 dr-xr-xr-x     0      0         0  5-Sep-2022 21:22 matsya-archrepo
+    1210 dr-xr-xr-x     0      0         0 10-Sep-2022 08:55 matsya-namaste
+    1205 dr-xr-xr-x     0      0         0  3-Nov-2022 14:09 matsyaos-dependencies
+    1212 dr-xr-xr-x     0      0         0  5-Sep-2022 15:47 plaympv
+    1275 dr-xr-xr-x     0      0         0 15-Jun-2022 02:30 qt-plugins
+    1211 dr-xr-xr-x     0      0         0  3-Nov-2022 13:52 qtcalendar
+    1993 dr-xr-xr-x     0      0         0 16-Aug-2022 12:16 statusbar
+    1290 dr-xr-xr-x     0      0         0  3-Nov-2022 14:10 texteditor
+   18986 -r--r--r--     0      0     11235  3-Jun-2022 18:27 5566-ai-removebg-preview.png
+   14181 -r--r--r--     0      0      4583  3-Jun-2022 18:26 README.md
+   14173 -r--r--r--     0      0       976  3-Jun-2022 18:26 archpkgbuild.sh
+   14174 -r--r--r--     0      0       808  3-Jun-2022 18:52 batchbuild.sh
+   14175 -r--r--r--     0      0        88  3-Jun-2022 18:26 bsc
+   14176 -r--r--r--     0      0       295  3-Jun-2022 19:16 build.sh
+   14177 -r--r--r--     0      0        52  3-Jun-2022 18:26 copy
+   14178 -r--r--r--     0      0       787  3-Jun-2022 18:26 install-arch-deps.sh
+   14179 -r--r--r--     0      0      3468  3-Jun-2022 18:26 install-deb-deps.sh
+   14180 -r--r--r--     0      0   4637749  4-Jun-2022 18:35 plugins.zip
+   14182 -r--r--r--     0      0      1282  3-Jun-2022 18:38 repoclone.sh
+
+dir_partition inode=1206
+   * HPFS - NTFS              0  32 33 52291  30 27  840054784 [DATA]
+     NTFS, blocksize=4096, 430 GB / 400 GiB
+Directory /.Trash-1000/files/QT5
+    1206 dr-xr-xr-x     0      0         0 24-Jun-2022 16:26 .
+  228049 dr-xr-xr-x     0      0         0  3-Nov-2022 22:49 ..
+    1293 dr-xr-xr-x     0      0         0 24-Jun-2022 16:26 New Folder
+    1291 dr-xr-xr-x     0      0         0  1-Oct-2022 10:24 done
+    1292 dr-xr-xr-x     0      0         0  5-Sep-2022 07:01 matsyaos-dependencies
+
+dir_partition inode=1291
+   * HPFS - NTFS              0  32 33 52291  30 27  840054784 [DATA]
+     NTFS, blocksize=4096, 430 GB / 400 GiB
+Directory /.Trash-1000/files/QT5/done
+    1291 dr-xr-xr-x     0      0         0  1-Oct-2022 10:24 .
+    1206 dr-xr-xr-x     0      0         0 24-Jun-2022 16:26 ..
+    2018 dr-xr-xr-x     0      0         0 15-Jun-2022 02:18 appmotor
+    2019 dr-xr-xr-x     0      0         0 15-Jun-2022 02:18 build-appmotor-Desktop-Debug
+    2020 dr-xr-xr-x     0      0         0 15-Jun-2022 04:22 build-core-Desktop-Debug
+    2021 dr-xr-xr-x     0      0         0 23-Jun-2022 04:12 build-dock-Qt_6_3_0_qt6-Debug
+    2022 dr-xr-xr-x     0      0         0  8-Jun-2022 01:00 build-filemanager-Qt_6_3_0_qt6-Debug
+    2023 dr-xr-xr-x     0      0         0 16-Jun-2022 03:07 build-libmatsya-Desktop-Debug
+    2024 dr-xr-xr-x     0      0         0 16-Jun-2022 00:49 build-matsya-settings-Desktop-Debug
+    2025 dr-xr-xr-x     0      0         0 13-Jun-2022 13:29 build-statusbar-Desktop-Debug
+    2026 dr-xr-xr-x     0      0         0 29-Aug-2022 01:07 build-terminal-Desktop-Debug
+    2045 dr-xr-xr-x     0      0         0  1-Oct-2022 10:25 build-videoplayer-Desktop-Debug
+    2027 dr-xr-xr-x     0      0         0 15-Jun-2022 02:17 build-wallpappers-Desktop-Debug
+    2028 dr-xr-xr-x     0      0         0  4-Jun-2022 14:15 calculator
+    2029 dr-xr-xr-x     0      0         0 10-Sep-2022 22:15 core
+    2030 dr-xr-xr-x     0      0         0 23-Jun-2022 12:16 dock
+    2031 dr-xr-xr-x     0      0         0 25-Sep-2022 17:04 filemanager
+    2032 dr-xr-xr-x     0      0         0  4-Jun-2022 14:26 gtk-themes
+    2033 dr-xr-xr-x     0      0         0  4-Jun-2022 14:13 icons
+    2034 dr-xr-xr-x     0      0         0  5-Sep-2022 22:14 kwin-plugins
+    2035 dr-xr-xr-x     0      0         0  4-Jun-2022 14:14 launcher
+    2036 dr-xr-xr-x     0      0         0 16-Jun-2022 03:08 libmatsya
+    2037 dr-xr-xr-x     0      0         0 16-Jun-2022 00:55 matsya-settings
+    2038 dr-xr-xr-x     0      0         0 25-Jul-2022 17:39 matsyaui
+    2039 dr-xr-xr-x     0      0         0 15-Jun-2022 02:39 qt-plugins
+    2040 dr-xr-xr-x     0      0         0  4-Jun-2022 14:26 screenshot
+    2041 dr-xr-xr-x     0      0         0  5-Sep-2022 07:45 terminal
+    2042 dr-xr-xr-x     0      0         0  4-Jun-2022 14:56 texteditor
+    2043 dr-xr-xr-x     0      0         0  1-Oct-2022 13:36 videoplayer
+    2044 dr-xr-xr-x     0      0         0 15-Jun-2022 02:17 wallpappers
+
+dir_partition inode=2029
+   * HPFS - NTFS              0  32 33 52291  30 27  840054784 [DATA]
+     NTFS, blocksize=4096, 430 GB / 400 GiB
+Directory /.Trash-1000/files/QT5/done/core
+    2029 dr-xr-xr-x     0      0         0 10-Sep-2022 22:15 .
+    1291 dr-xr-xr-x     0      0         0  1-Oct-2022 10:24 ..
+    2984 dr-xr-xr-x     0      0         0  3-Jun-2022 18:28 .git
+    3003 dr-xr-xr-x     0      0         0 10-Sep-2022 22:30 build
+    2985 dr-xr-xr-x     0      0         0 20-Jun-2022 23:08 build-notificationd-Desktop-Debug
+    2986 dr-xr-xr-x     0      0         0 20-Jun-2022 23:09 build-notificationd-Qt_6_3_0_qt6-Debug
+    2987 dr-xr-xr-x     0      0         0  3-Jun-2022 18:28 chotkeys
+    2988 dr-xr-xr-x     0      0         0  3-Jun-2022 18:28 clipboard
+    2989 dr-xr-xr-x     0      0         0  3-Jun-2022 18:28 cmake
+    2990 dr-xr-xr-x     0      0         0  3-Jun-2022 18:28 cpufreq
+    2991 dr-xr-xr-x     0      0         0  3-Jun-2022 18:28 cupdatecursor
+    2992 dr-xr-xr-x     0      0         0  3-Jun-2022 18:28 debian
+    2993 dr-xr-xr-x     0      0         0  3-Jun-2022 18:28 gmenuproxy
+    2994 dr-xr-xr-x     0      0         0 20-Jun-2022 23:09 notificationd
+    2995 dr-xr-xr-x     0      0         0  3-Jun-2022 18:28 polkit-agent
+    2996 dr-xr-xr-x     0      0         0  3-Jun-2022 18:28 powerman
+    2997 dr-xr-xr-x     0      0         0  3-Jun-2022 18:28 screen-brightness
+    2998 dr-xr-xr-x     0      0         0  3-Jun-2022 18:28 sddm-helper
+    2999 dr-xr-xr-x     0      0         0  3-Jun-2022 18:28 session
+    3000 dr-xr-xr-x     0      0         0  3-Jun-2022 18:28 settings-daemon
+    3001 dr-xr-xr-x     0      0         0  3-Jun-2022 18:28 shutdown-ui
+    3002 dr-xr-xr-x     0      0         0  3-Jun-2022 18:28 xembed-sni-proxy
+   19784 -r--r--r--     0      0      1050  3-Jun-2022 18:28 CMakeLists.txt
+   19785 -r--r--r--     0      0     57573 23-Jun-2022 17:34 CMakeLists.txt.user
+   19786 -r--r--r--     0      0     35149  3-Jun-2022 18:28 LICENSE
+   19788 -r--r--r--     0      0       843  3-Jun-2022 18:28 PKGBUILD
+   19789 -r--r--r--     0      0      1620  3-Jun-2022 18:28 README.md
+   19787 -r--r--r--     0      0        22  3-Jun-2022 18:28 matsya
+SIGHUP detected! TestDisk has been killed.

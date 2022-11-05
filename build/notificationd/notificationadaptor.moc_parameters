@@ -1,5 +1,5 @@
--I/home/tokyo/matsyaos/QT6/done/core/notificationd
--I/home/tokyo/matsyaos/QT6/done/core/build/notificationd
+-I/run/media/tokyo/DATA/Documents/final/core/notificationd
+-I/run/media/tokyo/DATA/Documents/final/core/build/notificationd
 -o
-/home/tokyo/matsyaos/QT6/done/core/build/notificationd/notificationadaptor.moc
-/home/tokyo/matsyaos/QT6/done/core/build/notificationd/notificationadaptor.h
+/run/media/tokyo/DATA/Documents/final/core/build/notificationd/notificationadaptor.moc
+/run/media/tokyo/DATA/Documents/final/core/build/notificationd/notificationadaptor.h

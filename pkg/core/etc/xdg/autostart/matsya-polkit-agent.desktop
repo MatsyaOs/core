@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=PolicyKit Handler
+TryExec=matsya-polkit-agent
+Exec=matsya-polkit-agent
+NoDisplay=true

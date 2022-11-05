@@ -39,6 +39,15 @@ void Application::setupShortcuts()
     m_hotKeys->registerKey(QKeySequence(Qt::META + Qt::Key_L));
     m_hotKeys->registerKey(QKeySequence(Qt::CTRL + Qt::ALT + Qt::Key_E));
     m_hotKeys->registerKey(QKeySequence(Qt::CTRL + Qt::ALT + Qt::Key_T));
+    m_hotKeys->registerKey(QKeySequence(Qt::Key_MonBrightnessDown));
+    m_hotKeys->registerKey(QKeySequence(Qt::Key_KeyboardBrightnessUp));
+    m_hotKeys->registerKey(QKeySequence(Qt::Key_VolumeDown));
+    m_hotKeys->registerKey(QKeySequence(Qt::Key_VolumeUp));
+    m_hotKeys->registerKey(QKeySequence(Qt::Key_VolumeMute));
+    m_hotKeys->registerKey(QKeySequence(Qt::Key_MediaPlay));
+    m_hotKeys->registerKey(QKeySequence(Qt::Key_MediaNext));
+    m_hotKeys->registerKey(QKeySequence(Qt::Key_MediaPrevious));
+
     // m_hotKeys->registerKey(QKeySequence(Qt::Key_Super_L));
 }
 
@@ -60,6 +69,9 @@ void Application::onPressed(QKeySequence keySeq)
     }
     if (keySeq.toString() == "Ctrl+Alt+T") {
         QProcess::startDetached("matsya-terminal", QStringList());
+    }
+    if (keySeq == QKeySequence(Qt::Key_VolumeMute)) {
+        QProcess::startDetached("", QStringList());
     }
 }
 

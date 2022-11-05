@@ -1,1 +1,1 @@
-/usr/bin/c++ "CMakeFiles/matsya-sddm-helper.dir/matsya-sddm-helper_autogen/mocs_compilation.cpp.o" "CMakeFiles/matsya-sddm-helper.dir/main.cpp.o" -o matsya-sddm-helper  /usr/lib/libQt5Gui.so.5.15.5 /usr/lib/libQt5Core.so.5.15.5 
+/usr/bin/c++ "CMakeFiles/matsya-sddm-helper.dir/matsya-sddm-helper_autogen/mocs_compilation.cpp.o" "CMakeFiles/matsya-sddm-helper.dir/main.cpp.o" -o matsya-sddm-helper  /usr/lib/libQt5Gui.so.5.15.6 /usr/lib/libQt5Core.so.5.15.6 

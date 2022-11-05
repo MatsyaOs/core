@@ -1,12 +1,12 @@
 {
-	"BUILD_DIR" : "/home/tokyo/matsyaos/QT6/done/core/build/xembed-sni-proxy/matsya-xembedsniproxy_autogen",
-	"CMAKE_BINARY_DIR" : "/home/tokyo/matsyaos/QT6/done/core/build",
-	"CMAKE_CURRENT_BINARY_DIR" : "/home/tokyo/matsyaos/QT6/done/core/build/xembed-sni-proxy",
-	"CMAKE_CURRENT_SOURCE_DIR" : "/home/tokyo/matsyaos/QT6/done/core/xembed-sni-proxy",
+	"BUILD_DIR" : "/run/media/tokyo/DATA/Documents/final/core/build/xembed-sni-proxy/matsya-xembedsniproxy_autogen",
+	"CMAKE_BINARY_DIR" : "/run/media/tokyo/DATA/Documents/final/core/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/run/media/tokyo/DATA/Documents/final/core/build/xembed-sni-proxy",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/run/media/tokyo/DATA/Documents/final/core/xembed-sni-proxy",
 	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
 	"CMAKE_LIST_FILES" : 
 	[
-		"/home/tokyo/matsyaos/QT6/done/core/xembed-sni-proxy/CMakeLists.txt",
+		"/run/media/tokyo/DATA/Documents/final/core/xembed-sni-proxy/CMakeLists.txt",
 		"/usr/share/cmake/Modules/FindX11.cmake",
 		"/usr/share/cmake/Modules/FindFreetype.cmake",
 		"/usr/share/cmake/Modules/SelectLibraryConfigurations.cmake",
@@ -22,8 +22,8 @@
 		"/usr/share/cmake/Modules/FindPackageMessage.cmake",
 		"/usr/share/cmake/Modules/CheckFunctionExists.cmake",
 		"/usr/share/cmake/Modules/CheckLibraryExists.cmake",
-		"/home/tokyo/matsyaos/QT6/done/core/cmake/FindXCB.cmake",
-		"/home/tokyo/matsyaos/QT6/done/core/cmake/ECMFindModuleHelpers.cmake",
+		"/run/media/tokyo/DATA/Documents/final/core/cmake/FindXCB.cmake",
+		"/run/media/tokyo/DATA/Documents/final/core/cmake/ECMFindModuleHelpers.cmake",
 		"/usr/share/cmake/Modules/CMakeParseArguments.cmake",
 		"/usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake",
 		"/usr/share/cmake/Modules/FindPackageMessage.cmake",
@@ -36,8 +36,8 @@
 		"/usr/lib64/cmake/Qt5/Qt5ModuleLocation.cmake",
 		"/usr/lib64/cmake/Qt5X11Extras/Qt5X11ExtrasConfigVersion.cmake",
 		"/usr/lib64/cmake/Qt5X11Extras/Qt5X11ExtrasConfig.cmake",
-		"/home/tokyo/matsyaos/QT6/done/core/cmake/FindXCB.cmake",
-		"/home/tokyo/matsyaos/QT6/done/core/cmake/ECMFindModuleHelpers.cmake",
+		"/run/media/tokyo/DATA/Documents/final/core/cmake/FindXCB.cmake",
+		"/run/media/tokyo/DATA/Documents/final/core/cmake/ECMFindModuleHelpers.cmake",
 		"/usr/share/cmake/Modules/CMakeParseArguments.cmake",
 		"/usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake",
 		"/usr/share/cmake/Modules/FindPackageMessage.cmake",
@@ -70,45 +70,45 @@
 		"/usr/lib64/cmake/KF5WindowSystem/KF5WindowSystemTargets-noconfig.cmake",
 		"/usr/lib64/cmake/KF5WindowSystem/KF5WindowSystemQchTargets.cmake"
 	],
-	"CMAKE_SOURCE_DIR" : "/home/tokyo/matsyaos/QT6/done/core",
+	"CMAKE_SOURCE_DIR" : "/run/media/tokyo/DATA/Documents/final/core",
 	"DEP_FILE" : "",
 	"DEP_FILE_RULE_NAME" : "",
 	"HEADERS" : 
 	[
 		[
-			"/home/tokyo/matsyaos/QT6/done/core/xembed-sni-proxy/debug.h",
+			"/run/media/tokyo/DATA/Documents/final/core/xembed-sni-proxy/debug.h",
 			"MU",
 			"EWIEGA46WW/moc_debug.cpp",
 			null
 		],
 		[
-			"/home/tokyo/matsyaos/QT6/done/core/xembed-sni-proxy/fdoselectionmanager.h",
+			"/run/media/tokyo/DATA/Documents/final/core/xembed-sni-proxy/fdoselectionmanager.h",
 			"MU",
 			"EWIEGA46WW/moc_fdoselectionmanager.cpp",
 			null
 		],
 		[
-			"/home/tokyo/matsyaos/QT6/done/core/xembed-sni-proxy/snidbus.h",
+			"/run/media/tokyo/DATA/Documents/final/core/xembed-sni-proxy/snidbus.h",
 			"MU",
 			"EWIEGA46WW/moc_snidbus.cpp",
 			null
 		],
 		[
-			"/home/tokyo/matsyaos/QT6/done/core/xembed-sni-proxy/sniproxy.h",
+			"/run/media/tokyo/DATA/Documents/final/core/xembed-sni-proxy/sniproxy.h",
 			"MU",
 			"EWIEGA46WW/moc_sniproxy.cpp",
 			null
 		],
 		[
-			"/home/tokyo/matsyaos/QT6/done/core/xembed-sni-proxy/xtestsender.h",
+			"/run/media/tokyo/DATA/Documents/final/core/xembed-sni-proxy/xtestsender.h",
 			"MU",
 			"EWIEGA46WW/moc_xtestsender.cpp",
 			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "/home/tokyo/matsyaos/QT6/done/core/build/xembed-sni-proxy/matsya-xembedsniproxy_autogen/include",
-	"MOC_COMPILATION_FILE" : "/home/tokyo/matsyaos/QT6/done/core/build/xembed-sni-proxy/matsya-xembedsniproxy_autogen/mocs_compilation.cpp",
+	"INCLUDE_DIR" : "/run/media/tokyo/DATA/Documents/final/core/build/xembed-sni-proxy/matsya-xembedsniproxy_autogen/include",
+	"MOC_COMPILATION_FILE" : "/run/media/tokyo/DATA/Documents/final/core/build/xembed-sni-proxy/matsya-xembedsniproxy_autogen/mocs_compilation.cpp",
 	"MOC_DEFINITIONS" : 
 	[
 		"QT_CORE_LIB",
@@ -131,8 +131,8 @@
 	],
 	"MOC_INCLUDES" : 
 	[
-		"/home/tokyo/matsyaos/QT6/done/core/build/xembed-sni-proxy",
-		"/home/tokyo/matsyaos/QT6/done/core/xembed-sni-proxy",
+		"/run/media/tokyo/DATA/Documents/final/core/build/xembed-sni-proxy",
+		"/run/media/tokyo/DATA/Documents/final/core/xembed-sni-proxy",
 		"/usr/include/qt",
 		"/usr/include/qt/QtCore",
 		"/usr/lib/qt/mkspecs/linux-g++",
@@ -143,12 +143,12 @@
 		"/usr/include/KF5",
 		"/usr/include/qt/QtWidgets",
 		"/usr/include",
-		"/usr/include/c++/12.1.0",
-		"/usr/include/c++/12.1.0/x86_64-pc-linux-gnu",
-		"/usr/include/c++/12.1.0/backward",
-		"/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/include",
+		"/usr/include/c++/12.2.0",
+		"/usr/include/c++/12.2.0/x86_64-pc-linux-gnu",
+		"/usr/include/c++/12.2.0/backward",
+		"/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include",
 		"/usr/local/include",
-		"/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/include-fixed"
+		"/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include-fixed"
 	],
 	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
 	"MOC_OPTIONS" : [],
@@ -161,50 +161,50 @@
 		"-c",
 		"/usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp"
 	],
-	"MOC_PREDEFS_FILE" : "/home/tokyo/matsyaos/QT6/done/core/build/xembed-sni-proxy/matsya-xembedsniproxy_autogen/moc_predefs.h",
+	"MOC_PREDEFS_FILE" : "/run/media/tokyo/DATA/Documents/final/core/build/xembed-sni-proxy/matsya-xembedsniproxy_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : 
 	[
-		"/home/tokyo/matsyaos/QT6/done/core/build/xembed-sni-proxy/statusnotifieritemadaptor.h",
-		"/home/tokyo/matsyaos/QT6/done/core/build/xembed-sni-proxy/statusnotifierwatcher_interface.h"
+		"/run/media/tokyo/DATA/Documents/final/core/build/xembed-sni-proxy/statusnotifieritemadaptor.h",
+		"/run/media/tokyo/DATA/Documents/final/core/build/xembed-sni-proxy/statusnotifierwatcher_interface.h"
 	],
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 2,
-	"PARSE_CACHE_FILE" : "/home/tokyo/matsyaos/QT6/done/core/build/xembed-sni-proxy/CMakeFiles/matsya-xembedsniproxy_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE" : "/run/media/tokyo/DATA/Documents/final/core/build/xembed-sni-proxy/CMakeFiles/matsya-xembedsniproxy_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "/usr/bin/moc",
 	"QT_UIC_EXECUTABLE" : "/usr/bin/uic",
 	"QT_VERSION_MAJOR" : 5,
 	"QT_VERSION_MINOR" : 15,
-	"SETTINGS_FILE" : "/home/tokyo/matsyaos/QT6/done/core/build/xembed-sni-proxy/CMakeFiles/matsya-xembedsniproxy_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE" : "/run/media/tokyo/DATA/Documents/final/core/build/xembed-sni-proxy/CMakeFiles/matsya-xembedsniproxy_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
 		[
-			"/home/tokyo/matsyaos/QT6/done/core/xembed-sni-proxy/debug.cpp",
+			"/run/media/tokyo/DATA/Documents/final/core/xembed-sni-proxy/debug.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/tokyo/matsyaos/QT6/done/core/xembed-sni-proxy/fdoselectionmanager.cpp",
+			"/run/media/tokyo/DATA/Documents/final/core/xembed-sni-proxy/fdoselectionmanager.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/tokyo/matsyaos/QT6/done/core/xembed-sni-proxy/main.cpp",
+			"/run/media/tokyo/DATA/Documents/final/core/xembed-sni-proxy/main.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/tokyo/matsyaos/QT6/done/core/xembed-sni-proxy/snidbus.cpp",
+			"/run/media/tokyo/DATA/Documents/final/core/xembed-sni-proxy/snidbus.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/tokyo/matsyaos/QT6/done/core/xembed-sni-proxy/sniproxy.cpp",
+			"/run/media/tokyo/DATA/Documents/final/core/xembed-sni-proxy/sniproxy.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/tokyo/matsyaos/QT6/done/core/xembed-sni-proxy/xtestsender.cpp",
+			"/run/media/tokyo/DATA/Documents/final/core/xembed-sni-proxy/xtestsender.cpp",
 			"MU",
 			null
 		]
@@ -213,8 +213,8 @@
 	"UIC_SEARCH_PATHS" : [],
 	"UIC_SKIP" : 
 	[
-		"/home/tokyo/matsyaos/QT6/done/core/build/xembed-sni-proxy/statusnotifieritemadaptor.h",
-		"/home/tokyo/matsyaos/QT6/done/core/build/xembed-sni-proxy/statusnotifierwatcher_interface.h"
+		"/run/media/tokyo/DATA/Documents/final/core/build/xembed-sni-proxy/statusnotifieritemadaptor.h",
+		"/run/media/tokyo/DATA/Documents/final/core/build/xembed-sni-proxy/statusnotifierwatcher_interface.h"
 	],
 	"UIC_UI_FILES" : [],
 	"VERBOSITY" : 0

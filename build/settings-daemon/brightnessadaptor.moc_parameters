@@ -1,5 +1,5 @@
--I/home/tokyo/matsyaos/QT6/done/core/settings-daemon
--I/home/tokyo/matsyaos/QT6/done/core/build/settings-daemon
+-I/run/media/tokyo/DATA/Documents/final/core/settings-daemon
+-I/run/media/tokyo/DATA/Documents/final/core/build/settings-daemon
 -o
-/home/tokyo/matsyaos/QT6/done/core/build/settings-daemon/brightnessadaptor.moc
-/home/tokyo/matsyaos/QT6/done/core/build/settings-daemon/brightnessadaptor.h
+/run/media/tokyo/DATA/Documents/final/core/build/settings-daemon/brightnessadaptor.moc
+/run/media/tokyo/DATA/Documents/final/core/build/settings-daemon/brightnessadaptor.h

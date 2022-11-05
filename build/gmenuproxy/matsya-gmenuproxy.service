@@ -3,7 +3,7 @@ Description=Proxies GTK DBus menus to a Matsya readable format
 PartOf=graphical-session.target
 
 [Service]
-ExecStart=/usr/bin/matsya-gmenuproxy
+ExecStart=/home/tokyo/archuseriso/profiles/matsya/airootfs/usr/bin/matsya-gmenuproxy
 Restart=on-failure
 Type=simple
 Slice=background.slice

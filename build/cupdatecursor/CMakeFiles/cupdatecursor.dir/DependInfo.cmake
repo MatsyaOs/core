@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/tokyo/matsyaos/QT6/done/core/build/cupdatecursor/cupdatecursor_autogen/mocs_compilation.cpp" "cupdatecursor/CMakeFiles/cupdatecursor.dir/cupdatecursor_autogen/mocs_compilation.cpp.o" "gcc" "cupdatecursor/CMakeFiles/cupdatecursor.dir/cupdatecursor_autogen/mocs_compilation.cpp.o.d"
-  "/home/tokyo/matsyaos/QT6/done/core/cupdatecursor/main.cpp" "cupdatecursor/CMakeFiles/cupdatecursor.dir/main.cpp.o" "gcc" "cupdatecursor/CMakeFiles/cupdatecursor.dir/main.cpp.o.d"
+  "/run/media/tokyo/DATA/Documents/final/core/build/cupdatecursor/cupdatecursor_autogen/mocs_compilation.cpp" "cupdatecursor/CMakeFiles/cupdatecursor.dir/cupdatecursor_autogen/mocs_compilation.cpp.o" "gcc" "cupdatecursor/CMakeFiles/cupdatecursor.dir/cupdatecursor_autogen/mocs_compilation.cpp.o.d"
+  "/run/media/tokyo/DATA/Documents/final/core/cupdatecursor/main.cpp" "cupdatecursor/CMakeFiles/cupdatecursor.dir/main.cpp.o" "gcc" "cupdatecursor/CMakeFiles/cupdatecursor.dir/main.cpp.o.d"
   )
 
 # Targets to which this target links.

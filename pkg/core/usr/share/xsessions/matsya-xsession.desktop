@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Exec=matsya-session
+TryExec=matsya-session
+Name=Matsya Desktop
+Keywords=session
+Comment=session

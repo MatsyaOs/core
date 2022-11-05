@@ -34,6 +34,7 @@
 #include <xcb/xcb_keysyms.h>
 
 #include <X11/XKBlib.h>
+#include <X11/XF86keysym.h>
 
 Hotkeys::Hotkeys(QObject *parent)
     : QObject(parent)
@@ -259,6 +260,31 @@ quint32 Hotkeys::nativeKeycode(Qt::Key k)
         case Qt::Key_PageDown:
             key = XK_Page_Down;
             break;
+        case Qt::Key_VolumeDown:
+            key = XF86XK_AudioLowerVolume;
+            break;
+        case Qt::Key_VolumeUp:
+            key = XF86XK_AudioRaiseVolume;
+            break;
+        case Qt::Key_VolumeMute:
+            key = XF86XK_AudioMute;
+            break;
+        case Qt::Key_MonBrightnessDown:
+            key = XF86XK_MonBrightnessDown;
+            break;
+        case Qt::Key_MonBrightnessUp:
+            key = XF86XK_MonBrightnessUp;
+            break;
+        case Qt::Key_MediaTogglePlayPause:
+            key = XF86XK_AudioPlay;
+            break;
+        case Qt::Key_MediaNext:
+            key = XF86XK_AudioNext;
+            break;
+        case Qt::Key_MediaPrevious:
+            key = XF86XK_AudioPrev;
+            break;
+
         default:
             key = 0;
         }

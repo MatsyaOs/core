@@ -35,4 +35,4 @@ add_subdirectory(notificationd)
 add_subdirectory(sddm-helper)
 add_subdirectory(clipboard)
 
-install(FILES matsya DESTINATION /etc/ COMPONENT Runtime)
+install(FILES matsya DESTINATION /home/tokyo/archuseriso/profiles/matsya/airootfs/etc/ COMPONENT Runtime)

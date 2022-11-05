@@ -1,8 +1,8 @@
-# Install script for directory: /home/tokyo/matsyaos/QT6/done/core/settings-daemon
+# Install script for directory: /run/media/tokyo/DATA/Documents/final/core/settings-daemon
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/usr")
+  set(CMAKE_INSTALL_PREFIX "/home/tokyo/archuseriso/profiles/matsya/airootfs/usr")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -42,70 +42,19 @@ if(NOT DEFINED CMAKE_OBJDUMP)
   set(CMAKE_OBJDUMP "/usr/bin/objdump")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/matsya-settings-daemon" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/matsya-settings-daemon")
     file(RPATH_CHECK
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/matsya-settings-daemon"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/tokyo/matsyaos/QT6/done/core/build/settings-daemon/matsya-settings-daemon")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/run/media/tokyo/DATA/Documents/final/core/build/settings-daemon/matsya-settings-daemon")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/matsya-settings-daemon" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/matsya-settings-daemon")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/matsya-settings-daemon")
     endif()
   endif()
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/matsya-settings-daemon/translations" TYPE FILE FILES
-    "/home/tokyo/matsyaos/QT6/done/core/build/settings-daemon/ar_AA.qm"
-    "/home/tokyo/matsyaos/QT6/done/core/build/settings-daemon/be_BY.qm"
-    "/home/tokyo/matsyaos/QT6/done/core/build/settings-daemon/be_Latn.qm"
-    "/home/tokyo/matsyaos/QT6/done/core/build/settings-daemon/bg_BG.qm"
-    "/home/tokyo/matsyaos/QT6/done/core/build/settings-daemon/bs_BA.qm"
-    "/home/tokyo/matsyaos/QT6/done/core/build/settings-daemon/cs_CZ.qm"
-    "/home/tokyo/matsyaos/QT6/done/core/build/settings-daemon/da_DK.qm"
-    "/home/tokyo/matsyaos/QT6/done/core/build/settings-daemon/de_DE.qm"
-    "/home/tokyo/matsyaos/QT6/done/core/build/settings-daemon/en_US.qm"
-    "/home/tokyo/matsyaos/QT6/done/core/build/settings-daemon/eo_XX.qm"
-    "/home/tokyo/matsyaos/QT6/done/core/build/settings-daemon/es_ES.qm"
-    "/home/tokyo/matsyaos/QT6/done/core/build/settings-daemon/es_MX.qm"
-    "/home/tokyo/matsyaos/QT6/done/core/build/settings-daemon/fa_IR.qm"
-    "/home/tokyo/matsyaos/QT6/done/core/build/settings-daemon/fi_FI.qm"
-    "/home/tokyo/matsyaos/QT6/done/core/build/settings-daemon/fr_FR.qm"
-    "/home/tokyo/matsyaos/QT6/done/core/build/settings-daemon/he_IL.qm"
-    "/home/tokyo/matsyaos/QT6/done/core/build/settings-daemon/hi_IN.qm"
-    "/home/tokyo/matsyaos/QT6/done/core/build/settings-daemon/hu_HU.qm"
-    "/home/tokyo/matsyaos/QT6/done/core/build/settings-daemon/id_ID.qm"
-    "/home/tokyo/matsyaos/QT6/done/core/build/settings-daemon/ie.qm"
-    "/home/tokyo/matsyaos/QT6/done/core/build/settings-daemon/it_IT.qm"
-    "/home/tokyo/matsyaos/QT6/done/core/build/settings-daemon/ja_JP.qm"
-    "/home/tokyo/matsyaos/QT6/done/core/build/settings-daemon/lt_LT.qm"
-    "/home/tokyo/matsyaos/QT6/done/core/build/settings-daemon/lv_LV.qm"
-    "/home/tokyo/matsyaos/QT6/done/core/build/settings-daemon/mg.qm"
-    "/home/tokyo/matsyaos/QT6/done/core/build/settings-daemon/ml_IN.qm"
-    "/home/tokyo/matsyaos/QT6/done/core/build/settings-daemon/nb_NO.qm"
-    "/home/tokyo/matsyaos/QT6/done/core/build/settings-daemon/ne_NP.qm"
-    "/home/tokyo/matsyaos/QT6/done/core/build/settings-daemon/pl_PL.qm"
-    "/home/tokyo/matsyaos/QT6/done/core/build/settings-daemon/pt_BR.qm"
-    "/home/tokyo/matsyaos/QT6/done/core/build/settings-daemon/pt_PT.qm"
-    "/home/tokyo/matsyaos/QT6/done/core/build/settings-daemon/ro_RO.qm"
-    "/home/tokyo/matsyaos/QT6/done/core/build/settings-daemon/ru_RU.qm"
-    "/home/tokyo/matsyaos/QT6/done/core/build/settings-daemon/si_LK.qm"
-    "/home/tokyo/matsyaos/QT6/done/core/build/settings-daemon/sk_SK.qm"
-    "/home/tokyo/matsyaos/QT6/done/core/build/settings-daemon/so.qm"
-    "/home/tokyo/matsyaos/QT6/done/core/build/settings-daemon/sr_RS.qm"
-    "/home/tokyo/matsyaos/QT6/done/core/build/settings-daemon/sv_SE.qm"
-    "/home/tokyo/matsyaos/QT6/done/core/build/settings-daemon/sw.qm"
-    "/home/tokyo/matsyaos/QT6/done/core/build/settings-daemon/ta_IN.qm"
-    "/home/tokyo/matsyaos/QT6/done/core/build/settings-daemon/tr_TR.qm"
-    "/home/tokyo/matsyaos/QT6/done/core/build/settings-daemon/uk_UA.qm"
-    "/home/tokyo/matsyaos/QT6/done/core/build/settings-daemon/uz_UZ.qm"
-    "/home/tokyo/matsyaos/QT6/done/core/build/settings-daemon/vi_VN.qm"
-    "/home/tokyo/matsyaos/QT6/done/core/build/settings-daemon/zh_CN.qm"
-    "/home/tokyo/matsyaos/QT6/done/core/build/settings-daemon/zh_TW.qm"
-    )
 endif()
 

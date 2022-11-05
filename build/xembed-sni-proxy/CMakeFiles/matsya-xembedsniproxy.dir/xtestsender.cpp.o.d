@@ -1,7 +1,7 @@
 xembed-sni-proxy/CMakeFiles/matsya-xembedsniproxy.dir/xtestsender.cpp.o: \
- /home/tokyo/matsyaos/QT6/done/core/xembed-sni-proxy/xtestsender.cpp \
+ /run/media/tokyo/DATA/Documents/final/core/xembed-sni-proxy/xtestsender.cpp \
  /usr/include/stdc-predef.h \
- /home/tokyo/matsyaos/QT6/done/core/xembed-sni-proxy/xtestsender.h \
+ /run/media/tokyo/DATA/Documents/final/core/xembed-sni-proxy/xtestsender.h \
  /usr/include/X11/extensions/XTest.h /usr/include/X11/Xfuncproto.h \
  /usr/include/X11/extensions/xtestconst.h \
  /usr/include/X11/extensions/XInput.h /usr/include/X11/Xlib.h \
@@ -13,7 +13,7 @@ xembed-sni-proxy/CMakeFiles/matsya-xembedsniproxy.dir/xtestsender.cpp.o: \
  /usr/include/bits/typesizes.h /usr/include/bits/time64.h \
  /usr/include/bits/types/clock_t.h /usr/include/bits/types/clockid_t.h \
  /usr/include/bits/types/time_t.h /usr/include/bits/types/timer_t.h \
- /usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/include/stddef.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/stddef.h \
  /usr/include/bits/stdint-intn.h /usr/include/endian.h \
  /usr/include/bits/endian.h /usr/include/bits/endianness.h \
  /usr/include/bits/byteswap.h /usr/include/bits/uintn-identity.h \

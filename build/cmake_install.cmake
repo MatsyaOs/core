@@ -1,8 +1,8 @@
-# Install script for directory: /home/tokyo/matsyaos/QT6/done/core
+# Install script for directory: /run/media/tokyo/DATA/Documents/final/core
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/usr")
+  set(CMAKE_INSTALL_PREFIX "/home/tokyo/archuseriso/profiles/matsya/airootfs/usr")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -42,34 +42,34 @@ if(NOT DEFINED CMAKE_OBJDUMP)
   set(CMAKE_OBJDUMP "/usr/bin/objdump")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xRuntimex" OR NOT CMAKE_INSTALL_COMPONENT)
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Runtime" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/etc/matsya")
+   "/home/tokyo/archuseriso/profiles/matsya/airootfs/etc/matsya")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/etc" TYPE FILE FILES "/home/tokyo/matsyaos/QT6/done/core/matsya")
+  file(INSTALL DESTINATION "/home/tokyo/archuseriso/profiles/matsya/airootfs/etc" TYPE FILE FILES "/run/media/tokyo/DATA/Documents/final/core/matsya")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/tokyo/matsyaos/QT6/done/core/build/polkit-agent/cmake_install.cmake")
-  include("/home/tokyo/matsyaos/QT6/done/core/build/screen-brightness/cmake_install.cmake")
-  include("/home/tokyo/matsyaos/QT6/done/core/build/session/cmake_install.cmake")
-  include("/home/tokyo/matsyaos/QT6/done/core/build/settings-daemon/cmake_install.cmake")
-  include("/home/tokyo/matsyaos/QT6/done/core/build/shutdown-ui/cmake_install.cmake")
-  include("/home/tokyo/matsyaos/QT6/done/core/build/xembed-sni-proxy/cmake_install.cmake")
-  include("/home/tokyo/matsyaos/QT6/done/core/build/powerman/cmake_install.cmake")
-  include("/home/tokyo/matsyaos/QT6/done/core/build/cpufreq/cmake_install.cmake")
-  include("/home/tokyo/matsyaos/QT6/done/core/build/chotkeys/cmake_install.cmake")
-  include("/home/tokyo/matsyaos/QT6/done/core/build/cupdatecursor/cmake_install.cmake")
-  include("/home/tokyo/matsyaos/QT6/done/core/build/gmenuproxy/cmake_install.cmake")
-  include("/home/tokyo/matsyaos/QT6/done/core/build/notificationd/cmake_install.cmake")
-  include("/home/tokyo/matsyaos/QT6/done/core/build/sddm-helper/cmake_install.cmake")
-  include("/home/tokyo/matsyaos/QT6/done/core/build/clipboard/cmake_install.cmake")
+  include("/run/media/tokyo/DATA/Documents/final/core/build/polkit-agent/cmake_install.cmake")
+  include("/run/media/tokyo/DATA/Documents/final/core/build/screen-brightness/cmake_install.cmake")
+  include("/run/media/tokyo/DATA/Documents/final/core/build/session/cmake_install.cmake")
+  include("/run/media/tokyo/DATA/Documents/final/core/build/settings-daemon/cmake_install.cmake")
+  include("/run/media/tokyo/DATA/Documents/final/core/build/widgets/cmake_install.cmake")
+  include("/run/media/tokyo/DATA/Documents/final/core/build/xembed-sni-proxy/cmake_install.cmake")
+  include("/run/media/tokyo/DATA/Documents/final/core/build/powerman/cmake_install.cmake")
+  include("/run/media/tokyo/DATA/Documents/final/core/build/cpufreq/cmake_install.cmake")
+  include("/run/media/tokyo/DATA/Documents/final/core/build/chotkeys/cmake_install.cmake")
+  include("/run/media/tokyo/DATA/Documents/final/core/build/cupdatecursor/cmake_install.cmake")
+  include("/run/media/tokyo/DATA/Documents/final/core/build/gmenuproxy/cmake_install.cmake")
+  include("/run/media/tokyo/DATA/Documents/final/core/build/notificationd/cmake_install.cmake")
+  include("/run/media/tokyo/DATA/Documents/final/core/build/sddm-helper/cmake_install.cmake")
+  include("/run/media/tokyo/DATA/Documents/final/core/build/clipboard/cmake_install.cmake")
 
 endif()
 
@@ -81,5 +81,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/tokyo/matsyaos/QT6/done/core/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/run/media/tokyo/DATA/Documents/final/core/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

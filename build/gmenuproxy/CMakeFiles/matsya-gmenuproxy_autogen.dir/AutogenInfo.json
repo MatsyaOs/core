@@ -1,13 +1,13 @@
 {
-	"BUILD_DIR" : "/home/tokyo/matsyaos/QT6/done/core/build/gmenuproxy/matsya-gmenuproxy_autogen",
-	"CMAKE_BINARY_DIR" : "/home/tokyo/matsyaos/QT6/done/core/build",
-	"CMAKE_CURRENT_BINARY_DIR" : "/home/tokyo/matsyaos/QT6/done/core/build/gmenuproxy",
-	"CMAKE_CURRENT_SOURCE_DIR" : "/home/tokyo/matsyaos/QT6/done/core/gmenuproxy",
+	"BUILD_DIR" : "/run/media/tokyo/DATA/Documents/final/core/build/gmenuproxy/matsya-gmenuproxy_autogen",
+	"CMAKE_BINARY_DIR" : "/run/media/tokyo/DATA/Documents/final/core/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/run/media/tokyo/DATA/Documents/final/core/build/gmenuproxy",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/run/media/tokyo/DATA/Documents/final/core/gmenuproxy",
 	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
 	"CMAKE_LIST_FILES" : 
 	[
-		"/home/tokyo/matsyaos/QT6/done/core/gmenuproxy/CMakeLists.txt",
-		"/home/tokyo/matsyaos/QT6/done/core/cmake/FindAppMenuGtkModule.cmake",
+		"/run/media/tokyo/DATA/Documents/final/core/gmenuproxy/CMakeLists.txt",
+		"/run/media/tokyo/DATA/Documents/final/core/cmake/FindAppMenuGtkModule.cmake",
 		"/usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake",
 		"/usr/share/cmake/Modules/FindPackageMessage.cmake",
 		"/usr/share/cmake/Modules/FeatureSummary.cmake",
@@ -47,8 +47,8 @@
 		"/usr/lib64/cmake/KF5CoreAddons/KF5CoreAddonsTargets-noconfig.cmake",
 		"/usr/lib64/cmake/KF5CoreAddons/KF5CoreAddonsMacros.cmake",
 		"/usr/lib64/cmake/KF5CoreAddons/KF5CoreAddonsQchTargets.cmake",
-		"/home/tokyo/matsyaos/QT6/done/core/cmake/FindXCB.cmake",
-		"/home/tokyo/matsyaos/QT6/done/core/cmake/ECMFindModuleHelpers.cmake",
+		"/run/media/tokyo/DATA/Documents/final/core/cmake/FindXCB.cmake",
+		"/run/media/tokyo/DATA/Documents/final/core/cmake/ECMFindModuleHelpers.cmake",
 		"/usr/share/cmake/Modules/CMakeParseArguments.cmake",
 		"/usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake",
 		"/usr/share/cmake/Modules/FindPackageMessage.cmake",
@@ -56,71 +56,71 @@
 		"/usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake",
 		"/usr/share/cmake/Modules/FindPackageMessage.cmake",
 		"/usr/share/cmake/Modules/FeatureSummary.cmake",
-		"/home/tokyo/matsyaos/QT6/done/core/gmenuproxy/matsya-gmenuproxy.service.in"
+		"/run/media/tokyo/DATA/Documents/final/core/gmenuproxy/matsya-gmenuproxy.service.in"
 	],
-	"CMAKE_SOURCE_DIR" : "/home/tokyo/matsyaos/QT6/done/core",
+	"CMAKE_SOURCE_DIR" : "/run/media/tokyo/DATA/Documents/final/core",
 	"DEP_FILE" : "",
 	"DEP_FILE_RULE_NAME" : "",
 	"HEADERS" : 
 	[
 		[
-			"/home/tokyo/matsyaos/QT6/done/core/gmenuproxy/actions.h",
+			"/run/media/tokyo/DATA/Documents/final/core/gmenuproxy/actions.h",
 			"MU",
 			"EWIEGA46WW/moc_actions.cpp",
 			null
 		],
 		[
-			"/home/tokyo/matsyaos/QT6/done/core/gmenuproxy/dbusmenuadaptor.h",
+			"/run/media/tokyo/DATA/Documents/final/core/gmenuproxy/dbusmenuadaptor.h",
 			"MU",
 			"EWIEGA46WW/moc_dbusmenuadaptor.cpp",
 			null
 		],
 		[
-			"/home/tokyo/matsyaos/QT6/done/core/gmenuproxy/extend/dbusmenutypes_p.h",
+			"/run/media/tokyo/DATA/Documents/final/core/gmenuproxy/extend/dbusmenutypes_p.h",
 			"MU",
 			"FIXZCM7AWH/moc_dbusmenutypes_p.cpp",
 			null
 		],
 		[
-			"/home/tokyo/matsyaos/QT6/done/core/gmenuproxy/gdbusmenutypes_p.h",
+			"/run/media/tokyo/DATA/Documents/final/core/gmenuproxy/gdbusmenutypes_p.h",
 			"MU",
 			"EWIEGA46WW/moc_gdbusmenutypes_p.cpp",
 			null
 		],
 		[
-			"/home/tokyo/matsyaos/QT6/done/core/gmenuproxy/icons.h",
+			"/run/media/tokyo/DATA/Documents/final/core/gmenuproxy/icons.h",
 			"MU",
 			"EWIEGA46WW/moc_icons.cpp",
 			null
 		],
 		[
-			"/home/tokyo/matsyaos/QT6/done/core/gmenuproxy/menu.h",
+			"/run/media/tokyo/DATA/Documents/final/core/gmenuproxy/menu.h",
 			"MU",
 			"EWIEGA46WW/moc_menu.cpp",
 			null
 		],
 		[
-			"/home/tokyo/matsyaos/QT6/done/core/gmenuproxy/menuproxy.h",
+			"/run/media/tokyo/DATA/Documents/final/core/gmenuproxy/menuproxy.h",
 			"MU",
 			"EWIEGA46WW/moc_menuproxy.cpp",
 			null
 		],
 		[
-			"/home/tokyo/matsyaos/QT6/done/core/gmenuproxy/utils.h",
+			"/run/media/tokyo/DATA/Documents/final/core/gmenuproxy/utils.h",
 			"MU",
 			"EWIEGA46WW/moc_utils.cpp",
 			null
 		],
 		[
-			"/home/tokyo/matsyaos/QT6/done/core/gmenuproxy/window.h",
+			"/run/media/tokyo/DATA/Documents/final/core/gmenuproxy/window.h",
 			"MU",
 			"EWIEGA46WW/moc_window.cpp",
 			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "/home/tokyo/matsyaos/QT6/done/core/build/gmenuproxy/matsya-gmenuproxy_autogen/include",
-	"MOC_COMPILATION_FILE" : "/home/tokyo/matsyaos/QT6/done/core/build/gmenuproxy/matsya-gmenuproxy_autogen/mocs_compilation.cpp",
+	"INCLUDE_DIR" : "/run/media/tokyo/DATA/Documents/final/core/build/gmenuproxy/matsya-gmenuproxy_autogen/include",
+	"MOC_COMPILATION_FILE" : "/run/media/tokyo/DATA/Documents/final/core/build/gmenuproxy/matsya-gmenuproxy_autogen/mocs_compilation.cpp",
 	"MOC_DEFINITIONS" : 
 	[
 		"KCOREADDONS_LIB",
@@ -141,10 +141,6 @@
 			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
 		],
 		[
-			"K_PLUGIN_CLASS",
-			"[\n^][ \t]*K_PLUGIN_CLASS[ \t\n]*\\([ \t\n]*\"([^\"]+)\""
-		],
-		[
 			"K_PLUGIN_FACTORY_WITH_JSON",
 			"[\n^][ \t]*K_PLUGIN_FACTORY_WITH_JSON[ \t\n]*\\([^,]*,[ \t\n]*\"([^\"]+)\""
 		],
@@ -155,8 +151,8 @@
 	],
 	"MOC_INCLUDES" : 
 	[
-		"/home/tokyo/matsyaos/QT6/done/core/build/gmenuproxy",
-		"/home/tokyo/matsyaos/QT6/done/core/gmenuproxy",
+		"/run/media/tokyo/DATA/Documents/final/core/build/gmenuproxy",
+		"/run/media/tokyo/DATA/Documents/final/core/gmenuproxy",
 		"/usr/include/qt",
 		"/usr/include/qt/QtCore",
 		"/usr/lib/qt/mkspecs/linux-g++",
@@ -168,12 +164,12 @@
 		"/usr/include/KF5",
 		"/usr/include/KF5/KWindowSystem",
 		"/usr/include",
-		"/usr/include/c++/12.1.0",
-		"/usr/include/c++/12.1.0/x86_64-pc-linux-gnu",
-		"/usr/include/c++/12.1.0/backward",
-		"/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/include",
+		"/usr/include/c++/12.2.0",
+		"/usr/include/c++/12.2.0/x86_64-pc-linux-gnu",
+		"/usr/include/c++/12.2.0/backward",
+		"/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include",
 		"/usr/local/include",
-		"/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/include-fixed"
+		"/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include-fixed"
 	],
 	"MOC_MACRO_NAMES" : 
 	[
@@ -196,50 +192,66 @@
 		"-c",
 		"/usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp"
 	],
-	"MOC_PREDEFS_FILE" : "/home/tokyo/matsyaos/QT6/done/core/build/gmenuproxy/matsya-gmenuproxy_autogen/moc_predefs.h",
+	"MOC_PREDEFS_FILE" : "/run/media/tokyo/DATA/Documents/final/core/build/gmenuproxy/matsya-gmenuproxy_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : [],
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 2,
-	"PARSE_CACHE_FILE" : "/home/tokyo/matsyaos/QT6/done/core/build/gmenuproxy/CMakeFiles/matsya-gmenuproxy_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE" : "/run/media/tokyo/DATA/Documents/final/core/build/gmenuproxy/CMakeFiles/matsya-gmenuproxy_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "/usr/bin/moc",
 	"QT_UIC_EXECUTABLE" : "/usr/bin/uic",
 	"QT_VERSION_MAJOR" : 5,
 	"QT_VERSION_MINOR" : 15,
-	"SETTINGS_FILE" : "/home/tokyo/matsyaos/QT6/done/core/build/gmenuproxy/CMakeFiles/matsya-gmenuproxy_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE" : "/run/media/tokyo/DATA/Documents/final/core/build/gmenuproxy/CMakeFiles/matsya-gmenuproxy_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
 		[
-			"/home/tokyo/matsyaos/QT6/done/core/gmenuproxy/actions.cpp",
+			"/run/media/tokyo/DATA/Documents/final/core/gmenuproxy/actions.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/tokyo/matsyaos/QT6/done/core/gmenuproxy/dbusmenuadaptor.cpp",
+			"/run/media/tokyo/DATA/Documents/final/core/gmenuproxy/dbusmenuadaptor.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/tokyo/matsyaos/QT6/done/core/gmenuproxy/extend/dbusmenutypes_p.cpp",
+			"/run/media/tokyo/DATA/Documents/final/core/gmenuproxy/extend/dbusmenutypes_p.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/tokyo/matsyaos/QT6/done/core/gmenuproxy/gdbusmenutypes_p.cpp",
+			"/run/media/tokyo/DATA/Documents/final/core/gmenuproxy/gdbusmenutypes_p.cpp",
 			"MU",
 			null
 		],
-		[ "/home/tokyo/matsyaos/QT6/done/core/gmenuproxy/icons.cpp", "MU", null ],
-		[ "/home/tokyo/matsyaos/QT6/done/core/gmenuproxy/main.cpp", "MU", null ],
-		[ "/home/tokyo/matsyaos/QT6/done/core/gmenuproxy/menu.cpp", "MU", null ],
 		[
-			"/home/tokyo/matsyaos/QT6/done/core/gmenuproxy/menuproxy.cpp",
+			"/run/media/tokyo/DATA/Documents/final/core/gmenuproxy/icons.cpp",
 			"MU",
 			null
 		],
-		[ "/home/tokyo/matsyaos/QT6/done/core/gmenuproxy/utils.cpp", "MU", null ],
 		[
-			"/home/tokyo/matsyaos/QT6/done/core/gmenuproxy/window.cpp",
+			"/run/media/tokyo/DATA/Documents/final/core/gmenuproxy/main.cpp",
+			"MU",
+			null
+		],
+		[
+			"/run/media/tokyo/DATA/Documents/final/core/gmenuproxy/menu.cpp",
+			"MU",
+			null
+		],
+		[
+			"/run/media/tokyo/DATA/Documents/final/core/gmenuproxy/menuproxy.cpp",
+			"MU",
+			null
+		],
+		[
+			"/run/media/tokyo/DATA/Documents/final/core/gmenuproxy/utils.cpp",
+			"MU",
+			null
+		],
+		[
+			"/run/media/tokyo/DATA/Documents/final/core/gmenuproxy/window.cpp",
 			"MU",
 			null
 		]

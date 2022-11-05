@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/tokyo/matsyaos/QT6/done/core/sddm-helper/main.cpp" "sddm-helper/CMakeFiles/matsya-sddm-helper.dir/main.cpp.o" "gcc" "sddm-helper/CMakeFiles/matsya-sddm-helper.dir/main.cpp.o.d"
-  "/home/tokyo/matsyaos/QT6/done/core/build/sddm-helper/matsya-sddm-helper_autogen/mocs_compilation.cpp" "sddm-helper/CMakeFiles/matsya-sddm-helper.dir/matsya-sddm-helper_autogen/mocs_compilation.cpp.o" "gcc" "sddm-helper/CMakeFiles/matsya-sddm-helper.dir/matsya-sddm-helper_autogen/mocs_compilation.cpp.o.d"
+  "/run/media/tokyo/DATA/Documents/final/core/sddm-helper/main.cpp" "sddm-helper/CMakeFiles/matsya-sddm-helper.dir/main.cpp.o" "gcc" "sddm-helper/CMakeFiles/matsya-sddm-helper.dir/main.cpp.o.d"
+  "/run/media/tokyo/DATA/Documents/final/core/build/sddm-helper/matsya-sddm-helper_autogen/mocs_compilation.cpp" "sddm-helper/CMakeFiles/matsya-sddm-helper.dir/matsya-sddm-helper_autogen/mocs_compilation.cpp.o" "gcc" "sddm-helper/CMakeFiles/matsya-sddm-helper.dir/matsya-sddm-helper_autogen/mocs_compilation.cpp.o.d"
   )
 
 # Targets to which this target links.

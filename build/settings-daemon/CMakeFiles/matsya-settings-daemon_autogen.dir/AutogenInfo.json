@@ -1,12 +1,12 @@
 {
-	"BUILD_DIR" : "/home/tokyo/matsyaos/QT6/done/core/build/settings-daemon/matsya-settings-daemon_autogen",
-	"CMAKE_BINARY_DIR" : "/home/tokyo/matsyaos/QT6/done/core/build",
-	"CMAKE_CURRENT_BINARY_DIR" : "/home/tokyo/matsyaos/QT6/done/core/build/settings-daemon",
-	"CMAKE_CURRENT_SOURCE_DIR" : "/home/tokyo/matsyaos/QT6/done/core/settings-daemon",
+	"BUILD_DIR" : "/run/media/tokyo/DATA/Documents/final/core/build/settings-daemon/matsya-settings-daemon_autogen",
+	"CMAKE_BINARY_DIR" : "/run/media/tokyo/DATA/Documents/final/core/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/run/media/tokyo/DATA/Documents/final/core/build/settings-daemon",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/run/media/tokyo/DATA/Documents/final/core/settings-daemon",
 	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
 	"CMAKE_LIST_FILES" : 
 	[
-		"/home/tokyo/matsyaos/QT6/done/core/settings-daemon/CMakeLists.txt",
+		"/run/media/tokyo/DATA/Documents/final/core/settings-daemon/CMakeLists.txt",
 		"/usr/share/cmake/Modules/FindX11.cmake",
 		"/usr/share/cmake/Modules/FindFreetype.cmake",
 		"/usr/share/cmake/Modules/SelectLibraryConfigurations.cmake",
@@ -22,15 +22,15 @@
 		"/usr/share/cmake/Modules/FindPackageMessage.cmake",
 		"/usr/share/cmake/Modules/CheckFunctionExists.cmake",
 		"/usr/share/cmake/Modules/CheckLibraryExists.cmake",
-		"/home/tokyo/matsyaos/QT6/done/core/cmake/FindX11_XCB.cmake",
+		"/run/media/tokyo/DATA/Documents/final/core/cmake/FindX11_XCB.cmake",
 		"/usr/share/cmake/Modules/FindPkgConfig.cmake",
 		"/usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake",
 		"/usr/share/cmake/Modules/FindPackageMessage.cmake",
 		"/usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake",
 		"/usr/share/cmake/Modules/FindPackageMessage.cmake",
 		"/usr/share/cmake/Modules/FeatureSummary.cmake",
-		"/home/tokyo/matsyaos/QT6/done/core/cmake/FindXCB.cmake",
-		"/home/tokyo/matsyaos/QT6/done/core/cmake/ECMFindModuleHelpers.cmake",
+		"/run/media/tokyo/DATA/Documents/final/core/cmake/FindXCB.cmake",
+		"/run/media/tokyo/DATA/Documents/final/core/cmake/ECMFindModuleHelpers.cmake",
 		"/usr/share/cmake/Modules/CMakeParseArguments.cmake",
 		"/usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake",
 		"/usr/share/cmake/Modules/FindPackageMessage.cmake",
@@ -39,159 +39,159 @@
 		"/usr/share/cmake/Modules/FindPackageMessage.cmake",
 		"/usr/share/cmake/Modules/FeatureSummary.cmake"
 	],
-	"CMAKE_SOURCE_DIR" : "/home/tokyo/matsyaos/QT6/done/core",
+	"CMAKE_SOURCE_DIR" : "/run/media/tokyo/DATA/Documents/final/core",
 	"DEP_FILE" : "",
 	"DEP_FILE_RULE_NAME" : "",
 	"HEADERS" : 
 	[
 		[
-			"/home/tokyo/matsyaos/QT6/done/core/settings-daemon/application.h",
+			"/run/media/tokyo/DATA/Documents/final/core/settings-daemon/application.h",
 			"MU",
 			"EWIEGA46WW/moc_application.cpp",
 			null
 		],
 		[
-			"/home/tokyo/matsyaos/QT6/done/core/settings-daemon/battery/battery.h",
+			"/run/media/tokyo/DATA/Documents/final/core/settings-daemon/battery/battery.h",
 			"MU",
 			"76BUIMZGSW/moc_battery.cpp",
 			null
 		],
 		[
-			"/home/tokyo/matsyaos/QT6/done/core/settings-daemon/battery/power.h",
+			"/run/media/tokyo/DATA/Documents/final/core/settings-daemon/battery/power.h",
 			"MU",
 			"76BUIMZGSW/moc_power.cpp",
 			null
 		],
 		[
-			"/home/tokyo/matsyaos/QT6/done/core/settings-daemon/battery/upowerdevice.h",
+			"/run/media/tokyo/DATA/Documents/final/core/settings-daemon/battery/upowerdevice.h",
 			"MU",
 			"76BUIMZGSW/moc_upowerdevice.cpp",
 			null
 		],
 		[
-			"/home/tokyo/matsyaos/QT6/done/core/settings-daemon/battery/upowermanager.h",
+			"/run/media/tokyo/DATA/Documents/final/core/settings-daemon/battery/upowermanager.h",
 			"MU",
 			"76BUIMZGSW/moc_upowermanager.cpp",
 			null
 		],
 		[
-			"/home/tokyo/matsyaos/QT6/done/core/settings-daemon/brightness/brightnessmanager.h",
+			"/run/media/tokyo/DATA/Documents/final/core/settings-daemon/brightness/brightnessmanager.h",
 			"MU",
 			"OXTW6OQJT7/moc_brightnessmanager.cpp",
 			null
 		],
 		[
-			"/home/tokyo/matsyaos/QT6/done/core/settings-daemon/dbusadaptor.h",
+			"/run/media/tokyo/DATA/Documents/final/core/settings-daemon/dbusadaptor.h",
 			"MU",
 			"EWIEGA46WW/moc_dbusadaptor.cpp",
 			null
 		],
 		[
-			"/home/tokyo/matsyaos/QT6/done/core/settings-daemon/defaultapplications.h",
+			"/run/media/tokyo/DATA/Documents/final/core/settings-daemon/defaultapplications.h",
 			"MU",
 			"EWIEGA46WW/moc_defaultapplications.cpp",
 			null
 		],
 		[
-			"/home/tokyo/matsyaos/QT6/done/core/settings-daemon/dock/dock.h",
+			"/run/media/tokyo/DATA/Documents/final/core/settings-daemon/dock/dock.h",
 			"MU",
 			"647R6NJRF7/moc_dock.cpp",
 			null
 		],
 		[
-			"/home/tokyo/matsyaos/QT6/done/core/settings-daemon/language/language.h",
+			"/run/media/tokyo/DATA/Documents/final/core/settings-daemon/language/language.h",
 			"MU",
 			"W6ZIZK5JGA/moc_language.cpp",
 			null
 		],
 		[
-			"/home/tokyo/matsyaos/QT6/done/core/settings-daemon/mouse/libinputsettings.h",
+			"/run/media/tokyo/DATA/Documents/final/core/settings-daemon/mouse/libinputsettings.h",
 			"MU",
 			"VTSTU4KGZ6/moc_libinputsettings.cpp",
 			null
 		],
 		[
-			"/home/tokyo/matsyaos/QT6/done/core/settings-daemon/mouse/mousemanager.h",
+			"/run/media/tokyo/DATA/Documents/final/core/settings-daemon/mouse/mousemanager.h",
 			"MU",
 			"VTSTU4KGZ6/moc_mousemanager.cpp",
 			null
 		],
 		[
-			"/home/tokyo/matsyaos/QT6/done/core/settings-daemon/mouse/x11libinputdummydevice.h",
+			"/run/media/tokyo/DATA/Documents/final/core/settings-daemon/mouse/x11libinputdummydevice.h",
 			"MU",
 			"VTSTU4KGZ6/moc_x11libinputdummydevice.cpp",
 			null
 		],
 		[
-			"/home/tokyo/matsyaos/QT6/done/core/settings-daemon/theme/thememanager.h",
+			"/run/media/tokyo/DATA/Documents/final/core/settings-daemon/theme/thememanager.h",
 			"MU",
 			"IIDL6TD4LX/moc_thememanager.cpp",
 			null
 		],
 		[
-			"/home/tokyo/matsyaos/QT6/done/core/settings-daemon/touchpad/libinputcommon.h",
+			"/run/media/tokyo/DATA/Documents/final/core/settings-daemon/touchpad/libinputcommon.h",
 			"MU",
 			"77HBRVMEX7/moc_libinputcommon.cpp",
 			null
 		],
 		[
-			"/home/tokyo/matsyaos/QT6/done/core/settings-daemon/touchpad/touchpadmanager.h",
+			"/run/media/tokyo/DATA/Documents/final/core/settings-daemon/touchpad/touchpadmanager.h",
 			"MU",
 			"77HBRVMEX7/moc_touchpadmanager.cpp",
 			null
 		],
 		[
-			"/home/tokyo/matsyaos/QT6/done/core/settings-daemon/touchpad/x11/libinputtouchpad.h",
+			"/run/media/tokyo/DATA/Documents/final/core/settings-daemon/touchpad/x11/libinputtouchpad.h",
 			"MU",
 			"KQGUVNWDGN/moc_libinputtouchpad.cpp",
 			null
 		],
 		[
-			"/home/tokyo/matsyaos/QT6/done/core/settings-daemon/touchpad/x11/propertyinfo.h",
+			"/run/media/tokyo/DATA/Documents/final/core/settings-daemon/touchpad/x11/propertyinfo.h",
 			"MU",
 			"KQGUVNWDGN/moc_propertyinfo.cpp",
 			null
 		],
 		[
-			"/home/tokyo/matsyaos/QT6/done/core/settings-daemon/touchpad/x11/synapticstouchpad.h",
+			"/run/media/tokyo/DATA/Documents/final/core/settings-daemon/touchpad/x11/synapticstouchpad.h",
 			"MU",
 			"KQGUVNWDGN/moc_synapticstouchpad.cpp",
 			null
 		],
 		[
-			"/home/tokyo/matsyaos/QT6/done/core/settings-daemon/touchpad/x11/xcbatom.h",
+			"/run/media/tokyo/DATA/Documents/final/core/settings-daemon/touchpad/x11/xcbatom.h",
 			"MU",
 			"KQGUVNWDGN/moc_xcbatom.cpp",
 			null
 		],
 		[
-			"/home/tokyo/matsyaos/QT6/done/core/settings-daemon/touchpad/x11/xlibbackend.h",
+			"/run/media/tokyo/DATA/Documents/final/core/settings-daemon/touchpad/x11/xlibbackend.h",
 			"MU",
 			"KQGUVNWDGN/moc_xlibbackend.cpp",
 			null
 		],
 		[
-			"/home/tokyo/matsyaos/QT6/done/core/settings-daemon/touchpad/x11/xlibnotifications.h",
+			"/run/media/tokyo/DATA/Documents/final/core/settings-daemon/touchpad/x11/xlibnotifications.h",
 			"MU",
 			"KQGUVNWDGN/moc_xlibnotifications.cpp",
 			null
 		],
 		[
-			"/home/tokyo/matsyaos/QT6/done/core/settings-daemon/touchpad/x11/xlibtouchpad.h",
+			"/run/media/tokyo/DATA/Documents/final/core/settings-daemon/touchpad/x11/xlibtouchpad.h",
 			"MU",
 			"KQGUVNWDGN/moc_xlibtouchpad.cpp",
 			null
 		],
 		[
-			"/home/tokyo/matsyaos/QT6/done/core/settings-daemon/touchpad/x11/xrecordkeyboardmonitor.h",
+			"/run/media/tokyo/DATA/Documents/final/core/settings-daemon/touchpad/x11/xrecordkeyboardmonitor.h",
 			"MU",
 			"KQGUVNWDGN/moc_xrecordkeyboardmonitor.cpp",
 			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "/home/tokyo/matsyaos/QT6/done/core/build/settings-daemon/matsya-settings-daemon_autogen/include",
-	"MOC_COMPILATION_FILE" : "/home/tokyo/matsyaos/QT6/done/core/build/settings-daemon/matsya-settings-daemon_autogen/mocs_compilation.cpp",
+	"INCLUDE_DIR" : "/run/media/tokyo/DATA/Documents/final/core/build/settings-daemon/matsya-settings-daemon_autogen/include",
+	"MOC_COMPILATION_FILE" : "/run/media/tokyo/DATA/Documents/final/core/build/settings-daemon/matsya-settings-daemon_autogen/mocs_compilation.cpp",
 	"MOC_DEFINITIONS" : 
 	[
 		"QT_CORE_LIB",
@@ -211,8 +211,8 @@
 	],
 	"MOC_INCLUDES" : 
 	[
-		"/home/tokyo/matsyaos/QT6/done/core/build/settings-daemon",
-		"/home/tokyo/matsyaos/QT6/done/core/settings-daemon",
+		"/run/media/tokyo/DATA/Documents/final/core/build/settings-daemon",
+		"/run/media/tokyo/DATA/Documents/final/core/settings-daemon",
 		"/usr/include/qt",
 		"/usr/include/qt/QtCore",
 		"/usr/lib/qt/mkspecs/linux-g++",
@@ -224,12 +224,12 @@
 		"/usr/include/xorg",
 		"/usr/include/pixman-1",
 		"/usr/include",
-		"/usr/include/c++/12.1.0",
-		"/usr/include/c++/12.1.0/x86_64-pc-linux-gnu",
-		"/usr/include/c++/12.1.0/backward",
-		"/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/include",
+		"/usr/include/c++/12.2.0",
+		"/usr/include/c++/12.2.0/x86_64-pc-linux-gnu",
+		"/usr/include/c++/12.2.0/backward",
+		"/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include",
 		"/usr/local/include",
-		"/usr/lib/gcc/x86_64-pc-linux-gnu/12.1.0/include-fixed"
+		"/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include-fixed"
 	],
 	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
 	"MOC_OPTIONS" : [],
@@ -242,140 +242,140 @@
 		"-c",
 		"/usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp"
 	],
-	"MOC_PREDEFS_FILE" : "/home/tokyo/matsyaos/QT6/done/core/build/settings-daemon/matsya-settings-daemon_autogen/moc_predefs.h",
+	"MOC_PREDEFS_FILE" : "/run/media/tokyo/DATA/Documents/final/core/build/settings-daemon/matsya-settings-daemon_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : 
 	[
-		"/home/tokyo/matsyaos/QT6/done/core/build/settings-daemon/brightnessadaptor.h",
-		"/home/tokyo/matsyaos/QT6/done/core/build/settings-daemon/dockadaptor.h",
-		"/home/tokyo/matsyaos/QT6/done/core/build/settings-daemon/languageadaptor.h",
-		"/home/tokyo/matsyaos/QT6/done/core/build/settings-daemon/mouseadaptor.h",
-		"/home/tokyo/matsyaos/QT6/done/core/build/settings-daemon/primarybatteryadaptor.h",
-		"/home/tokyo/matsyaos/QT6/done/core/build/settings-daemon/themeadaptor.h",
-		"/home/tokyo/matsyaos/QT6/done/core/build/settings-daemon/touchpadadaptor.h"
+		"/run/media/tokyo/DATA/Documents/final/core/build/settings-daemon/brightnessadaptor.h",
+		"/run/media/tokyo/DATA/Documents/final/core/build/settings-daemon/dockadaptor.h",
+		"/run/media/tokyo/DATA/Documents/final/core/build/settings-daemon/languageadaptor.h",
+		"/run/media/tokyo/DATA/Documents/final/core/build/settings-daemon/mouseadaptor.h",
+		"/run/media/tokyo/DATA/Documents/final/core/build/settings-daemon/primarybatteryadaptor.h",
+		"/run/media/tokyo/DATA/Documents/final/core/build/settings-daemon/themeadaptor.h",
+		"/run/media/tokyo/DATA/Documents/final/core/build/settings-daemon/touchpadadaptor.h"
 	],
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 2,
-	"PARSE_CACHE_FILE" : "/home/tokyo/matsyaos/QT6/done/core/build/settings-daemon/CMakeFiles/matsya-settings-daemon_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE" : "/run/media/tokyo/DATA/Documents/final/core/build/settings-daemon/CMakeFiles/matsya-settings-daemon_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "/usr/bin/moc",
 	"QT_UIC_EXECUTABLE" : "/usr/bin/uic",
 	"QT_VERSION_MAJOR" : 5,
 	"QT_VERSION_MINOR" : 15,
-	"SETTINGS_FILE" : "/home/tokyo/matsyaos/QT6/done/core/build/settings-daemon/CMakeFiles/matsya-settings-daemon_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE" : "/run/media/tokyo/DATA/Documents/final/core/build/settings-daemon/CMakeFiles/matsya-settings-daemon_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
 		[
-			"/home/tokyo/matsyaos/QT6/done/core/settings-daemon/application.cpp",
+			"/run/media/tokyo/DATA/Documents/final/core/settings-daemon/application.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/tokyo/matsyaos/QT6/done/core/settings-daemon/battery/battery.cpp",
+			"/run/media/tokyo/DATA/Documents/final/core/settings-daemon/battery/battery.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/tokyo/matsyaos/QT6/done/core/settings-daemon/battery/upowerdevice.cpp",
+			"/run/media/tokyo/DATA/Documents/final/core/settings-daemon/battery/upowerdevice.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/tokyo/matsyaos/QT6/done/core/settings-daemon/battery/upowermanager.cpp",
+			"/run/media/tokyo/DATA/Documents/final/core/settings-daemon/battery/upowermanager.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/tokyo/matsyaos/QT6/done/core/settings-daemon/brightness/brightnessmanager.cpp",
+			"/run/media/tokyo/DATA/Documents/final/core/settings-daemon/brightness/brightnessmanager.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/tokyo/matsyaos/QT6/done/core/settings-daemon/defaultapplications.cpp",
+			"/run/media/tokyo/DATA/Documents/final/core/settings-daemon/defaultapplications.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/tokyo/matsyaos/QT6/done/core/settings-daemon/dock/dock.cpp",
+			"/run/media/tokyo/DATA/Documents/final/core/settings-daemon/dock/dock.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/tokyo/matsyaos/QT6/done/core/settings-daemon/language/language.cpp",
+			"/run/media/tokyo/DATA/Documents/final/core/settings-daemon/language/language.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/tokyo/matsyaos/QT6/done/core/settings-daemon/main.cpp",
+			"/run/media/tokyo/DATA/Documents/final/core/settings-daemon/main.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/tokyo/matsyaos/QT6/done/core/settings-daemon/mouse/libinputsettings.cpp",
+			"/run/media/tokyo/DATA/Documents/final/core/settings-daemon/mouse/libinputsettings.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/tokyo/matsyaos/QT6/done/core/settings-daemon/mouse/mousemanager.cpp",
+			"/run/media/tokyo/DATA/Documents/final/core/settings-daemon/mouse/mousemanager.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/tokyo/matsyaos/QT6/done/core/settings-daemon/mouse/x11libinputdummydevice.cpp",
+			"/run/media/tokyo/DATA/Documents/final/core/settings-daemon/mouse/x11libinputdummydevice.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/tokyo/matsyaos/QT6/done/core/settings-daemon/theme/thememanager.cpp",
+			"/run/media/tokyo/DATA/Documents/final/core/settings-daemon/theme/thememanager.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/tokyo/matsyaos/QT6/done/core/settings-daemon/touchpad/libinputcommon.cpp",
+			"/run/media/tokyo/DATA/Documents/final/core/settings-daemon/touchpad/libinputcommon.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/tokyo/matsyaos/QT6/done/core/settings-daemon/touchpad/touchpadmanager.cpp",
+			"/run/media/tokyo/DATA/Documents/final/core/settings-daemon/touchpad/touchpadmanager.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/tokyo/matsyaos/QT6/done/core/settings-daemon/touchpad/x11/libinputtouchpad.cpp",
+			"/run/media/tokyo/DATA/Documents/final/core/settings-daemon/touchpad/x11/libinputtouchpad.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/tokyo/matsyaos/QT6/done/core/settings-daemon/touchpad/x11/propertyinfo.cpp",
+			"/run/media/tokyo/DATA/Documents/final/core/settings-daemon/touchpad/x11/propertyinfo.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/tokyo/matsyaos/QT6/done/core/settings-daemon/touchpad/x11/synapticstouchpad.cpp",
+			"/run/media/tokyo/DATA/Documents/final/core/settings-daemon/touchpad/x11/synapticstouchpad.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/tokyo/matsyaos/QT6/done/core/settings-daemon/touchpad/x11/xcbatom.cpp",
+			"/run/media/tokyo/DATA/Documents/final/core/settings-daemon/touchpad/x11/xcbatom.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/tokyo/matsyaos/QT6/done/core/settings-daemon/touchpad/x11/xlibbackend.cpp",
+			"/run/media/tokyo/DATA/Documents/final/core/settings-daemon/touchpad/x11/xlibbackend.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/tokyo/matsyaos/QT6/done/core/settings-daemon/touchpad/x11/xlibnotifications.cpp",
+			"/run/media/tokyo/DATA/Documents/final/core/settings-daemon/touchpad/x11/xlibnotifications.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/tokyo/matsyaos/QT6/done/core/settings-daemon/touchpad/x11/xlibtouchpad.cpp",
+			"/run/media/tokyo/DATA/Documents/final/core/settings-daemon/touchpad/x11/xlibtouchpad.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/tokyo/matsyaos/QT6/done/core/settings-daemon/touchpad/x11/xrecordkeyboardmonitor.cpp",
+			"/run/media/tokyo/DATA/Documents/final/core/settings-daemon/touchpad/x11/xrecordkeyboardmonitor.cpp",
 			"MU",
 			null
 		]
@@ -384,13 +384,13 @@
 	"UIC_SEARCH_PATHS" : [],
 	"UIC_SKIP" : 
 	[
-		"/home/tokyo/matsyaos/QT6/done/core/build/settings-daemon/brightnessadaptor.h",
-		"/home/tokyo/matsyaos/QT6/done/core/build/settings-daemon/dockadaptor.h",
-		"/home/tokyo/matsyaos/QT6/done/core/build/settings-daemon/languageadaptor.h",
-		"/home/tokyo/matsyaos/QT6/done/core/build/settings-daemon/mouseadaptor.h",
-		"/home/tokyo/matsyaos/QT6/done/core/build/settings-daemon/primarybatteryadaptor.h",
-		"/home/tokyo/matsyaos/QT6/done/core/build/settings-daemon/themeadaptor.h",
-		"/home/tokyo/matsyaos/QT6/done/core/build/settings-daemon/touchpadadaptor.h"
+		"/run/media/tokyo/DATA/Documents/final/core/build/settings-daemon/brightnessadaptor.h",
+		"/run/media/tokyo/DATA/Documents/final/core/build/settings-daemon/dockadaptor.h",
+		"/run/media/tokyo/DATA/Documents/final/core/build/settings-daemon/languageadaptor.h",
+		"/run/media/tokyo/DATA/Documents/final/core/build/settings-daemon/mouseadaptor.h",
+		"/run/media/tokyo/DATA/Documents/final/core/build/settings-daemon/primarybatteryadaptor.h",
+		"/run/media/tokyo/DATA/Documents/final/core/build/settings-daemon/themeadaptor.h",
+		"/run/media/tokyo/DATA/Documents/final/core/build/settings-daemon/touchpadadaptor.h"
 	],
 	"UIC_UI_FILES" : [],
 	"VERBOSITY" : 0
